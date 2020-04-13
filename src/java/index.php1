@@ -1,0 +1,429 @@
+<?php
+$url = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]" . strtok($_SERVER["REQUEST_URI"],'?');
+?>
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KCD5HJG');</script>
+<!-- End Google Tag Manager -->
+
+	<style>
+		  #fb-root > div.fb_dialog{
+			 right: initial !important;
+			 left: 18pt;
+			 z-index: 9999999 !important;
+		  }
+		  .fb-customerchat.fb_invisible_flow.fb_iframe_widget iframe {
+			 right: initial !important;
+			 left: 18pt !important;
+		  }
+	</style>
+
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Hệ thống Đào tạo Lập trình viên Quốc tế Aptech tại Việt Nam hiện có 3 cơ sở chính thức tại 285 Đội Cấn & 54 Lê Thanh Nghị, Hà Nội; 212-214 Nguyễn Đình Chiểu, Tp. HCM">
+    <meta name="author" content="vanhiep.ap@gmail.com">
+    <link rel="shortcut icon" href="//aptechvietnam.com.vn/sites/all/themes/aptech_news_2/favicon.ico" />
+
+    <title>300 Lập trình viên Java cho doanh nghiệp - Aptech</title>
+
+    <link rel="preload" href="dist/style.min.css" as="style" onload="this.rel='stylesheet'" type="text/css" />
+    <link rel="preload" href="//fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;subset=vietnamese" as="style" onload="this.rel='stylesheet'" type="text/css" />
+    <noscript>
+        <link rel="stylesheet" href="dist/style.min.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;subset=vietnamese" rel="stylesheet" />
+    </noscript>
+    <script>
+        /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
+        !function (a) { "use strict"; var b = function (b, c, d) { function e(a) { return h.body ? a() : void setTimeout(function () { e(a) }) } function f() { i.addEventListener && i.removeEventListener("load", f), i.media = d || "all" } var g, h = a.document, i = h.createElement("link"); if (c) g = c; else { var j = (h.body || h.getElementsByTagName("head")[0]).childNodes; g = j[j.length - 1] } var k = h.styleSheets; i.rel = "stylesheet", i.href = b, i.media = "only x", e(function () { g.parentNode.insertBefore(i, c ? g : g.nextSibling) }); var l = function (a) { for (var b = i.href, c = k.length; c--;) if (k[c].href === b) return a(); setTimeout(function () { l(a) }) }; return i.addEventListener && i.addEventListener("load", f), i.onloadcssdefined = l, l(f), i }; "undefined" != typeof exports ? exports.loadCSS = b : a.loadCSS = b }("undefined" != typeof global ? global : this);
+        /*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
+        !function (a) { if (a.loadCSS) { var b = loadCSS.relpreload = {}; if (b.support = function () { try { return a.document.createElement("link").relList.supports("preload") } catch (b) { return !1 } }, b.poly = function () { for (var b = a.document.getElementsByTagName("link"), c = 0; c < b.length; c++) { var d = b[c]; "preload" === d.rel && "style" === d.getAttribute("as") && (a.loadCSS(d.href, d, d.getAttribute("media")), d.rel = null) } }, !b.support()) { b.poly(); var c = a.setInterval(b.poly, 300); a.addEv
+entListener && a.addEventListener("load", function () { b.poly(), a.clearInterval(c) }), a.attachEvent && a.attachEvent("onload", function () { a.clearInterval(c) }) } } }(this);
+    </script>
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KCD5HJG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+    <header id="header" class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/" target="_blank">
+                <img src="./img/logo.png" height="70" class="d-none d-lg-inline-block" />
+                <img src="./img/logo.png" height="45" class="d-inline-block d-lg-none" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#siteNav" aria-controls="siteNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="siteNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item px-lg-3 mx-lg-1 active">
+                        <a class="nav-link font-weight-light text-uppercase text-white small" href="#section-intro">Về dự án</a>
+                    </li>
+                    <li class="nav-item px-lg-3 mx-lg-1">
+                        <a class="nav-link font-weight-light text-uppercase text-white small" href="#section-object">Đối tượng</a>
+                    </li>
+                    <li class="nav-item px-lg-3 mx-lg-1">
+                        <a class="nav-link font-weight-light text-uppercase text-white small" href="#section-job">Việc làm</a>
+                    </li>
+                    <li class="nav-item px-lg-3 mx-lg-1">
+                        <a class="nav-link font-weight-light text-uppercase text-white small" href="#section-program">Chương trình học</a>
+                    </li>
+                    <li class="nav-item ml-lg-3">
+                        <a class="btn btn-danger font-600 text-uppercase rounded-0" href="#f1">Đăng ký</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <section id="section-head" class="page-section bg-white pt-5 pb-3 pb-lg-5">
+        <img src="./img/headbg.jpg" class="d-none d-lg-block img-cover" />
+        <img src="./img/headbg-sm.jpg" class="d-block d-lg-none img-cover" />
+        <div class="container py-lg-5 position-relative">
+            <div class="my-3 my-lg-5">
+                <div class="text-center text-lg-left py-5 text-white text-uppercase heading">
+                    <h2 class="font-600">DỰ ÁN</h2>
+                    <h2 class="font-600">
+                        <span class="h1 font-weight-bold">300</span>&nbsp;LẬP TRÌNH VIÊN
+                    </h2>
+                    <h1 class="font-600">
+                        <span class="h2 font-weight-bold">Cho</span>&nbsp;DOANH NGHIỆP
+                    </h1>
+                </div>
+                <div class="pt-5 text-white text-center">
+                    <div class="mr-auto px-4 py-2 text-dark text-uppercase bg-white d-inline-block h4 font-weight-bold my-0">
+                        KHAI GIẢNG: THÁNG 9/2019
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-intro" class="page-section py-5">
+        <img src="./img/sectionbg.jpg" class="img-cover" />
+        <div class="container position-relative">
+            <h2 class="text-center text-uppercase font-600 text-danger mb-3">GIỚI THIỆU DỰ ÁN</h2>
+            <p class="text-justify">
+                Dự án "300 Lập trình viên Java cho doanh nghiệp" nằm trong chương trình hợp tác đào tạo giữa Hệ thống Đào tạo Lập trình viên Quốc tế APTECH -
+                đơn vị đào tạo CNTT số 1 Việt Nam và Công ty Hệ thống thông tin FPT (FPT Information System) nhằm cung cấp Lập trình viên Java cho các dự án
+                trọng yếu của các Quốc gia trong khu vực Đông Nam Á, về những lĩnh vực như: Viễn thông, Ngân hàng - Tài chính, Y tế, Giao thông vận tải,
+                Tài chính công..."
+            </p>
+        </div>
+    </section>
+
+    <section id="section-object" class="page-section py-0 bg-white">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-6">
+                    <div class="h-100 py-5">
+                        <h2 class="text-center text-uppercase font-600 text-danger mb-5">AI PHÙ HỢP VỚI DỰ ÁN NÀY</h2>
+                        <div class="media mb-3">
+                            <img src="./img/check.png" height="30" class="mr-2" />
+                            <div class="media-body">
+                                Sinh viên năm cuối ngành CNTT
+                            </div>
+                        </div>
+                        <div class="media">
+                            <img src="./img/check.png" height="30" class="mr-2" />
+                            <div class="media-body">
+                                Sinh viên, người đi làm muốn chuyển sang ngành CNTT
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="./img/section-img1.jpg" class="w-100" />
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-lg-6 order-12 order-lg-0">
+                    <iframe class="w-100 h-100" src="https://www.youtube.com/embed/iCcOxJVH2qA?rel=0&amp;controls=0&amp;showinfo=0"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="min-height: 315px"></iframe>
+                </div>
+                <div class="col-lg-6 order-0 order-lg-12">
+                    <div class="h-100 py-4 px-lg-3">
+                        <h2 class="text-center text-uppercase font-600 text-danger">HỌC XONG BẠN SẼ LÀM Ở ÐÂU?</h2>
+                        <p class="mb-4 text-center text-lg-left">
+                            Tốt nghiệp khóa học, học viên được tuyển thẳng vào làm việc tại FPT IS
+                            Đơn vị trực thuộc tập đoàn FPT - Doanh nghiệp CNTT hàng đầu Việt Nam
+                        </p>
+                        <div class="row">
+                            <div class="col-lg-3 col-6 text-center font-weight-bold mb-4 mb-lg-0">
+                                <img src="./img/icon-1.png" height="50" class="mb-3" />
+                                <p class="text-danger fontw">208 Triệu $</p>
+                                <p>Doanh thu</p>
+                            </div>
+                            <div class="col-lg-3 col-6 text-center font-weight-bold mb-4 mb-lg-0">
+                                <img src="./img/icon-2.png" height="50" class="mb-3" />
+                                <p class="text-danger">3200</p>
+                                <p>Nhân sự</p>
+                            </div>
+                            <div class="col-lg-3 col-6 text-center font-weight-bold mb-4 mb-lg-0">
+                                <img src="./img/icon-3.png" height="50" class="mb-3" />
+                                <p class="text-danger">10</p>
+                                <p>Chi nhánh</p>
+                            </div>
+                            <div class="col-lg-3 col-6 text-center font-weight-bold mb-4 mb-lg-0">
+                                <img src="./img/icon-4.png" height="50" class="mb-3" />
+                                <p class="text-danger">1000</p>
+                                <p>Khách hàng</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-job" class="page-section py-5">
+        <img src="./img/sectionbg.jpg" class="img-cover" />
+        <div class="container position-relative">
+            <h2 class="text-center text-uppercase font-600 text-danger mb-5">
+                PHÁT TRIỂN NGHỀ NGHIỆP VỮNG CHẮC
+            </h2>
+            <div class="row">
+                <div class="col-lg-3 col-6 text-center font-weight-bold mb-4 mb-lg-0">
+                    <img src="./img/icon-5.png" height="80" class="mb-3" />
+                    <p>Lương theo năng lực</p>
+                </div>
+                <div class="col-lg-3 col-6 text-center font-weight-bold mb-4 mb-lg-0">
+                    <img src="./img/icon-6.png" height="80" class="mb-3" />
+                    <p>Công tác nước ngoài</p>
+                </div>
+                <div class="col-lg-3 col-6 text-center font-weight-bold mb-4 mb-lg-0">
+                    <img src="./img/icon-7.png" height="80" class="mb-3" />
+                    <p>Cơ hội thăng tiến</p>
+                </div>
+                <div class="col-lg-3 col-6 text-center font-weight-bold mb-4 mb-lg-0">
+                    <img src="./img/icon-8.png" height="80" class="mb-3" />
+                    <p>Ðào tạo nâng cao</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-program" class="page-section">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-6">
+                    <div class="h-100 position-relative">
+                        <img src="./img/section-img3.jpg" class="img-cover d-none d-lg-block" />
+                        <img src="./img/section-img3.jpg" class="d-block d-lg-none w-100" />
+                    </div>
+                </div>
+                <div class="col-lg-6 py-4">
+                    <h2 class="text-center text-uppercase font-600 text-danger mb-3">
+                        CHƯƠNG TRÌNH HỌC
+                    </h2>
+                    <div class="table-responsive">
+                        <table class="table table-bordered border-dark small">
+                            <tr>
+                                <td rowspan="2" class="font-weight-bold">NỘI DUNG</td>
+                                <td colspan="3" class="font-weight-bold py-2">
+                                    THỜI LƯỢNG
+                                    <span class="font-weight-normal">(giờ)</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="py-2">Lý thuyết</td>
+                                <td class="py-2">Thực hành</td>
+                                <td class="py-2">Tổng</td>
+                            </tr>
+                            <tr class="font-weight-bold">
+                                <td class="text-uppercase py-2">JAVA CƠ BẢN & NÂNG CAO</td>
+                                <td class="py-2">28</td>
+                                <td class="py-2">24</td>
+                                <td class="py-2">52</td>
+                            </tr>
+                            <tr class="font-weight-bold">
+                                <td class="text-uppercase py-2">JAVA WEB & ENTERPRISE APPLICATION</td>
+                                <td class="py-2">60</td>
+                                <td class="py-2">70</td>
+                                <td class="py-2">130</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="p-2">
+                        <p class="font-weight-bold">
+                            Tổng thời lượng: 182 giờ (4h/buổi, 3 buổi/tuần)
+                        </p>
+                        <p class="font-italic m-0 small">*Ghi chú: Ðối với những học viên chưa có nền tảng CNTT sẽ học thêm môn C, với thời lượng 1.5 tháng</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-registry" class="page-section py-4 bg-success">
+        <div class="container position-relative">
+            <div class="row">
+                <div class="col-lg-7 col-md-6 align-self-center text-center">
+                    <img src="./img/section-img4.jpg" class="w-75 mb-5 mb-lg-0" />
+                </div>
+                <div class="col-lg-5 col-md-6">
+                    <div class="registry-box h-100 p-4">
+                        <h2 class="text-uppercase text-white mb-4 text-center">
+                            Đăng ký nhận thông tin và Tài liệu miễn phí
+                        </h2>
+                        <form id="f1" name="f1" class="form-horizontal" method="POST" action="<?php echo $url . 'dang-ky/index.php' ?>">
+                            <input type="hidden" id="subjectmail" name="subjectmail" value="Đăng ký Dự án 300 lập trình viên java cho doanh nghiệp" />
+                            <input type="hidden" id="web_path" name="web_path" value="<?php echo $url; ?>" />
+                            <div class="form-group">
+                                <input type="text" id="txtName" class="form-control w-100 border-white rounded-0" name="txtName" placeholder="Họ tên *" required />
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="txtPhone" class="form-control w-100 border-white rounded-0" name="txtPhone" placeholder="Điện thoại *" required />
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="txtEmail" class="form-control w-100 border-white rounded-0" name="txtEmail" placeholder="Email*" required />
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="txtJob" class="form-control w-100 border-white rounded-0" name="txtJob" placeholder="Nơi học/Làm việc*" required />
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="txtDeparment" class="form-control w-100 border-white rounded-0" name="txtDeparment" placeholder="Chuyên ngành/bộ phận*" />
+                            </div>
+                            <p class="font-italic text-white small">(*) bắt buộc</p>
+                            <div class="mt-3 text-center">
+                                <button type="submit" class="btn btn-danger rounded-0 text-uppercase">
+                                    Đăng ký ngay
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-white text-md-left text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 order-12 order-lg-1">
+                    <p class="text-uppercase mb-3 h5 footer-heading">Hệ thống đào tạo lập trình viên quốc tế Aptech</p>
+                    <div class="row mb-3 mb-lg-0 small">
+                        <div class="col-md-6">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <span>Hà Nội:</span>
+                                </div>
+                                <div class="col-md-8">
+                                    <p>
+                                        <strong>285 Đội Cấn, </strong>Q. Ba Đình
+                                    </p>
+                                    <p>
+                                        <strong>54 Lê Thanh Nghị, Bách Khoa, </strong>Q. Hai Bà Trưng
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <p class="font-weight-bold">Tel: 1800 1141</p>
+                            <p class="font-weight-bold">Tel: 1800 1147</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p>Email: aptech1@aprotrain.com</p>
+                            <p>Email: aptech3@aprotrain.com</p>
+                        </div>
+                    </div>
+                    <div class="row mb-3 small">
+                        <div class="col-md-6">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <span>TP.HCM:</span>
+                                </div>
+                                <div class="col-md-8">
+                                    <p>
+                                        <strong>212 - 214 Nguyễn Đình Chiểu, </strong>P.6, Q.3
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <p class="font-weight-bold">Tel: 1800 1779</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p>Email: aptech2@aprotrain.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4 mb-lg-0 order-1 order-lg-12 align-self-center text-center">
+                    <a href="/" target="_blank" class="logo-footer d-inline-block">
+                        <img src="img/logo-white.png" height="80" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="overlay"></div>
+    <script type="text/javascript" src="dist/script.min.js" async></script>
+
+
+<div id="overlay"></div>
+    <a href="#header" class="link-scroll btn-scroll-top">
+        <img src="./img/icon-arrow-up.png" />
+    </a>
+    <script type="text/javascript" src="dist/script.min.js<?php echo $version; ?>" async></script>
+
+    <script type='text/javascript'>
+        (function() {
+            var t = "https:",
+                r = document.createElement("script");
+            r.type = "text/javascript", r.async = !0, r.src = t + "//resources.mideasvn.com/hana_v2/eda4d907-9aef-4914-9602-a662e7d780e7";
+            var c = document.getElementsByTagName("script")[0];
+            c.parentNode.insertBefore(r, c);
+        })();
+    </script>
+
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId: '189605364869646',
+                autoLogAppEvents: true,
+                xfbml: true,
+                version: 'v2.11'
+            });
+        };
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {
+                return;
+            }
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <div class="fb-customerchat" page_id="371202429573648" minimized="true"> </div>
+
+
+
+
+</body>
+</html>

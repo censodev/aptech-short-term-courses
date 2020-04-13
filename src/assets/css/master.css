@@ -1,0 +1,67 @@
+html {
+  	scroll-behavior: smooth;
+}
+
+.navbar-light .navbar-toggler {
+	border-color: transparent !important;
+}
+
+.navbar-light .navbar-toggler:focus {
+	outline: none !important;
+}
+
+@media (max-width: 1070px) {
+	nav .nav-link {
+		font-size: 13px !important;
+	}
+}
+
+footer {
+	background-color: #292929;
+}
+
+footer .row {
+	padding: 80px 0px !important; 
+}
+
+@media (max-width: 991.98px) {
+	nav .nav-link {
+		font-size: 16px !important;
+	}
+
+	footer table tbody tr {
+		display: flex !important;
+		flex-wrap: wrap !important;
+	}
+
+	footer table tbody tr td {
+	    flex: 0 0 100% !important;
+	    max-width: 100%;
+	}
+}
+
+#scroll-top-btn {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-color: #E2E2E2;
+	border-radius: 5px;
+	display: none;
+	z-index: 200;
+}
+
+#scroll-top-btn i {
+	color: #221F1f;
+	font-weight: bold;
+}
+
+#scroll-top-btn:hover {
+	background-color: #221F1f;
+}
+
+#scroll-top-btn:hover i {
+	color: #E2E2E2 !important;
+}
+
+
+
