@@ -55,8 +55,8 @@
     <!-- Header -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <a class="navbar-brand" href="https://aptechvietnam.com.vn/" target="_blank">
-            <img src="../assets/img/logo.png" class="mr-2">
-            <img src="../assets/img/logo-second.png">
+            <img src="../assets/img/logo-min.png" class="mr-2">
+            <img src="../assets/img/logo-second-min.png">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -75,10 +75,10 @@
                 <li class="nav-item pl-lg-3 pr-lg-0">
                     <div class="d-flex flex-nowrap justify-content-center py-3 py-lg-0">
                         <a class="nav-link p-0 nav-link-social mr-3" target="_blank" href="https://www.facebook.com/aptechvietnam.com.vn/">
-                            <img src="../assets/img/icon-fb.png">
+                            <img src="../assets/img/icon-fb-min.png">
                         </a>
                         <a class="nav-link p-0 nav-link-social mr-3" target="_blank" href="https://www.youtube.com/user/aprotrainaptechvn">
-                            <img src="../assets/img/icon-youtube.png">
+                            <img src="../assets/img/icon-youtube-min.png">
                         </a>
                         <a class="btn regis-btn text-uppercase px-5 link-scroll font-600" href="#regis-form">Đăng ký</a>
                     </div>
@@ -90,7 +90,7 @@
 
     <!-- Sections -->
     <section class="section-banner"> 
-    	<img src="./assets/img/banner-PC.png" alt="" class="w-100">
+    	<img src="./assets/img/banner-PC-min.png" alt="" class="w-100">
     </section>
 
     <section class="section-1 py-5 bg-white">
@@ -107,14 +107,14 @@
     </section>
 
     <section id="section-2">
-        <img class="w-100" src="./assets/img/for-who.png">
+        <img class="w-100" src="./assets/img/for-who-min.png">
     </section>
 
     <section class="section-3 py-5">
         <h4 class="text-center text-bold text-white">05 LÝ DO CẦN HỌC KHÓA CHUYÊN GIA LẬP TRÌNH WEB TẠI APTECH</h4>
         <div class="d-flex justify-content-center pt-3 flex-wrap">
             <div class="box">
-                <div class="img-container"><img src="./assets/img/proffessor.png"></div>
+                <div class="img-container"><img src="./assets/img/proffessor-min.png"></div>
                 <p class="pt-3">
                     <span class="text-bold">Giảng viên là các Chuyên gia Công nghệ</span>
                     <br>
@@ -122,7 +122,7 @@
                 </p>
             </div>
             <div class="box">
-                <div class="img-container"><img class="ml-2" src="./assets/img/time.png"></div>
+                <div class="img-container"><img class="ml-2" src="./assets/img/time-min.png"></div>
                 <p class="pt-3">
                     <span class="text-bold">Tiết kiệm thời gian học</span>
                     <br>
@@ -130,7 +130,7 @@
                 </p>
             </div>
             <div class="box">
-                <div class="img-container"><img src="./assets/img/reactjs.png"></div>
+                <div class="img-container"><img src="./assets/img/reactjs-min.png"></div>
                 <p class="pt-3">
                     <span class="text-bold">Áp dụng công nghệ mới nhất</span>
                     <br>
@@ -138,7 +138,7 @@
                 </p>
             </div>
             <div class="box">
-                <div class="img-container"><img src="./assets/img/coder.png"></div>
+                <div class="img-container"><img src="./assets/img/coder-min.png"></div>
                 <p class="pt-3">
                     <span class="text-bold">Dự án thực tế</span>
                     <br>
@@ -146,7 +146,7 @@
                 </p>
             </div>
             <div class="box">
-                <div class="img-container"><img src="./assets/img/certificate.png"></div>
+                <div class="img-container"><img src="./assets/img/certificate-min.png"></div>
                 <p class="pt-3">
                     <span class="text-bold">Chứng chỉ uy tín</span>
                     <br>
@@ -176,7 +176,7 @@
             <!-- List -->
             <div class="box m-2 d-flex flex-column">
                 <div class="position-relative">
-                    <img class="w-100" src="./assets/img/c1808g1.png">
+                    <img class="w-100" src="./assets/img/c1808g1-min.png">
                     <div class="detail-layer">
                         <a href="https://aptechvietnam.com.vn/thiet-ke-website-ban-hang-bagbag" class="px-4 btn text-white text-bold border-light rounded-pill" target="_blank">Xem thêm ></a>
                     </div>
@@ -192,7 +192,7 @@
             </div>
             <div class="box m-2 d-flex flex-column">
                 <div class="position-relative">
-                    <img class="w-100" src="./assets/img/Layer_42.png">
+                    <img class="w-100" src="./assets/img/Layer_42-min.png">
                     <div class="detail-layer">
                         <a href="https://aptechvietnam.com.vn/thiet-ke-website-ban-hang-eyeonic?width=800&height=600" class="px-4 btn text-white text-bold border-light rounded-pill" target="_blank">Xem thêm ></a>
                     </div>
@@ -208,7 +208,7 @@
             </div>
             <div class="box m-2 d-flex flex-column">
                 <div class="position-relative">
-                    <img class="w-100" src="./assets/img/c1610i.png">
+                    <img class="w-100" src="./assets/img/c1610i-min.png">
                     <div class="detail-layer">
                         <a href="https://aptechvietnam.com.vn/project-hoc-ky-1-2" class="px-4 btn text-white text-bold border-light rounded-pill" target="_blank">Xem thêm ></a>
                     </div>
@@ -224,7 +224,7 @@
             </div>
             <div class="box m-2 d-flex flex-column">
                 <div class="position-relative">
-                    <img class="w-100" src="./assets/img/c1508i.png">
+                    <img class="w-100" src="./assets/img/c1508i-min.png">
                     <div class="detail-layer">
                         <a href="https://aptechvietnam.com.vn/project-hoc-ky-1" class="px-4 btn text-white text-bold border-light rounded-pill" target="_blank">Xem thêm ></a>
                     </div>
@@ -250,7 +250,7 @@
                 <div class="card m-3">
                     <div class="card-header position-relative py-3">
                         <div class="img-container position-absolute d-flex align-items-center">
-                            <img src="./assets/img/IFI_Logo.png">
+                            <img src="./assets/img/IFI_Logo-min.png">
                         </div>
                         <h6 class="text-white m-0">IFI Solution</h6>
                     </div>
@@ -271,7 +271,7 @@
                 <div class="card m-3">
                     <div class="card-header position-relative py-3">
                         <div class="img-container position-absolute d-flex align-items-center">
-                            <img class="h-100" src="./assets/img/T_Solution.png">
+                            <img class="h-100" src="./assets/img/T_Solution-min.png">
                         </div>
                         <h6 class="text-white m-0">Citigo</h6>
                     </div>
@@ -292,7 +292,7 @@
                 <div class="card m-3">
                     <div class="card-header position-relative py-3">
                         <div class="img-container position-absolute d-flex align-items-center">
-                            <img class="w-100" src="./assets/img/Smartosc_Logo.png">
+                            <img class="w-100" src="./assets/img/Smartosc_Logo-min.png">
                         </div>
                         <h6 class="text-white m-0">SmartOSC</h6>
                     </div>
@@ -313,7 +313,7 @@
                 <div class="card m-3">
                     <div class="card-header position-relative py-3">
                         <div class="img-container position-absolute d-flex align-items-center">
-                            <img class="w-100" src="./assets/img/Megaads_Logo.png">
+                            <img class="w-100" src="./assets/img/Megaads_Logo-min.png">
                         </div>
                         <h6 class="text-white m-0">MegaAds</h6>
                     </div>
@@ -345,7 +345,7 @@
         <div class="d-flex mt-4 justify-content-center flex-wrap">
             <!-- List -->
             <div class="box bg-white m-3">
-                <img height="183" width="259" src="./assets/img/Layer_54.png">
+                <img height="183" width="259" src="./assets/img/Layer_54-min.png">
                 <div class="p-3">
                     <div>
                         <small>Nguồn: <b>Vietnamnet.vn</b></small>
@@ -367,7 +367,7 @@
                 </div>
             </div>
             <div class="box bg-white m-3">
-                <img height="183" width="259" src="./assets/img/Layer_55.png">
+                <img height="183" width="259" src="./assets/img/Layer_55-min.png">
                 <div class="p-3">
                     <div>
                         <small>Nguồn: <b>Giaoducthoidai.vn</b></small>
@@ -396,22 +396,22 @@
         <h4 class="text-bold text-center">MÔI TRƯỜNG HỌC TẬP CHUYÊN NGHIỆP TẠI APTECH</h4>
         <div class="img-container mt-4 d-flex flex-wrap justify-content-center">
             <div class="box m-3">
-                <img class="w-100" src="./assets/img/257A1998.png">
+                <img class="w-100" src="./assets/img/257A1998-min.png">
             </div>
             <div class="box m-3">
-                <img class="w-100" src="./assets/img/257A2026.png">
+                <img class="w-100" src="./assets/img/257A2026-min.png">
             </div>
             <div class="box m-3">
-                <img class="w-100" src="./assets/img/IMG_8577.png">
+                <img class="w-100" src="./assets/img/IMG_8577-min.png">
             </div>
             <div class="box m-3">
-                <img class="w-100" src="./assets/img/12.17_Thiet_ke_3D_285_Doi_Can-10.png">
+                <img class="w-100" src="./assets/img/12.17_Thiet_ke_3D_285_Doi_Can-10-min.png">
             </div>
             <div class="box m-3">
-                <img class="w-100" src="./assets/img/12.17_Thiet_ke_3D_285_Doi_Can-5.png">
+                <img class="w-100" src="./assets/img/12.17_Thiet_ke_3D_285_Doi_Can-5-min.png">
             </div>
             <div class="box m-3">
-                <img class="w-100" src="./assets/img/12.17_Thiet_ke_3D_285_Doi_Can-6.png">
+                <img class="w-100" src="./assets/img/12.17_Thiet_ke_3D_285_Doi_Can-6-min.png">
             </div>
         </div>
     </section>
@@ -426,11 +426,11 @@
                             <div class="card m-3">
                                 <div class="card-body px-5 d-flex flex-column justify-content-between">
                                     <div>
-                                        <img src="./assets/img/quote.png">
+                                        <img src="./assets/img/quote-min.png">
                                     </div>
                                     <p class="text-bold pt-3">Usol Việt Nam đã tiếp nhận sinh viên Aptech vào làm việc từ nhiều năm nay. Chúng tôi đều hài lòng về họ.</p>
                                     <div class="d-flex align-items-center pt-2">
-                                        <img class="avt" src="./assets/img/Layer_56.png">
+                                        <img class="avt" src="./assets/img/Layer_56-min.png">
                                         <div class="pl-3">
                                             <label class="mb-1 text-bold">Ông Hiroshi Watabe</label>
                                             <p class="m-0">TGĐ Công ty TNHH Usol Việt Nam</p>
@@ -441,11 +441,11 @@
                             <div class="card m-3">
                                 <div class="card-body px-5 d-flex flex-column justify-content-between">
                                     <div>
-                                        <img src="./assets/img/quote.png">
+                                        <img src="./assets/img/quote-min.png">
                                     </div>
                                     <p class="text-bold pt-3">Chúng tôi tuyển dụng sinh viên Aptech vì khả năng thích ứng môi trường làm việc của họ rất tốt.</p>
                                     <div class="d-flex align-items-center pt-2">
-                                        <img class="avt" src="./assets/img/Layer_57.png">
+                                        <img class="avt" src="./assets/img/Layer_57-min.png">
                                         <div class="pl-3">
                                             <label class="mb-1 text-bold">Ông Hoàng Hải</label>
                                             <p class="m-0">GĐ Tổng hợp Công ty CP Giải pháp Tin học IFI Solution</p>
@@ -460,11 +460,11 @@
                             <div class="card m-3">
                                 <div class="card-body px-5 d-flex flex-column justify-content-between">
                                     <div>
-                                        <img src="./assets/img/quote.png">
+                                        <img src="./assets/img/quote-min.png">
                                     </div>
                                     <p class="text-bold pt-3">Aptech có cái hay là các thầy biết doanh nghiệp cần gì, chúng tôi không cần những thứ rườm rà, chúng tôi cần những thứ đi vào thực tế. Aptech đã rút gọn tất cả những thời gian này.</p>
                                     <div class="d-flex align-items-center pt-2">
-                                        <img class="avt" src="./assets/img/LeMaiAnh.jpg">
+                                        <img class="avt" src="./assets/img/LeMaiAnh-min.jpg">
                                         <div class="pl-3">
                                             <label class="mb-1 text-bold">Ông Lê Mai Anh</label>
                                             <p class="m-0"> Phó chủ tịch cấp cao, Giám đốc Thị trường Nhật Bản Công ty CP SmartOS</p>
@@ -475,11 +475,11 @@
                             <div class="card m-3">
                                 <div class="card-body px-5 d-flex flex-column justify-content-between">
                                     <div>
-                                        <img src="./assets/img/quote.png">
+                                        <img src="./assets/img/quote-min.png">
                                     </div>
                                     <p class="text-bold pt-3">Điểm mạnh của các bạn Aptech là thời gian thực hành nhiều nên bắt nhịp với ông việc nhanh. Đây là lợi thế ban đầu trong ứng tuyển.</p>
                                     <div class="d-flex align-items-center pt-2">
-                                        <img class="avt" src="./assets/img/HoSonTung.jpg">
+                                        <img class="avt" src="./assets/img/HoSonTung-min.jpg">
                                         <div class="pl-3">
                                             <label class="mb-1 text-bold">Ông Hồ Sơn Tùng</label>
                                             <p class="m-0">PGĐ Công ty CP truyền thông Lạc Hồng</p>
@@ -520,7 +520,7 @@
                             <div class="card m-3">
                                 <div class="card-body position-relative d-flex flex-column px-4">
                                     <div class="img-container position-absolute">
-                                        <img src="./assets/img/Layer_61.png">
+                                        <img src="./assets/img/Layer_61-min.png">
                                     </div>
                                     <div class="title">
                                         <h5 class="text-bold mb-1">NGUYỄN TRUNG NGHĨA</h5>
@@ -533,7 +533,7 @@
                             <div class="card m-3">
                                 <div class="card-body position-relative d-flex flex-column px-4">
                                     <div class="img-container position-absolute">
-                                        <img src="./assets/img/Layer_62.png">
+                                        <img src="./assets/img/Layer_62-min.png">
                                     </div>
                                     <div class="title">
                                         <h5 class="text-bold mb-1">LÊ THỊ SƠN CA</h5>
@@ -550,7 +550,7 @@
                             <div class="card m-3">
                                 <div class="card-body position-relative d-flex flex-column px-4">
                                     <div class="img-container position-absolute">
-                                        <img src="./assets/img/5.png">
+                                        <img src="./assets/img/5-min.png">
                                     </div>
                                     <div class="title">
                                         <h5 class="text-bold mb-1">NGUYỄN HỮU QUANG</h5>
@@ -563,7 +563,7 @@
                             <div class="card m-3">
                                 <div class="card-body position-relative d-flex flex-column px-4">
                                     <div class="img-container position-absolute">
-                                        <img src="./assets/img/6.png">
+                                        <img src="./assets/img/6-min.png">
                                     </div>
                                     <div class="title">
                                         <h5 class="text-bold mb-1">NGUYỄN LƯƠNG BẰNG</h5>
@@ -580,7 +580,7 @@
                             <div class="card m-3">
                                 <div class="card-body position-relative d-flex flex-column px-4">
                                     <div class="img-container position-absolute">
-                                        <img src="./assets/img/4.png">
+                                        <img src="./assets/img/4-min.png">
                                     </div>
                                     <div class="title">
                                         <h5 class="text-bold mb-1">NGÔ THỊ THU HIỀN</h5>
@@ -593,7 +593,7 @@
                             <div class="card m-3">
                                 <div class="card-body position-relative d-flex flex-column px-4">
                                     <div class="img-container position-absolute">
-                                        <img src="./assets/img/nguyen_khac_thanh.png">
+                                        <img src="./assets/img/nguyen_khac_thanh-min.png">
                                     </div>
                                     <div class="title">
                                         <h5 class="text-bold mb-1">NGUYỄN KHẮC THÀNH</h5>
@@ -707,7 +707,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 mb-4 mb-md-0 order-1 order-lg-12">
                     <a href="https://aptechvietnam.com.vn/" target="_blank" class="logo-footer text-center text-md-left">
-                        <img src="../assets/img/logo-white.png" class="mw-100">
+                        <img src="../assets/img/logo-white-min.png" class="mw-100">
                     </a>
                 </div>
             </div>
