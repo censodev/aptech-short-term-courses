@@ -1,6 +1,6 @@
 <?php
-    $mode = 'dev';
-    // $mode = 'prod';
+    // $mode = 'dev';
+    $mode = 'prod';
 
     $ext = '';
 
@@ -15,14 +15,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-KCD5HJG');</script>
-    <!-- End Google Tag Manager -->
-
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title><?php echo $titlePage ?></title>
@@ -30,12 +22,7 @@
 	<link rel="stylesheet" type="text/css" href="../assets/css/master<?php echo $ext ?>.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style<?php echo $ext ?>.css">
 </head>
-<body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KCD5HJG"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    
+<body>    
     <!-- Header -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <a class="navbar-brand" href="https://aptechvietnam.com.vn/" target="_blank">
@@ -74,7 +61,7 @@
 
     <!-- Sections -->
     <section class="section-banner"> 
-    	<img src="./assets/img/banner-PC.jpg" alt="" class="w-100">
+    	<img src="./assets/img/banner-PC_C-min.jpg" alt="" class="w-100">
     </section>
 
     <section class="section-1 py-5 bg-white">
@@ -137,7 +124,85 @@
         </div>
         <div class="collapse py-4" id="detailCollapse">
             <div class="d-flex justify-content-center">
-                <img src="./assets/img/course-detail-min.png">
+                <!-- <img src="./assets/img/course-detail-min.png"> -->
+                <table class="table">
+                    <thead>
+                        <tr class="title-tr table-bordered">
+                            <td class="text-bold">Nội dung</td>
+                            <td class="text-center text-bold">Lý thuyết</td>
+                            <td class="text-center text-bold">Thực hành</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-bold">Startup</td>
+                            <td class="text-center focused text-bold">2</td>
+                            <td class="text-center text-bold">2</td>
+                        </tr>
+                        <tr>
+                            <td class="text-bold">Những khái niệm cơ bản của C</td>
+                            <td class="text-center focused text-bold">10</td>
+                            <td class="text-center text-bold">10</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>Tên biến, kiểu dữ liệu, kích thước, chuyển đổi, ép kiểu</li>
+                                    <li>Các phép toán số học, logic</li>
+                                    <li>Các câu lệnh và thứ tự thực hiện câu lệnh</li>
+                                    <li>Khối lệnh điều khiển và vòng lặp</li>
+                                    <li>Hàm, biến trong hàm/ngoài hàm, biến tĩnh</li>
+                                    <li>Cấu trúc chương trình</li>
+                                </ul>
+                            </td>
+                            <td class="focused"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="text-bold">Những khái niệm nâng cao của C</td>
+                            <td class="text-center focused text-bold">12</td>
+                            <td class="text-center text-bold">12</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>Con trỏ, tham chiếu, tham trị</li>
+                                    <li>Mảng một chiều, mảng nhiều chiều</li>
+                                    <li>Dữ liệu có cấu trúc</li>
+                                    <li>Truy xuất dữ liệu qua File</li>
+                                </ul>
+                            </td>
+                            <td class="focused"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="text-bold">Những khái niệm cơ bản của C++</td>
+                            <td class="text-center focused text-bold">4</td>
+                            <td class="text-center text-bold text-bold">4</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>Lớp, thuộc tính, phương thức</li>
+                                    <li>Đối tượng, truy cập thuộc tính và phương thức của đối tượng</li>
+                                    <li>Thừa kế và đa hình</li>
+                                </ul>
+                            </td>
+                            <td class="focused"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="text-bold">Exam</td>
+                            <td class="text-center focused text-bold">2</td>
+                            <td class="text-center text-bold">2</td>
+                        </tr>
+                        <tr>
+                            <td class="text-bold">TOTAL</td>
+                            <td class="text-center focused text-bold">30</td>
+                            <td class="text-center text-bold">30</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>
@@ -550,15 +615,31 @@
         <h5 class="text-white text-center text-bold">Đăng ký nhận tài liệu tham khảo và tư vấn miễn phí</h5>
         <div class="pt-4 d-flex justify-content-center flex-wrap">
             <div class="box p-3 pt-0 text-center">
-                <img src="./assets/img/course-banner.jpg">
+                <img src="./assets/img/course-banner-min.png">
+                <h5 class="text-white mt-5 text-uppercase">Khóa học trực tuyến của Aptech với 5 ưu điểm vượt trội:</h5>
                 <ul>
-                    <li>Tặng Giáo trình Quốc tế trị giá <span class="text-bold">500.000 VNĐ</span>.</li>
-                    <li>Học bổng trị giá <span class="text-bold">3.100.000 VNĐ</span>.</li>
-                    <li>Được hỗ trợ <span class="text-bold">40%</span> học phí khi học tiếp các khóa Lập trình ngắn hạn tiếp theo và <span class="text-bold">20%</span> học phí khi học khóa Lập trình viên Quốc tế ADSE.</li>
+                    <li><span class="text-bold">Tiện lợi – tiết kiệm thời gian:</span> Học tại nhà với chuyên gia Aptech thông qua Google Meet. </li>
+                    <li><span class="text-bold">Tiếp thu kiến thức hiệu quả:</span> Ứng dụng phương pháp học Learn By Examples trực quan cùng các phần mềm hỗ trợ minh họa sinh động.</li>
+                    <li><span class="text-bold">Lớp học tương tác sôi nổi:</span> Áp dụng phương pháp đào tạo trực tuyến được Aptech triển khai thành công 20 năm nay trên Thế giới và Việt Nam. </li>
+                    <li><span class="text-bold">Nhận tài trợ 3.000.000 VNĐ/tháng từ Google:</span> Sử dụng không giới hạn dung lượng: Gmail, Google Drive, Google Meet, Google Photos, Google Classroom. </li>
+                    <li><span class="text-bold">Tính ứng dụng cao:</span> Nội dung học giúp giải quyết hiệu quả các vấn đề trong học tập, công việc và cuộc sống.</li>
                 </ul>
-                <p class="text-white text-left pl-3"><small class="text-italic">* Chương trình Hỗ trợ được áp dụng cho 80 học viên đầu tiên khi Đăng ký trước 30/04/2020. Chương trình có thể kết thúc trước thời hạn khi đã áp dụng đủ 80 học viên. Vui lòng liên hệ với Bộ phận Tư vấn để kiểm tra hiệu lực của Chương trình Hỗ trợ trước khi đăng ký.</small></p>
-                <div class="d-flex justify-content-center align-items-center pt-4">
-                    <p class="text-white text-italic mr-3">Thời gian ưu đãi còn:</p>
+            </div>
+            <div class="box p-3">
+                <form class="d-flex flex-column" action="./sendmail.php" method="POST">
+                    <input class="form-control form-control-lg mb-3 pl-4" type="" name="txtName" placeholder="Họ và tên" required>
+                    <input class="form-control form-control-lg mb-3 pl-4" type="email" name="txtEmail" placeholder="Email" required>
+                    <input class="form-control form-control-lg mb-3 pl-4" type="tel" name=txtPhone placeholder="Số điện thoại" required>
+                    <input class="form-control form-control-lg mb-3 pl-4" type="" name="dateBirth" placeholder="Năm sinh">
+                    <select class="form-control form-control-lg mb-3 pl-4"name=slCenter required>
+                           <option value>Chọn địa điểm học</option>
+                           <option value="aptech1@aprotrain.com">Tòa nhà Aptech, 285 Đôi Cấn, Ba Đình, Hà Nội</option>
+                           <option value="aptech3@aprotrain.com">Tòa nhà Aptech, 54 Lê Thanh Nghị, Hai Bà Trưng, Hà Nội</option>
+                        </select>
+                    <button type="submit" class="btn btn-warning btn-lg text-bold px-5 align-self-start">NHẬN THÔNG TIN HỌC BỔNG</button>
+                </form>
+                <p class="text-white text-italic mr-3 pt-4">Thời gian ưu đãi còn:</p>
+                <div class="d-flex justify-content-center align-items-center">
                     <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3 mr-4">
                         <h1 class="countdown-box-days text-bold m-0"></h1>
                         <p class="m-0">Ngày</p>
@@ -576,20 +657,6 @@
                         <p class="m-0">Giây</p>
                     </div>
                 </div>
-            </div>
-            <div class="box p-3">
-                <form class="d-flex flex-column" action="./sendmail.php" method="POST">
-                    <input class="form-control form-control-lg mb-3 pl-4" type="" name="txtName" placeholder="Họ và tên" required>
-                    <input class="form-control form-control-lg mb-3 pl-4" type="email" name="txtEmail" placeholder="Email" required>
-                    <input class="form-control form-control-lg mb-3 pl-4" type="tel" name=txtPhone placeholder="Số điện thoại" required>
-                    <input class="form-control form-control-lg mb-3 pl-4" type="" name="dateBirth" placeholder="Năm sinh">
-                    <select class="form-control form-control-lg mb-3 pl-4"name=slCenter required>
-                           <option value>Chọn địa điểm học</option>
-                           <option value="aptech1@aprotrain.com">Tòa nhà Aptech, 285 Đôi Cấn, Ba Đình, Hà Nội</option>
-                           <option value="aptech3@aprotrain.com">Tòa nhà Aptech, 54 Lê Thanh Nghị, Hai Bà Trưng, Hà Nội</option>
-                        </select>
-                    <button type="submit" class="btn btn-warning btn-lg text-bold px-5 align-self-start">ĐĂNG KÝ NGAY</button>
-                </form>
             </div>
         </div>
     </section>
@@ -642,11 +709,6 @@
     <button class="btn" id="scroll-top-btn"><i class="fas fa-arrow-up"></i></button>
     <!-- End scroll button -->
 
-    <!-- FB SDK -->
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v5.0&appId=749494412182083&autoLogAppEvents=1"></script>
-    <!-- End FB SDK -->
-
     <!-- jQuery Bootstrap4 Popperjs -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -665,5 +727,10 @@
 
     <!-- Countdown -->
     <script type="text/javascript" src="../assets/js/countdown<?php echo $ext ?>.js"></script>
+
+    <!-- FB SDK -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v5.0&appId=749494412182083&autoLogAppEvents=1"></script>
+    <!-- End FB SDK -->
 </body>
 </html>

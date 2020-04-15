@@ -1,6 +1,6 @@
 <?php
-    $mode = 'dev';
-    // $mode = 'prod';
+    // $mode = 'dev';
+    $mode = 'prod';
 
     $ext = '';
 
@@ -14,44 +14,16 @@
 
 <!DOCTYPE html>
 <html>
-<head>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-KCD5HJG');</script>
-    <!-- End Google Tag Manager -->
-    
+<head>   
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title><?php echo $titlePage ?></title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="../assets/css/master<?php echo $ext ?>.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style<?php echo $ext ?>.css">
-<!-- Subiz -->
-                    <script>
-                      (function(s, u, b, i, z){
-                        u[i]=u[i]||function(){
-                          u[i].t=+new Date();
-                          (u[i].q=u[i].q||[]).push(arguments);
-                        };
-                        z=s.createElement('script');
-                        var zz=s.getElementsByTagName('script')[0];
-                        z.async=1; z.src=b; z.id='subiz-script';
-                        zz.parentNode.insertBefore(z,zz);
-                      })(document, window, 'https://widgetv4.subiz.com/static/js/app.js', 'subiz');
-                      subiz('setAccount', 'acqpeyxnjmvbdavhzcwm');
-                    </script>
-<!-- End Subiz -->
 
 </head>
 <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KCD5HJG"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
     <!-- Header -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <a class="navbar-brand" href="https://aptechvietnam.com.vn/" target="_blank">
@@ -90,7 +62,7 @@
 
     <!-- Sections -->
     <section class="section-banner"> 
-    	<img src="./assets/img/banner-PC-min.png" alt="" class="w-100">
+    	<img src="./assets/img/banner-PC_php-min.jpg" alt="" class="w-100">
     </section>
 
     <section class="section-1 py-5 bg-white">
@@ -163,7 +135,125 @@
         </div>
         <div class="collapse py-4" id="detailCollapse">
             <div class="d-flex justify-content-center">
-                <img src="./assets/img/course-detail.jpg">
+                <!-- <img src="./assets/img/course-detail.jpg"> -->
+                <table class="table table-bordered">
+                    <thead></thead>
+                    <tbody>
+                        <tr class="bg-white">
+                            <td class="text-focused">HTML, CSS và Javascript</td>
+                            <td>
+                                <ul>
+                                    <li>Các thẻ HTML cơ bản</li>
+                                    <li>HTML5, CSS, Javascript</li>
+                                    <li>Hệ quản trị cơ sở dữ liệu MySQL</li>
+                                    <li>Hướng dẫn sử dụng CMS</li>
+                                </ul>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="text-focused">PHP căn bản</td>
+                            <td class="text-focused">Giới thiệu và làm quen với PHP</td>
+                            <td></td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td></td>
+                            <td>
+                                <ul>
+                                    <li>Toán tử trong PHP</li>
+                                    <li>Biểu thức điều kiện và vòng lặp</li>
+                                    <li>Các phương thức truyền dữ liệu</li>
+                                    <li>Mảng và các hàm hỗ trợ mảng</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Hàm trong PHP</li>
+                                    <li>Thao tác với File</li>
+                                    <li>Session & Cookie</li>
+                                    <li>Tương tác PHP và MySQL</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td class="text-focused">Convert template Admin website Bán điện thoại di động</td>
+                            <td></td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td></td>
+                            <td>
+                                <ul>
+                                    <li>Xây dựng chức năng Đăng nhập & Đăng xuất</li>
+                                    <li>Xây dựng trang chủ Admin</li>
+                                    <li>Xây dựng chức năng Quản lí sản phẩm</li>
+                                    <li>Xây dựng chức năng Thêm mới sản phẩm</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Xây dựng chức năng Sửa thông tin sản phẩm</li>
+                                    <li>Xây dựng chức năng Xóa sản phẩm</li>
+                                    <li>Xây dựng chức năng Phân trang</li>
+                                    <li>Tích hợp bộ công cụ soạn thảo CKEditor</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td class="text-focused">Convert template website Bán điện thoại di động</td>
+                            <td></td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td></td>
+                            <td>
+                                <ul>
+                                    <li>Xây dựng chức năng Hiển thị sản phẩm mới, sản phẩm đặc biệt</li>
+                                    <li>Xây dựng chức năng Hiển thị danh mục sản phẩm</li>
+                                    <li>Xây dựng Bộ lọc theo danh mục</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Xây dựng chức năng Phân trang sản phẩm</li>
+                                    <li>Xây dựng chức năng Chi tiết sản phẩm</li>
+                                    <li>Xây dựng chức năng Giỏ hàng</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-focused">PHP nâng cao</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td></td>
+                            <td>
+                                <ul>
+                                    <li>Lập trình hướng đối tượng trong PHP (PHP OOP 5)</li>
+                                    <li>Lớp, Phương thức, Thuộc tính</li>
+                                    <li>Magic method</li>
+                                    <li>Xây dựng hệ thống theo mô hình MVC</li>
+                                    <li>Tổng quan về Biểu thức chính quy (Regular Expression)</li>
+                                    <li>Cache</li>
+                                    <li>Cơ bản về htaccess</li>
+                                    <li>Friendly URL</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Giới thiệu về Yii (PHP Framework)</li>
+                                    <li>Kiến trúc tổng quan của Yii</li>
+                                    <li>Model trong Yii</li>
+                                    <li>Controller trong Yii</li>
+                                    <li>View trong Yii</li>
+                                    <li>Các thành phần quan trọng khác</li>
+                                    <li>Tập xây dựng trang tin tức, blog bằng Yii</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>
@@ -627,14 +717,22 @@
         </div>
     </section>
 
+
     <section class="section-11 py-5" id="regis-form">
-        <h5 class="text-white text-center text-bold">Đăng ký nhận tài liệu tham khảo và tư vấn miễn phí</h5>
-        <div class="pt-4 d-flex justify-content-center flex-wrap">
-            <div class="box p-3 text-center">
-                <h6 class="mt-2 text-white text-bold">TẶNG GÓI HỖ TRỢ KHAI NGHIỆP DO <br>DOANH NGHIỆP TÀI TRỢ</h6>
-                <img class="mt-3" src="./assets/img/course-banner.jpg">
+        <div class="d-flex justify-content-center flex-wrap">
+            <div class="box p-3 pt-0 text-center">
+                <img src="./assets/img/course-banner-min.png">
+                <h5 class="text-white mt-5 text-uppercase">Khóa học trực tuyến của Aptech với 5 ưu điểm vượt trội:</h5>
+                <ul>
+                    <li><span class="text-bold">Tiện lợi – tiết kiệm thời gian:</span> Học tại nhà với chuyên gia Aptech thông qua Google Meet. </li>
+                    <li><span class="text-bold">Tiếp thu kiến thức hiệu quả:</span> Ứng dụng phương pháp học Learn By Examples trực quan cùng các phần mềm hỗ trợ minh họa sinh động.</li>
+                    <li><span class="text-bold">Lớp học tương tác sôi nổi:</span> Áp dụng phương pháp đào tạo trực tuyến được Aptech triển khai thành công 20 năm nay trên Thế giới và Việt Nam. </li>
+                    <li><span class="text-bold">Nhận tài trợ 3.000.000 VNĐ/tháng từ Google:</span> Sử dụng không giới hạn dung lượng: Gmail, Google Drive, Google Meet, Google Photos, Google Classroom. </li>
+                    <li><span class="text-bold">Tính ứng dụng cao:</span> Nội dung học giúp giải quyết hiệu quả các vấn đề trong học tập, công việc và cuộc sống.</li>
+                </ul>
             </div>
             <div class="box p-3">
+                <h5 class="text-white text-center text-bold mb-4">Đăng ký nhận thông tin và tư vấn miễn phí</h5>
                 <form class="d-flex flex-column" action="./sendmail.php" method="POST">
                     <input class="form-control form-control-lg mb-3 pl-4" type="" name="txtName" placeholder="Họ và tên" required>
                     <input class="form-control form-control-lg mb-3 pl-4" type="email" name="txtEmail" placeholder="Email" required>
@@ -645,10 +743,10 @@
                            <option value="aptech1@aprotrain.com">Tòa nhà Aptech, 285 Đôi Cấn, Ba Đình, Hà Nội</option>
                            <option value="aptech3@aprotrain.com">Tòa nhà Aptech, 54 Lê Thanh Nghị, Hai Bà Trưng, Hà Nội</option>
                         </select>
-                    <button type="submit" class="btn btn-lg text-bold bg-white rounded-pill px-5 align-self-end">ĐĂNG KÝ NGAY</button>
+                    <button type="submit" class="btn btn-warning btn-lg text-bold px-5 align-self-end">NHẬN THÔNG TIN HỌC BỔNG</button>
                 </form>
-                <p class="text-white text-italic">Thời gian ưu đãi còn:</p>
-                <div class="d-flex">
+                <p class="text-white text-italic mr-3 pt-4">Thời gian ưu đãi còn:</p>
+                <div class="d-flex justify-content-center align-items-center">
                     <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3 mr-4">
                         <h1 class="countdown-box-days text-bold m-0"></h1>
                         <p class="m-0">Ngày</p>
@@ -719,11 +817,6 @@
     <button class="btn" id="scroll-top-btn"><i class="fas fa-arrow-up"></i></button>
     <!-- End scroll button -->
 
-    <!-- FB SDK -->
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v5.0&appId=749494412182083&autoLogAppEvents=1"></script>
-    <!-- End FB SDK -->
-
     <!-- jQuery Bootstrap4 Popperjs -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -743,47 +836,9 @@
     <!-- Countdown -->
     <script type="text/javascript" src="../assets/js/countdown<?php echo $ext ?>.js"></script>
 
-<!-- đưa nút chat sang trái -->
-<style>
-		  #fb-root > div.fb_dialog{
-			 right: initial !important;
-			 left: 18pt;
-			 z-index: 9999999 !important;
-		  }
-		  .fb-customerchat.fb_invisible_flow.fb_iframe_widget iframe {
-			 right: initial !important;
-			 left: 18pt !important;
-		  }
-	</style>
-<!-- Ket thuc dua nut chat sang trai -->
-
-
-<!-- Load Facebook chat -->
-      <div id="fb-root"></div>
-      <script>
-        window.fbAsyncInit = function() {
-          FB.init({
-            xfbml            : true,
-            version          : 'v6.0'
-          });
-        };
-
-        (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
-
-      <!-- Your customer chat code -->
-      <div class="fb-customerchat"
-        attribution=setup_tool
-        page_id="371202429573648"
-  logged_in_greeting="Xin chào! Aptech có thể giúp gì cho bạn!"
-  logged_out_greeting="Xin chào! Aptech có thể giúp gì cho bạn!">
-      </div>
-
-
+    <!-- FB SDK -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v5.0&appId=749494412182083&autoLogAppEvents=1"></script>
+    <!-- End FB SDK -->
 </body>
 </html>

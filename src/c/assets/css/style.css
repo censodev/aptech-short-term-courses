@@ -1,6 +1,6 @@
 :root {
 	--main-color-0: #FCB813;
-    --main-color-1: #118798;
+    --main-color-1: #4e8696;
 }
 
 @font-face {
@@ -21,7 +21,7 @@
 }
 
 body {
-	background: url('../img/Layer_16.png') no-repeat center center fixed;
+	background: url('../img/Layer_16-min.png') no-repeat center center fixed;
 	background-size: cover;
 	background-color: #000;
 }
@@ -67,7 +67,7 @@ body {
 
 .section-1 ul {
   list-style-type: none;
-  list-style-image: url('../img/exit-to-app-button.png');
+  list-style-image: url('../img/exit-to-app-button-min.png');
 }
 
 .section-1 .left-side p {
@@ -139,11 +139,25 @@ body {
 }
 
 .section-4 .collapse {
-	background-color: #EBEBEB;
+	background-color: #F9FAF8;
 }
 
-.section-4 img {
-	max-width: 100%;
+.section-4 table {
+	max-width: 80%;
+	background-color: #F9FAF8;
+}
+
+.section-4 table td {
+	border-top: 2px solid var(--main-color-1);
+}
+
+.section-4 table td.focused {
+	background-color: #E6E6E6;
+}
+
+.section-4 table tr.title-tr {
+	background-color: var(--main-color-1);
+	color: #fff;
 }
 
 .section-5 .box {
@@ -310,7 +324,7 @@ body {
 }
 
 .section-9 {
-	background-image: url('../img/bg_2.png');
+	background-image: url('../img/bg_2-min.png');
 }
 
 .section-9 h4 {
@@ -407,7 +421,11 @@ body {
 	background-color: var(--main-color-1);
 }
 
-.section-11 .box {
+.section-11 .box:first-child {
+	flex-basis: 50%;
+}
+
+.section-11 .box:last-child {
 	flex-basis: 40%;
 }
 

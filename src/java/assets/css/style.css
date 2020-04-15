@@ -23,7 +23,7 @@
 }
 
 body {
-	background: url("../images/banner-7.png") no-repeat center center fixed;
+	background: url("../img/banner-7-min.png") no-repeat center center fixed;
 	background-size: cover;
 	background-color: #000;
 }
@@ -159,7 +159,6 @@ div.for-who .img-left{
 .banner-4{
 	height: 120px;
 	width: 100%;
-	/*display: inline-block;*/
 }
 
 .banner-4 .text{
@@ -179,26 +178,50 @@ div.for-who .img-left{
 	background-color: var(--main-color-0) !important;
 	color: #000 !important;
 }
+
+.banner-4-mb {
+	background-color: var(--main-color-0);
+	display: none;
+}
+
+.banner-4-mb .btn {
+	background-color: var(--main-color-1);
+}
+
+@media (max-width: 768px) {
+	.banner-4-mb {
+		display: flex;
+	}
+	.banner-4 {
+		display: none;
+	}
+}
+
 .banner-4-collapse {
-	background-color: #EBEBEB;
+	background-color: #F9FAF8;
 }
 
-/*.banner-5 p.text{
-	font-size: 18px;
-	font-weight: 400;
+.banner-4-collapse table {
+	max-width: 80%;
+	background-color: #F9FAF8;
 }
 
-.banner-5 .block-prj img{
-	width: 100%;
+.banner-4-collapse table td {
+	border-top: 2px solid var(--main-color-1);
 }
 
-.block-prj .title-prj{
-	color: var(--main-color-1);
-	margin-top: 1rem;
-	margin-bottom: 10px;
-	font-weight: 700;
-	font-size: 18px;
-}*/
+.banner-4-collapse table td.focused {
+	background-color: #E6E6E6;
+}
+
+.banner-4-collapse table tr.title-tr {
+	background-color: var(--main-color-1);
+	color: #fff;
+}
+
+.banner-4-collapse ul {
+	list-style: none;
+}
 
 .section-5 h4 {
 	color: var(--main-color-1);
@@ -357,7 +380,7 @@ div.for-who .img-left{
 
 
 .section-9 {
-	background-image: url('../images/bg_2.png');
+	background-image: url('../img/bg_2-min.png');
 	background-color: red;
 }
 
@@ -468,8 +491,22 @@ div.for-who .img-left{
 	background-color: var(--main-color-1);
 }
 
-.section-11 .box {
+.section-11 .box:first-child {
+	flex-basis: 50%;
+}
+
+.section-11 .box:last-child {
 	flex-basis: 40%;
+}
+
+.section-11 .box ul {
+	list-style-image: url('../img/v-list.png');
+	color: #FFF;
+	text-align: left;
+}
+
+.section-11 .box ul li {
+	padding-top: 10px;
 }
 
 .section-11 .countdown-box {

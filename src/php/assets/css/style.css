@@ -21,7 +21,7 @@
 }
 
 body {
-	background: url('../img/Layer_63.png') no-repeat center center fixed;
+	background: url('../img/Layer_63-min.png') no-repeat center center fixed;
 	background-size: cover;
 	background-color: #000;
 }
@@ -149,6 +149,15 @@ body {
 
 .section-4 img {
 	max-width: 100%;
+}
+
+.section-4 table {
+	max-width: 80%;
+}
+
+.section-4 table .text-focused {
+	color: #0a629d;
+	font-family: roboto-bold;
 }
 
 .section-5 h4 {
@@ -323,7 +332,7 @@ body {
 }
 
 .section-9 {
-	background-image: url('../img/bg_2.png');
+	background-image: url('../img/bg_2-min.png');
 }
 
 .section-9 h4 {
@@ -417,21 +426,30 @@ body {
 }
 
 .section-11 {
-	background-color: var(--main-color-1);
-	background-image: url('../img/bg_3.png');
+	background-image: url(../img/bgg-min.png);
 }
 
-.section-11 .box {
+.section-11 .box:first-child {
+	flex-basis: 50%;
+}
+
+.section-11 .box:last-child {
 	flex-basis: 40%;
 }
 
-.section-11 form button {
-	color: var(--main-color-1);
+.section-11 .box ul {
+	list-style-image: url('../img/v-list.png');
+	color: #FFF;
+	text-align: left;
 }
 
-.section-11 form button:hover {
-	color: var(--main-color-1) !important;
-	box-shadow: 0px 5px 15px #000;
+.section-11 .box ul li {
+	padding-top: 10px;
+}
+
+.section-11 form button {
+	color: #0a629d;
+	border-radius: 25px;
 }
 
 .section-11 .countdown-box {

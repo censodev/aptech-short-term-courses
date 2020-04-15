@@ -1,6 +1,6 @@
 <?php
-    $mode = 'dev';
-    // $mode = 'prod';
+    // $mode = 'dev';
+    $mode = 'prod';
 
     $ext = '';
 
@@ -15,14 +15,6 @@
 <!Doctype html>
 <html lang="en">
   <head>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-KCD5HJG');</script>
-    <!-- End Google Tag Manager -->
-
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -34,29 +26,8 @@
     <link rel="stylesheet" type="text/css" href="../assets/css/master<?php echo $ext ?>.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style<?php echo $ext ?>.css">
     <title><?php echo $titlePage ?></title>
-<!-- Subiz -->
-                    <script>
-                      (function(s, u, b, i, z){
-                        u[i]=u[i]||function(){
-                          u[i].t=+new Date();
-                          (u[i].q=u[i].q||[]).push(arguments);
-                        };
-                        z=s.createElement('script');
-                        var zz=s.getElementsByTagName('script')[0];
-                        z.async=1; z.src=b; z.id='subiz-script';
-                        zz.parentNode.insertBefore(z,zz);
-                      })(document, window, 'https://widgetv4.subiz.com/static/js/app.js', 'subiz');
-                      subiz('setAccount', 'acqpeyxnjmvbdavhzcwm');
-                    </script>
-<!-- End Subiz -->
-
 </head>
   <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KCD5HJG"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    
     <!-- Header -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <a class="navbar-brand" href="https://aptechvietnam.com.vn/" target="_blank">
@@ -94,7 +65,7 @@
     <!-- End Header -->
 
   	<div class="banner">
-      <img class="w-100" src="./assets/img/bannerPC.jpg"> 
+        <img class="w-100" src="./assets/img/banner-PC_java-min.jpg"> 
     </div>
     <div class="bg-white">
     	<div class="container py-5">
@@ -215,10 +186,93 @@
   				<button class="btn rounded-pill bg-white text-bold px-4 py-2 ml-5" data-toggle="collapse" data-target="#detailCollapse">🡢 Xem chi tiết khóa học</button>
   			</div>
   		</div>
-  	</div>
+    </div>
+    <div class="banner-4-mb flex-column align-items-center py-3">
+        <div class="text d-flex justify-content-center text-center p-2 text-bold">Hoàn thành khoá học, học viên được giới thiệu làm việc tại các Doanh nghiệp CNTT lớn.</div>
+        <button class="text-white btn rounded-pill text-bold px-5 mb-3" data-toggle="collapse" data-target="#detailCollapse">🡢 Xem chi tiết khóa học</button>
+    </div>
     <div class="collapse banner-4-collapse py-4" id="detailCollapse">
-        <div class="d-flex justify-content-center">
-            <img class="w-100" src="./assets/img/course-detail.jpg">
+        <div class="d-flex flex-column align-items-center">
+            <!-- <img class="w-100" src="./assets/img/course-detail.jpg"> -->
+            <table class="table">
+                <thead>
+                    <tr class="title-tr table-bordered">
+                        <td class="text-bold">Khóa ACJP (Aptech Certificate Java Programing)</td>
+                        <td class="text-center text-bold">Số buổi</td>
+                        <td class="text-center text-bold">Giờ/buổi</td>
+                        <td class="text-center text-bold">Số giờ</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="text-bold">Learn Java By Example</td>
+                        <td class="text-center focused text-bold">13</td>
+                        <td class="text-center text-bold">2</td>
+                        <td class="text-center focused text-bold">26</td>
+                    </tr>
+                    <tr>
+                        <td class="text-bold">Distributed Computing in Java</td>
+                        <td class="text-center focused text-bold">12</td>
+                        <td class="text-center text-bold">2</td>
+                        <td class="text-center focused text-bold">24</td>
+                    </tr>
+                    <tr>
+                        <td class="text-bold">Working with Database and Security in Java</td>
+                        <td class="text-center focused text-bold">8</td>
+                        <td class="text-center text-bold">2</td>
+                        <td class="text-center focused text-bold">16</td>
+                    </tr>
+                    <tr>
+                        <td class="text-bold">eProject 1 (Java)</td>
+                        <td class="text-center focused text-bold">4</td>
+                        <td class="text-center text-bold">2</td>
+                        <td class="text-center focused text-bold">8</td>
+                    </tr>
+                    <tr>
+                        <td class="text-bold">TOTAL</td>
+                        <td class="text-center focused text-bold"></td>
+                        <td class="text-center text-bold"></td>
+                        <td class="text-center focused text-bold">74</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <table class="table">
+                <thead>
+                    <tr class="title-tr table-bordered">
+                        <td class="text-bold">Khóa ACJD (Aptech Certificate Java Developer)</td>
+                        <td class="text-center text-bold">Số buổi</td>
+                        <td class="text-center text-bold">Giờ/buổi</td>
+                        <td class="text-center text-bold">Số giờ</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="text-bold">Web Programing with Servlet and JSP</td>
+                        <td class="text-center focused text-bold">20</td>
+                        <td class="text-center text-bold">2</td>
+                        <td class="text-center focused text-bold">40</td>
+                    </tr>
+                    <tr>
+                        <td class="text-bold">Architeching Web Applications using JSF and Struts</td>
+                        <td class="text-center focused text-bold">8</td>
+                        <td class="text-center text-bold">2</td>
+                        <td class="text-center focused text-bold">16</td>
+                    </tr>
+                    <tr>
+                        <td class="text-bold">eProject 2 (Java)</td>
+                        <td class="text-center focused text-bold">5</td>
+                        <td class="text-center text-bold">2</td>
+                        <td class="text-center focused text-bold">10</td>
+                    </tr>
+                    <tr>
+                        <td class="text-bold">TOTAL</td>
+                        <td class="text-center focused text-bold"></td>
+                        <td class="text-center text-bold"></td>
+                        <td class="text-center focused text-bold">66</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 
@@ -685,26 +739,35 @@
     </div>
 
 
-    <div class="section-11 py-5" id="regis-form">
+    <section class="section-11 py-5" id="regis-form">
         <h5 class="text-white text-center text-bold">Đăng ký nhận tài liệu tham khảo và tư vấn miễn phí</h5>
         <div class="pt-4 d-flex justify-content-center flex-wrap">
-            <div class="box p-3 text-center">
-                <div>
-                  <h5 class="mt-2 text-white text-bold">TẶNG GÓI HỖ TRỢ KHAI NGHIỆP DO DOANH NGHIỆP TÀI TRỢ</h5>
-                  <fieldset style="border: 2px solid white; margin: 10px auto" class="w-75">
-                    <legend class="text-sm m-0" style="width:18%">trị giá</legend>
-                    <h1 class="text-bold text-white">10,268,000 VND</h1>
-                  </fieldset>
-                  <table style="margin: 5px auto; width: 80%">
-                    <tr style="font-size: 20px;">
-                      <td class="text-white w-50 pr-3">Học bổng trọn khóa lập trình căn bản <br><b>trị giá 5,600,000 VND<b></td>
-                      <td class="text-white w-50 pl-3" style="border-left: 1px solid white">Học bổng khóa Java <br><b>trị giá 4,668,000 VND<b></td>
-                    </tr>
-                  </table>
-                  <p class="text-white text-italic pt-2 m-0">*Hạn đăng ký trước 30/04/2020</p>
-                  <p class="text-white text-italic pt-2">Thời gian ưu đãi còn:</p>
-                </div>
-                <div class="d-flex justify-content-center">
+            <div class="box p-3 pt-0 text-center">
+                <img src="./assets/img/course-banner-min.png">
+                <h5 class="text-white mt-5 text-uppercase">Khóa học trực tuyến của Aptech với 5 ưu điểm vượt trội:</h5>
+                <ul>
+                    <li><span class="text-bold">Tiện lợi – tiết kiệm thời gian:</span> Học tại nhà với chuyên gia Aptech thông qua Google Meet. </li>
+                    <li><span class="text-bold">Tiếp thu kiến thức hiệu quả:</span> Ứng dụng phương pháp học Learn By Examples trực quan cùng các phần mềm hỗ trợ minh họa sinh động.</li>
+                    <li><span class="text-bold">Lớp học tương tác sôi nổi:</span> Áp dụng phương pháp đào tạo trực tuyến được Aptech triển khai thành công 20 năm nay trên Thế giới và Việt Nam. </li>
+                    <li><span class="text-bold">Nhận tài trợ 3.000.000 VNĐ/tháng từ Google:</span> Sử dụng không giới hạn dung lượng: Gmail, Google Drive, Google Meet, Google Photos, Google Classroom. </li>
+                    <li><span class="text-bold">Tính ứng dụng cao:</span> Nội dung học giúp giải quyết hiệu quả các vấn đề trong học tập, công việc và cuộc sống.</li>
+                </ul>
+            </div>
+            <div class="box p-3">
+                <form class="d-flex flex-column" action="./sendmail.php" method="POST">
+                    <input class="form-control form-control-lg mb-3 pl-4" type="" name="txtName" placeholder="Họ và tên" required>
+                    <input class="form-control form-control-lg mb-3 pl-4" type="email" name="txtEmail" placeholder="Email" required>
+                    <input class="form-control form-control-lg mb-3 pl-4" type="tel" name=txtPhone placeholder="Số điện thoại" required>
+                    <input class="form-control form-control-lg mb-3 pl-4" type="" name="dateBirth" placeholder="Năm sinh">
+                    <select class="form-control form-control-lg mb-3 pl-4"name=slCenter required>
+                           <option value>Chọn địa điểm học</option>
+                           <option value="aptech1@aprotrain.com">Tòa nhà Aptech, 285 Đôi Cấn, Ba Đình, Hà Nội</option>
+                           <option value="aptech3@aprotrain.com">Tòa nhà Aptech, 54 Lê Thanh Nghị, Hai Bà Trưng, Hà Nội</option>
+                        </select>
+                    <button type="submit" class="btn btn-warning btn-lg text-bold px-5 align-self-start">NHẬN THÔNG TIN HỌC BỔNG</button>
+                </form>
+                <p class="text-white text-italic mr-3 pt-4">Thời gian ưu đãi còn:</p>
+                <div class="d-flex justify-content-center align-items-center">
                     <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3 mr-4">
                         <h1 class="countdown-box-days text-bold m-0"></h1>
                         <p class="m-0">Ngày</p>
@@ -723,22 +786,8 @@
                     </div>
                 </div>
             </div>
-            <div class="box p-3">
-                <form class="d-flex flex-column" action="./sendmail.php" method="POST">
-                    <input class="form-control form-control-lg mb-3 pl-4" type="" name="txtName" placeholder="Họ và tên" required>
-                    <input class="form-control form-control-lg mb-3 pl-4" type="email" name="txtEmail" placeholder="Email" required>
-                    <input class="form-control form-control-lg mb-3 pl-4" type="tel" name=txtPhone placeholder="Số điện thoại" required>
-                    <input class="form-control form-control-lg mb-3 pl-4" type="" name="dateBirth" placeholder="Năm sinh">
-                    <select class="form-control form-control-lg mb-3 pl-4"name=slCenter required>
-                           <option value>Chọn địa điểm học</option>
-                           <option value="aptech1@aprotrain.com">Tòa nhà Aptech, 285 Đôi Cấn, Ba Đình, Hà Nội</option>
-                           <option value="aptech3@aprotrain.com">Tòa nhà Aptech, 54 Lê Thanh Nghị, Hai Bà Trưng, Hà Nội</option>
-                        </select>
-                    <button type="submit" class="btn btn-warning btn-lg text-bold  rounded-pill px-5 align-self-end">ĐĂNG KÝ NGAY</button>
-                </form>
-            </div>
         </div>
-    </div>
+    </section>
 
 
     <div class="banner-12 py-5 bg-white">
@@ -788,11 +837,6 @@
     <button class="btn" id="scroll-top-btn"><i class="fas fa-arrow-up"></i></button>
     <!-- End scroll button -->
 
-    <!-- FB SDK -->
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v5.0&appId=749494412182083&autoLogAppEvents=1"></script>
-    <!-- End FB SDK -->
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -813,48 +857,10 @@
 
     <!-- Countdown -->
     <script type="text/javascript" src="../assets/js/countdown<?php echo $ext ?>.js"></script>
-
-<!-- đưa nút chat sang trái -->
-<style>
-		  #fb-root > div.fb_dialog{
-			 right: initial !important;
-			 left: 18pt;
-			 z-index: 9999999 !important;
-		  }
-		  .fb-customerchat.fb_invisible_flow.fb_iframe_widget iframe {
-			 right: initial !important;
-			 left: 18pt !important;
-		  }
-	</style>
-<!-- Ket thuc dua nut chat sang trai -->
-
-
-<!-- Load Facebook chat -->
-      <div id="fb-root"></div>
-      <script>
-        window.fbAsyncInit = function() {
-          FB.init({
-            xfbml            : true,
-            version          : 'v6.0'
-          });
-        };
-
-        (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
-
-      <!-- Your customer chat code -->
-      <div class="fb-customerchat"
-        attribution=setup_tool
-        page_id="371202429573648"
-  logged_in_greeting="Xin chào! Aptech có thể giúp gì cho bạn!"
-  logged_out_greeting="Xin chào! Aptech có thể giúp gì cho bạn!">
-      </div>
-  
-
+    
+    <!-- FB SDK -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v5.0&appId=749494412182083&autoLogAppEvents=1"></script>
+    <!-- End FB SDK -->
 </body>
 </html>
