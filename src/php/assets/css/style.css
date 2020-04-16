@@ -6,14 +6,17 @@
 @font-face {
   font-family: 'roboto-regular';
   src: url('../fonts/ROBOTO-REGULAR_0.TTF');
+  font-display: swap;
 }
 @font-face {
   font-family: 'roboto-bold';
   src: url('../fonts/ROBOTO-BOLD_0.TTF');
+  font-display: swap;
 }
 @font-face {
   font-family: 'roboto-italic';
   src: url('../fonts/ROBOTO-ITALIC.TTF');
+  font-display: swap;
 }
 
 * {

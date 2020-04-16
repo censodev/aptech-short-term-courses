@@ -17,6 +17,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title><?php echo $titlePage ?></title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="../assets/css/master<?php echo $ext ?>.css">
@@ -706,27 +707,22 @@
     <!-- End Footer -->
 
     <!-- Scroll button -->
-    <button class="btn" id="scroll-top-btn"><i class="fas fa-arrow-up"></i></button>
+    <button class="btn" id="scroll-top-btn">🡩</button>
     <!-- End scroll button -->
 
-    <!-- jQuery Bootstrap4 Popperjs -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-    <!-- Fontawesome -->
-    <script src="https://kit.fontawesome.com/2d0edabe59.js" crossorigin="anonymous"></script>
+    <!-- jQuery Bootstrap4 -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script async defer src="../assets/js/bootstrap/util.min.js"></script>
+    <script async defer src="../assets/js/bootstrap/collapse.min.js"></script>
+    <script async defer src="../assets/js/bootstrap/carousel.min.js"></script>
+    <script async defer src="../assets/js/bootstrap/button.min.js"></script>
 
     <!-- Scroll top -->
-    <script type="text/javascript" src="../assets/js/scroll-top<?php echo $ext ?>.js"></script>
-
-    <!-- Carousel -->
-    <script type="text/javascript">
-        $('.carousel').carousel('pause');
-    </script>
+    <script async defer src="../assets/js/scroll-top<?php echo $ext ?>.js"></script>
 
     <!-- Countdown -->
-    <script type="text/javascript" src="../assets/js/countdown<?php echo $ext ?>.js"></script>
+    <script async defer src="../assets/js/countdown<?php echo $ext ?>.js"></script>
 
     <!-- FB SDK -->
     <div id="fb-root"></div>

@@ -6,14 +6,17 @@
 @font-face {
   font-family: 'svn-gilroy-regular';
   src: url('../fonts/SVN-GILROY REGULAR.OTF');
+  font-display: swap;
 }
 @font-face {
   font-family: 'svn-gilroy-bold';
   src: url('../fonts/SVN-GILROY BOLD.OTF');
+  font-display: swap;
 }
 @font-face {
   font-family: 'svn-gilroy-italic';
   src: url('../fonts/SVN-GILROY ITALIC.OTF');
+  font-display: swap;
 }
 
 * {
