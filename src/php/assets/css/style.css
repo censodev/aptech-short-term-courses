@@ -430,6 +430,7 @@ body {
 
 .section-11 {
 	background-image: url(../img/bgg-min.png);
+	background-color: #00B880;
 }
 
 .section-11 .box:first-child {
@@ -458,6 +459,10 @@ body {
 .section-11 .countdown-box {
 	background-color: #0a629d;
 	min-width: 78px;
+}
+
+.section-11 .btn-warning {
+	background-color: #F4E11E !important;
 }
 
 .form-control {
