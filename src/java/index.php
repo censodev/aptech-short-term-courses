@@ -97,10 +97,10 @@
   		<h3 class="text-center text-uppercase text-white text-bold">Khoá học này dành cho ai?</h3>
   		<div class="container">
   			<div class="row for-who">
-  			<div class="col-md-6">
+  			<div class="col-md-6 d-flex align-items-center">
   				<img src="./assets/img/people-min.png" class="w-100 img-left" alt="">
   			</div>
-  			<div class="col-md-6">
+  			<div class="col-md-6 py-2">
   				<div class="content">
   					<img src="./assets/img/icon91-min.png" alt="">
   					<span class="text d-block">
@@ -153,7 +153,7 @@
                 <p class="pt-3">
                     <span class="text-bold">Áp dụng công nghệ mới nhất</span>
                     <br>
-                    <small>Cập nhật chương trình 2019 của Aptech toàn cầu với các công nghệ Web mới nhất.</small>
+                    <small>Cập nhật chương trình 2020 của Aptech toàn cầu với các công nghệ Web mới nhất.</small>
                 </p>
             </div>
             <div class="box">
@@ -356,7 +356,7 @@
   			<p class="text-center text">Tham khảo các vị trí tuyển dụng Lập trình Java tại đây:</p>
   			<div class="row mt-5">
   				<div class="col-md-8 col-12">
-	  				<div class="row">
+	  				<div class="row d-flex flex-wrap">
 	  					<div class="block-area col-md-6 col-6">
 		  					<div class="head">
 		  						<div class="img-container">
@@ -619,8 +619,8 @@
     </div>
 
 
-    <div class="section-10 py-5">
-        <h4 class="text-center text-bold text-white">CẢM NHẬN CỦA HỌC VIÊN VỀ APTECH</h4>
+    <section class="section-10 py-5">
+        <h4 class="text-white text-center text-bold">CẢM NHẬN CỦA HỌC VIÊN VỀ APTECH</h4>
         <div class="pt-4 pb-4 d-flex justify-content-center">
             <div id="carouselFeelStd" class="carousel slide pt-5">
                 <div class="carousel-inner">
@@ -633,22 +633,34 @@
                                     </div>
                                     <div class="title">
                                         <h5 class="text-bold mb-1">NGUYỄN TRUNG NGHĨA</h5>
-                                        <h6 class="text-italic">Gương mặt tiêu biểu Aptech 2018</h6>
+                                        <small class="text-italic">Gương mặt tiêu biểu Aptech 2018</small>
                                     </div>
-                                    <p class="text-bold font-italic pt-5 text-justify">“Aptech là một nơi đặc biệt với những đứa trẻ thích gõ code hơn ngồi đọc sách. Nơi mà những thử thách thực tế về lập trình, hay những kinh nghiệm cần thiết ở doanh nghiệp không còn lạ lẫm với chúng em nữa. Khi nhắc đến Aptech, nhà tuyển dụng không còn lo lắng vấn đề thiếu kinh nghiệm làm việc thực tế của ứng viên – vốn vẫn luôn là vấn đề chung của sinh viên mới ra trường.”</p>
+                                    <div class="text-bold font-italic pt-5 text-justify">
+                                        <div class="hidden-title d-none pt-4 text-right">
+                                            <h5 class="text-bold mb-1">NGUYỄN TRUNG NGHĨA</h5>
+                                            <small class="text-italic">Gương mặt tiêu biểu Aptech 2018</small>
+                                        </div>    
+                                        <p>“Aptech là một nơi đặc biệt với những đứa trẻ thích gõ code hơn ngồi đọc sách. Nơi mà những thử thách thực tế về lập trình, hay những kinh nghiệm cần thiết ở doanh nghiệp không còn lạ lẫm với chúng em nữa. Khi nhắc đến Aptech, nhà tuyển dụng không còn lo lắng vấn đề thiếu kinh nghiệm làm việc thực tế của ứng viên – vốn vẫn luôn là vấn đề chung của sinh viên mới ra trường.”</p>
+                                    </div>
                                     <a class="align-self-end text-bold" href="https://aptechvietnam.com.vn/BAI-DIEN-VAN-CHAM-VAO-TRAI-TIM-MOI-NGUOI" target="_blank">Xem thêm ></a>
                                 </div>
                             </div>
-                            <div class="card m-3">
+                            <div class="card m-3 mt-4">
                                 <div class="card-body position-relative d-flex flex-column px-4">
                                     <div class="img-container position-absolute">
                                         <img src="./assets/img/Layer_62-min.png">
                                     </div>
                                     <div class="title">
                                         <h5 class="text-bold mb-1">LÊ THỊ SƠN CA</h5>
-                                        <h6 class="text-italic">Thủ khoa Aptech 2018</h6>
+                                        <small class="text-italic">Thủ khoa Aptech 2018</small>
                                     </div>
-                                    <p class="text-bold font-italic pt-5 text-justify">“Thế mạnh của mình là về tư duy logic và tìm hiểu về công nghệ. Và mình cũng muốn được làm việc trong một ngành giúp mình có thể hiểu được thế giới đang phát triển theo những xu hướng nào. Đó là 2 nguyên nhân chính khiến mình quyết định theo đuổi CNTT và Aptech chính là cái tên đầu tiên mà mình lựa chọn.”</p>
+                                    <div class="text-bold font-italic pt-5 text-justify">
+                                        <div class="hidden-title d-none pt-4 text-right">
+                                            <h5 class="text-bold mb-1">LÊ THỊ SƠN CA</h5>
+                                            <small class="text-italic">Thủ khoa Aptech 2018</small>
+                                        </div>    
+                                        <p>“Thế mạnh của mình là về tư duy logic và tìm hiểu về công nghệ. Và mình cũng muốn được làm việc trong một ngành giúp mình có thể hiểu được thế giới đang phát triển theo những xu hướng nào. Đó là 2 nguyên nhân chính khiến mình quyết định theo đuổi CNTT và Aptech chính là cái tên đầu tiên mà mình lựa chọn.”</p>
+                                    </div>
                                     <a class="align-self-end text-bold" href="https://aptechvietnam.com.vn/HANH-TRINH-THEO-DUOI-DAM-ME-CUA-NU-THU-KHOA-APTECH" target="_blank">Xem thêm ></a>
                                 </div>
                             </div>
@@ -663,22 +675,34 @@
                                     </div>
                                     <div class="title">
                                         <h5 class="text-bold mb-1">NGUYỄN HỮU QUANG</h5>
-                                        <h6 class="text-italic">Sinh viên Aptech, Giám đốc điều hành EXE Corp</h6>
+                                        <small class="text-italic">Sinh viên Aptech, Giám đốc điều hành EXE Corp</small>
                                     </div>
-                                    <p class="text-bold font-italic pt-5 text-justify">“Khi học tại Aptech, mình được thực hành trực tiếp ngay sau lý thuyết nên nhờ đó ứng dụng được rất nhanh những kiến thức đã học. Có thể nói quá trình học tại đây đã hỗ trợ mình rất nhiều cho những thành tựu ngày hôm nay”</p>
+                                    <div class="text-bold font-italic pt-5 text-justify">
+                                        <div class="hidden-title d-none pt-4 text-right">
+                                            <h5 class="text-bold mb-1">NGUYỄN HỮU QUANG</h5>
+                                            <small class="text-italic">Sinh viên Aptech, Giám đốc điều hành EXE Corp</small>
+                                        </div> 
+                                        <p>“Khi học tại Aptech, mình được thực hành trực tiếp ngay sau lý thuyết nên nhờ đó ứng dụng được rất nhanh những kiến thức đã học. Có thể nói quá trình học tại đây đã hỗ trợ mình rất nhiều cho những thành tựu ngày hôm nay”</p>
+                                    </div>
                                     <a class="align-self-end text-bold" href="https://aptechvietnam.com.vn/nguyen-huu-quang" target="_blank">Xem thêm ></a>
                                 </div>
                             </div>
-                            <div class="card m-3">
+                            <div class="card m-3 mt-4">
                                 <div class="card-body position-relative d-flex flex-column px-4">
                                     <div class="img-container position-absolute">
                                         <img src="./assets/img/6-min.png">
                                     </div>
                                     <div class="title">
                                         <h5 class="text-bold mb-1">NGUYỄN LƯƠNG BẰNG</h5>
-                                        <h6 class="text-italic">Sinh viên Aptech, cha đẻ Freaking Math & Wifi Chùa</h6>
+                                        <small class="text-italic">Sinh viên Aptech, cha đẻ Freaking Math & Wifi Chùa</small>
                                     </div>
-                                    <p class="text-bold font-italic pt-5 text-justify">“Mình rất may mắn khi được học tại Aptech. Tại đây, mình được gặp bạn cùng đam mê, gặp thầy hướng dẫn nhiệt tình. Nếu không có những tháng ngày học tại Aptech, có lẽ mình đã không có được thành công hôm nay”</p>
+                                    <div class="text-bold font-italic pt-5 text-justify">
+                                        <div class="hidden-title d-none pt-4 text-right">
+                                            <h5 class="text-bold mb-1">NGUYỄN LƯƠNG BẰNG</h5>
+                                            <small class="text-italic">Sinh viên Aptech, cha đẻ Freaking Math & Wifi Chùa</small>
+                                        </div> 
+                                        <p>“Mình rất may mắn khi được học tại Aptech. Tại đây, mình được gặp bạn cùng đam mê, gặp thầy hướng dẫn nhiệt tình. Nếu không có những tháng ngày học tại Aptech, có lẽ mình đã không có được thành công hôm nay”</p>
+                                    </div>
                                     <a class="align-self-end text-bold" href="https://aptechvietnam.com.vn/nguyen-luong-bang-0" target="_blank">Xem thêm ></a>
                                 </div>
                             </div>
@@ -693,22 +717,34 @@
                                     </div>
                                     <div class="title">
                                         <h5 class="text-bold mb-1">NGÔ THỊ THU HIỀN</h5>
-                                        <h6 class="text-italic">Sinh viên Aptech, kỹ sư cầu nối của FPT Software 5 năm liền tại Nhật Bản</h6>
+                                        <small class="text-italic">Sinh viên Aptech, kỹ sư cầu nối của FPT Software 5 năm liền tại Nhật Bản</small>
                                     </div>
-                                    <p class="text-bold font-italic pt-5 text-justify">“Khi học ở Aptech, mình được tham gia thực hiện các bài tập, dự án theo tiêu chuẩn thực tế cùng thầy và các chuyên gia. Những kiến thức mình học được ở Aptech rất thực tế, có thể áp dụng vào công việc ngay. Aptech đào tạo nền tảng, luôn cập nhật công nghệ mới nên khi đi phỏng vấn, việc mình học tại Aptech cũng là một thuận lợi.”</p>
+                                    <div class="text-bold font-italic pt-5 text-justify">
+                                        <div class="hidden-title d-none pt-4 text-right">
+                                            <h5 class="text-bold mb-1">NGÔ THỊ THU HIỀN</h5>
+                                            <small class="text-italic">Sinh viên Aptech, kỹ sư cầu nối của FPT Software 5 năm liền tại Nhật Bản</small>
+                                        </div> 
+                                        <p>“Khi học ở Aptech, mình được tham gia thực hiện các bài tập, dự án theo tiêu chuẩn thực tế cùng thầy và các chuyên gia. Những kiến thức mình học được ở Aptech rất thực tế, có thể áp dụng vào công việc ngay. Aptech đào tạo nền tảng, luôn cập nhật công nghệ mới nên khi đi phỏng vấn, việc mình học tại Aptech cũng là một thuận lợi.”</p>
+                                    </div>
                                     <a class="align-self-end text-bold" href="https://aptechvietnam.com.vn/ngo-thu-huyen-manh-ghep-xinh-dep-tren-ban-do-aptech" target="_blank">Xem thêm ></a>
                                 </div>
                             </div>
-                            <div class="card m-3">
+                            <div class="card m-3 mt-4">
                                 <div class="card-body position-relative d-flex flex-column px-4">
                                     <div class="img-container position-absolute">
                                         <img src="./assets/img/nguyen_khac_thanh-min.png">
                                     </div>
                                     <div class="title">
                                         <h5 class="text-bold mb-1">NGUYỄN KHẮC THÀNH</h5>
-                                        <h6 class="text-italic">Trưởng nhóm CNTT Ngân hàng VP Bank, Tốt nghiệp 2019, mức lương 1500$</h6>
+                                        <small class="text-italic">Trưởng nhóm CNTT Ngân hàng VP Bank, Tốt nghiệp 2019, mức lương 1500$</small>
                                     </div>
-                                    <p class="text-bold font-italic pt-5 text-justify">“Aptech là nơi đào tạo hướng dẫn và tạo cho các bạn những tư duy, nền tảng cơ bản để các bạn có thể tiếp cận với công nghệ mới một cách nhanh nhất, hiệu quả nhất.”</p>
+                                    <div class="text-bold font-italic pt-5 text-justify">
+                                        <div class="hidden-title d-none pt-4 text-right">
+                                            <h5 class="text-bold mb-1">NGUYỄN KHẮC THÀNH</h5>
+                                            <small class="text-italic">Trưởng nhóm CNTT Ngân hàng VP Bank, Tốt nghiệp 2019, mức lương 1500$</small>
+                                        </div> 
+                                        <p>“Aptech là nơi đào tạo hướng dẫn và tạo cho các bạn những tư duy, nền tảng cơ bản để các bạn có thể tiếp cận với công nghệ mới một cách nhanh nhất, hiệu quả nhất.”</p>
+                                    </div>
                                     <!-- <a class="align-self-end text-bold" href="https://aptechvietnam.com.vn/nguyen-luong-bang-0" target="_blank">Xem thêm ></a> -->
                                 </div>
                             </div>
@@ -734,7 +770,7 @@
                 </ol>
             </div>
         </div>
-    </div>
+    </section>
 
 
     <section class="section-11 py-5" id="regis-form">
@@ -762,23 +798,23 @@
                            <option value="aptech1@aprotrain.com">Tòa nhà Aptech, 285 Đôi Cấn, Ba Đình, Hà Nội</option>
                            <option value="aptech3@aprotrain.com">Tòa nhà Aptech, 54 Lê Thanh Nghị, Hai Bà Trưng, Hà Nội</option>
                         </select>
-                    <button type="submit" class="btn btn-warning btn-lg text-bold px-5 align-self-start">NHẬN THÔNG TIN HỌC BỔNG</button>
+                    <button type="submit" class="btn btn-warning btn-lg text-bold align-self-start text-center">NHẬN THÔNG TIN HỌC BỔNG</button>
                 </form>
                 <p class="text-white text-italic mr-3 pt-4">Thời gian ưu đãi còn:</p>
                 <div class="d-flex justify-content-center align-items-center">
-                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3 mr-4">
+                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3">
                         <h1 class="countdown-box-days text-bold m-0"></h1>
                         <p class="m-0">Ngày</p>
                     </div>
-                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3 mr-4">
+                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3">
                         <h1 class="countdown-box-hours text-bold m-0"></h1>
                         <p class="m-0">Giờ</p>
                     </div>
-                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3 mr-4">
+                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3">
                         <h1 class="countdown-box-minutes text-bold m-0"></h1>
                         <p class="m-0">Phút</p>
                     </div>
-                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3 mr-4">
+                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3">
                         <h1 class="countdown-box-seconds text-bold m-0"></h1>
                         <p class="m-0">Giây</p>
                     </div>

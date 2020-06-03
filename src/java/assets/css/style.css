@@ -83,9 +83,6 @@ body {
 div.for-who{
 	margin-top: 3rem;
 }
-div.for-who .img-left{
-	height: 24.5rem;
-}
 .banner-2 .content img{
 	height: 100%;
 	width: 13%;
@@ -315,6 +312,13 @@ div.for-who .img-left{
 	margin-bottom: 2rem;
 }
 
+@media(max-width: 767px) {
+	.banner-6 .block-area {
+		flex-basis: 100% !important;
+		max-width: 100% !important;
+	}
+}
+
 .body .content {
 	font-size: 15px;
 	font-weight: 500;
@@ -365,7 +369,7 @@ div.for-who .img-left{
 
 @media (max-width: 1180px) {
 	.banner-7 .box {
-		flex-basis: 45%;
+		flex-basis: 100%;
 	}
 
 	.banner-7 img {
@@ -391,10 +395,6 @@ div.for-who .img-left{
 	color: var(--main-color-1);
 }
 
-.section-9 .carousel {
-	width: 85%;
-}
-
 .section-9 .card {
 	flex-basis: 38%;
 	min-height: 285px;
@@ -416,6 +416,10 @@ div.for-who .img-left{
 	.section-9 .card {
 		flex-basis: 70%;
 		min-height: 0px;	
+	}
+
+	.section-9 .avt {
+		display: none;
 	}
 }
 
@@ -448,7 +452,7 @@ div.for-who .img-left{
 	top: -75px;
 	height: 170px;
 	width: 170px;
-	border: 10px solid #FFF;
+	border: 10px solid #FFE899;
 	border-radius: 50%;
 	background-color: #FFF;
 }
@@ -481,6 +485,10 @@ div.for-who .img-left{
 	color: var(--main-color-1);
 }
 
+.section-10 .hidden-title {
+	display: none;
+}
+
 @media (max-width: 1150px) {
 	.section-10 .card {
 		flex-basis: 70%;
@@ -488,6 +496,15 @@ div.for-who .img-left{
 	}
 }
 
+@media (max-width: 767px) {
+	.section-10 .card .title {
+		display: none;	
+	}
+
+	.section-10 .card .hidden-title {
+		display: block !important;	
+	}
+}
 
 
 .section-11 {
@@ -517,6 +534,23 @@ div.for-who .img-left{
 	min-width: 78px;
 }
 
+.section-11 img {
+	max-width: 100%;
+}
+
+.section-11 .box {
+	max-width: 100%;
+}
+
+.section-11 button {
+	max-width: 100%;
+}
+
+@media (max-width: 1150px) {
+	.section-11 .box {
+		flex-basis: 90% !important;
+	}
+}
 
 
 .banner-12 .fb-comments iframe {

@@ -163,6 +163,17 @@ body {
 	color: #fff;
 }
 
+@media(max-width: 768px) {
+	.section-4 .section-container {
+		flex-direction: column !important;
+		text-align: center;
+	}
+
+	.section-4 .section-container button {
+		margin: 10px 0px !important;
+	}
+}
+
 .section-5 .box {
 	background-color: var(--main-color-1);
 	opacity: 0.9;
@@ -173,6 +184,12 @@ body {
 .section-5 ul {
 	list-style-image: url('../img/v-list.png');
 	color: #FFF;
+}
+
+@media(max-width: 768px) {
+	.section-5 .box {
+		flex-basis: 90%;
+	}
 }
 
 .detail-layer {
@@ -273,18 +290,18 @@ body {
 	}
 }
 
-@media (max-width: 920px) {
+@media (max-width: 767px) {
 	.section-6 .left-boxes {
 		flex-basis: 100%;
 		justify-content: center !important;
 	}
 
 	.section-6 .left-boxes .card {
-		flex-basis: 40%;
+		flex-basis: 100%;
 	}
 
 	.section-6 .sidebar {
-		flex-basis: 50%;
+		flex-basis: 90%;
 	}
 }
 
@@ -302,7 +319,7 @@ body {
 
 @media (max-width: 1180px) {
 	.section-7 .box {
-		flex-basis: 45%;
+		flex-basis: 80%;
 	}
 
 	.section-7 img {
@@ -334,10 +351,6 @@ body {
 	color: var(--main-color-1);
 }
 
-.section-9 .carousel {
-	width: 85%;
-}
-
 .section-9 .card {
 	flex-basis: 38%;
 	min-height: 285px;
@@ -355,10 +368,14 @@ body {
 	height: 73px;
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 767px) {
 	.section-9 .card {
 		flex-basis: 70%;
 		min-height: 0px;	
+	}
+
+	.section-9 .card .avt {
+		display: none;
 	}
 }
 
@@ -413,6 +430,10 @@ body {
 	color: var(--main-color-1);
 }
 
+.section-10 .hidden-title {
+	display: none;
+}
+
 @media (max-width: 1150px) {
 	.section-10 .card {
 		flex-basis: 70%;
@@ -420,8 +441,26 @@ body {
 	}
 }
 
+@media (max-width: 767px) {
+	.section-10 .card .title {
+		display: none;	
+	}
+
+	.section-10 .card .hidden-title {
+		display: block !important;	
+	}
+}
+
 .section-11 {
 	background-color: #138798;
+}
+
+.section-11 img {
+	max-width: 100%;
+}
+
+.section-11 .box {
+	max-width: 100%;
 }
 
 .section-11 .box:first-child {
@@ -453,7 +492,7 @@ body {
 
 @media (max-width: 1150px) {
 	.section-11 .box {
-		flex-basis: 100%;
+		flex-basis: 100% !important;
 	}
 }
 
