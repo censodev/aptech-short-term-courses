@@ -223,6 +223,12 @@ div.for-who{
 	list-style: none;
 }
 
+@media(max-width: 360px) {
+	.banner-4-collapse table {
+		max-width: 100%;
+	}
+}
+
 .section-5 h4 {
 	color: var(--main-color-1);
 }
@@ -531,7 +537,7 @@ div.for-who{
 
 .section-11 .countdown-box {
 	background-color: #211f1f;
-	min-width: 78px;
+	flex-basis: 10%;
 }
 
 .section-11 img {
@@ -552,6 +558,25 @@ div.for-who{
 	}
 }
 
+@media (max-width: 767px) {
+	.section-11 .title-sm {
+		display: block !important;
+	}
+
+	.section-11 .title-lg {
+		display: none !important;
+	}
+
+	.section-11 .countdown-box {
+		flex-basis: 20%;
+	}
+}
+
+@media(max-width: 375px) {
+	.section-11 .countdown-box {
+		flex-basis: 45% !important;
+	}
+}
 
 .banner-12 .fb-comments iframe {
 	width: 100% !important;

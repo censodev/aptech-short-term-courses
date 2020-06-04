@@ -15,10 +15,10 @@ var x = setInterval(function() {
     var minutes = distance > 0 ? Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)) : 0;
     var seconds = distance > 0 ? Math.floor((distance % (1000 * 60)) / 1000) : 0;
 
-    document.querySelector('.countdown-box-days').innerHTML = days;
-    document.querySelector('.countdown-box-hours').innerHTML = hours;
-    document.querySelector('.countdown-box-minutes').innerHTML = minutes;
-    document.querySelector('.countdown-box-seconds').innerHTML = seconds;
+    document.querySelector('.countdown-box-days').innerHTML = formatNumber(days);
+    document.querySelector('.countdown-box-hours').innerHTML = formatNumber(hours);
+    document.querySelector('.countdown-box-minutes').innerHTML = formatNumber(minutes);
+    document.querySelector('.countdown-box-seconds').innerHTML = formatNumber(seconds);
 
     // If the count down is over, write some text 
     if (distance < 0) {
@@ -26,3 +26,7 @@ var x = setInterval(function() {
         return;
     }
 }, 1000);
+
+var formatNumber = function(num) {
+    return num > 9 ? num : '0' + num;
+}

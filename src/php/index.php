@@ -135,9 +135,9 @@
             <button class="btn rounded-pill bg-white text-bold px-4 py-0 ml-5" data-toggle="collapse" data-target="#detailCollapse">🡢 Xem chi tiết khóa học</button>
         </div>
         <div class="collapse py-4" id="detailCollapse">
-            <div class="d-flex justify-content-center">
+            <div class="d-flex overflow-auto">
                 <!-- <img src="./assets/img/course-detail.jpg"> -->
-                <table class="table table-bordered">
+                <table class="table table-bordered m-auto">
                     <thead></thead>
                     <tbody>
                         <tr class="bg-white">
@@ -782,21 +782,22 @@
                         </select>
                     <button type="submit" class="btn btn-warning btn-lg text-bold align-self-end">NHẬN THÔNG TIN HỌC BỔNG</button>
                 </form>
-                <p class="text-white text-italic mr-3 pt-4">Thời gian ưu đãi còn:</p>
-                <div class="d-flex justify-content-center align-items-center">
-                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3">
+                <p class="text-white text-italic title-sm pt-4 mb-0 d-none">Thời gian ưu đãi còn:</p>
+                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                    <p class="text-white text-italic title-lg">Thời gian ưu đãi còn:</p>
+                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3 mt-4">
                         <h1 class="countdown-box-days text-bold m-0"></h1>
                         <p class="m-0">Ngày</p>
                     </div>
-                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3">
+                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3 mt-4">
                         <h1 class="countdown-box-hours text-bold m-0"></h1>
                         <p class="m-0">Giờ</p>
                     </div>
-                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3">
+                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3 mt-4">
                         <h1 class="countdown-box-minutes text-bold m-0"></h1>
                         <p class="m-0">Phút</p>
                     </div>
-                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3">
+                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3 mt-4">
                         <h1 class="countdown-box-seconds text-bold m-0"></h1>
                         <p class="m-0">Giây</p>
                     </div>

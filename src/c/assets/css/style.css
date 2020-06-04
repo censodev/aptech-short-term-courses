@@ -483,7 +483,7 @@ body {
 
 .section-11 .countdown-box {
 	background-color: #ab2024;
-	min-width: 78px;
+	flex-basis: 10%;
 }
 
 .form-control {
@@ -493,6 +493,26 @@ body {
 @media (max-width: 1150px) {
 	.section-11 .box {
 		flex-basis: 100% !important;
+	}
+}
+
+@media (max-width: 767px) {
+	.section-11 .title-sm {
+		display: block !important;
+	}
+
+	.section-11 .title-lg {
+		display: none !important;
+	}
+
+	.section-11 .countdown-box {
+		flex-basis: 20%;
+	}
+}
+
+@media(max-width: 375px) {
+	.section-11 .countdown-box {
+		flex-basis: 45% !important;
 	}
 }
 
