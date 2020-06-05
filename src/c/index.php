@@ -655,7 +655,6 @@
                 <img src="./assets/img/course-banner-min.png">
                 <h5 class="text-white mt-5 text-uppercase">Khóa học trực tuyến của Aptech với 5 ưu điểm vượt trội:</h5>
                 <ul>
-                    <li><span class="text-bold">Tiện lợi – tiết kiệm thời gian:</span> Học tại nhà với chuyên gia Aptech thông qua Google Meet. </li>
                     <li><span class="text-bold">Tiếp thu kiến thức hiệu quả:</span> Ứng dụng phương pháp học Learn By Examples trực quan cùng các phần mềm hỗ trợ minh họa sinh động.</li>
                     <li><span class="text-bold">Lớp học tương tác sôi nổi:</span> Áp dụng phương pháp đào tạo trực tuyến được Aptech triển khai thành công 20 năm nay trên Thế giới và Việt Nam. </li>
                     <li><span class="text-bold">Nhận tài trợ 3.000.000 VNĐ/tháng từ Google:</span> Sử dụng không giới hạn dung lượng: Gmail, Google Drive, Google Meet, Google Photos, Google Classroom. </li>
