@@ -756,16 +756,18 @@
             </div>
             <div class="box p-3">
                 <h5 class="text-white text-center text-bold mb-4">Đăng ký nhận thông tin và tư vấn miễn phí</h5>
-                <form class="d-flex flex-column" action="./sendmail.php" method="POST">
+                <form class="d-flex flex-column" action="../mail/sendmail.php" method="POST">
                     <input class="form-control form-control-lg mb-3 pl-4" type="" name="txtName" placeholder="Họ và tên" required>
                     <input class="form-control form-control-lg mb-3 pl-4" type="email" name="txtEmail" placeholder="Email" required>
                     <input class="form-control form-control-lg mb-3 pl-4" type="tel" name=txtPhone placeholder="Số điện thoại" required>
                     <input class="form-control form-control-lg mb-3 pl-4" type="" name="dateBirth" placeholder="Năm sinh">
-                    <select class="form-control form-control-lg mb-3 pl-4"name=slCenter required>
-                           <option value>Chọn địa điểm học</option>
-                           <option value="aptech1@aprotrain.com">Tòa nhà Aptech, 285 Đôi Cấn, Ba Đình, Hà Nội</option>
-                           <option value="aptech3@aprotrain.com">Tòa nhà Aptech, 54 Lê Thanh Nghị, Hai Bà Trưng, Hà Nội</option>
-                        </select>
+                    <select class="form-control form-control-lg mb-3 pl-4" name="slCenter" required>
+                        <option value>Chọn địa điểm học</option>
+                        <option value="aptech1@aprotrain.com">Tòa nhà Aptech, 285 Đôi Cấn, Ba Đình, Hà Nội</option>
+                        <option value="aptech3@aprotrain.com">Tòa nhà Aptech, 54 Lê Thanh Nghị, Hai Bà Trưng, Hà Nội</option>
+                    </select>
+                    <input class="d-none" type="" name="subject" value="Đăng ký Khóa học Lập trình Web PHP">
+                    <input class="d-none" type="" name="redirectUrl" value="https://aptechvietnam.com.vn/php/dang-ky-thanh-cong">
                     <button type="submit" class="btn btn-warning btn-lg text-bold align-self-end">NHẬN THÔNG TIN HỌC BỔNG</button>
                 </form>
                 <p class="text-white text-italic title-sm pt-4 mb-0 d-none">Thời gian ưu đãi còn:</p>

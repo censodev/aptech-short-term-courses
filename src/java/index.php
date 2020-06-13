@@ -769,16 +769,18 @@
                 </ul>
             </div>
             <div class="box p-3">
-                <form class="d-flex flex-column" action="./sendmail.php" method="POST">
+                <form class="d-flex flex-column" action="../mail/sendmail.php" method="POST">
                     <input class="form-control form-control-lg mb-3 pl-4" type="" name="txtName" placeholder="Họ và tên" required>
                     <input class="form-control form-control-lg mb-3 pl-4" type="email" name="txtEmail" placeholder="Email" required>
                     <input class="form-control form-control-lg mb-3 pl-4" type="tel" name=txtPhone placeholder="Số điện thoại" required>
                     <input class="form-control form-control-lg mb-3 pl-4" type="" name="dateBirth" placeholder="Năm sinh">
-                    <select class="form-control form-control-lg mb-3 pl-4"name=slCenter required>
-                           <option value>Chọn địa điểm học</option>
-                           <option value="aptech1@aprotrain.com">Tòa nhà Aptech, 285 Đôi Cấn, Ba Đình, Hà Nội</option>
-                           <option value="aptech3@aprotrain.com">Tòa nhà Aptech, 54 Lê Thanh Nghị, Hai Bà Trưng, Hà Nội</option>
-                        </select>
+                    <select class="form-control form-control-lg mb-3 pl-4" name="slCenter" required>
+                        <option value>Chọn địa điểm học</option>
+                        <option value="aptech1@aprotrain.com">Tòa nhà Aptech, 285 Đôi Cấn, Ba Đình, Hà Nội</option>
+                        <option value="aptech3@aprotrain.com">Tòa nhà Aptech, 54 Lê Thanh Nghị, Hai Bà Trưng, Hà Nội</option>
+                    </select>
+                    <input class="d-none" type="" name="subject" value="Đăng ký Khóa học Lập trình Java chuyên nghiệp">
+                    <input class="d-none" type="" name="redirectUrl" value="https://aptechvietnam.com.vn/java/dang-ky-thanh-cong">
                     <button type="submit" class="btn btn-warning btn-lg text-bold align-self-start text-center">NHẬN THÔNG TIN HỌC BỔNG</button>
                 </form>
                 <p class="text-white text-italic title-sm pt-4 mb-0 d-none">Thời gian ưu đãi còn:</p>
