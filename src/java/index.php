@@ -1,6 +1,6 @@
 <?php
-    // $mode = 'dev';
-    $mode = 'prod';
+    $mode = 'dev';
+    // $mode = 'prod';
 
     $ext = '';
 
@@ -10,20 +10,23 @@
     }
 
     $titlePage = 'Aptech | Java';
+
+    $feelStd = json_decode(file_get_contents("../assets/data/feel-std.json"));
+    $quoteCom = json_decode(file_get_contents("../assets/data/quote-com.json"));
 ?>
 
 <!Doctype html>
 <html lang="en">
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-20788510-60"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-20788510-60"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
     gtag('config', 'UA-20788510-60');
-    </script>
+    </script> -->
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -31,6 +34,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <link rel="stylesheet" type="text/css" href="../assets/css/master<?php echo $ext ?>.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style<?php echo $ext ?>.css">
     <title><?php echo $titlePage ?></title>
@@ -453,7 +457,7 @@
   		</div>
   	</div>
 
-  	<div class="banner-7 py-5">
+  	<section class="section-7 py-5">
         <h4 class="text-white text-center text-bold">BÁO CHÍ NÓI VỀ APTECH</h4>
         <div class="d-flex mt-4 justify-content-center flex-wrap">
             <!-- List -->
@@ -503,282 +507,250 @@
             </div>
             <!-- End List -->
         </div>
-    </div>
+    </section>
 
-  	<div class="banner-8 py-5 bg-white">
-  		<h3 class="text-center text-uppercase title pb-4 text-bold">Môi trường học tập chuyên nghiệp tại Aptech</h3>
-  		<div class="container">
-        <div class="row">
-          <div class="col-4">
-            <img src="./assets/img/eco1-min.png" class="w-100" alt="">
-          </div>
-          <div class="col-4">
-            <img src="./assets/img/eco2-min.png" class="w-100" alt="">
-          </div>
-          <div class="col-4">
-            <img src="./assets/img/eco3-min.png" class="w-100" alt="">
-          </div>
-        </div>
-  			<div class="row mt-4">
-  				<div class="col-4">
-            <img src="./assets/img/eco4-min.png" class="w-100" alt="">
-          </div>
-          <div class="col-4">
-            <img src="./assets/img/eco5-min.png" class="w-100" alt="">
-          </div>
-          <div class="col-4">
-            <img src="./assets/img/eco6-min.png" class="w-100" alt="">
-          </div>
-  			</div>
-  		</div>
-  	</div>
-
-
-  	<div class="section-9 py-5">
-        <h4 class="text-center text-bold text-white">DOANH NGHIỆP NÓI GÌ VỀ APTECH</h4>
-        <div class="py-3 d-flex justify-content-center">
-            <div id="carouselQuotesCompanies" class="carousel slide">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="d-flex justify-content-center flex-wrap">
-                            <div class="card m-3">
-                                <div class="card-body px-5 d-flex flex-column justify-content-between">
-                                    <div>
-                                        <img src="./assets/img/quote-min.png">
-                                    </div>
-                                    <p class="text-bold pt-3">Usol Việt Nam đã tiếp nhận sinh viên Aptech vào làm việc từ nhiều năm nay. Chúng tôi đều hài lòng về họ.</p>
-                                    <div class="d-flex align-items-center pt-2">
-                                        <img class="avt" src="./assets/img/Layer_56-min.png">
-                                        <div class="pl-3">
-                                            <label class="mb-1 text-bold">Ông Hiroshi Watabe</label>
-                                            <p class="m-0">TGĐ Công ty TNHH Usol Việt Nam</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card m-3">
-                                <div class="card-body px-5 d-flex flex-column justify-content-between">
-                                    <div>
-                                        <img src="./assets/img/quote-min.png">
-                                    </div>
-                                    <p class="text-bold pt-3">Chúng tôi tuyển dụng sinh viên Aptech vì khả năng thích ứng môi trường làm việc của họ rất tốt.</p>
-                                    <div class="d-flex align-items-center pt-2">
-                                        <img class="avt" src="./assets/img/Layer_57-min.png">
-                                        <div class="pl-3">
-                                            <label class="mb-1 text-bold">Ông Hoàng Hải</label>
-                                            <p class="m-0">GĐ Tổng hợp Công ty CP Giải pháp Tin học IFI Solution</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="d-flex justify-content-center flex-wrap">
-                            <div class="card m-3">
-                                <div class="card-body px-5 d-flex flex-column justify-content-between">
-                                    <div>
-                                        <img src="./assets/img/quote-min.png">
-                                    </div>
-                                    <p class="text-bold pt-3">Aptech có cái hay là các thầy biết doanh nghiệp cần gì, chúng tôi không cần những thứ rườm rà, chúng tôi cần những thứ đi vào thực tế. Aptech đã rút gọn tất cả những thời gian này.</p>
-                                    <div class="d-flex align-items-center pt-2">
-                                        <img class="avt" src="./assets/img/LeMaiAnh-min.jpg">
-                                        <div class="pl-3">
-                                            <label class="mb-1 text-bold">Ông Lê Mai Anh</label>
-                                            <p class="m-0"> Phó chủ tịch cấp cao, Giám đốc Thị trường Nhật Bản Công ty CP SmartOS</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card m-3">
-                                <div class="card-body px-5 d-flex flex-column justify-content-between">
-                                    <div>
-                                        <img src="./assets/img/quote-min.png">
-                                    </div>
-                                    <p class="text-bold pt-3">Điểm mạnh của các bạn Aptech là thời gian thực hành nhiều nên bắt nhịp với ông việc nhanh. Đây là lợi thế ban đầu trong ứng tuyển.</p>
-                                    <div class="d-flex align-items-center pt-2">
-                                        <img class="avt" src="./assets/img/HoSonTung-min.jpg">
-                                        <div class="pl-3">
-                                            <label class="mb-1 text-bold">Ông Hồ Sơn Tùng</label>
-                                            <p class="m-0">PGĐ Công ty CP truyền thông Lạc Hồng</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    <section class="section-8 py-5 bg-white">
+        <h4 class="text-bold text-center">MÔI TRƯỜNG HỌC TẬP CHUYÊN NGHIỆP TẠI APTECH</h4>
+        <div class="img-container mt-4 d-flex flex-wrap justify-content-center">
+            <?php for($i = 1; $i <= 6; $i++): ?>
+                <div class="box m-3">
+                    <a data-fancybox="gallery" href="../assets/img/env/eco<?php echo $i ?>-min.png">
+                        <img class="w-100" src="../assets/img/env/eco<?php echo $i ?>-min.png">
+                    </a>
                 </div>
-                <a class="carousel-control-prev" href="#carouselQuotesCompanies" role="button" data-slide="prev">
+            <?php endfor ?>
+        </div>
+    </section>
+
+
+    <section class="section-9 py-5">
+        <h4 class="text-center text-bold text-white">DOANH NGHIỆP NÓI VỀ APTECH</h4>
+        <div class="py-3 d-flex justify-content-center">
+            <!-- PC -->
+            <div id="carouselQuotesCompaniesPC" class="carousel slide">
+                <div class="carousel-inner">
+                    <?php for($i = 0; $i < sizeof($quoteCom); $i+=2): ?>
+                        <div class="carousel-item <?php echo $i == 0 ? 'active' : '' ?>">
+                            <div class="d-flex justify-content-center flex-wrap">
+                                <div class="card m-3">
+                                    <div class="card-body px-5 d-flex flex-column justify-content-between">
+                                        <div>
+                                            <img src="./assets/img/quote-min.png">
+                                        </div>
+                                        <p class="text-bold pt-3"><?php echo $quoteCom[$i]->quote ?></p>
+                                        <div class="d-flex align-items-center pt-2">
+                                            <img class="avt" src="../assets/img/quote-com/<?php echo $quoteCom[$i]->image ?>">
+                                            <div class="pl-3">
+                                                <label class="mb-1 text-bold"><?php echo $quoteCom[$i]->name ?></label>
+                                                <p class="m-0"><?php echo $quoteCom[$i]->role ?></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card m-3">
+                                    <div class="card-body px-5 d-flex flex-column justify-content-between">
+                                        <div>
+                                            <img src="./assets/img/quote-min.png">
+                                        </div>
+                                        <p class="text-bold pt-3"><?php echo $quoteCom[$i+1]->quote ?></p>
+                                        <div class="d-flex align-items-center pt-2">
+                                            <img class="avt" src="../assets/img/quote-com/<?php echo $quoteCom[$i+1]->image ?>">
+                                            <div class="pl-3">
+                                                <label class="mb-1 text-bold"><?php echo $quoteCom[$i+1]->name ?></label>
+                                                <p class="m-0"><?php echo $quoteCom[$i+1]->role ?></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endfor ?>
+                </div>
+                <a class="carousel-control-prev" href="#carouselQuotesCompaniesPC" role="button" data-slide="prev">
                     <div class="carousel-control-icon">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     </div>
                     <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselQuotesCompanies" role="button" data-slide="next">
+                <a class="carousel-control-next" href="#carouselQuotesCompaniesPC" role="button" data-slide="next">
                     <div class="carousel-control-icon">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     </div>
                     <span class="sr-only">Next</span>
                 </a>
                 <ol class="carousel-indicators">
-                    <li data-target="#carouselQuotesCompanies" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselQuotesCompanies" data-slide-to="1"></li>
+                    <?php for($i = 0; $i < sizeof($quoteCom); $i+=2): ?>
+                        <li data-target="#carouselQuotesCompaniesPC" class="<?php echo $i == 0 ? 'active' : ''; ?>" data-slide-to="<?php echo $i-1; ?>"></li>
+                    <?php endfor ?>
                 </ol>
             </div>
+            <!-- END PC -->
+            <!-- MB -->
+            <div id="carouselQuotesCompaniesMB" class="carousel slide d-none">
+                <div class="carousel-inner">
+                    <?php foreach($quoteCom as $i => $com): ?>
+                        <div class="carousel-item <?php echo $i == 0 ? 'active': '' ?>">
+                            <div class="d-flex justify-content-center flex-wrap">
+                                <div class="card m-3">
+                                    <div class="card-body px-5 d-flex flex-column justify-content-between">
+                                        <div>
+                                            <img src="./assets/img/quote-min.png">
+                                        </div>
+                                        <p class="text-bold pt-3"><?php echo $com->quote ?></p>
+                                        <div class="d-flex align-items-center pt-2">
+                                            <img class="avt" src="../assets/img/quote-com/<?php echo $com->image ?>">
+                                            <div class="pl-3">
+                                                <label class="mb-1 text-bold"><?php echo $com->name ?></label>
+                                                <p class="m-0"><?php echo $com->role ?></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endforeach ?>
+                </div>
+                <a class="carousel-control-prev" href="#carouselQuotesCompaniesMB" role="button" data-slide="prev">
+                    <div class="carousel-control-icon">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </div>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselQuotesCompaniesMB" role="button" data-slide="next">
+                    <div class="carousel-control-icon">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </div>
+                    <span class="sr-only">Next</span>
+                </a>
+                <ol class="carousel-indicators">
+                    <?php for($i = 0; $i < sizeof($quoteCom); $i++): ?>
+                        <li data-target="#carouselQuotesCompaniesMB" class="<?php echo $i == 0 ? 'active' : ''; ?>" data-slide-to="<?php echo $i; ?>"></li>
+                    <?php endfor ?>
+                </ol>
+            </div>
+            <!-- END MB -->
         </div>
-    </div>
-
+    </section>
 
     <section class="section-10 py-5">
         <h4 class="text-white text-center text-bold">CẢM NHẬN CỦA HỌC VIÊN VỀ APTECH</h4>
         <div class="pt-4 pb-4 d-flex justify-content-center">
-            <div id="carouselFeelStd" class="carousel slide pt-5">
+            <!-- PC -->
+            <div id="carouselFeelStdPC" class="carousel slide pt-5">
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="d-flex justify-content-center flex-wrap">
-                            <div class="card m-3">
-                                <div class="card-body position-relative d-flex flex-column px-4">
-                                    <div class="img-container position-absolute">
-                                        <img src="./assets/img/Layer_61-min.png">
+                    <?php for($i = 0; $i < sizeof($feelStd); $i+=2): ?>
+                        <div class="carousel-item <?php echo $i == 0 ? 'active' : '' ?>">
+                            <div class="d-flex justify-content-center flex-wrap">
+                                <div class="card m-3">
+                                    <div class="card-body position-relative d-flex flex-column px-4">
+                                        <div class="img-container position-absolute">
+                                            <img src="../assets/img/quote-std/<?php echo $feelStd[$i]->image; ?>">
+                                        </div>
+                                        <div class="title">
+                                            <h5 class="text-bold mb-1"><?php echo $feelStd[$i]->name; ?></h5>
+                                            <small class="text-italic"><?php echo $feelStd[$i]->title; ?></small>
+                                        </div>
+                                        <div class="text-bold font-italic pt-5 text-justify">
+                                            <div class="hidden-title d-none pt-4 text-right">
+                                                <h5 class="text-bold mb-1"><?php echo $feelStd[$i]->name; ?></h5>
+                                                <small class="text-italic"><?php echo $feelStd[$i]->title; ?></small>
+                                            </div>    
+                                            <p><?php echo $feelStd[$i]->quote ?></p>
+                                        </div>
+                                        <a class="align-self-end text-bold" href="<?php echo $feelStd[$i]->link; ?>" target="_blank">Xem thêm ></a>
                                     </div>
-                                    <div class="title">
-                                        <h5 class="text-bold mb-1">NGUYỄN TRUNG NGHĨA</h5>
-                                        <small class="text-italic">Gương mặt tiêu biểu Aptech 2018</small>
-                                    </div>
-                                    <div class="text-bold font-italic pt-5 text-justify">
-                                        <div class="hidden-title d-none pt-4 text-right">
-                                            <h5 class="text-bold mb-1">NGUYỄN TRUNG NGHĨA</h5>
-                                            <small class="text-italic">Gương mặt tiêu biểu Aptech 2018</small>
-                                        </div>    
-                                        <p>“Aptech là một nơi đặc biệt với những đứa trẻ thích gõ code hơn ngồi đọc sách. Nơi mà những thử thách thực tế về lập trình, hay những kinh nghiệm cần thiết ở doanh nghiệp không còn lạ lẫm với chúng em nữa. Khi nhắc đến Aptech, nhà tuyển dụng không còn lo lắng vấn đề thiếu kinh nghiệm làm việc thực tế của ứng viên – vốn vẫn luôn là vấn đề chung của sinh viên mới ra trường.”</p>
-                                    </div>
-                                    <a class="align-self-end text-bold" href="https://aptechvietnam.com.vn/BAI-DIEN-VAN-CHAM-VAO-TRAI-TIM-MOI-NGUOI" target="_blank">Xem thêm ></a>
                                 </div>
-                            </div>
-                            <div class="card m-3 mt-4">
-                                <div class="card-body position-relative d-flex flex-column px-4">
-                                    <div class="img-container position-absolute">
-                                        <img src="./assets/img/Layer_62-min.png">
+                                <div class="card m-3">
+                                    <div class="card-body position-relative d-flex flex-column px-4">
+                                        <div class="img-container position-absolute">
+                                            <img src="../assets/img/quote-std/<?php echo $feelStd[$i+1]->image; ?>">
+                                        </div>
+                                        <div class="title">
+                                            <h5 class="text-bold mb-1"><?php echo $feelStd[$i+1]->name; ?></h5>
+                                            <small class="text-italic"><?php echo $feelStd[$i+1]->title; ?></small>
+                                        </div>
+                                        <div class="text-bold font-italic pt-5 text-justify">
+                                            <div class="hidden-title d-none pt-4 text-right">
+                                                <h5 class="text-bold mb-1"><?php echo $feelStd[$i+1]->name; ?></h5>
+                                                <small class="text-italic"><?php echo $feelStd[$i+1]->title; ?></small>
+                                            </div>    
+                                            <p><?php echo $feelStd[$i+1]->quote; ?></p>
+                                        </div>
+                                        <a class="align-self-end text-bold" href="<?php echo $feelStd[$i+1]->link; ?>" target="_blank">Xem thêm ></a>
                                     </div>
-                                    <div class="title">
-                                        <h5 class="text-bold mb-1">LÊ THỊ SƠN CA</h5>
-                                        <small class="text-italic">Thủ khoa Aptech 2018</small>
-                                    </div>
-                                    <div class="text-bold font-italic pt-5 text-justify">
-                                        <div class="hidden-title d-none pt-4 text-right">
-                                            <h5 class="text-bold mb-1">LÊ THỊ SƠN CA</h5>
-                                            <small class="text-italic">Thủ khoa Aptech 2018</small>
-                                        </div>    
-                                        <p>“Thế mạnh của mình là về tư duy logic và tìm hiểu về công nghệ. Và mình cũng muốn được làm việc trong một ngành giúp mình có thể hiểu được thế giới đang phát triển theo những xu hướng nào. Đó là 2 nguyên nhân chính khiến mình quyết định theo đuổi CNTT và Aptech chính là cái tên đầu tiên mà mình lựa chọn.”</p>
-                                    </div>
-                                    <a class="align-self-end text-bold" href="https://aptechvietnam.com.vn/HANH-TRINH-THEO-DUOI-DAM-ME-CUA-NU-THU-KHOA-APTECH" target="_blank">Xem thêm ></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="d-flex justify-content-center flex-wrap">
-                            <div class="card m-3">
-                                <div class="card-body position-relative d-flex flex-column px-4">
-                                    <div class="img-container position-absolute">
-                                        <img src="./assets/img/5-min.png">
-                                    </div>
-                                    <div class="title">
-                                        <h5 class="text-bold mb-1">NGUYỄN HỮU QUANG</h5>
-                                        <small class="text-italic">Sinh viên Aptech, Giám đốc điều hành EXE Corp</small>
-                                    </div>
-                                    <div class="text-bold font-italic pt-5 text-justify">
-                                        <div class="hidden-title d-none pt-4 text-right">
-                                            <h5 class="text-bold mb-1">NGUYỄN HỮU QUANG</h5>
-                                            <small class="text-italic">Sinh viên Aptech, Giám đốc điều hành EXE Corp</small>
-                                        </div> 
-                                        <p>“Khi học tại Aptech, mình được thực hành trực tiếp ngay sau lý thuyết nên nhờ đó ứng dụng được rất nhanh những kiến thức đã học. Có thể nói quá trình học tại đây đã hỗ trợ mình rất nhiều cho những thành tựu ngày hôm nay”</p>
-                                    </div>
-                                    <a class="align-self-end text-bold" href="https://aptechvietnam.com.vn/nguyen-huu-quang" target="_blank">Xem thêm ></a>
-                                </div>
-                            </div>
-                            <div class="card m-3 mt-4">
-                                <div class="card-body position-relative d-flex flex-column px-4">
-                                    <div class="img-container position-absolute">
-                                        <img src="./assets/img/6-min.png">
-                                    </div>
-                                    <div class="title">
-                                        <h5 class="text-bold mb-1">NGUYỄN LƯƠNG BẰNG</h5>
-                                        <small class="text-italic">Sinh viên Aptech, cha đẻ Freaking Math & Wifi Chùa</small>
-                                    </div>
-                                    <div class="text-bold font-italic pt-5 text-justify">
-                                        <div class="hidden-title d-none pt-4 text-right">
-                                            <h5 class="text-bold mb-1">NGUYỄN LƯƠNG BẰNG</h5>
-                                            <small class="text-italic">Sinh viên Aptech, cha đẻ Freaking Math & Wifi Chùa</small>
-                                        </div> 
-                                        <p>“Mình rất may mắn khi được học tại Aptech. Tại đây, mình được gặp bạn cùng đam mê, gặp thầy hướng dẫn nhiệt tình. Nếu không có những tháng ngày học tại Aptech, có lẽ mình đã không có được thành công hôm nay”</p>
-                                    </div>
-                                    <a class="align-self-end text-bold" href="https://aptechvietnam.com.vn/nguyen-luong-bang-0" target="_blank">Xem thêm ></a>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="d-flex justify-content-center flex-wrap">
-                            <div class="card m-3">
-                                <div class="card-body position-relative d-flex flex-column px-4">
-                                    <div class="img-container position-absolute">
-                                        <img src="./assets/img/4-min.png">
-                                    </div>
-                                    <div class="title">
-                                        <h5 class="text-bold mb-1">NGÔ THỊ THU HIỀN</h5>
-                                        <small class="text-italic">Sinh viên Aptech, kỹ sư cầu nối của FPT Software 5 năm liền tại Nhật Bản</small>
-                                    </div>
-                                    <div class="text-bold font-italic pt-5 text-justify">
-                                        <div class="hidden-title d-none pt-4 text-right">
-                                            <h5 class="text-bold mb-1">NGÔ THỊ THU HIỀN</h5>
-                                            <small class="text-italic">Sinh viên Aptech, kỹ sư cầu nối của FPT Software 5 năm liền tại Nhật Bản</small>
-                                        </div> 
-                                        <p>“Khi học ở Aptech, mình được tham gia thực hiện các bài tập, dự án theo tiêu chuẩn thực tế cùng thầy và các chuyên gia. Những kiến thức mình học được ở Aptech rất thực tế, có thể áp dụng vào công việc ngay. Aptech đào tạo nền tảng, luôn cập nhật công nghệ mới nên khi đi phỏng vấn, việc mình học tại Aptech cũng là một thuận lợi.”</p>
-                                    </div>
-                                    <a class="align-self-end text-bold" href="https://aptechvietnam.com.vn/ngo-thu-huyen-manh-ghep-xinh-dep-tren-ban-do-aptech" target="_blank">Xem thêm ></a>
-                                </div>
-                            </div>
-                            <div class="card m-3 mt-4">
-                                <div class="card-body position-relative d-flex flex-column px-4">
-                                    <div class="img-container position-absolute">
-                                        <img src="./assets/img/nguyen_khac_thanh-min.png">
-                                    </div>
-                                    <div class="title">
-                                        <h5 class="text-bold mb-1">NGUYỄN KHẮC THÀNH</h5>
-                                        <small class="text-italic">Trưởng nhóm CNTT Ngân hàng VP Bank, Tốt nghiệp 2019, mức lương 1500$</small>
-                                    </div>
-                                    <div class="text-bold font-italic pt-5 text-justify">
-                                        <div class="hidden-title d-none pt-4 text-right">
-                                            <h5 class="text-bold mb-1">NGUYỄN KHẮC THÀNH</h5>
-                                            <small class="text-italic">Trưởng nhóm CNTT Ngân hàng VP Bank, Tốt nghiệp 2019, mức lương 1500$</small>
-                                        </div> 
-                                        <p>“Aptech là nơi đào tạo hướng dẫn và tạo cho các bạn những tư duy, nền tảng cơ bản để các bạn có thể tiếp cận với công nghệ mới một cách nhanh nhất, hiệu quả nhất.”</p>
-                                    </div>
-                                    <!-- <a class="align-self-end text-bold" href="https://aptechvietnam.com.vn/nguyen-luong-bang-0" target="_blank">Xem thêm ></a> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <?php endfor; ?>
                 </div>
-                <a class="carousel-control-prev" href="#carouselFeelStd" role="button" data-slide="prev">
+
+                <a class="carousel-control-prev" href="#carouselFeelStdPC" role="button" data-slide="prev">
                     <div class="carousel-control-icon">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     </div>
                     <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselFeelStd" role="button" data-slide="next">
+                <a class="carousel-control-next" href="#carouselFeelStdPC" role="button" data-slide="next">
                     <div class="carousel-control-icon">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     </div>
                     <span class="sr-only">Next</span>
                 </a>
                 <ol class="carousel-indicators">
-                    <li data-target="#carouselFeelStd" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselFeelStd" data-slide-to="1"></li>
-                    <li data-target="#carouselFeelStd" data-slide-to="2"></li>
+                    <?php for($i = 0; $i < sizeof($feelStd); $i+=2): ?>
+                        <li data-target="#carouselFeelStdPC" class="<?php echo $i == 0 ? 'active' : ''; ?>" data-slide-to="<?php echo $i-1; ?>"></li>
+                    <?php endfor ?>
                 </ol>
             </div>
+            <!-- END PC -->
+            <!-- MB -->
+            <div id="carouselFeelStdMB" class="carousel slide pt-5 d-none">
+                <div class="carousel-inner">
+                    <?php foreach($feelStd as $i => $std): ?>
+                        <div class="carousel-item <?php echo $i == 0 ? 'active' : '' ?>">
+                            <div class="d-flex justify-content-center flex-wrap">
+                                <div class="card m-3">
+                                    <div class="card-body position-relative d-flex flex-column px-4">
+                                        <div class="img-container position-absolute">
+                                            <img src="../assets/img/quote-std/<?php echo $std->image; ?>">
+                                        </div>
+                                        <div class="title">
+                                            <h5 class="text-bold mb-1"><?php echo $std->name; ?></h5>
+                                            <small class="text-italic"><?php echo $std->title; ?></small>
+                                        </div>
+                                        <div class="text-bold font-italic pt-5 text-justify">
+                                            <div class="hidden-title d-none pt-4 text-right">
+                                                <h5 class="text-bold mb-1"><?php echo $std->name; ?></h5>
+                                                <small class="text-italic"><?php echo $std->title; ?></small>
+                                            </div>    
+                                            <p><?php echo $std->quote ?></p>
+                                        </div>
+                                        <a class="align-self-end text-bold" href="<?php echo $std->link; ?>" target="_blank">Xem thêm ></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+                <a class="carousel-control-prev" href="#carouselFeelStdMB" role="button" data-slide="prev">
+                    <div class="carousel-control-icon">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </div>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselFeelStdMB" role="button" data-slide="next">
+                    <div class="carousel-control-icon">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </div>
+                    <span class="sr-only">Next</span>
+                </a>
+                <ol class="carousel-indicators">
+                    <?php for($i = 0; $i < sizeof($feelStd); $i++): ?>
+                        <li data-target="#carouselFeelStdMB" class="<?php echo $i == 0 ? 'active' : ''; ?>" data-slide-to="<?php echo $i; ?>"></li>
+                    <?php endfor ?>
+                </ol>
+            </div>
+            <!-- END MB -->
         </div>
     </section>
 
@@ -888,6 +860,9 @@
     <script async defer src="../assets/js/bootstrap/collapse.min.js"></script>
     <script async defer src="../assets/js/bootstrap/carousel.min.js"></script>
     <script async defer src="../assets/js/bootstrap/button.min.js"></script>
+
+    <!-- Fancybox -->
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
     <!-- Scroll top -->
     <script async defer src="../assets/js/scroll-top<?php echo $ext ?>.js"></script>

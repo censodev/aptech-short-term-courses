@@ -354,43 +354,50 @@ div.for-who{
 	padding-left: 20px;
 }
 
-.banner-7 h3{
+.section-7 h3{
 	color: white ;
 	font-size: 30px;
 	font-weight: 400;
 }
 
 
-.banner-7 .box {
+.section-7 .box {
 	flex-basis: 17%;
 }
 
-.banner-7 .box p {
+.section-7 .box p {
 	color: #1F1F1F;
 }
 
-.banner-7 .box a {
+.section-7 .box a {
 	color: var(--main-color-1);
 }
 
 @media (max-width: 1180px) {
-	.banner-7 .box {
+	.section-7 .box {
 		flex-basis: 100%;
 	}
 
-	.banner-7 img {
+	.section-7 img {
 		display: none;
 	}
 
-	.banner-7 video {
+	.section-7 video {
 		display: none;
 	}
 
-	.banner-7 iframe {
+	.section-7 iframe {
 		display: none;
 	}
 }
 
+.section-8 h4 {
+	color: var(--main-color-1);
+}
+
+.section-8 .box {
+	flex-basis: 23%;
+}
 
 .section-9 {
 	background-image: url('../img/bg_2-min.png');
@@ -418,14 +425,24 @@ div.for-who{
 	height: 73px;
 }
 
+@media (max-width: 413px) {
+	.section-9 .card .avt {
+		display: none;
+	}
+}
+
 @media (max-width: 1150px) {
 	.section-9 .card {
 		flex-basis: 70%;
 		min-height: 0px;	
 	}
 
-	.section-9 .avt {
-		display: none;
+	.section-9 #carouselQuotesCompaniesPC {
+		display: none !important;
+	}
+
+	.section-9 #carouselQuotesCompaniesMB {
+		display: block !important;
 	}
 }
 
@@ -499,6 +516,14 @@ div.for-who{
 	.section-10 .card {
 		flex-basis: 70%;
 		min-height: 0px;	
+	}
+
+	.section-10 #carouselFeelStdPC {
+		display: none !important;
+	}
+
+	.section-10 #carouselFeelStdMB {
+		display: block !important;
 	}
 }
 

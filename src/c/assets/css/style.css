@@ -368,14 +368,24 @@ body {
 	height: 73px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 413px) {
+	.section-9 .card .avt {
+		display: none;
+	}
+}
+
+@media (max-width: 1150px) {
 	.section-9 .card {
 		flex-basis: 70%;
 		min-height: 0px;	
 	}
 
-	.section-9 .card .avt {
-		display: none;
+	.section-9 #carouselQuotesCompaniesPC {
+		display: none !important;
+	}
+
+	.section-9 #carouselQuotesCompaniesMB {
+		display: block !important;
 	}
 }
 
@@ -438,6 +448,14 @@ body {
 	.section-10 .card {
 		flex-basis: 70%;
 		min-height: 0px;	
+	}
+
+	.section-10 #carouselFeelStdPC {
+		display: none !important;
+	}
+
+	.section-10 #carouselFeelStdMB {
+		display: block !important;
 	}
 }
 
