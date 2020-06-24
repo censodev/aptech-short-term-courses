@@ -520,6 +520,11 @@
                 </div>
             <?php endfor ?>
         </div>
+        <br>
+        <div class="text-center">
+            <h4 class="text-center text-bold">Bạn muốn học tại môi trường này không?</h4>
+            <a href="#regis-form"><button class="btn btn-lg text-bold mt-2 px-5 text-white">Tôi muốn</button></a>
+        </div>
     </section>
 
 
