@@ -816,7 +816,7 @@
                             <tr>
                                 <td class="text-bold pr-3">Hà Nội:</td>
                                 <td><span class="text-bold">285 Đội Cấn</span>, Q. Ba Đình</td>
-                                <td class="text-bold px-3">Tel: <a href="tel:1800 1147" class="text-white">1800 1147</a></td>
+                                <td class="text-bold px-3">Tel: <a href="tel:0899 179 029" class="text-white">0899 179 029</a></td>
                                 <td>Email: <a href="mailto:aptech1@aprotrain.com" target="_blank" class="text-white">aptech1@aprotrain.com</a></td>
                             </tr>
                             <tr>

@@ -1,6 +1,6 @@
 :root {
-    --main-color-0: #26DAA3;
-    --main-color-1: #00B880;
+    --main-color-0: #2c3582;
+    --main-color-1: #f2794c;
 }
 
 @font-face {
@@ -43,7 +43,7 @@ body {
 }
 
 .regis-btn {
-	background-color: var(--main-color-0);
+	background-color: var(--main-color-1);
 	color: #FFF;
 	border-radius: 20px;
 }
@@ -75,7 +75,7 @@ body {
 
 .section-1 ul li::before {
   content: "\2022";
-  color: var(--main-color-0);
+  color: var(--main-color-1);
   font-weight: bold;
   display: inline-block; 
   width: 1em;
@@ -92,14 +92,32 @@ body {
 	}
 }
 
+.section-2 {
+	background: url(../img/section2bg-min.png);
+	background-size: cover;
+}
+
+@media (max-width: 1024px) {
+	.section-2 .sec-2 {
+		flex-direction: column-reverse;
+	}
+
+	.section-2 .who-banner {
+		margin: 0 !important;
+	}
+}
+
 .section-3 {
 	background-color: var(--main-color-1);
 }
 
+.section-3 h4 {
+	color: var(--main-color-0);
+} 
+
 .section-3 .box {
 	flex-basis: 16%;
 	text-align: center;
-	color: #FFF;
 	padding: 11px !important;
 }
 
@@ -108,15 +126,19 @@ body {
 	height: 90px;
 	width: 90px;
 	border-radius: 50%;
-	background-color: var(--main-color-1);
+	/* background-color: var(--main-color-1); */
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border: 2px solid #FFF;
+	border: 2px solid var(--main-color-1);
 }
 
 .section-3 .box img {
 	height: 60%;
+}
+
+.section-3 .box span {
+	color: var(--main-color-0);
 }
 
 .section-3 .box small {
@@ -130,7 +152,7 @@ body {
 }
 
 .section-4 .section-container {
-	background-color: #09629C;
+	background-color: var(--main-color-1);
 }
 
 .section-4  h5 {
@@ -138,12 +160,13 @@ body {
 }
 
 .section-4 button {
-	color: #09629C;
+	color: #fff;
 	height: 45px;
+	color: var(--main-color-1);
 }
 
 .section-4 button:hover {
-	color: #064168 !important;
+	color: #000 !important;
 }
 
 .section-4 .collapse {
@@ -176,22 +199,25 @@ body {
 
 
 .section-5 h4 {
-	color: var(--main-color-1);
+	color: var(--main-color-0);
 }
 
-.section-5 h6 {
-	padding: 0px 22%;
-	color: #333333;
+.section-5 button {
+	border-radius: 40px !important;
+	background-color: var(--main-color-1);
 }
 
-.section-5 .box {
-	flex-basis: 18%;
-	border: 1px solid #CACACA;
-}
-
-@media (max-width: 830px) {
+@media (max-width: 1024px) {
 	.section-5 .box {
-		flex-basis: 45%;
+		margin-left: 3.5rem !important;
+		margin-right: 3.5rem !important;
+	}
+}
+
+@media (max-width: 768px) {
+	.section-5 .box {
+		margin-left: 2.5rem !important;
+		margin-right: 2.5rem !important;
 	}
 }
 
@@ -227,20 +253,12 @@ body {
 }
 
 .section-6 h4 {
-	color: var(--main-color-1);
-}
-
-.section-6 .left-boxes {
-	flex-basis: 50%;
-}
-
-.section-6 .sidebar {
-	flex-basis: 25%;
+	color: var(--main-color-0);
 }
 
 .section-6 .left-boxes .card {
 	border-radius: 0px !important;
-	flex-basis: 45%;
+	flex-basis: 28%;
 }
 
 .section-6 .left-boxes .card-header  {
@@ -261,6 +279,10 @@ body {
 	z-index: 20;
 }
 
+.section-6 .left-boxes .card-header .img-container img {
+	object-fit: cover;
+}
+
 .section-6 .left-boxes .card-body h6 {
 	color: var(--main-color-1);
 }
@@ -279,17 +301,9 @@ body {
 	opacity: 1;
 }
 
-.section-6 .sidebar .title {
-	background-color: var(--main-color-1);
-}
-
 @media (max-width: 1300px) {
-	.section-6 .left-boxes {
-		flex-basis: 60%;
-	}
-
 	.section-6 .left-boxes .card {
-		flex-basis: 40%;
+		flex-basis: 45%;
 	}
 }
 
@@ -301,10 +315,6 @@ body {
 
 	.section-6 .left-boxes .card {
 		flex-basis: 100%;
-	}
-
-	.section-6 .sidebar {
-		flex-basis: 90%;
 	}
 }
 
@@ -339,7 +349,7 @@ body {
 }
 
 .section-8 h4 {
-	color: var(--main-color-1);
+	color: var(--main-color-0);
 }
 
 .section-8 .box {
@@ -356,7 +366,7 @@ body {
 }
 
 .section-9 h4 {
-	color: var(--main-color-1);
+	color: var(--main-color-0);
 }
 
 .section-9 .card {
@@ -480,7 +490,7 @@ body {
 
 .section-11 {
 	background-image: url(../img/bgg-min.png);
-	background-color: #00B880;
+	background-color: var(--main-color-1);
 }
 
 .section-11 .box:first-child {
@@ -502,17 +512,13 @@ body {
 }
 
 .section-11 form button {
-	color: #0a629d;
+	color: var(--main-color-1);
 	border-radius: 25px;
 }
 
 .section-11 .countdown-box {
-	background-color: #0a629d;
+	background-color: var(--main-color-0);
 	flex-basis: 10%;
-}
-
-.section-11 .btn-warning {
-	background-color: #F4E11E !important;
 }
 
 .section-11 img {

@@ -1,0 +1,68 @@
+[
+    {
+        "name": "Encapital Financial Technology",
+        "image": "encapital-min.png",
+        "title": "Tuyển dụng Javascript Dev",
+        "benefits": [
+            "Lương từ 2000 USD",
+            "Môi trường làm việc trẻ trung, hiện đại",
+            "Lương, thưởng hấp dẫn"
+        ],
+        "url": ""
+    },
+    {
+        "name": "VeXeRe",
+        "image": "vexere-min.png",
+        "title": "Tuyển dụng Junior Frontend Dev",
+        "benefits": [
+            "Lương lên tới 1500 USD",
+            "Môi trường làm việc trẻ trung, đồng nghiệp và leader thân thiện",
+            "Thưởng KPI dựa trên năng lực"
+        ],
+        "url": ""
+    },
+    {
+        "name": "FOURDIGIT VIETNAM",
+        "image": "4digit-min.png",
+        "title": "Tuyển dụng Frontend Tech Lead",
+        "benefits": [
+            "Lương lên tới 3000 USD",
+            "Được cung cấp Macbook Pro khi làm việc",
+            "Môi trường sáng tạo, hiện đại, thân thiện"
+        ],
+        "url": ""
+    },
+    {
+        "name": "Waves8.com",
+        "image": "waves8-min.png",
+        "title": "Tuyển dụng Fullstack Web Dev",
+        "benefits": [
+            "Lương lên tới 2000 USD",
+            "Thời gian làm việc linh hoạt",
+            "Văn hóa start-up trẻ trung"
+        ],
+        "url": ""
+    },
+    {
+        "name": "Woowa Brothers",
+        "image": "baemin-min.png",
+        "title": "Tuyển dụng NodeJS developer",
+        "benefits": [
+            "Lương lên tới 3000 USD",
+            "Công ty Hàn Quốc quy mô 300-500 nhân sự",
+            "Xét tăng lương định kỳ"
+        ],
+        "url": ""
+    },
+    {
+        "name": "Saigon Technology Solutions",
+        "image": "saigontech-min.png",
+        "title": "Tuyển dụng Mid/Sr Angular Developer (JavaScript)",
+        "benefits": [
+            "Lương lên tới 1800 USD",
+            "Đào tạo nâng cao kỹ thuật định kỳ",
+            "Bảo hiểm sức khỏe"
+        ],
+        "url": ""
+    }
+]
