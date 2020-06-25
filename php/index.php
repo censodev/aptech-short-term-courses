@@ -1,32 +1,50 @@
 <?php
-    // $mode = 'dev';
-    $mode = 'prod';
+    // $mode = 'DEV';
+   $mode = 'DEV_DEPLOY';
+   // $mode = 'PROD';
 
-    $ext = '';
+   $ext = '';
+   $baseUrl = '';
 
-    switch ($mode) {
-        case 'prod': $ext = '.min'; break;
-        case 'dev': $ext = ''; break;
-    }
+   switch ($mode) {
+      case 'PROD': 
+          $ext = '.min'; 
+          $baseUrl = 'https://aptechvietnam.com.vn';
+          break;
+      case 'DEV': 
+          $ext = ''; 
+          $baseUrl = $_SERVER['HTTP_HOST'].'/aptech';
+          break;
+      case 'DEV_DEPLOY':
+          $ext = '.min'; 
+          $baseUrl = $_SERVER['HTTP_HOST'].'/aptech';
+          break;
+  }
 
     $titlePage = 'Aptech | PHP';
 
     $feelStd = json_decode(file_get_contents("../assets/data/feel-std.json"));
     $quoteCom = json_decode(file_get_contents("../assets/data/quote-com.json"));
+    
+    $formSubmitRedirect = $baseUrl.'/php/dang-ky-thanh-cong';
+    $formSubmitSubject = 'Đăng ký khóa học lập trình PHP';
+
+    $fbComment = $baseUrl.'/php';
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>   
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-20788510-60"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-20788510-60');
-    </script>
+    <?php if ($mode == 'PROD') :?>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-20788510-60"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-20788510-60');
+        </script>
+    <?php endif ?>
     
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">

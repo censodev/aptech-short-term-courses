@@ -1,12 +1,24 @@
 <?php
-    // $mode = 'dev';
-    $mode = 'prod';
+    // $mode = 'DEV';
+    $mode = 'DEV_DEPLOY';
+    // $mode = 'PROD';
 
     $ext = '';
+    $baseUrl = '';
 
     switch ($mode) {
-        case 'prod': $ext = '.min'; break;
-        case 'dev': $ext = ''; break;
+        case 'PROD': 
+            $ext = '.min'; 
+            $baseUrl = 'https://aptechvietnam.com.vn';
+            break;
+        case 'DEV': 
+            $ext = ''; 
+            $baseUrl = $_SERVER['HTTP_HOST'].'/aptech';
+            break;
+        case 'DEV_DEPLOY':
+            $ext = '.min'; 
+            $baseUrl = $_SERVER['HTTP_HOST'].'/aptech';
+            break;
     }
 
     $titlePage = 'Aptech | Javascript';
@@ -15,24 +27,25 @@
     $quoteCom = json_decode(file_get_contents("../assets/data/quote-com.json"));
     $companies = json_decode(file_get_contents("./assets/data/companies.json"));
 
-    $formSubmitRedirect = 'https://aptechvietnam.com.vn/javascript/dang-ky-thanh-cong';
+    $formSubmitRedirect = $baseUrl.'/javascript/dang-ky-thanh-cong';
     $formSubmitSubject = 'Đăng ký khóa học Javascript';
 
-    $fbComment = 'https://aptechvietnam.com.vn/javascript';
+    $fbComment = $baseUrl.'/javascript';
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>   
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-20788510-60"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-20788510-60');
-    </script>
+    <?php if ($mode == 'PROD') :?>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-20788510-60"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-20788510-60');
+        </script>
+    <?php endif ?>
     
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -180,9 +193,11 @@
     <section class="section-4">
         <div class="d-flex justify-content-center align-items-center section-container py-3">
             <h5 class="m-0 text-bold text-white text-center">Hoàn thành khóa học, học viên được giới thiệu làm việc tại các Doanh nghiệp CNTT lớn</h5>
-            <button class="btn rounded-pill bg-white text-bold px-4 py-0 ml-5" data-toggle="collapse" data-target="#detailCollapse">🡢 Xem chi tiết khóa học</button>
+            <a href="#regis-form">
+                <button class="btn rounded-pill bg-white text-bold px-4 py-0 ml-5" data-toggle="collapse" data-target="#detailCollapse">🡢 Đăng ký nhận tư vấn ngay</button>
+            </a>
         </div>
-        <div class="collapse py-4" id="detailCollapse">
+        <!-- <div class="collapse py-4" id="detailCollapse">
             <div class="d-flex overflow-auto">
                 <table class="table table-bordered m-auto">
                     <thead></thead>
@@ -303,7 +318,7 @@
                     </tbody>
                 </table>
             </div>
-        </div>
+        </div> -->
     </section>
 
     <section class="section-5 py-5 bg-white">

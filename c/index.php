@@ -1,32 +1,51 @@
 <?php
-    // $mode = 'dev';
-    $mode = 'prod';
+    // $mode = 'DEV';
+    $mode = 'DEV_DEPLOY';
+    // $mode = 'PROD';
 
     $ext = '';
+    $baseUrl = '';
 
     switch ($mode) {
-        case 'prod': $ext = '.min'; break;
-        case 'dev': $ext = ''; break;
+        case 'PROD': 
+            $ext = '.min'; 
+            $baseUrl = 'https://aptechvietnam.com.vn';
+            break;
+        case 'DEV': 
+            $ext = ''; 
+            $baseUrl = $_SERVER['HTTP_HOST'].'/aptech';
+            break;
+        case 'DEV_DEPLOY':
+            $ext = '.min'; 
+            $baseUrl = $_SERVER['HTTP_HOST'].'/aptech';
+            break;
     }
 
     $titlePage = 'Aptech | C/C++';
 
     $feelStd = json_decode(file_get_contents("../assets/data/feel-std.json"));
     $quoteCom = json_decode(file_get_contents("../assets/data/quote-com.json"));
+
+    $formSubmitRedirect = $baseUrl.'/c/dang-ky-thanh-cong';
+    $formSubmitSubject = 'Đăng ký khóa học lập trình C/C++';
+
+    $fbComment = $baseUrl.'/c';
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-20788510-60"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-20788510-60');
-    </script>
+    <?php if ($mode == 'PROD') :?>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-20788510-60"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-20788510-60');
+        </script>
+    <?php endif ?>
+    
     
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -663,8 +682,8 @@
                         <option value="aptech1@aprotrain.com">Tòa nhà Aptech, 285 Đôi Cấn, Ba Đình, Hà Nội</option>
                         <option value="aptech3@aprotrain.com">Tòa nhà Aptech, 54 Lê Thanh Nghị, Hai Bà Trưng, Hà Nội</option>
                     </select>
-                    <input class="d-none" type="" name="subject" value="Đăng ký Khóa học Lập trình C/C++">
-                    <input class="d-none" type="" name="redirectUrl" value="https://aptechvietnam.com.vn/c/dang-ky-thanh-cong">
+                    <input class="d-none" type="" name="subject" value="<?php echo $formSubmitSubject ?>">
+                    <input class="d-none" type="" name="redirectUrl" value="<?php echo $formSubmitRedirect ?>">
                     <button type="submit" class="btn btn-warning btn-lg text-bold px-5 align-self-start">NHẬN THÔNG TIN HỌC BỔNG</button>
                 </form>
                 <p class="text-white text-italic title-sm pt-4 mb-0 d-none">Thời gian ưu đãi còn:</p>
@@ -692,7 +711,7 @@
     </section>
 
     <section class="section-12 py-5 bg-white">
-        <div class="fb-comments" data-href="https://aptechvietnam.com.vn/c" width="100%" data-numposts="5"></div>
+        <div class="fb-comments" data-href="<?php echo $fbComment ?>" width="100%" data-numposts="5"></div>
     </section>
     <!-- End Sections -->
 

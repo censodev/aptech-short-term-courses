@@ -1,29 +1,43 @@
 <?php
-   // $mode = 'dev';
-   $mode = 'prod';
+   // $mode = 'DEV';
+   $mode = 'DEV_DEPLOY';
+   // $mode = 'PROD';
 
    $ext = '';
+   $baseUrl = '';
 
    switch ($mode) {
-      case 'prod': $ext = '.min'; break;
-      case 'dev': $ext = ''; break;
-   }
+      case 'PROD': 
+          $ext = '.min'; 
+          $baseUrl = 'https://aptechvietnam.com.vn';
+          break;
+      case 'DEV': 
+          $ext = ''; 
+          $baseUrl = $_SERVER['HTTP_HOST'].'/aptech';
+          break;
+      case 'DEV_DEPLOY':
+          $ext = '.min'; 
+          $baseUrl = $_SERVER['HTTP_HOST'].'/aptech';
+          break;
+  }
 
    $title = 'Đăng ký thành công Khóa học Lập trình Web PHP';
    $course = 'Khóa học Lập trình Web PHP';
-   $link = 'https://aptechvietnam.com.vn/php';
+   $link = $baseUrl.'/php';
 ?>
 
 <!DOCTYPE html>
 <html class="html">
 <head>
-   <!-- Google Tag Manager -->
-   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-   })(window,document,'script','dataLayer','GTM-NV98LLF');</script>
-   <!-- End Google Tag Manager -->
+   <?php if ($mode == 'PROD') :?>
+      <!-- Google Tag Manager -->
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-NV98LLF');</script>
+      <!-- End Google Tag Manager -->
+   <?php endif ?>
 
    <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -35,10 +49,12 @@
 </head>
 <body>
  
-   <!-- Google Tag Manager (noscript) -->
-   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NV98LLF"
-   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-   <!-- End Google Tag Manager (noscript) -->
+   <?php if ($mode == 'PROD') :?>
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NV98LLF"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+   <?php endif ?>
 
    <div class="wrapper">
       <div class="text-white text-center">
