@@ -819,7 +819,7 @@
 
     <section class="section-12 py-5 bg-white">
         <h4 class="text-center text-bold">MỌI NGƯỜI NÓI GÌ VỀ APTECH?</h4>
-        <div class="fb-comments" data-href="https://aptechvietnam.com.vn/php" width="100%" data-numposts="5"></div>
+        <div class="fb-comments" data-href="<?php echo $fbComment ?>" width="100%" data-numposts="5"></div>
     </section>
     <!-- End Sections -->
 
