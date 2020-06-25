@@ -1,2 +1,0 @@
-# aptech-landing-pages
-
