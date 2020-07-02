@@ -2,6 +2,12 @@ html {
   	scroll-behavior: smooth;
 }
 
+nav {
+	position: fixed !important;
+	width: 100%;
+	z-index: 100;
+}
+
 .navbar-light .navbar-toggler {
 	border-color: transparent !important;
 }

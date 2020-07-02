@@ -58,6 +58,10 @@ body {
 	color: #FFF !important;
 }
 
+.section-banner {
+	padding-top: 82px;
+}
+
 .content img{
 	width: 50px;
 	float: left;

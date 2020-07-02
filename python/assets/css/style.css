@@ -56,6 +56,10 @@ body {
 	color: #FFF !important;
 }
 
+.section-banner {
+	padding-top: 82px;
+}
+
 .section-1 h5 {
 	color: var(--main-color-0) !important;
 }
