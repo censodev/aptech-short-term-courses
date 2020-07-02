@@ -465,7 +465,7 @@
   					<div class="head">
   						<p>&#129130; Xem thêm tại </p>
   					</div>
-  					<div class="fb-group" data-href="https://www.facebook.com/groups/JobAptech/"  data-show-social-context="true" data-show-metadata="true"></div>
+  					<div class="fb-group w-100" data-href="https://www.facebook.com/groups/JobAptech/"  data-show-social-context="true" data-show-metadata="true"></div>
   				</div>	
   			</div>
   		</div>

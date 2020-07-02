@@ -458,7 +458,7 @@
             </div>
             <div class="sidebar m-3">
                 <div class="title py-2 px-3 text-white text-bold">🡢 Xem thêm tại:</div>
-                <div class="fb-group" data-href="https://www.facebook.com/groups/JobAptech/"  data-show-social-context="true" data-show-metadata="true"></div>
+                <div class="fb-group w-100" data-href="https://www.facebook.com/groups/JobAptech/"  data-show-social-context="true" data-show-metadata="true"></div>
             </div>
         </div>
     </section>
