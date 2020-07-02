@@ -123,42 +123,38 @@
     		</div>
     	</div>	
     </div>	
-  	
-
-  	<div class="banner-2 pt-5" id="section-2">
-  		<h3 class="text-center text-uppercase text-white text-bold">Khoá học này dành cho ai?</h3>
-  		<div class="container">
-  			<div class="row for-who">
-  			<div class="col-md-6 d-flex align-items-center">
-  				<img src="./assets/img/people-min.png" class="w-100 img-left" alt="">
-  			</div>
-  			<div class="col-md-6 py-2">
-  				<div class="content">
-  					<img src="./assets/img/icon91-min.png" alt="">
-  					<span class="text d-block">
-  						<span class="title-child">Sinh viên CNTT</span><br>
-  						<span class="text-sm">muốn học bài bản, có khả năng thực chiến tốt vế Java.</span>
-  					</span>
-  				</div>
-  				<div class="content">
-  					<img src="./assets/img/code-min.png" alt="" style="margin-top: 30px">
-  					<span class="text d-block">
-  						<span class="title-child">Lập trình viên</span><br>
-  						<span class="text-sm">đang làm việc tại các Doanh nghiệp muốn bổ sung kiến thức và kỹ năng lập trình Java để phục vụ cho công việc</span>
-  					</span>
-  				</div>
-  				<div class="content">
-  					<img src="./assets/img/icon92-min.png" alt="">
-  					<span class="text d-block">
-  						<span class="title-child">Học sinh, sinh viên, người đi làm</span><br>
-  						<span class="text-sm">mới bắt đầu tìm hiểu về lập trình.</span>
-  					</span>
-  				</div>
-  			</div>
-  		</div>
-  		</div>
-  		
-  	</div>
+      
+    <section id="section-2" class="section-2 pt-5 px-5">
+        <h4 class="text-uppercase text-white text-center text-bold pb-5">Khóa học này dành cho ai?</h4>
+        <div class="d-flex sec-2">
+            <div class="who-banner text-center mr-5 d-flex align-items-end">
+                <img class="w-100" src="./assets/img/Layer 67-min.png" alt="">
+            </div>
+            <div class="who-title d-flex flex-column justify-content-center">
+                <div class="d-flex who-title_item align-items-center mb-5">
+                    <img src="./assets/img/sec2-t1-min.png" alt="">
+                    <div class="text-white ml-4">
+                        <h5>Sinh viên CNTT</h5>
+                        <small>Muốn học bài bản, có khả năng thực chiến với Javascript.</small>
+                    </div>
+                </div>
+                <div class="d-flex who-title_item align-items-center mb-5">
+                    <img src="./assets/img/sec2-t2-min.png" alt="">
+                    <div class="text-white ml-4">
+                        <h5>Lập trình viên </h5>
+                        <small>Đang làm việc tại các Doanh nghiệp muốn bổ sung kiến thức và kỹ năng Javascript để lập trình phục vụ cho công việc.</small>
+                    </div>
+                </div>
+                <div class="d-flex who-title_item align-items-center mb-5">
+                    <img src="./assets/img/sec2-t3-min.png" alt="">
+                    <div class="text-white ml-4">
+                        <h5>Học sinh, sinh viên, người đi làm</h5>
+                        <small>Mới bắt đầu tìm hiểu về lập trình.</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <div class="banner-3 py-5 bg-white">
