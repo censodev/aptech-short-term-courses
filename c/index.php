@@ -776,8 +776,50 @@
     <script async defer src="../assets/js/countdown<?php echo $ext ?>.js"></script>
 
     <!-- FB SDK -->
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v5.0&appId=749494412182083&autoLogAppEvents=1"></script>
+    <!-- <div id="fb-root"></div> -->
+    <!-- <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v5.0&appId=749494412182083&autoLogAppEvents=1"></script> -->
     <!-- End FB SDK -->
+
+    <!-- Subiz -->
+    <script>
+        (function(s, u, b, i, z){
+            u[i]=u[i]||function(){
+                u[i].t=+new Date();
+                (u[i].q=u[i].q||[]).push(arguments);
+            };
+            z=s.createElement('script');
+            var zz=s.getElementsByTagName('script')[0];
+            z.async=1; z.src=b; z.id='subiz-script';
+            zz.parentNode.insertBefore(z,zz);
+        })(document, window, 'https://widget.mysubiz.com/static/js/app.js', 'subiz');
+        subiz('setAccount', 'acqpeyxnjmvbdavhzcwm');
+    </script>
+    <!-- End Subiz -->
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                xfbml   : true,
+                version : 'v6.0'
+            });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="371202429573648"
+        logged_in_greeting="Xin chào! Aptech có thể giúp gì cho bạn!"
+        logged_out_greeting="Xin chào! Aptech có thể giúp gì cho bạn!">
+    </div>
 </body>
 </html>
