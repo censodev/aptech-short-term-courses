@@ -94,7 +94,7 @@
     </nav>
     <!-- End Header -->
 
-  	<div class="banner">
+  	<div class="banner section-banner">
         <img class="w-100" src="./assets/img/banner-PC_java-min.jpg"> 
     </div>
     <div class="bg-white">
