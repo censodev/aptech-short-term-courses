@@ -769,7 +769,7 @@
         <div class="d-flex justify-content-center flex-wrap">
             <div class="box p-3 pt-0 text-center">
                 <img src="./assets/img/course-banner-min.png">
-                <h5 class="text-white mt-5 text-uppercase">Khóa học trực tuyến của Aptech với 5 ưu điểm vượt trội:</h5>
+                <h5 class="text-white mt-5 text-uppercase">Khóa học của Aptech với 4 ưu điểm vượt trội:</h5>
                 <ul>
                     <li><span class="text-bold">Tiếp thu kiến thức hiệu quả:</span> Ứng dụng phương pháp học Learn By Examples trực quan cùng các phần mềm hỗ trợ minh họa sinh động.</li>
                     <li><span class="text-bold">Lớp học tương tác sôi nổi:</span> Áp dụng phương pháp đào tạo trực tuyến được Aptech triển khai thành công 20 năm nay trên Thế giới và Việt Nam. </li>
@@ -793,9 +793,9 @@
                     <input class="d-none" type="" name="redirectUrl" value="https://aptechvietnam.com.vn/php/dang-ky-thanh-cong">
                     <button type="submit" class="btn btn-warning btn-lg text-bold align-self-end">NHẬN THÔNG TIN HỌC BỔNG</button>
                 </form>
-                <p class="text-white text-italic title-sm pt-4 mb-0 d-none">Thời gian ưu đãi còn:</p>
+                <p class="text-white text-italic title-sm pt-4 mb-0">Thời gian ưu đãi còn:</p>
                 <div class="d-flex justify-content-between align-items-center flex-wrap">
-                    <p class="text-white text-italic title-lg">Thời gian ưu đãi còn:</p>
+                    <!-- <p class="text-white text-italic title-lg">Thời gian ưu đãi còn:</p> -->
                     <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3 mt-4">
                         <h1 class="countdown-box-days text-bold m-0"></h1>
                         <p class="m-0">Ngày</p>
