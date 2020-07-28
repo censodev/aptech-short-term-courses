@@ -1,6 +1,6 @@
 <?php
-    // $mode = 'DEV';
-    $mode = 'DEV_DEPLOY';
+    $mode = 'DEV';
+    // $mode = 'DEV_DEPLOY';
     // $mode = 'PROD';
 
     $ext = '';
@@ -85,7 +85,7 @@
                         <a class="nav-link p-0 nav-link-social mr-3" target="_blank" href="https://www.youtube.com/user/aprotrainaptechvn">
                             <img src="../assets/img/icon-youtube-min.png">
                         </a>
-                        <a class="btn regis-btn text-bold text-uppercase px-5 link-scroll font-600" href="#regis-form">Đăng ký</a>
+                        <a class="btn regis-btn text-bold text-uppercase px-5 link-scroll font-600 btn-warning" href="#regis-form">Đăng ký</a>
                     </div>
                 </li>
             </ul>
@@ -99,9 +99,9 @@
     </section>
 
     <section class="section-1 py-5 bg-white">
-        <h4 class="text-center text-bold text-uppercase">Lý do nào khiến C/C++ là ngôn ngữ đầu tiên bạn nên chọn học?</h4>
+        <h3 class="text-center text-bold text-uppercase px-5 text-main">Lý do nào khiến C/C++ là ngôn ngữ đầu tiên bạn nên chọn học?</h3>
         <div class="d-flex justify-content-center pt-3 align-items-center">
-            <div class="left-side mr-4 pt-4">
+            <div class="left-side mr-4 pt-4 px-3">
                 <p class="px-3 text-bold">Nếu bạn là dân ngoại đạo đang muốn tìm hiểu học IT</p>
                 <p class="px-3 text-bold">Hoặc là sinh viên CNTT nhưng lại chưa được học chuyên ngành</p>
                 <ul>
@@ -114,12 +114,75 @@
         </div>
     </section>
 
-    <section id="section-2">
-        <img class="w-100" src="./assets/img/for-who.jpg">
+    <section id="section-2" class="section-2 pt-5 px-5">
+        <h3 class="text-uppercase text-white text-center text-bold pb-4">Khóa học này dành cho ai?</h3>
+        <div class="d-flex sec-2 justify-content-center">
+            <div class="text-center d-flex align-items-end px-3 flex-basis-40">
+                <img class="w-100" src="./assets/img/Layer 67-min.png" alt="">
+            </div>
+            <div class="d-flex flex-column justify-content-center px-3 flex-basis-40">
+                <div class="box d-flex align-items-center mb-5">
+                    <img src="./assets/img/sec2-t1-min.png" alt="">
+                    <div class="text-white p-3">
+                        <h4>Sinh viên CNTT</h4>
+                        <p>Mong muốn bổ sung kiến thức và kỹ năng về ngôn ngữ lập trình.</p>
+                    </div>
+                </div>
+                <div class="box d-flex align-items-center mb-5">
+                    <img src="./assets/img/sec2-t2-min.png" alt="">
+                    <div class="text-white p-3">
+                        <h4>Học sinh, sinh viên, người đi làm </h4>
+                        <p>Người mới bắt đầu học Lập trình căn bản với mục đích tìm hiểu về nghề Lập trình hoặc lấy C/ C++ làm nền tảng học tiếp Lập trình chuyên nghiệp.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section class="section-3 py-5 bg-white">
-        <h4 class="text-center text-bold text-uppercase">Ưu điểm vượt trội của Khóa học Lập trình C/C++ cho người mới bắt đầu</h4>
+    <section class="section-3 pt-5 bg-white">
+        <h3 class="text-center text-main text-uppercase text-bold mb-4 px-5">Những quan niệm sai lầm phổ biến khi học Lập trình C/ C++</h3>
+        <div class="d-flex justify-content-center wrapper">
+            <div class="flex-basis-40 d-flex justify-content-end align-items-end px-3">
+                <img class="mw-100" src="./assets/img/sec-3img-min.png" alt="">
+            </div>
+            <div class="flex-basis-40 px-3 pb-5">
+                <div class="d-flex align-items-center mb-3">
+                    <img src="./assets/img/x-tick-min.png" alt="">
+                    <span class="pl-3 text-bold">Xác định mục tiêu học tập không phù hợp.</span>
+                </div>
+                <div class="d-flex align-items-center mb-3">
+                    <img src="./assets/img/x-tick-min.png" alt="">
+                    <span class="pl-3 text-bold">Chạy theo các Công nghệ lập trình mới mà bỏ qua C/ C++.</span>
+                </div>
+                <div class="d-flex align-items-center mb-3">
+                    <img src="./assets/img/x-tick-min.png" alt="">
+                    <span class="pl-3 text-bold">Nghĩ việc học Pascal tốt hơn là học C/ C++.</span>
+                </div>
+                <div class="d-flex align-items-center mb-3">
+                    <img src="./assets/img/x-tick-min.png" alt="">
+                    <span class="pl-3 text-bold">Coi việc thực hành C/ C++ quan trọng hơn Lý thuyết C/ C++.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-4 bg-main py-5">
+        <h3 class="text-center text-bold text-white text-uppercase px-5">03 kinh nghiệm học Lập trình C/ C++</h3>
+        <div class="d-flex justify-content-between px-3 flex-wrap">
+            <div class="box pt-4 d-flex justify-content-center flex-grow-1">
+                <img src="./assets/img/sec-4-1-min.png" alt="">
+            </div>
+            <div class="box pt-4 d-flex justify-content-center flex-grow-1">
+                <img src="./assets/img/sec-4-2-min.png" alt="">
+            </div>
+            <div class="box pt-4 d-flex justify-content-center flex-grow-1">
+                <img src="./assets/img/sec-4-3-min.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="section-5 py-5 bg-white">
+        <h3 class="text-center text-bold text-main text-uppercase px-5">Ưu điểm vượt trội của Khóa học Lập trình C/C++ cho người mới bắt đầu</h3>
         <div class="d-flex justify-content-center pt-3 flex-wrap">
             <div class="box">
                 <div class="img-container">
@@ -151,9 +214,9 @@
         </div>
     </section>
 
-    <section class="section-4">
+    <section class="section-6">
         <div class="d-flex justify-content-center align-items-center section-container py-3">
-            <h5 class="m-0 text-bold text-white">Kết thúc khóa học, Học viên được làm project dưới sự hướng dẫn của giảng viên và nhận chứng chỉ hoàn thành khóa học</h5>
+            <h5 class="m-0 text-bold text-white px-5">Kết thúc khóa học, Học viên được làm project dưới sự hướng dẫn của giảng viên và nhận chứng chỉ hoàn thành khóa học</h5>
             <button class="btn text-bold px-4 py-0 ml-5" data-toggle="collapse" data-target="#detailCollapse">🡢 Xem chi tiết khóa học</button>
         </div>
         <div class="collapse py-4" id="detailCollapse">
@@ -240,8 +303,8 @@
         </div>
     </section>
 
-    <section class="section-5 py-5">
-        <h4 class="text-center text-bold text-white text-uppercase">Kết quả đạt được sau khóa học</h4>
+    <section class="section-7 py-5">
+        <h3 class="text-center text-bold text-white text-uppercase px-5">Kết quả đạt được sau khóa học</h3>
         <div class="d-flex justify-content-center py-4 px-5 flex-wrap">
             <div class="box mx-3 my-3">
                 <h5 class="text-white text-bold">Cung cấp cho học viên kỹ năng lập trình ngôn ngữ C/ C++</h5>
@@ -263,102 +326,8 @@
         </div>
     </section>
 
-    <section class="section-6 py-5">
-        <h4 class="text-bold text-center text-uppercase">Doanh nghiệp tuyển dụng về ngôn ngữ C/C++</h4>
-        <div class="d-flex justify-content-center mt-5 flex-wrap">
-            <div class="left-boxes d-flex flex-wrap justify-content-end">
-                <!-- List -->
-                <div class="card m-3">
-                    <div class="card-header position-relative py-3">
-                        <div class="img-container position-absolute d-flex align-items-center justify-content-center">
-                            <img src="./assets/img/pixta-min.png">
-                        </div>
-                        <h6 class="text-white m-0">PIXTA Vietnam</h6>
-                    </div>
-                    <div class="card-body p-0 position-relative">
-                        <div class="py-4 px-3">
-                            <h6 class="text-bold">Senior Web Developer C++</h6>
-                            <ul class="p-0 pt-1">
-                                <li>Mức lương hấp dẫn, được cộng thêm 2 tháng tiền thưởng vào cuối năm.</li>
-                                <li>Trợ cấp ăn trưa, bảo hiểm sức khỏe hàng năm...</li>
-                            </ul>
-                        </div>
-                        <div class="detail-layer">
-                            <a href="https://itviec.com/it-jobs/senior-web-developer-ruby-python-c-pixta-vietnam-3231" class="px-4 btn text-white text-bold border-light rounded-pill" target="_blank">Xem thêm ></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="card m-3">
-                    <div class="card-header position-relative py-3">
-                        <div class="img-container position-absolute d-flex align-items-center justify-content-center">
-                            <img src="./assets/img/cicdata-min.png">
-                        </div>
-                        <h6 class="text-white m-0">CIC DATA</h6>
-                    </div>
-                    <div class="card-body p-0 position-relative">
-                        <div class="py-4 px-3">
-                            <h6 class="text-bold">Software Developer C++</h6>
-                            <ul class="p-0 pt-1">
-                                <li>Mức lương khởi điểm cạnh tranh.</li>
-                                <li>Teambuilding và chuyến đi công ty tại khu nghỉ dưỡng 5 sao</li>
-                            </ul>
-                        </div>
-                        <div class="detail-layer">
-                            <a href="https://itviec.com/it-jobs/software-developer-c-java-golang-cic-data-0702" class="px-4 btn text-white text-bold border-light rounded-pill" target="_blank">Xem thêm ></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="card m-3">
-                    <div class="card-header position-relative py-3">
-                        <div class="img-container position-absolute d-flex align-items-center justify-content-center">
-                            <img src="./assets/img/fsoft-min.png">
-                        </div>
-                        <h6 class="text-white m-0">FPT Software</h6>
-                    </div>
-                    <div class="card-body p-0 position-relative">
-                        <div class="py-4 px-3">
-                            <h6 class="text-bold">20 C/C++ Developers</h6>
-                            <ul class="p-0 pt-1">
-                                <li>Lương cạnh tranh. Thưởng dựa trên hiệu suất.</li>
-                                <li>Môi trường làm việc trẻ trung và năng động.</li>
-                            </ul>
-                        </div>
-                        <div class="detail-layer">
-                            <a href="https://itviec.com/it-jobs/hn-20-c-c-developers-onsite-korea-fpt-software-1322" class="px-4 btn text-white text-bold border-light rounded-pill" target="_blank">Xem thêm ></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="card m-3">
-                    <div class="card-header position-relative py-3">
-                        <div class="img-container position-absolute d-flex align-items-center justify-content-center">
-                            <img class="w-100" src="./assets/img/kytech-min.png">
-                        </div>
-                        <h6 class="text-white m-0">Koh Young Technology</h6>
-                    </div>
-                    <div class="card-body p-0 position-relative">
-                        <div class="py-4 px-3">
-                            <h6 class="text-bold">C/C++ Developers</h6>
-                            <ul class="p-0 pt-1">
-                                <li>Thu nhập hấp dẫn, lương tháng thứ 13, chính sách ưu đãi tiếng Anh, tiếng Hàn và kỹ thuật</li>
-                                <li>Biểm xã hội, bảo hiểm thất nghiệp theo quy định của Bộ luật Lao động.</li>
-                            </ul>
-                        </div>
-                        <div class="detail-layer">
-                            <a href="https://itviec.com/it-jobs/application-developer-c-c-net-koh-young-technology-inc-0831" class="px-4 btn text-white text-bold border-light rounded-pill" target="_blank">Xem thêm ></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- End List -->
-            </div>
-            <div class="sidebar m-3">
-                <div class="title py-2 px-3 text-white text-bold">🡢 Xem thêm tại:</div>
-                <div class="fb-group w-100" data-href="https://www.facebook.com/groups/JobAptech/"  data-show-social-context="true" data-show-metadata="true"></div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section-7 py-5">
-        <h4 class="text-white text-center text-bold">BÁO CHÍ NÓI VỀ APTECH</h4>
+    <section class="section-8 py-5">
+        <h3 class="text-white text-center text-bold px-5">BÁO CHÍ NÓI VỀ APTECH</h3>
         <div class="d-flex mt-4 justify-content-center flex-wrap">
             <!-- List -->
             <div class="box bg-white m-3">
@@ -409,8 +378,8 @@
         </div>
     </section>
 
-    <section class="section-8 py-5 bg-white">
-        <h4 class="text-bold text-center">MÔI TRƯỜNG HỌC TẬP CHUYÊN NGHIỆP TẠI APTECH</h4>
+    <section class="section-9 py-5 bg-white">
+        <h3 class="text-bold text-center text-main px-5">MÔI TRƯỜNG HỌC TẬP CHUYÊN NGHIỆP TẠI APTECH</h3>
         <div class="img-container mt-4 d-flex flex-wrap justify-content-center">
             <?php for($i = 1; $i <= 6; $i++): ?>
                 <div class="box m-3">
@@ -420,15 +389,10 @@
                 </div>
             <?php endfor ?>
         </div>
-        <br>
-        <div class="text-center">
-            <h4 class="text-center text-bold">Bạn muốn học tại môi trường này không?</h4>
-            <a href="#regis-form"><button class="btn btn-lg text-bold mt-2 px-5 text-white">Tôi muốn</button></a>
-        </div>
     </section>
 
-    <section class="section-9 py-5">
-        <h4 class="text-center text-bold text-white">DOANH NGHIỆP NÓI VỀ APTECH</h4>
+    <section class="section-10 py-5">
+        <h3 class="text-center text-bold text-white px-5">DOANH NGHIỆP NÓI VỀ APTECH</h3>
         <div class="py-3 d-flex justify-content-center">
             <!-- PC -->
             <div id="carouselQuotesCompaniesPC" class="carousel slide">
@@ -536,8 +500,8 @@
         </div>
     </section>
 
-    <section class="section-10 py-5">
-        <h4 class="text-white text-center text-bold">CẢM NHẬN CỦA HỌC VIÊN VỀ APTECH</h4>
+    <section class="section-11 py-5">
+        <h3 class="text-white text-center text-bold px-5">CẢM NHẬN CỦA HỌC VIÊN VỀ APTECH</h3>
         <div class="pt-4 pb-4 d-flex justify-content-center">
             <!-- PC -->
             <div id="carouselFeelStdPC" class="carousel slide pt-5">
@@ -658,20 +622,13 @@
         </div>
     </section>
 
-    <section class="section-11 py-5" id="regis-form">
-        <h5 class="text-white text-center text-bold">Đăng ký nhận tài liệu tham khảo và tư vấn miễn phí</h5>
+    <section class="section-12 pt-0 pb-5" id="regis-form">
         <div class="pt-4 d-flex justify-content-center flex-wrap">
-            <div class="box p-3 pt-0 text-center">
-                <img src="./assets/img/course-banner-min.png">
-                <h5 class="text-white mt-5 text-uppercase">Khóa học của Aptech với 4 ưu điểm vượt trội:</h5>
-                <ul>
-                    <li><span class="text-bold">Tiếp thu kiến thức hiệu quả:</span> Ứng dụng phương pháp học Learn By Examples trực quan cùng các phần mềm hỗ trợ minh họa sinh động.</li>
-                    <li><span class="text-bold">Lớp học tương tác sôi nổi:</span> Áp dụng phương pháp đào tạo trực tuyến được Aptech triển khai thành công 20 năm nay trên Thế giới và Việt Nam. </li>
-                    <li><span class="text-bold">Nhận tài trợ 3.000.000 VNĐ/tháng từ Google:</span> Sử dụng không giới hạn dung lượng: Gmail, Google Drive, Google Meet, Google Photos, Google Classroom. </li>
-                    <li><span class="text-bold">Tính ứng dụng cao:</span> Nội dung học giúp giải quyết hiệu quả các vấn đề trong học tập, công việc và cuộc sống.</li>
-                </ul>
+            <div class="box p-3 pt-0 d-flex text-center flex-basis-40">
+                <img class="mw-100 m-auto" src="./assets/img/promotion-min.png" alt="promotion.png">
             </div>
-            <div class="box p-3">
+            <div class="box p-3 flex-basis-40">
+                <h5 class="text-white mb-3">Đăng ký tư vấn<br>và nhận bộ tài liệu tự học C/ C++ miễn phí</h5>
                 <form class="d-flex flex-column" action="../mail/sendmail.php" method="POST">
                     <input class="form-control form-control-lg mb-3 pl-4" type="" name="txtName" placeholder="Họ và tên" required>
                     <input class="form-control form-control-lg mb-3 pl-4" type="email" name="txtEmail" placeholder="Email" required>
@@ -684,11 +641,10 @@
                     </select>
                     <input class="d-none" type="" name="subject" value="<?php echo $formSubmitSubject ?>">
                     <input class="d-none" type="" name="redirectUrl" value="<?php echo $formSubmitRedirect ?>">
-                    <button type="submit" class="btn btn-warning btn-lg text-bold px-5 align-self-start">NHẬN THÔNG TIN HỌC BỔNG</button>
+                    <button type="submit" class="btn btn-round btn-warning btn-lg text-bold px-5 align-self-end">NHẬN TƯ VẤN</button>
                 </form>
-                <p class="text-white text-italic title-sm pt-4 mb-0">Thời gian ưu đãi còn:</p>
+                <p class="text-white text-italic pt-4 mb-0">Thời gian ưu đãi còn:</p>
                 <div class="d-flex justify-content-between align-items-center flex-wrap">
-                    <!-- <p class="text-white text-italic title-lg">Thời gian ưu đãi còn:</p> -->
                     <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3 mt-4">
                         <h1 class="countdown-box-days text-bold m-0"></h1>
                         <p class="m-0">Ngày</p>
@@ -720,7 +676,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-9 col-md-8 order-12 order-lg-1">
-                    <h4 class="text-uppercase text-bold mb-3 footer-heading">Hệ thống đào tạo lập trình viên quốc tế Aptech</h4>
+                    <h3 class="text-uppercase text-bold mb-3 footer-heading">Hệ thống đào tạo lập trình viên quốc tế Aptech</h3>
                     <table border="0" class="w-100">
                         <tbody>
                             <tr>
