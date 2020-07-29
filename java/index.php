@@ -51,7 +51,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <link rel="stylesheet" type="text/css" href="../assets/css/master<?php echo $ext ?>.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style<?php echo $ext ?>.css">
@@ -99,7 +99,7 @@
     </div>
     <div class="bg-white">
     	<div class="container py-5">
-    		<h3 class="text-center text-bold text-uppercase title mb-4">03 lý do bạn cần phải học khoá java ngay hôm nay</h3>
+    		<h3 class="text-center text-bold text-uppercase title mb-5 text-main">03 lý do bạn cần phải học khoá java ngay hôm nay</h3>
     		<div class="row reason mt-4">
     			<div class="col-md-6 bodered">
     				<!-- Youtube -->
@@ -124,41 +124,78 @@
     	</div>	
     </div>	
       
-    <section id="section-2" class="section-2 pt-5 px-5">
-        <h3 class="text-uppercase text-white text-center text-bold pb-5">Khóa học này dành cho ai?</h3>
-        <div class="d-flex sec-2">
-            <div class="who-banner text-center mr-5 d-flex align-items-end">
+    <section id="section-2" class="section-2 pt-5 px-5 bg-main">
+        <h3 class="text-uppercase text-white text-center text-bold pb-4">Khóa học này dành cho ai?</h3>
+        <div class="d-flex sec-2 justify-content-center">
+            <div class="text-center d-flex align-items-end px-3 flex-basis-40">
                 <img class="w-100" src="./assets/img/Layer 67-min.png" alt="">
             </div>
-            <div class="who-title d-flex flex-column justify-content-center">
-                <div class="d-flex who-title_item align-items-center mb-5">
+            <div class="d-flex flex-column justify-content-center px-3 flex-basis-40">
+                <div class="box d-flex align-items-center mb-2">
                     <img src="./assets/img/sec2-t1-min.png" alt="">
-                    <div class="text-white ml-4">
-                        <h5>Sinh viên CNTT</h5>
-                        <small>Muốn học bài bản, có khả năng thực chiến với Javascript.</small>
+                    <div class="text-white p-3">
+                        <h4>Sinh viên CNTT</h4>
+                        <p>muốn học bài bản, có khả năng thực chiến tốt với Java.</p>
                     </div>
                 </div>
-                <div class="d-flex who-title_item align-items-center mb-5">
+                <div class="box d-flex align-items-center mb-2">
                     <img src="./assets/img/sec2-t2-min.png" alt="">
-                    <div class="text-white ml-4">
-                        <h5>Lập trình viên </h5>
-                        <small>Đang làm việc tại các Doanh nghiệp muốn bổ sung kiến thức và kỹ năng Javascript để lập trình phục vụ cho công việc.</small>
+                    <div class="text-white p-3">
+                        <h4>Lập trình viên</h4>
+                        <p>đang làm việc tại các Doanh nghiệp, muốn bổ sung kiến thức và kỹ năng lập trình Java để phục vụ cho công việc.</p>
                     </div>
                 </div>
-                <div class="d-flex who-title_item align-items-center mb-5">
+                <div class="box d-flex align-items-center mb-2">
                     <img src="./assets/img/sec2-t3-min.png" alt="">
-                    <div class="text-white ml-4">
-                        <h5>Học sinh, sinh viên, người đi làm</h5>
-                        <small>Mới bắt đầu tìm hiểu về lập trình.</small>
+                    <div class="text-white p-3">
+                        <h4>Học sinh, sinh viên, người đi làm </h4>
+                        <p>mới bắt đầu tìm hiểu về lập trình. </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <section class="section-3 pt-5 bg-white">
+        <h3 class="text-center text-main text-uppercase text-bold mb-4 px-5">Những quan niệm sai lầm phổ biến khi học Lập trình Java</h3>
+        <div class="d-flex justify-content-center wrapper">
+            <div class="flex-basis-40 d-flex justify-content-end align-items-end px-3">
+                <img class="mw-100" src="./assets/img/sec-3img-min.png" alt="">
+            </div>
+            <div class="flex-basis-40 px-3 pb-5">
+                <div class="d-flex align-items-center mb-3">
+                    <img src="./assets/img/x-tick-min.png" alt="">
+                    <span class="pl-3 text-bold">Muốn học nhanh quá nhiều công nghệ cùng 1 lúc.</span>
+                </div>
+                <div class="d-flex align-items-center mb-3">
+                    <img src="./assets/img/x-tick-min.png" alt="">
+                    <span class="pl-3 text-bold">Suy nghĩ chỉ cần học ngôn ngữ Java là có thể lập trình Java mà không chú trọng rèn luyện tư duy logic, khả năng giải quyết vấn đề,...</span>
+                </div>
+                <div class="d-flex align-items-center mb-3">
+                    <img src="./assets/img/x-tick-min.png" alt="">
+                    <span class="pl-3 text-bold">Tự học Java 1 mình mà không có sự trao đổi, kết nối với những người khác.</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div class="banner-3 py-5 bg-white">
-        <h3 class="text-center text-bold text-uppercase">Ưu điểm vượt trội của khoá học lập trình java tại aptech</h3>
+    <section class="section-4 bg-main py-5">
+        <h3 class="text-center text-bold text-white text-uppercase px-5">03 kinh nghiệm học Lập trình Java</h3>
+        <div class="d-flex justify-content-between px-3 flex-wrap">
+            <div class="box pt-4 d-flex justify-content-center flex-grow-1">
+                <img src="./assets/img/sec-4-1-min.png" alt="">
+            </div>
+            <div class="box pt-4 d-flex justify-content-center flex-grow-1">
+                <img src="./assets/img/sec-4-2-min.png" alt="">
+            </div>
+            <div class="box pt-4 d-flex justify-content-center flex-grow-1">
+                <img src="./assets/img/sec-4-3-min.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <div class="section-5 py-5 bg-white">
+        <h3 class="text-center text-bold text-uppercase text-main">Ưu điểm vượt trội của khoá học lập trình java tại aptech</h3>
         <div class="d-flex justify-content-center pt-3 flex-wrap">
             <div class="box">
                 <div class="img-container"><img src="./assets/img/proffessor-min.png"></div>
@@ -203,7 +240,7 @@
         </div>
     </div>
 
-  	<div class="banner-4">
+  	<div class="section-6">
   		<div class="bn-1  float-left">
   			<div class="text  d-flex justify-content-center text-center">Hoàn thành khoá học, học viên được giới thiệu làm việc tại các Doanh nghiệp CNTT lớn.</div>
   		</div>
@@ -213,11 +250,11 @@
   			</div>
   		</div>
     </div>
-    <div class="banner-4-mb flex-column align-items-center py-3">
+    <div class="section-6-mb flex-column align-items-center py-3">
         <div class="text d-flex justify-content-center text-center p-2 text-bold">Hoàn thành khoá học, học viên được giới thiệu làm việc tại các Doanh nghiệp CNTT lớn.</div>
         <button class="text-white btn rounded-pill text-bold px-5 mb-3" data-toggle="collapse" data-target="#detailCollapse">🡢 Xem chi tiết khóa học</button>
     </div>
-    <div class="collapse banner-4-collapse py-4" id="detailCollapse">
+    <div class="collapse section-6-collapse py-4" id="detailCollapse">
         <div class="d-flex flex-column align-items-center">
             <!-- <img class="w-100" src="./assets/img/course-detail.jpg"> -->
             <table class="table">
@@ -303,8 +340,8 @@
     </div>
 
 
-    <div class="section-5 py-5 bg-white">
-        <h3 class="text-bold text-center text-uppercase">Bạn sẽ làm được gì sau khoá học<br> "Lập trình Java chuyên nghiệp" tại Aptech</h3>
+    <div class="section-7 py-5 bg-white">
+        <h3 class="text-bold text-center text-uppercase text-main">Bạn sẽ làm được gì sau khoá học<br> "Lập trình Java chuyên nghiệp" tại Aptech</h3>
         <h6 class="text-center">Hoàn thành khóa học Học viên có khả năng xây dựng các phần mềm quản lý, website thương mại điện tử trên nền tảng Java, phát triển phần mềm ứng dụng trong dịch vụ tài chính, ngân hàng...</h6>
 
         <div class="d-flex justify-content-center pt-3 flex-wrap">
@@ -317,7 +354,7 @@
                     </div>
                 </div>
                 <div class="p-3 text-center">
-                    <h6 class="text-bold p-0">Đề tài: Quản lý CLB Bóng Bàn</h6>
+                    <h6 class="text-bold p-0 text-main">Đề tài: Quản lý CLB Bóng Bàn</h6>
                     <p class="m-0">
                         <small>Quản lý CLB Bóng Bàn</small>
                         <br>
@@ -333,7 +370,7 @@
                     </div>
                 </div>
                 <div class="p-3 text-center">
-                    <h6 class="text-bold p-0">Đề tài: Game bắn xe tăng trên nền tảng Java</h6>
+                    <h6 class="text-bold p-0 text-main">Đề tài: Game bắn xe tăng trên nền tảng Java</h6>
                     <p class="m-0">
                         <small>Project học kỳ 2</small>
                         <br>
@@ -349,7 +386,7 @@
                     </div>
                 </div>
                 <div class="p-3 text-center">
-                    <h6 class="text-bold p-0">Đề tài: Hệ thống quản lý điểm sinh viên</h6>
+                    <h6 class="text-bold p-0 text-main">Đề tài: Hệ thống quản lý điểm sinh viên</h6>
                     <p class="m-0">
                         <small>Project học kỳ 1</small>
                         <br>
@@ -365,7 +402,7 @@
                     </div>
                 </div>
                 <div class="p-3 text-center">
-                    <h6 class="text-bold p-0">Đề tài: Thiết kế Website thương mại điện tử</h6>
+                    <h6 class="text-bold p-0 text-main">Đề tài: Thiết kế Website thương mại điện tử</h6>
                     <p class="m-0">
                         <small>Thiết kế Website thương mại điện tử</small>
                         <br>
@@ -378,8 +415,8 @@
     </div>
 
 
-  	<div class="banner-6 py-5">
-  		<h3 class="text-center text-uppercase title text-bold">Học xong  bạn sẽ làm việc ở đâu?</h3>
+  	<div class="section-8 py-5">
+  		<h3 class="text-center text-uppercase title text-bold text-main">Học xong  bạn sẽ làm việc ở đâu?</h3>
   		<div class="container">
   			<p class="text-center text">Tham khảo các vị trí tuyển dụng Lập trình Java tại đây:</p>
   			<div class="row mt-5">
@@ -471,7 +508,7 @@
   		</div>
   	</div>
 
-  	<section class="section-7 py-5">
+  	<section class="section-9 py-5">
         <h3 class="text-white text-center text-bold">BÁO CHÍ NÓI VỀ APTECH</h3>
         <div class="d-flex mt-4 justify-content-center flex-wrap">
             <!-- List -->
@@ -523,8 +560,8 @@
         </div>
     </section>
 
-    <section class="section-8 py-5 bg-white">
-        <h3 class="text-bold text-center">MÔI TRƯỜNG HỌC TẬP CHUYÊN NGHIỆP TẠI APTECH</h3>
+    <section class="section-10 py-5 bg-white">
+        <h3 class="text-bold text-center text-main">MÔI TRƯỜNG HỌC TẬP CHUYÊN NGHIỆP TẠI APTECH</h3>
         <div class="img-container mt-4 d-flex flex-wrap justify-content-center">
             <?php for($i = 1; $i <= 6; $i++): ?>
                 <div class="box m-3">
@@ -534,15 +571,10 @@
                 </div>
             <?php endfor ?>
         </div>
-        <br>
-        <div class="text-center">
-            <h3 class="text-center text-bold">Bạn muốn học tại môi trường này không?</h3>
-            <a href="#regis-form"><button class="btn btn-lg text-bold mt-2 px-5 text-white">Tôi muốn</button></a>
-        </div>
     </section>
 
 
-    <section class="section-9 py-5">
+    <section class="section-11 py-5">
         <h3 class="text-center text-bold text-white">DOANH NGHIỆP NÓI VỀ APTECH</h3>
         <div class="py-3 d-flex justify-content-center">
             <!-- PC -->
@@ -560,7 +592,7 @@
                                         <div class="d-flex align-items-center pt-2">
                                             <img class="avt" src="../assets/img/quote-com/<?php echo $quoteCom[$i]->image ?>">
                                             <div class="pl-3">
-                                                <label class="mb-1 text-bold"><?php echo $quoteCom[$i]->name ?></label>
+                                                <label class="mb-1 text-bold text-main"><?php echo $quoteCom[$i]->name ?></label>
                                                 <p class="m-0"><?php echo $quoteCom[$i]->role ?></p>
                                             </div>
                                         </div>
@@ -575,7 +607,7 @@
                                         <div class="d-flex align-items-center pt-2">
                                             <img class="avt" src="../assets/img/quote-com/<?php echo $quoteCom[$i+1]->image ?>">
                                             <div class="pl-3">
-                                                <label class="mb-1 text-bold"><?php echo $quoteCom[$i+1]->name ?></label>
+                                                <label class="mb-1 text-bold text-main"><?php echo $quoteCom[$i+1]->name ?></label>
                                                 <p class="m-0"><?php echo $quoteCom[$i+1]->role ?></p>
                                             </div>
                                         </div>
@@ -651,8 +683,8 @@
         </div>
     </section>
 
-    <section class="section-10 py-5">
-        <h3 class="text-white text-center text-bold">CẢM NHẬN CỦA HỌC VIÊN VỀ APTECH</h3>
+    <section class="section-12 py-5 bg-white">
+        <h3 class="text-center text-bold text-main">CẢM NHẬN CỦA HỌC VIÊN VỀ APTECH</h3>
         <div class="pt-4 pb-4 d-flex justify-content-center">
             <!-- PC -->
             <div id="carouselFeelStdPC" class="carousel slide pt-5">
@@ -774,20 +806,13 @@
     </section>
 
 
-    <section class="section-11 py-5" id="regis-form">
-        <h5 class="text-white text-center text-bold">Đăng ký nhận tài liệu tham khảo và tư vấn miễn phí</h5>
+    <section class="section-13 pt-0 pb-5" id="regis-form">
         <div class="pt-4 d-flex justify-content-center flex-wrap">
-            <div class="box p-3 pt-0 text-center">
-                <img src="./assets/img/course-banner-min.png">
-                <h5 class="text-white mt-5 text-uppercase">Khóa học của Aptech với 4 ưu điểm vượt trội:</h5>
-                <ul>
-                    <li><span class="text-bold">Tiếp thu kiến thức hiệu quả:</span> Ứng dụng phương pháp học Learn By Examples trực quan cùng các phần mềm hỗ trợ minh họa sinh động.</li>
-                    <li><span class="text-bold">Lớp học tương tác sôi nổi:</span> Áp dụng phương pháp đào tạo trực tuyến được Aptech triển khai thành công 20 năm nay trên Thế giới và Việt Nam. </li>
-                    <li><span class="text-bold">Nhận tài trợ 3.000.000 VNĐ/tháng từ Google:</span> Sử dụng không giới hạn dung lượng: Gmail, Google Drive, Google Meet, Google Photos, Google Classroom. </li>
-                    <li><span class="text-bold">Tính ứng dụng cao:</span> Nội dung học giúp giải quyết hiệu quả các vấn đề trong học tập, công việc và cuộc sống.</li>
-                </ul>
+            <div class="box p-3 pt-0 d-flex text-center flex-basis-40">
+                <img class="mw-100 m-auto" src="./assets/img/promotion-min.png" alt="promotion.png">
             </div>
-            <div class="box p-3">
+            <div class="box p-3 flex-basis-40">
+                <h5 class="text-white mb-3 text-bold">Đăng ký tư vấn<br>và nhận bộ tài liệu tự học Java miễn phí</h5>
                 <form class="d-flex flex-column" action="../mail/sendmail.php" method="POST">
                     <input class="form-control form-control-lg mb-3 pl-4" type="" name="txtName" placeholder="Họ và tên" required>
                     <input class="form-control form-control-lg mb-3 pl-4" type="email" name="txtEmail" placeholder="Email" required>
@@ -798,26 +823,25 @@
                         <option value="aptech1@aprotrain.com">Tòa nhà Aptech, 285 Đôi Cấn, Ba Đình, Hà Nội</option>
                         <option value="aptech3@aprotrain.com">Tòa nhà Aptech, 54 Lê Thanh Nghị, Hai Bà Trưng, Hà Nội</option>
                     </select>
-                    <input class="d-none" type="" name="subject" value="Đăng ký Khóa học Lập trình Java chuyên nghiệp">
-                    <input class="d-none" type="" name="redirectUrl" value="https://aptechvietnam.com.vn/java/dang-ky-thanh-cong">
-                    <button type="submit" class="btn btn-warning btn-lg text-bold align-self-start text-center">NHẬN THÔNG TIN HỌC BỔNG</button>
+                    <input class="d-none" type="" name="subject" value="<?php echo $formSubmitSubject ?>">
+                    <input class="d-none" type="" name="redirectUrl" value="<?php echo $formSubmitRedirect ?>">
+                    <button type="submit" class="btn btn-round btn-warning btn-lg text-bold px-5 align-self-end">NHẬN TƯ VẤN</button>
                 </form>
-                <p class="text-white text-italic title-sm pt-4 mb-0">Thời gian ưu đãi còn:</p>
+                <p class="text-white text-italic pt-4 mb-0">Thời gian ưu đãi còn:</p>
                 <div class="d-flex justify-content-between align-items-center flex-wrap">
-                    <!-- <p class="text-white text-italic title-lg">Thời gian ưu đãi còn:</p> -->
-                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3 mt-4">
+                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-3 px-3 mt-4">
                         <h1 class="countdown-box-days text-bold m-0"></h1>
                         <p class="m-0">Ngày</p>
                     </div>
-                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3 mt-4">
+                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-3 px-3 mt-4">
                         <h1 class="countdown-box-hours text-bold m-0"></h1>
                         <p class="m-0">Giờ</p>
                     </div>
-                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3 mt-4">
+                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-3 px-3 mt-4">
                         <h1 class="countdown-box-minutes text-bold m-0"></h1>
                         <p class="m-0">Phút</p>
                     </div>
-                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3 mt-4">
+                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-3 px-3 mt-4">
                         <h1 class="countdown-box-seconds text-bold m-0"></h1>
                         <p class="m-0">Giây</p>
                     </div>
@@ -827,7 +851,7 @@
     </section>
 
 
-    <div class="banner-12 py-5 bg-white">
+    <div class="section-14 py-5 bg-white">
         <div class="fb-comments" data-href="<?php echo $fbComment ?>" width="100%" data-numposts="5"></div>
     </div>
 
@@ -876,7 +900,7 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script async defer src="../assets/js/bootstrap/util.min.js"></script>
     <script async defer src="../assets/js/bootstrap/collapse.min.js"></script>
     <script async defer src="../assets/js/bootstrap/carousel.min.js"></script>

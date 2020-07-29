@@ -51,7 +51,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title><?php echo $titlePage ?></title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 	<link rel="stylesheet" type="text/css" href="../assets/css/master<?php echo $ext ?>.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style<?php echo $ext ?>.css">
@@ -628,7 +628,7 @@
                 <img class="mw-100 m-auto" src="./assets/img/promotion-min.png" alt="promotion.png">
             </div>
             <div class="box p-3 flex-basis-40">
-                <h5 class="text-white mb-3">Đăng ký tư vấn<br>và nhận bộ tài liệu tự học C/ C++ miễn phí</h5>
+                <h5 class="text-white mb-3 text-bold">Đăng ký tư vấn<br>và nhận bộ tài liệu tự học C/ C++ miễn phí</h5>
                 <form class="d-flex flex-column" action="../mail/sendmail.php" method="POST">
                     <input class="form-control form-control-lg mb-3 pl-4" type="" name="txtName" placeholder="Họ và tên" required>
                     <input class="form-control form-control-lg mb-3 pl-4" type="email" name="txtEmail" placeholder="Email" required>
@@ -645,19 +645,19 @@
                 </form>
                 <p class="text-white text-italic pt-4 mb-0">Thời gian ưu đãi còn:</p>
                 <div class="d-flex justify-content-between align-items-center flex-wrap">
-                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3 mt-4">
+                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-3 px-3 mt-4">
                         <h1 class="countdown-box-days text-bold m-0"></h1>
                         <p class="m-0">Ngày</p>
                     </div>
-                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3 mt-4">
+                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-3 px-3 mt-4">
                         <h1 class="countdown-box-hours text-bold m-0"></h1>
                         <p class="m-0">Giờ</p>
                     </div>
-                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3 mt-4">
+                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-3 px-3 mt-4">
                         <h1 class="countdown-box-minutes text-bold m-0"></h1>
                         <p class="m-0">Phút</p>
                     </div>
-                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3 mt-4">
+                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-3 px-3 mt-4">
                         <h1 class="countdown-box-seconds text-bold m-0"></h1>
                         <p class="m-0">Giây</p>
                     </div>
@@ -666,7 +666,7 @@
         </div>
     </section>
 
-    <section class="section-12 py-5 bg-white">
+    <section class="section-13 py-5 bg-white">
         <div class="fb-comments" data-href="<?php echo $fbComment ?>" width="100%" data-numposts="5"></div>
     </section>
     <!-- End Sections -->
@@ -716,7 +716,7 @@
 
 
     <!-- jQuery Bootstrap4 -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script async defer src="../assets/js/bootstrap/util.min.js"></script>
     <script async defer src="../assets/js/bootstrap/collapse.min.js"></script>
     <script async defer src="../assets/js/bootstrap/carousel.min.js"></script>

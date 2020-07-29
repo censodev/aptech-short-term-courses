@@ -382,7 +382,7 @@ body {
 }
 
 .section-12 {
-	background-color: #118798;
+	background-color: var(--color-main);
 }
 
 .section-12 h5 {
@@ -399,7 +399,7 @@ body {
 
 .section-12 .countdown-box {
 	background-color: #ab2024;
-	flex-basis: 10%;
+	flex-basis: 17%;
 }
 
 .form-control {
@@ -424,6 +424,6 @@ body {
 	}
 }
 
-.section-12 .fb-comments iframe {
+.section-13 .fb-comments iframe {
 	width: 100% !important;
 }
