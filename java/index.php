@@ -1,6 +1,6 @@
 <?php
-    // $mode = 'DEV';
-    $mode = 'DEV_DEPLOY';
+    $mode = 'DEV';
+    // $mode = 'DEV_DEPLOY';
     // $mode = 'PROD';
 
     $ext = '';
@@ -125,7 +125,7 @@
     </div>	
       
     <section id="section-2" class="section-2 pt-5 px-5">
-        <h4 class="text-uppercase text-white text-center text-bold pb-5">Khóa học này dành cho ai?</h4>
+        <h3 class="text-uppercase text-white text-center text-bold pb-5">Khóa học này dành cho ai?</h3>
         <div class="d-flex sec-2">
             <div class="who-banner text-center mr-5 d-flex align-items-end">
                 <img class="w-100" src="./assets/img/Layer 67-min.png" alt="">
@@ -304,7 +304,7 @@
 
 
     <div class="section-5 py-5 bg-white">
-        <h4 class="text-bold text-center text-uppercase">Bạn sẽ làm được gì sau khoá học<br> "Lập trình Java chuyên nghiệp" tại Aptech</h4>
+        <h3 class="text-bold text-center text-uppercase">Bạn sẽ làm được gì sau khoá học<br> "Lập trình Java chuyên nghiệp" tại Aptech</h3>
         <h6 class="text-center">Hoàn thành khóa học Học viên có khả năng xây dựng các phần mềm quản lý, website thương mại điện tử trên nền tảng Java, phát triển phần mềm ứng dụng trong dịch vụ tài chính, ngân hàng...</h6>
 
         <div class="d-flex justify-content-center pt-3 flex-wrap">
@@ -472,7 +472,7 @@
   	</div>
 
   	<section class="section-7 py-5">
-        <h4 class="text-white text-center text-bold">BÁO CHÍ NÓI VỀ APTECH</h4>
+        <h3 class="text-white text-center text-bold">BÁO CHÍ NÓI VỀ APTECH</h3>
         <div class="d-flex mt-4 justify-content-center flex-wrap">
             <!-- List -->
             <div class="box bg-white m-3">
@@ -524,7 +524,7 @@
     </section>
 
     <section class="section-8 py-5 bg-white">
-        <h4 class="text-bold text-center">MÔI TRƯỜNG HỌC TẬP CHUYÊN NGHIỆP TẠI APTECH</h4>
+        <h3 class="text-bold text-center">MÔI TRƯỜNG HỌC TẬP CHUYÊN NGHIỆP TẠI APTECH</h3>
         <div class="img-container mt-4 d-flex flex-wrap justify-content-center">
             <?php for($i = 1; $i <= 6; $i++): ?>
                 <div class="box m-3">
@@ -536,14 +536,14 @@
         </div>
         <br>
         <div class="text-center">
-            <h4 class="text-center text-bold">Bạn muốn học tại môi trường này không?</h4>
+            <h3 class="text-center text-bold">Bạn muốn học tại môi trường này không?</h3>
             <a href="#regis-form"><button class="btn btn-lg text-bold mt-2 px-5 text-white">Tôi muốn</button></a>
         </div>
     </section>
 
 
     <section class="section-9 py-5">
-        <h4 class="text-center text-bold text-white">DOANH NGHIỆP NÓI VỀ APTECH</h4>
+        <h3 class="text-center text-bold text-white">DOANH NGHIỆP NÓI VỀ APTECH</h3>
         <div class="py-3 d-flex justify-content-center">
             <!-- PC -->
             <div id="carouselQuotesCompaniesPC" class="carousel slide">
@@ -652,7 +652,7 @@
     </section>
 
     <section class="section-10 py-5">
-        <h4 class="text-white text-center text-bold">CẢM NHẬN CỦA HỌC VIÊN VỀ APTECH</h4>
+        <h3 class="text-white text-center text-bold">CẢM NHẬN CỦA HỌC VIÊN VỀ APTECH</h3>
         <div class="pt-4 pb-4 d-flex justify-content-center">
             <!-- PC -->
             <div id="carouselFeelStdPC" class="carousel slide pt-5">
@@ -836,7 +836,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-9 col-md-8 order-12 order-lg-1">
-                    <h4 class="text-uppercase text-bold mb-3 footer-heading">Hệ thống đào tạo lập trình viên quốc tế Aptech</h4>
+                    <h3 class="text-uppercase text-bold mb-3 footer-heading">Hệ thống đào tạo lập trình viên quốc tế Aptech</h3>
                     <table border="0" class="w-100">
                         <tbody>
                             <tr>

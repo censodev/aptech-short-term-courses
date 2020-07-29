@@ -1,28 +1,23 @@
 :root {
-	--main-color-0: #FFC600;
-    --main-color-1: #AE1A1F;
+	--color-sub: #FFC600;
+    --color-main: #AE1A1F;
 }
 
 @font-face {
-  font-family: 'svn-gilroy-regular';
+  font-family: 'font-regular';
   src: url('../fonts/SVN-GILROY REGULAR.OTF');
   font-display: swap;
 }
 @font-face {
-  font-family: 'svn-gilroy-bold';
+  font-family: 'font-bold';
   src: url('../fonts/SVN-GILROY BOLD.OTF');
-  font-display: swap;
-}
-@font-face {
-  font-family: 'svn-gilroy-italic';
-  src: url('../fonts/SVN-GILROY ITALIC.OTF');
   font-display: swap;
 }
 
 * {
 	padding: 0;
 	margin: 0;
-	font-family: 'svn-gilroy-regular';
+	font-family: 'font-regular';
 }
 
 body {
@@ -32,20 +27,28 @@ body {
 }
 
 .text-bold {
-	font-family: 'svn-gilroy-bold' !important;
+	font-family: 'font-bold' !important;
 }
 
-.text-italic {
-	font-family: 'svn-gilroy-italic' !important;
+.text-main {
+	color: var(--color-main);
+}
+
+.bg-main {
+	background-color: var(--color-main) !important;
+}
+
+.flex-basis-40 {
+	flex-basis: 40%;
 }
 
 .navbar-collapse .nav-link {
-	font-family: 'svn-gilroy-bold';
+	font-family: 'font-bold';
 	color: #000;
 }
 
 .regis-btn {
-	background-color: var(--main-color-1);
+	background-color: var(--color-main);
 	color: #FFF;
 	border-radius: 5px;
 }
@@ -82,7 +85,7 @@ body {
 }
 
 .section-2 {
-	background-color: var(--main-color-1);
+	background-color: var(--color-main);
 	/* background-size: cover; */
 }
 
@@ -97,7 +100,7 @@ body {
 }
 
 .banner-3 h3 {
-	color: var(--main-color-1);
+	color: var(--color-main);
 }
 
 .banner-3 .box {
@@ -114,7 +117,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border: 2px solid var(--main-color-1);
+	border: 2px solid var(--color-main);
 }
 
 .banner-3 .box img {
@@ -141,7 +144,7 @@ body {
 	z-index: 99;
 }
 .banner-4 .bn-2{
-	background-color: var(--main-color-1);
+	background-color: var(--color-main);
 	height: 120px;
 	width: 100%;
 	position: absolute; 
@@ -166,17 +169,17 @@ body {
 }
 
 .banner-4 .detail button {
-	background-color: var(--main-color-0) !important;
+	background-color: var(--color-sub) !important;
 	color: #000 !important;
 }
 
 .banner-4-mb {
-	background-color: var(--main-color-0);
+	background-color: var(--color-sub);
 	display: none;
 }
 
 .banner-4-mb .btn {
-	background-color: var(--main-color-1);
+	background-color: var(--color-main);
 }
 
 @media (max-width: 768px) {
@@ -198,7 +201,7 @@ body {
 }
 
 .banner-4-collapse table td {
-	border-top: 2px solid var(--main-color-1);
+	border-top: 2px solid var(--color-main);
 }
 
 .banner-4-collapse table td.focused {
@@ -206,7 +209,7 @@ body {
 }
 
 .banner-4-collapse table tr.title-tr {
-	background-color: var(--main-color-1);
+	background-color: var(--color-main);
 	color: #fff;
 }
 
@@ -218,10 +221,6 @@ body {
 	.banner-4-collapse table {
 		max-width: 100%;
 	}
-}
-
-.section-5 h4 {
-	color: var(--main-color-1);
 }
 
 .section-5 h6 {
@@ -245,7 +244,7 @@ body {
 	top: 0px;
 	width: 100%;
 	height: 100%;
-	background-color: var(--main-color-1);
+	background-color: var(--color-main);
 	z-index: 10;
 	opacity: 0;
 	position: absolute;
@@ -260,7 +259,7 @@ body {
 }
 
 .section-5 .box h6 {
-	color: var(--main-color-1);
+	color: var(--color-main);
 }
 
 .section-5 .box small {
@@ -282,7 +281,7 @@ body {
 	object-fit: cover;
 	margin-top: -3px;
 	border-radius: 50%;
-	border: 2px solid var(--main-color-1);
+	border: 2px solid var(--color-main);
 	margin-left: 10px;
 	overflow: hidden;
 	display: flex;
@@ -292,7 +291,7 @@ body {
 }
 
 .banner-6 .block-area .head {
-	background-color: var(--main-color-1);
+	background-color: var(--color-main);
 	height: 60px;
 	display: flex;
 	align-items: center;
@@ -321,12 +320,12 @@ body {
 	font-weight: 500;
 }
 .block-area .body_title{
-	color: var(--main-color-1);
+	color: var(--color-main);
 	font-size: 18px;
 	font-weight: 700;
 }
 .body .final{
-	color: var(--main-color-1);
+	color: var(--color-main);
 	font-size: 16px;
 	font-weight: 700;
 	margin-top: 20px;
@@ -335,7 +334,7 @@ body {
 .block-fb .head{
 	height: 33px;
 	color: white;
-	background-color: var(--main-color-1);
+	background-color: var(--color-main);
 	width: 100%;
 	font-weight: 700;
 }
@@ -361,7 +360,7 @@ body {
 }
 
 .section-7 .box a {
-	color: var(--main-color-1);
+	color: var(--color-main);
 }
 
 @media (max-width: 1180px) {
@@ -382,26 +381,18 @@ body {
 	}
 }
 
-.section-8 h4 {
-	color: var(--main-color-1);
-}
-
 .section-8 .box {
 	flex-basis: 23%;
 }
 
 .section-8 button {
 	border-radius: 40px !important;
-	background-color: var(--main-color-1);
+	background-color: var(--color-main);
 }
 
 .section-9 {
 	background-image: url('../img/bg_2-min.png');
 	background-color: red;
-}
-
-.section-9 h4 {
-	color: var(--main-color-1);
 }
 
 .section-9 .card {
@@ -410,7 +401,7 @@ body {
 }
 
 .section-9 .card label {
-	color: var(--main-color-1);
+	color: var(--color-main);
 }
 
 .section-9 .card .avt {
@@ -450,11 +441,11 @@ body {
 	width: 15px !important;
 	height: 15px !important;
 	border-radius: 50%;
-	background-color: var(--main-color-1);
+	background-color: var(--color-main);
 }
 
 .carousel-control-icon {
-	background-color: var(--main-color-1);
+	background-color: var(--color-main);
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -462,10 +453,6 @@ body {
 	border-radius: 50%;
 }
 
-
-.section-10 h4 {
-	color: var(--main-color-1);
-}
 
 .section-10 .img-container {
 	top: -75px;
@@ -501,7 +488,7 @@ body {
 }
 
 .section-10 .card a {
-	color: var(--main-color-1);
+	color: var(--color-main);
 }
 
 .section-10 .hidden-title {
@@ -535,7 +522,7 @@ body {
 
 
 .section-11 {
-	background-color: var(--main-color-1);
+	background-color: var(--color-main);
 }
 
 .section-11 .box:first-child {
