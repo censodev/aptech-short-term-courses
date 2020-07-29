@@ -1,6 +1,6 @@
 <?php
-    $mode = 'DEV';
-    // $mode = 'DEV_DEPLOY';
+    // $mode = 'DEV';
+    $mode = 'DEV_DEPLOY';
     // $mode = 'PROD';
 
     $ext = '';
@@ -99,7 +99,7 @@
     </div>
     <div class="bg-white">
     	<div class="container py-5">
-    		<h3 class="text-center text-bold text-uppercase title mb-5 text-main">03 lý do bạn cần phải học khoá java ngay hôm nay</h3>
+    		<h3 class="text-center text-bold text-uppercase title mb-5 text-main px-5">03 lý do bạn cần phải học khoá java ngay hôm nay</h3>
     		<div class="row reason mt-4">
     			<div class="col-md-6 bodered">
     				<!-- Youtube -->
@@ -195,7 +195,7 @@
     </section>
 
     <div class="section-5 py-5 bg-white">
-        <h3 class="text-center text-bold text-uppercase text-main">Ưu điểm vượt trội của khoá học lập trình java tại aptech</h3>
+        <h3 class="text-center text-bold text-uppercase text-main px-5">Ưu điểm vượt trội của khoá học lập trình java tại aptech</h3>
         <div class="d-flex justify-content-center pt-3 flex-wrap">
             <div class="box">
                 <div class="img-container"><img src="./assets/img/proffessor-min.png"></div>
@@ -341,8 +341,8 @@
 
 
     <div class="section-7 py-5 bg-white">
-        <h3 class="text-bold text-center text-uppercase text-main">Bạn sẽ làm được gì sau khoá học<br> "Lập trình Java chuyên nghiệp" tại Aptech</h3>
-        <h6 class="text-center">Hoàn thành khóa học Học viên có khả năng xây dựng các phần mềm quản lý, website thương mại điện tử trên nền tảng Java, phát triển phần mềm ứng dụng trong dịch vụ tài chính, ngân hàng...</h6>
+        <h3 class="text-bold text-center text-uppercase text-main px-5">Bạn sẽ làm được gì sau khoá học<br> "Lập trình Java chuyên nghiệp" tại Aptech</h3>
+        <h6 class="text-center px-5">Hoàn thành khóa học Học viên có khả năng xây dựng các phần mềm quản lý, website thương mại điện tử trên nền tảng Java, phát triển phần mềm ứng dụng trong dịch vụ tài chính, ngân hàng...</h6>
 
         <div class="d-flex justify-content-center pt-3 flex-wrap">
             <!-- List -->
@@ -416,7 +416,7 @@
 
 
   	<div class="section-8 py-5">
-  		<h3 class="text-center text-uppercase title text-bold text-main">Học xong  bạn sẽ làm việc ở đâu?</h3>
+  		<h3 class="text-center text-uppercase title text-bold text-main px-5">Học xong  bạn sẽ làm việc ở đâu?</h3>
   		<div class="container">
   			<p class="text-center text">Tham khảo các vị trí tuyển dụng Lập trình Java tại đây:</p>
   			<div class="row mt-5">
@@ -509,7 +509,7 @@
   	</div>
 
   	<section class="section-9 py-5">
-        <h3 class="text-white text-center text-bold">BÁO CHÍ NÓI VỀ APTECH</h3>
+        <h3 class="text-white text-center text-bold px-5">BÁO CHÍ NÓI VỀ APTECH</h3>
         <div class="d-flex mt-4 justify-content-center flex-wrap">
             <!-- List -->
             <div class="box bg-white m-3">
@@ -561,7 +561,7 @@
     </section>
 
     <section class="section-10 py-5 bg-white">
-        <h3 class="text-bold text-center text-main">MÔI TRƯỜNG HỌC TẬP CHUYÊN NGHIỆP TẠI APTECH</h3>
+        <h3 class="text-bold text-center text-main px-5">MÔI TRƯỜNG HỌC TẬP CHUYÊN NGHIỆP TẠI APTECH</h3>
         <div class="img-container mt-4 d-flex flex-wrap justify-content-center">
             <?php for($i = 1; $i <= 6; $i++): ?>
                 <div class="box m-3">
@@ -575,7 +575,7 @@
 
 
     <section class="section-11 py-5">
-        <h3 class="text-center text-bold text-white">DOANH NGHIỆP NÓI VỀ APTECH</h3>
+        <h3 class="text-center text-bold text-white px-5">DOANH NGHIỆP NÓI VỀ APTECH</h3>
         <div class="py-3 d-flex justify-content-center">
             <!-- PC -->
             <div id="carouselQuotesCompaniesPC" class="carousel slide">
@@ -684,7 +684,7 @@
     </section>
 
     <section class="section-12 py-5 bg-white">
-        <h3 class="text-center text-bold text-main">CẢM NHẬN CỦA HỌC VIÊN VỀ APTECH</h3>
+        <h3 class="text-center text-bold text-main px-5">CẢM NHẬN CỦA HỌC VIÊN VỀ APTECH</h3>
         <div class="pt-4 pb-4 d-flex justify-content-center">
             <!-- PC -->
             <div id="carouselFeelStdPC" class="carousel slide pt-5">
@@ -852,6 +852,7 @@
 
 
     <div class="section-14 py-5 bg-white">
+        <h3 class="text-center text-bold text-main px-5">MỌI NGƯỜI NÓI GÌ VỀ APTECH?</h3>
         <div class="fb-comments" data-href="<?php echo $fbComment ?>" width="100%" data-numposts="5"></div>
     </div>
 

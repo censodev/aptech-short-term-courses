@@ -27,7 +27,7 @@
     $quoteCom = json_decode(file_get_contents("../assets/data/quote-com.json"));
     
     $formSubmitRedirect = $baseUrl.'/php/dang-ky-thanh-cong';
-    $formSubmitSubject = 'Đăng ký khóa học lập trình PHP';
+    $formSubmitSubject = 'Đăng ký khóa học lập trình Web PHP';
 
     $fbComment = $baseUrl.'/php';
 ?>
@@ -99,24 +99,90 @@
     </section>
 
     <section class="section-1 py-5 bg-white">
-        <h5 class="text-center text-bold">NHỮNG LÍ DO BẠN PHẢI HỌC NGÔN NGỮ LẬP TRÌNH PHP NGAY HÔM NAY</h5>
+        <h3 class="text-center text-bold text-main pb-4 px-5">NHỮNG LÍ DO BẠN PHẢI HỌC NGÔN NGỮ LẬP TRÌNH PHP NGAY HÔM NAY</h3>
         <div class="d-flex justify-content-center pt-3 align-items-center">
             <iframe src="https://www.youtube.com/embed/I-VEiZqVohQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <ul>
-                <li class="text-bold">PHP là ngôn ngữ lập trình Web phổ biển nhất thế giới, thân thiện với người mới bắt đầu.</li>
-                <li class="text-bold">Trên thế giới, cứ 10 website ra đời thì có 8 website chạy bằng PHP.</li>
-                <li class="text-bold">Cơ hội việc làm rộng mở cả ở trong và ngoài nước.</li>
-                <li class="text-bold">Mức lương của Lập trình viên PHP từ 800 - 1500$/tháng.</li>
+                <li class="text-bold mb-3">PHP là ngôn ngữ lập trình Web phổ biển nhất thế giới, thân thiện với người mới bắt đầu.</li>
+                <li class="text-bold mb-3">Trên thế giới, cứ 10 website ra đời thì có 8 website chạy bằng PHP.</li>
+                <li class="text-bold mb-3">Cơ hội việc làm rộng mở cả ở trong và ngoài nước.</li>
+                <li class="text-bold mb-3">Mức lương của Lập trình viên PHP từ 800 - 1500$/tháng.</li>
             </ul>
         </div>
     </section>
 
-    <section id="section-2">
-        <img class="w-100" src="./assets/img/for-who-min.png">
+    <section id="section-2" class="section-2 pt-5 px-5">
+        <h3 class="text-uppercase text-white text-center text-bold pb-4">Khóa học này dành cho ai?</h3>
+        <div class="d-flex sec-2 justify-content-center">
+            <div class="text-center d-flex align-items-end px-3 flex-basis-40">
+                <img class="w-100" src="./assets/img/Layer 67-min.png" alt="">
+            </div>
+            <div class="d-flex flex-column justify-content-center px-3 flex-basis-40">
+                <div class="box d-flex align-items-center mb-2">
+                    <img src="./assets/img/sec2-t1-min.png" alt="">
+                    <div class="text-white p-3">
+                        <h4>Sinh viên CNTT</h4>
+                        <p>muốn học bài bản, có khả năng thực chiến tốt với Java.</p>
+                    </div>
+                </div>
+                <div class="box d-flex align-items-center mb-2">
+                    <img src="./assets/img/sec2-t2-min.png" alt="">
+                    <div class="text-white p-3">
+                        <h4>Lập trình viên</h4>
+                        <p>đang làm việc tại các Doanh nghiệp, muốn bổ sung kiến thức và kỹ năng lập trình Java để phục vụ cho công việc.</p>
+                    </div>
+                </div>
+                <div class="box d-flex align-items-center mb-2">
+                    <img src="./assets/img/sec2-t3-min.png" alt="">
+                    <div class="text-white p-3">
+                        <h4>Học sinh, sinh viên, người đi làm </h4>
+                        <p>mới bắt đầu tìm hiểu về lập trình. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section class="section-3 py-5">
-        <h4 class="text-center text-bold text-white">05 LÝ DO CẦN HỌC KHÓA CHUYÊN GIA LẬP TRÌNH WEB TẠI APTECH</h4>
+    <section class="section-3 pt-5 bg-white">
+        <h3 class="text-center text-main text-uppercase text-bold mb-4 px-5">Những sai lầm phổ biến khi học Lập trình Web PHP</h3>
+        <div class="d-flex justify-content-center wrapper">
+            <div class="flex-basis-40 d-flex justify-content-end align-items-end px-3">
+                <img class="mw-100" src="./assets/img/sec-3img-min.png" alt="">
+            </div>
+            <div class="flex-basis-40 px-3 pb-5">
+                <div class="d-flex align-items-center mb-3">
+                    <img src="./assets/img/x-tick-min.png" alt="">
+                    <span class="pl-3 text-bold">Không cẩn thận với cú pháp</span>
+                </div>
+                <div class="d-flex align-items-center mb-3">
+                    <img src="./assets/img/x-tick-min.png" alt="">
+                    <span class="pl-3 text-bold">Viết code khó đọc, không rành mạch, bỏ qua các tiêu chuẩn viết code.</span>
+                </div>
+                <div class="d-flex align-items-center mb-3">
+                    <img src="./assets/img/x-tick-min.png" alt="">
+                    <span class="pl-3 text-bold">Sử dụng bộ nhớ không hiệu quả</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-4 bg-sub py-5">
+        <h3 class="text-center text-bold text-white text-uppercase px-5">03 kinh nghiệm học Lập trình web php</h3>
+        <div class="d-flex justify-content-between px-3 flex-wrap">
+            <div class="box pt-4 d-flex justify-content-center flex-grow-1">
+                <img src="./assets/img/sec-4-1-min.png" alt="">
+            </div>
+            <div class="box pt-4 d-flex justify-content-center flex-grow-1">
+                <img src="./assets/img/sec-4-2-min.png" alt="">
+            </div>
+            <div class="box pt-4 d-flex justify-content-center flex-grow-1">
+                <img src="./assets/img/sec-4-3-min.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="section-5 py-5 bg-main">
+        <h3 class="text-center text-bold text-white px-5">05 LÝ DO CẦN HỌC KHÓA CHUYÊN GIA LẬP TRÌNH WEB TẠI APTECH</h3>
         <div class="d-flex justify-content-center pt-3 flex-wrap">
             <div class="box">
                 <div class="img-container"><img src="./assets/img/proffessor-min.png"></div>
@@ -161,7 +227,7 @@
         </div>
     </section>
 
-    <section class="section-4">
+    <section class="section-6">
         <div class="d-flex justify-content-center align-items-center section-container py-3">
             <h5 class="m-0 text-bold text-white text-center">Hoàn thành khóa học, học viên được giới thiệu làm việc tại các Doanh nghiệp CNTT lớn</h5>
             <button class="btn rounded-pill bg-white text-bold px-4 py-0 ml-5" data-toggle="collapse" data-target="#detailCollapse">🡢 Xem chi tiết khóa học</button>
@@ -291,9 +357,9 @@
         </div>
     </section>
 
-    <section class="section-5 py-5 bg-white">
-        <h4 class="text-bold text-center">BẠN SẼ LÀM ĐƯỢC GÌ SAU KHÓA HỌC "CHUYÊN GIA LẬP TRÌNH WEB"</h4>
-        <h6 class="text-center">Hoàn thành khóa học Học viên có khả năng xây dựng các website Thương mại điện tử, website tin tức, tuyển dụng, website doanh nghiệp… tự tin ứng tuyển vào các Doanh nghiệp CNTT.</h6>
+    <section class="section-7 py-5 bg-white">
+        <h3 class="text-bold text-center text-main px-5">BẠN SẼ LÀM ĐƯỢC GÌ SAU KHÓA HỌC "CHUYÊN GIA LẬP TRÌNH WEB"</h3>
+        <h6 class="text-center px-5">Hoàn thành khóa học Học viên có khả năng xây dựng các website Thương mại điện tử, website tin tức, tuyển dụng, website doanh nghiệp… tự tin ứng tuyển vào các Doanh nghiệp CNTT.</h6>
 
         <div class="d-flex justify-content-center pt-3 flex-wrap">
             <!-- List -->
@@ -305,7 +371,7 @@
                     </div>
                 </div>
                 <div class="p-3 text-center">
-                    <h6 class="text-bold p-0">Đề tài: Thiết kế Website bán hàng BAGBAG</h6>
+                    <h6 class="text-bold p-0 text-main">Đề tài: Thiết kế Website bán hàng BAGBAG</h6>
                     <p class="m-0">
                         <small>Thiết kế website bán hàng Bagbag</small>
                         <br>
@@ -321,7 +387,7 @@
                     </div>
                 </div>
                 <div class="p-3 text-center">
-                    <h6 class="text-bold p-0">Đề tài: Thiết kế website bán hàng Eyeonic</h6>
+                    <h6 class="text-bold p-0 text-main">Đề tài: Thiết kế website bán hàng Eyeonic</h6>
                     <p class="m-0">
                         <small>Thiết kế website bán hàng Eyeonic</small>
                         <br>
@@ -337,7 +403,7 @@
                     </div>
                 </div>
                 <div class="p-3 text-center">
-                    <h6 class="text-bold p-0">Đề tài: Hẹn hò phố</h6>
+                    <h6 class="text-bold p-0 text-main">Đề tài: Hẹn hò phố</h6>
                     <p class="m-0">
                         <small>Project học kỳ 1</small>
                         <br>
@@ -353,7 +419,7 @@
                     </div>
                 </div>
                 <div class="p-3 text-center">
-                    <h6 class="text-bold p-0">Đề tài: Website tin tức Báo Việt</h6>
+                    <h6 class="text-bold p-0 text-main">Đề tài: Website tin tức Báo Việt</h6>
                     <p class="m-0">
                         <small>Project học kỳ 1</small>
                         <br>
@@ -365,13 +431,13 @@
         </div>
     </section>
 
-    <section class="section-6 py-5">
-        <h4 class="text-bold text-center">HỌC XONG BẠN SẼ LÀM VIỆC Ở ĐÂU</h4>
+    <section class="section-8 py-5">
+        <h3 class="text-bold text-center text-main px-5">HỌC XONG BẠN SẼ LÀM VIỆC Ở ĐÂU</h3>
         <div class="d-flex justify-content-center mt-5 flex-wrap">
             <div class="left-boxes d-flex flex-wrap justify-content-end">
                 <!-- List -->
                 <div class="card m-3">
-                    <div class="card-header position-relative py-3">
+                    <div class="card-header position-relative py-3 bg-main">
                         <div class="img-container position-absolute d-flex align-items-center">
                             <img src="./assets/img/IFI_Logo-min.png">
                         </div>
@@ -392,7 +458,7 @@
                     </div>
                 </div>
                 <div class="card m-3">
-                    <div class="card-header position-relative py-3">
+                    <div class="card-header position-relative py-3 bg-main">
                         <div class="img-container position-absolute d-flex align-items-center">
                             <img class="h-100" src="./assets/img/T_Solution-min.png">
                         </div>
@@ -413,7 +479,7 @@
                     </div>
                 </div>
                 <div class="card m-3">
-                    <div class="card-header position-relative py-3">
+                    <div class="card-header position-relative py-3 bg-main">
                         <div class="img-container position-absolute d-flex align-items-center">
                             <img class="w-100" src="./assets/img/Smartosc_Logo-min.png">
                         </div>
@@ -434,7 +500,7 @@
                     </div>
                 </div>
                 <div class="card m-3">
-                    <div class="card-header position-relative py-3">
+                    <div class="card-header position-relative py-3 bg-main">
                         <div class="img-container position-absolute d-flex align-items-center">
                             <img class="w-100" src="./assets/img/Megaads_Logo-min.png">
                         </div>
@@ -463,8 +529,8 @@
         </div>
     </section>
 
-    <section class="section-7 py-5">
-        <h4 class="text-center text-bold text-white">BÁO CHÍ NÓI VỀ APTECH</h4>
+    <section class="section-9 py-5">
+        <h3 class="text-center text-bold text-white px-5">BÁO CHÍ NÓI VỀ APTECH</h3>
         <div class="d-flex mt-4 justify-content-center flex-wrap">
             <!-- List -->
             <div class="box bg-white m-3">
@@ -515,8 +581,8 @@
         </div>
     </section>
 
-    <section class="section-8 py-5 bg-white">
-        <h4 class="text-bold text-center">MÔI TRƯỜNG HỌC TẬP CHUYÊN NGHIỆP TẠI APTECH</h4>
+    <section class="section-10 py-5 bg-white">
+        <h3 class="text-bold text-center text-main px-5">MÔI TRƯỜNG HỌC TẬP CHUYÊN NGHIỆP TẠI APTECH</h3>
         <div class="img-container mt-4 d-flex flex-wrap justify-content-center">
             <?php for($i = 1; $i <= 6; $i++): ?>
                 <div class="box m-3">
@@ -526,15 +592,10 @@
                 </div>
             <?php endfor ?>
         </div>
-        <br>
-        <div class="text-center">
-            <h4 class="text-center text-bold">Bạn muốn học tại môi trường này không?</h4>
-            <a href="#regis-form"><button class="btn btn-lg text-bold mt-2 px-5 text-white">Tôi muốn</button></a>
-        </div>
     </section>
 
-    <section class="section-9 py-5">
-        <h4 class="text-center text-bold">DOANH NGHIỆP NÓI VỀ APTECH</h4>
+    <section class="section-11 py-5">
+        <h3 class="text-center text-bold text-main px-5">DOANH NGHIỆP NÓI VỀ APTECH</h3>
         <div class="py-3 d-flex justify-content-center">
             <!-- PC -->
             <div id="carouselQuotesCompaniesPC" class="carousel slide">
@@ -551,7 +612,7 @@
                                         <div class="d-flex align-items-center pt-2">
                                             <img class="avt" src="../assets/img/quote-com/<?php echo $quoteCom[$i]->image ?>">
                                             <div class="pl-3">
-                                                <label class="mb-1 text-bold"><?php echo $quoteCom[$i]->name ?></label>
+                                                <label class="mb-1 text-bold text-main"><?php echo $quoteCom[$i]->name ?></label>
                                                 <p class="m-0"><?php echo $quoteCom[$i]->role ?></p>
                                             </div>
                                         </div>
@@ -566,7 +627,7 @@
                                         <div class="d-flex align-items-center pt-2">
                                             <img class="avt" src="../assets/img/quote-com/<?php echo $quoteCom[$i+1]->image ?>">
                                             <div class="pl-3">
-                                                <label class="mb-1 text-bold"><?php echo $quoteCom[$i+1]->name ?></label>
+                                                <label class="mb-1 text-bold text-main"><?php echo $quoteCom[$i+1]->name ?></label>
                                                 <p class="m-0"><?php echo $quoteCom[$i+1]->role ?></p>
                                             </div>
                                         </div>
@@ -610,7 +671,7 @@
                                         <div class="d-flex align-items-center pt-2">
                                             <img class="avt" src="../assets/img/quote-com/<?php echo $com->image ?>">
                                             <div class="pl-3">
-                                                <label class="mb-1 text-bold"><?php echo $com->name ?></label>
+                                                <label class="mb-1 text-bold text-main"><?php echo $com->name ?></label>
                                                 <p class="m-0"><?php echo $com->role ?></p>
                                             </div>
                                         </div>
@@ -642,8 +703,8 @@
         </div>
     </section>
 
-    <section class="section-10 py-5">
-        <h4 class="text-white text-center text-bold">CẢM NHẬN CỦA HỌC VIÊN VỀ APTECH</h4>
+    <section class="section-12 py-5">
+        <h3 class="text-white text-center text-bold px-5">CẢM NHẬN CỦA HỌC VIÊN VỀ APTECH</h3>
         <div class="pt-4 pb-4 d-flex justify-content-center">
             <!-- PC -->
             <div id="carouselFeelStdPC" class="carousel slide pt-5">
@@ -667,7 +728,7 @@
                                             </div>    
                                             <p><?php echo $feelStd[$i]->quote ?></p>
                                         </div>
-                                        <a class="align-self-end text-bold" href="<?php echo $feelStd[$i]->link; ?>" target="_blank">Xem thêm ></a>
+                                        <a class="align-self-end text-bold text-main" href="<?php echo $feelStd[$i]->link; ?>" target="_blank">Xem thêm ></a>
                                     </div>
                                 </div>
                                 <div class="card m-3">
@@ -686,7 +747,7 @@
                                             </div>    
                                             <p><?php echo $feelStd[$i+1]->quote; ?></p>
                                         </div>
-                                        <a class="align-self-end text-bold" href="<?php echo $feelStd[$i+1]->link; ?>" target="_blank">Xem thêm ></a>
+                                        <a class="align-self-end text-bold text-main" href="<?php echo $feelStd[$i+1]->link; ?>" target="_blank">Xem thêm ></a>
                                     </div>
                                 </div>
                             </div>
@@ -735,7 +796,7 @@
                                             </div>    
                                             <p><?php echo $std->quote ?></p>
                                         </div>
-                                        <a class="align-self-end text-bold" href="<?php echo $std->link; ?>" target="_blank">Xem thêm ></a>
+                                        <a class="align-self-end text-bold text-main" href="<?php echo $std->link; ?>" target="_blank">Xem thêm ></a>
                                     </div>
                                 </div>
                             </div>
@@ -765,20 +826,13 @@
     </section>
 
 
-    <section class="section-11 py-5" id="regis-form">
-        <div class="d-flex justify-content-center flex-wrap">
-            <div class="box p-3 pt-0 text-center">
-                <img src="./assets/img/course-banner-min.png">
-                <h5 class="text-white mt-5 text-uppercase">Khóa học của Aptech với 4 ưu điểm vượt trội:</h5>
-                <ul>
-                    <li><span class="text-bold">Tiếp thu kiến thức hiệu quả:</span> Ứng dụng phương pháp học Learn By Examples trực quan cùng các phần mềm hỗ trợ minh họa sinh động.</li>
-                    <li><span class="text-bold">Lớp học tương tác sôi nổi:</span> Áp dụng phương pháp đào tạo trực tuyến được Aptech triển khai thành công 20 năm nay trên Thế giới và Việt Nam. </li>
-                    <li><span class="text-bold">Nhận tài trợ 3.000.000 VNĐ/tháng từ Google:</span> Sử dụng không giới hạn dung lượng: Gmail, Google Drive, Google Meet, Google Photos, Google Classroom. </li>
-                    <li><span class="text-bold">Tính ứng dụng cao:</span> Nội dung học giúp giải quyết hiệu quả các vấn đề trong học tập, công việc và cuộc sống.</li>
-                </ul>
+    <section class="section-13 pt-0 pb-5" id="regis-form">
+        <div class="pt-4 d-flex justify-content-center flex-wrap">
+            <div class="box p-3 pt-0 d-flex text-center flex-basis-40">
+                <img class="mw-100 m-auto" src="./assets/img/promotion-min.png" alt="promotion.png">
             </div>
-            <div class="box p-3">
-                <h5 class="text-white text-center text-bold mb-4">Đăng ký nhận thông tin và tư vấn miễn phí</h5>
+            <div class="box p-3 flex-basis-40">
+                <h5 class="text-white mb-3 text-bold">Đăng ký tư vấn<br>và nhận bộ tài liệu tự học PHP miễn phí</h5>
                 <form class="d-flex flex-column" action="../mail/sendmail.php" method="POST">
                     <input class="form-control form-control-lg mb-3 pl-4" type="" name="txtName" placeholder="Họ và tên" required>
                     <input class="form-control form-control-lg mb-3 pl-4" type="email" name="txtEmail" placeholder="Email" required>
@@ -789,26 +843,25 @@
                         <option value="aptech1@aprotrain.com">Tòa nhà Aptech, 285 Đôi Cấn, Ba Đình, Hà Nội</option>
                         <option value="aptech3@aprotrain.com">Tòa nhà Aptech, 54 Lê Thanh Nghị, Hai Bà Trưng, Hà Nội</option>
                     </select>
-                    <input class="d-none" type="" name="subject" value="Đăng ký Khóa học Lập trình Web PHP">
-                    <input class="d-none" type="" name="redirectUrl" value="https://aptechvietnam.com.vn/php/dang-ky-thanh-cong">
-                    <button type="submit" class="btn btn-warning btn-lg text-bold align-self-end">NHẬN THÔNG TIN HỌC BỔNG</button>
+                    <input class="d-none" type="" name="subject" value="<?php echo $formSubmitSubject ?>">
+                    <input class="d-none" type="" name="redirectUrl" value="<?php echo $formSubmitRedirect ?>">
+                    <button type="submit" class="btn btn-round bg-white text-main btn-lg text-bold px-5 align-self-end">NHẬN TƯ VẤN</button>
                 </form>
-                <p class="text-white text-italic title-sm pt-4 mb-0">Thời gian ưu đãi còn:</p>
+                <p class="text-white text-italic pt-4 mb-0">Thời gian ưu đãi còn:</p>
                 <div class="d-flex justify-content-between align-items-center flex-wrap">
-                    <!-- <p class="text-white text-italic title-lg">Thời gian ưu đãi còn:</p> -->
-                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3 mt-4">
+                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-3 px-3 mt-4">
                         <h1 class="countdown-box-days text-bold m-0"></h1>
                         <p class="m-0">Ngày</p>
                     </div>
-                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3 mt-4">
+                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-3 px-3 mt-4">
                         <h1 class="countdown-box-hours text-bold m-0"></h1>
                         <p class="m-0">Giờ</p>
                     </div>
-                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3 mt-4">
+                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-3 px-3 mt-4">
                         <h1 class="countdown-box-minutes text-bold m-0"></h1>
                         <p class="m-0">Phút</p>
                     </div>
-                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3 mt-4">
+                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-3 px-3 mt-4">
                         <h1 class="countdown-box-seconds text-bold m-0"></h1>
                         <p class="m-0">Giây</p>
                     </div>
@@ -817,8 +870,8 @@
         </div>
     </section>
 
-    <section class="section-12 py-5 bg-white">
-        <h4 class="text-center text-bold">MỌI NGƯỜI NÓI GÌ VỀ APTECH?</h4>
+    <section class="section-14 py-5 bg-white">
+        <h3 class="text-center text-bold text-main px-5">MỌI NGƯỜI NÓI GÌ VỀ APTECH?</h3>
         <div class="fb-comments" data-href="<?php echo $fbComment ?>" width="100%" data-numposts="5"></div>
     </section>
     <!-- End Sections -->
@@ -828,7 +881,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-9 col-md-8 order-12 order-lg-1">
-                    <h4 class="text-uppercase text-bold mb-3 footer-heading">Hệ thống đào tạo lập trình viên quốc tế Aptech</h4>
+                    <h3 class="text-uppercase text-bold mb-3 footer-heading">Hệ thống đào tạo lập trình viên quốc tế Aptech</h3>
                     <table border="0" class="w-100">
                         <tbody>
                             <tr>

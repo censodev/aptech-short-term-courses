@@ -1,6 +1,6 @@
 <?php
-    $mode = 'DEV';
-    // $mode = 'DEV_DEPLOY';
+    // $mode = 'DEV';
+    $mode = 'DEV_DEPLOY';
     // $mode = 'PROD';
 
     $ext = '';
@@ -667,6 +667,7 @@
     </section>
 
     <section class="section-13 py-5 bg-white">
+        <h3 class="text-center text-bold text-main px-5">MỌI NGƯỜI NÓI GÌ VỀ APTECH?</h3>
         <div class="fb-comments" data-href="<?php echo $fbComment ?>" width="100%" data-numposts="5"></div>
     </section>
     <!-- End Sections -->
