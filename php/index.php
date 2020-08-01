@@ -1,27 +1,30 @@
 <?php
     // $mode = 'DEV';
-   $mode = 'DEV_DEPLOY';
-   // $mode = 'PROD';
+    $mode = 'DEV_DEPLOY';
+    // $mode = 'PROD';
 
-   $ext = '';
-   $baseUrl = '';
+    $ext = '';
+    $baseUrl = '';
 
-   switch ($mode) {
-      case 'PROD': 
-          $ext = '.min'; 
-          $baseUrl = 'https://aptechvietnam.com.vn';
-          break;
-      case 'DEV': 
-          $ext = ''; 
-          $baseUrl = $_SERVER['HTTP_HOST'].'/aptech';
-          break;
-      case 'DEV_DEPLOY':
-          $ext = '.min'; 
-          $baseUrl = $_SERVER['HTTP_HOST'].'/aptech';
-          break;
-  }
+    switch ($mode) {
+        case 'PROD': 
+            $ext = '.min'; 
+            $baseUrl = 'https://aptechvietnam.com.vn';
+            break;
+        case 'DEV': 
+            $ext = ''; 
+            $baseUrl = $_SERVER['HTTP_HOST'].'/aptech';
+            break;
+        case 'DEV_DEPLOY':
+            $ext = '.min'; 
+            $baseUrl = $_SERVER['HTTP_HOST'].'/aptech';
+            break;
+    }
 
     $titlePage = 'Aptech | PHP';
+
+    $metaDescription = '3 sai lầm phổ biến khi học lập trình Web bằng PHP. 3 kinh nghiệm để học lập trình PHP, lập trình Web hiệu quả cho người mới bắt đầu. Học PHP cùng Chuyên gia Công nghệ, nhận bộ tài liệu tự học thiết kế Web PHP miễn phí. Học thiết kế Website doanh nghiệp, bán hàng, tuyển dụng bằng lập trình PHP.';
+    $metaKeywords = 'học php, hoc php, lập trình php, lap trinh php, học lập trình php, khóa học php, khoa hoc php, php aptech, aptech, học php cơ bản, học thiết kế website, khóa học thiết kế web, thiết kế web bằng php, thiết kế web php, lập trình web, lập trình web php';
 
     $feelStd = json_decode(file_get_contents("../assets/data/feel-std.json"));
     $quoteCom = json_decode(file_get_contents("../assets/data/quote-com.json"));
@@ -47,6 +50,8 @@
     <?php endif ?>
     
 	<meta charset="utf-8">
+    <meta name="description" content="<?php echo $metaDescription ?>">
+    <meta name="keywords" content="<?php echo $metaKeywords ?>">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title><?php echo $titlePage ?></title>
@@ -58,10 +63,10 @@
 </head>
 <body>
     <!-- Header -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white pl-4">
         <a class="navbar-brand" href="https://aptechvietnam.com.vn/" target="_blank">
             <img src="../assets/img/logo-min.png" class="mr-2">
-            <img src="../assets/img/logo-second-min.png">
+            <!-- <img src="../assets/img/logo-second-min.png"> -->
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -122,21 +127,21 @@
                     <img src="./assets/img/sec2-t1-min.png" alt="">
                     <div class="text-white p-3">
                         <h4>Sinh viên CNTT</h4>
-                        <p>muốn học bài bản, có khả năng thực chiến tốt với Java.</p>
+                        <p>Muốn học bài bản, có khả năng thực chiến tốt với Java.</p>
                     </div>
                 </div>
                 <div class="box d-flex align-items-center mb-2">
                     <img src="./assets/img/sec2-t2-min.png" alt="">
                     <div class="text-white p-3">
                         <h4>Lập trình viên</h4>
-                        <p>đang làm việc tại các Doanh nghiệp, muốn bổ sung kiến thức và kỹ năng lập trình Java để phục vụ cho công việc.</p>
+                        <p>Đang làm việc tại các Doanh nghiệp, muốn bổ sung kiến thức và kỹ năng lập trình Java để phục vụ cho công việc.</p>
                     </div>
                 </div>
                 <div class="box d-flex align-items-center mb-2">
                     <img src="./assets/img/sec2-t3-min.png" alt="">
                     <div class="text-white p-3">
                         <h4>Học sinh, sinh viên, người đi làm </h4>
-                        <p>mới bắt đầu tìm hiểu về lập trình. </p>
+                        <p>Mới bắt đầu tìm hiểu về lập trình. </p>
                     </div>
                 </div>
             </div>
@@ -358,7 +363,7 @@
     </section>
 
     <section class="section-7 py-5 bg-white">
-        <h3 class="text-bold text-center text-main px-5">BẠN SẼ LÀM ĐƯỢC GÌ SAU KHÓA HỌC "CHUYÊN GIA LẬP TRÌNH WEB"</h3>
+        <h3 class="text-bold text-center text-main px-5">BẠN SẼ LÀM ĐƯỢC GÌ SAU KHÓA HỌC "CHUYÊN GIA LẬP TRÌNH WEB PHP"</h3>
         <h6 class="text-center px-5">Hoàn thành khóa học Học viên có khả năng xây dựng các website Thương mại điện tử, website tin tức, tuyển dụng, website doanh nghiệp… tự tin ứng tuyển vào các Doanh nghiệp CNTT.</h6>
 
         <div class="d-flex justify-content-center pt-3 flex-wrap">
@@ -530,58 +535,50 @@
     </section>
 
     <section class="section-9 py-5">
-        <h3 class="text-center text-bold text-white px-5">BÁO CHÍ NÓI VỀ APTECH</h3>
+        <h3 class="text-white text-center text-bold px-5">BÁO CHÍ NÓI VỀ APTECH</h3>
         <div class="d-flex mt-4 justify-content-center flex-wrap">
             <!-- List -->
-            <div class="box bg-white m-3">
+            <div class="box bg-white m-3 d-flex flex-column">
                 <img height="183" width="259" src="./assets/img/Layer_54-min.png">
-                <div class="p-3">
-                    <div>
-                        <small>Nguồn: <b>Vietnamnet.vn</b></small>
-                        <h5 class="py-2 text-justify">Lễ ký kết hợp tác đào tạo Công nghệ 4.0 cho các Trường đại học.</h5>
-                        <p class="text-justify">Nhằm giúp Việt Nam đào tạo đội ngũ giảng viên CN 4.0, Bộ GD&ĐT phối hợp với Tập đoàn Aptech tổ chức Khóa đào tạo Công nghệ 4.0 cho các giảng viên đại học.</p>
-                    </div>
-                    <a target="_blank" class="text-bold" href="https://vietnamnet.vn/vn/cong-nghe/tin-cong-nghe/hoi-thao-giai-phap-dao-tao-nhan-luc-cntt-thoi-4-0-546367.html">Xem thêm ></a>
+                <div class="p-3">                    
+                    <small>Nguồn: <span class="text-bold">Vietnamnet.vn</span></small>
+                    <h5 class="py-2 text-justify text-bold">Lễ ký kết hợp tác đào tạo Công nghệ 4.0 cho các Trường đại học.</h5>
+                    <p class="text-justify">Nhằm giúp Việt Nam đào tạo đội ngũ giảng viên CN 4.0, Bộ GD&ĐT phối hợp với Tập đoàn Aptech tổ chức Khóa đào tạo Công nghệ 4.0 cho các giảng viên đại học.</p>
                 </div>
+                <a target="_blank" class="text-bold mt-auto px-3 pb-3" href="https://vietnamnet.vn/vn/cong-nghe/tin-cong-nghe/hoi-thao-giai-phap-dao-tao-nhan-luc-cntt-thoi-4-0-546367.html">Xem thêm ></a>
             </div>
-            <div class="box bg-white m-3">
+            <div class="box bg-white m-3 d-flex flex-column">
                 <iframe width="259" height="183" src="https://www.youtube.com/embed/Z_VRZ8RBpkg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <div class="p-3">
-                    <div>
-                        <small>Nguồn: <b>Truyền hình VTV6</b></small>
-                        <h5 class="py-2 text-justify">Aptech - Lễ ký kết hợp tác đào tạo Công nghệ 4.0 cho giảng viên các Trường đại học.</h5>
-                        <p class="text-justify">Ngày 03/07, Bộ GD & ĐT cùng với Tập đoàn Aptech tổ chức Hội thảo Giải pháp đào tạo nhân lực CNTT cho CMCN 4.0 với sự tham gia của Đại sứ quán Ấn Độ, các tập đoàn công nghệ hàng đầu Thế giới như Microsoft, Oracle và lãnh đạo các trường Đại học.</p>
-                    </div>
-                    <a target="_blank" class="text-bold" href="https://vietnamnet.vn/vn/cong-nghe/tin-cong-nghe/hoi-thao-giai-phap-dao-tao-nhan-luc-cntt-thoi-4-0-546367.html">Xem thêm ></a>
+                <div class="p-3">                    
+                    <small>Nguồn: <span class="text-bold">Truyền hình VTV6</span></small>
+                    <h5 class="py-2 text-justify text-bold">Aptech - Lễ ký kết hợp tác đào tạo Công nghệ 4.0 cho giảng viên các Trường đại học.</h5>
+                    <p class="text-justify">Ngày 03/07, Bộ GD & ĐT cùng với Tập đoàn Aptech tổ chức Hội thảo Giải pháp đào tạo nhân lực CNTT cho CMCN 4.0 với sự tham gia của Đại sứ quán Ấn Độ, các tập đoàn công nghệ hàng đầu Thế giới như Microsoft, Oracle và lãnh đạo các trường Đại học.</p>
                 </div>
+                <a target="_blank" class="text-bold mt-auto px-3 pb-3" href="https://vietnamnet.vn/vn/cong-nghe/tin-cong-nghe/hoi-thao-giai-phap-dao-tao-nhan-luc-cntt-thoi-4-0-546367.html">Xem thêm ></a>
             </div>
-            <div class="box bg-white m-3">
+            <div class="box bg-white m-3 d-flex flex-column">
                 <img height="183" width="259" src="./assets/img/Layer_55-min.png">
-                <div class="p-3">
-                    <div>
-                        <small>Nguồn: <b>Giaoducthoidai.vn</b></small>
-                        <h5 class="py-2 text-justify">Cơ hội việc làm tại ngày hội tuyển dụng Aptech Job Fair 2019.</h5>
-                        <p class="text-justify">Sáng (20/04) tại Hà Nội, Aptech tổ chức Ngày hội tuyển dụng Aptech job fair 2019, đây là dip để các bạn trẻ có cơ hội tìm hiểu về ngành nghề mà mình yêu thích, cũng như đăng ký ứng tuyển trực tiếp với các Doanh nghiệp tuyển dụng.</p>
-                    </div>
-                    <a target="_blank" class="text-bold" href="https://giaoducthoidai.vn/giao-duc/nganh-cong-nghe-thong-tin-chinh-sach-dai-ngo-tot-vi-sao-van-kho-tuyen-nhan-su-3997074-v.html">Xem thêm ></a>
+                <div class="p-3">                    
+                    <small>Nguồn: <span class="text-bold">Giaoducthoidai.vn</span></small>
+                    <h5 class="py-2 text-justify text-bold">Cơ hội việc làm tại ngày hội tuyển dụng Aptech Job Fair 2019.</h5>
+                    <p class="text-justify">Sáng (20/04) tại Hà Nội, Aptech tổ chức Ngày hội tuyển dụng Aptech job fair 2019, đây là dip để các bạn trẻ có cơ hội tìm hiểu về ngành nghề mà mình yêu thích, cũng như đăng ký ứng tuyển trực tiếp với các Doanh nghiệp tuyển dụng.</p>
                 </div>
+                <a target="_blank" class="text-bold mt-auto px-3 pb-3" href="https://giaoducthoidai.vn/giao-duc/nganh-cong-nghe-thong-tin-chinh-sach-dai-ngo-tot-vi-sao-van-kho-tuyen-nhan-su-3997074-v.html">Xem thêm ></a>
             </div>
-            <div class="box bg-white m-3">
+            <div class="box bg-white m-3 d-flex flex-column">
                 <iframe width="259" height="183" src="https://www.youtube.com/embed/sd2KKryb5y4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <div class="p-3">
-                    <div>
-                        <small>Nguồn: <b>Truyền hình VTC1</b></small>
-                        <h5 class="py-2 text-justify">Lễ Khai giảng và Trao bằng tốt nghiệp năm 2019 tại Aptech.</h5>
-                        <p class="text-justify">Vừa qua (28/07), Lễ tốt nghiệp dành cho các bạn học viên vượt qua hơn 40 bài thi và 4 dự án phần mềm và Chào đón Tân học viên đã diễn ra tại Trung tâm Văn hóa Pháp L’Espace. Buổi lễ có sự tham dự của hơn 200 học sinh và phụ huynh cùng các doanh nghiệp công nghệ tuyển dụng.</p>
-                    </div>
-                    <a target="_blank" class="text-bold" href="https://www.facebook.com/aptechvietnam.com.vn/videos/2601192076560243">Xem thêm ></a>
+                <div class="p-3">                    
+                    <small>Nguồn: <span class="text-bold">Truyền hình VTC1</span></small>
+                    <h5 class="py-2 text-justify text-bold">Lễ Khai giảng và Trao bằng tốt nghiệp năm 2019 tại Aptech.</h5>
+                    <p class="text-justify">Vừa qua (28/07), Lễ tốt nghiệp dành cho các bạn học viên vượt qua hơn 40 bài thi và 4 dự án phần mềm và Chào đón Tân học viên đã diễn ra tại Trung tâm Văn hóa Pháp L’Espace. Buổi lễ có sự tham dự của hơn 200 học sinh và phụ huynh cùng các doanh nghiệp công nghệ tuyển dụng.</p>
                 </div>
+                <a target="_blank" class="text-bold mt-auto px-3 pb-3" href="https://www.facebook.com/aptechvietnam.com.vn/videos/2601192076560243">Xem thêm ></a>
             </div>
             <!-- End List -->
         </div>
     </section>
 
-    <section class="section-10 py-5 bg-white">
+    <section class="section-10 pt-5 pb-4 bg-white">
         <h3 class="text-bold text-center text-main px-5">MÔI TRƯỜNG HỌC TẬP CHUYÊN NGHIỆP TẠI APTECH</h3>
         <div class="img-container mt-4 d-flex flex-wrap justify-content-center">
             <?php for($i = 1; $i <= 6; $i++): ?>
@@ -591,6 +588,12 @@
                     </a>
                 </div>
             <?php endfor ?>
+        </div>
+        <h4 class="text-center text-main text-bold">Bạn muốn học tại môi trường này không?</h4>
+        <div class="d-flex justify-content-center align-items-center mt-3">
+            <img src="./assets/img/caret1-min.png" alt="">
+            <a href="#regis-form" class="btn bg-sub text-white text-bold px-4 mx-3">Tôi muốn</a>
+            <img src="./assets/img/caret2-min.png" alt="">
         </div>
     </section>
 

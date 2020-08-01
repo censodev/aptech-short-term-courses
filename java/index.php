@@ -23,6 +23,9 @@
 
     $titlePage = 'Aptech | Java';
 
+    $metaDescription = '3 sai lầm phổ biến khi học lập trình Java Web. 3 kinh nghiệm học lập trình Java hiệu quả dành cho người mới bắt đầu. Khóa học Java cùng Chuyên gia công nghệ để lập trình Web, lập trình game Java. Học Java cơ bản tiết kiệm thời gian học, ứng dụng Công nghệ mới nhất 2020.';
+    $metaKeywords = 'học java, hoc java, học javascript, hoc javascript, học java cơ bản, hoc java co ban, khóa học java, java aptech, aptech, học java từ đầu, khóa học java, lập trình web với java, khóa học lập trình java web';
+
     $feelStd = json_decode(file_get_contents("../assets/data/feel-std.json"));
     $quoteCom = json_decode(file_get_contents("../assets/data/quote-com.json"));
 
@@ -48,6 +51,8 @@
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
+    <meta name="description" content="<?php echo $metaDescription ?>">
+    <meta name="keywords" content="<?php echo $metaKeywords ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Bootstrap CSS -->
@@ -59,38 +64,38 @@
 </head>
   <body>
     <!-- Header -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <a class="navbar-brand" href="https://aptechvietnam.com.vn/" target="_blank">
-          <img src="../assets/img/logo-min.png" class="mr-2">
-          <img src="../assets/img/logo-second-min.png">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-              <li class="nav-item active px-lg-3">
-                  <a class="nav-link text-uppercase font-600 px-0 link-scroll text-center" href="#">Giới thiệu</a>
-              </li>
-              <li class="nav-item px-lg-3">
-                  <a class="nav-link text-uppercase font-600 px-0 link-scroll text-center" href="#section-2">Khóa học này dành cho ai</a>
-              </li>
-              <li class="nav-item px-lg-3">
-                  <a class="nav-link text-uppercase font-600 px-0 link-scroll text-center" href="#regis-form">Tư vấn miễn phí</a>
-              </li>
-              <li class="nav-item pl-lg-3 pr-lg-0">
-                  <div class="d-flex flex-nowrap justify-content-center py-3 py-lg-0">
-                      <a class="nav-link p-0 nav-link-social mr-3" target="_blank" href="https://www.facebook.com/aptechvietnam.com.vn/">
-                          <img src="../assets/img/icon-fb-min.png">
-                      </a>
-                      <a class="nav-link p-0 nav-link-social mr-3" target="_blank" href="https://www.youtube.com/user/aprotrainaptechvn">
-                          <img src="../assets/img/icon-youtube-min.png">
-                      </a>
-                      <a class="btn regis-btn text-bold text-uppercase px-5 link-scroll font-600" href="#regis-form">Đăng ký</a>
-                  </div>
-              </li>
-          </ul>
-      </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white pl-4">
+        <a class="navbar-brand" href="https://aptechvietnam.com.vn/" target="_blank">
+            <img src="../assets/img/logo-min.png" class="mr-2">
+            <!-- <img src="../assets/img/logo-second-min.png"> -->
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active px-lg-3">
+                    <a class="nav-link text-uppercase font-600 px-0 link-scroll text-center" href="#">Giới thiệu</a>
+                </li>
+                <li class="nav-item px-lg-3">
+                    <a class="nav-link text-uppercase font-600 px-0 link-scroll text-center" href="#section-2">Khóa học này dành cho ai</a>
+                </li>
+                <li class="nav-item px-lg-3">
+                    <a class="nav-link text-uppercase font-600 px-0 link-scroll text-center" href="#regis-form">Tư vấn miễn phí</a>
+                </li>
+                <li class="nav-item pl-lg-3 pr-lg-0">
+                    <div class="d-flex flex-nowrap justify-content-center py-3 py-lg-0">
+                        <a class="nav-link p-0 nav-link-social mr-3" target="_blank" href="https://www.facebook.com/aptechvietnam.com.vn/">
+                            <img src="../assets/img/icon-fb-min.png">
+                        </a>
+                        <a class="nav-link p-0 nav-link-social mr-3" target="_blank" href="https://www.youtube.com/user/aprotrainaptechvn">
+                            <img src="../assets/img/icon-youtube-min.png">
+                        </a>
+                        <a class="btn regis-btn text-bold text-uppercase px-5 link-scroll font-600" href="#regis-form">Đăng ký</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </nav>
     <!-- End Header -->
 
@@ -157,7 +162,7 @@
     </section>
 
     <section class="section-3 pt-5 bg-white">
-        <h3 class="text-center text-main text-uppercase text-bold mb-4 px-5">Những quan niệm sai lầm phổ biến khi học Lập trình Java</h3>
+        <h3 class="text-center text-main text-uppercase text-bold mb-4 px-5">Những sai lầm phổ biến khi học Lập trình Java</h3>
         <div class="d-flex justify-content-center wrapper">
             <div class="flex-basis-40 d-flex justify-content-end align-items-end px-3">
                 <img class="mw-100" src="./assets/img/sec-3img-min.png" alt="">
@@ -242,7 +247,7 @@
 
   	<div class="section-6">
   		<div class="bn-1  float-left">
-  			<div class="text  d-flex justify-content-center text-center">Hoàn thành khoá học, học viên được giới thiệu làm việc tại các Doanh nghiệp CNTT lớn.</div>
+  			<div class="text text-bold d-flex justify-content-center text-center">Hoàn thành khoá học, học viên được giới thiệu làm việc tại các Doanh nghiệp CNTT lớn.</div>
   		</div>
   		<div class="bn-2 float-right">
   			<div class="detail">
@@ -342,7 +347,7 @@
 
     <div class="section-7 py-5 bg-white">
         <h3 class="text-bold text-center text-uppercase text-main px-5">Bạn sẽ làm được gì sau khoá học<br> "Lập trình Java chuyên nghiệp" tại Aptech</h3>
-        <h6 class="text-center px-5">Hoàn thành khóa học Học viên có khả năng xây dựng các phần mềm quản lý, website thương mại điện tử trên nền tảng Java, phát triển phần mềm ứng dụng trong dịch vụ tài chính, ngân hàng...</h6>
+        <h6 class="text-center px-5 text-bold">Hoàn thành khóa học Học viên có khả năng xây dựng các phần mềm quản lý, website thương mại điện tử trên nền tảng Java, phát triển phần mềm ứng dụng trong dịch vụ tài chính, ngân hàng...</h6>
 
         <div class="d-flex justify-content-center pt-3 flex-wrap">
             <!-- List -->
@@ -425,8 +430,8 @@
 	  					<div class="block-area col-md-6 col-6">
 		  					<div class="head">
 		  						<div class="img-container">
-                    <img class="h-100" src="./assets/img/logo1-min.png" alt="ifi solution">
-                  </div>
+                                    <img class="h-100" src="./assets/img/logo1-min.png" alt="ifi solution">
+                                </div>
 		  						<span class="name-company text-uppercase">ifi solution</span>
 		  					</div>
 		  					<div class="body">
@@ -444,8 +449,8 @@
 		  				<div class="block-area col-md-6 col-6">
 		  					<div class="head">
 		  						<div class="img-container border-0 bg-transparent">
-                    <img class="h-100 w-100" src="./assets/img/T_Solution-min.png" alt="t-solution">
-                  </div>
+                                    <img class="h-100 w-100" src="./assets/img/T_Solution-min.png" alt="t-solution">
+                                </div>
 		  						<span class="name-company text-uppercase">T-SOLUTION</span>
 		  					</div>
 		  					<div class="body">
@@ -463,8 +468,8 @@
 		  				<div class="block-area col-md-6 mt-4 col-6">
 		  					<div class="head">
 		  						<div class="img-container">
-                    <img src="./assets/img/leadsgen-min.png" alt="leadsgen">
-                  </div>
+                                    <img src="./assets/img/leadsgen-min.png" alt="leadsgen">
+                                </div>
 		  						<span class="name-company">LeadsGen</span>
 		  					</div>
 		  					<div class="body">
@@ -482,8 +487,8 @@
 		  				<div class="block-area col-md-6 mt-4 col-6">
 		  					<div class="head">
 		  						<div class="img-container">
-                    <img src="./assets/img/synergix-min.png" alt="synergix-min.png">
-                  </div>
+                                    <img src="./assets/img/synergix-min.png" alt="synergix-min.png">
+                                </div>
 		  						<span class="name-company">Synergix Việt Nam</span>
 		  					</div>
 		  					<div class="body">
@@ -512,55 +517,47 @@
         <h3 class="text-white text-center text-bold px-5">BÁO CHÍ NÓI VỀ APTECH</h3>
         <div class="d-flex mt-4 justify-content-center flex-wrap">
             <!-- List -->
-            <div class="box bg-white m-3">
+            <div class="box bg-white m-3 d-flex flex-column">
                 <img height="183" width="259" src="./assets/img/Layer_54-min.png">
-                <div class="p-3">
-                    <div>
-                        <small>Nguồn: <b>Vietnamnet.vn</b></small>
-                        <h5 class="py-2 text-justify">Lễ ký kết hợp tác đào tạo Công nghệ 4.0 cho các Trường đại học.</h5>
-                        <p class="text-justify">Nhằm giúp Việt Nam đào tạo đội ngũ giảng viên CN 4.0, Bộ GD&ĐT phối hợp với Tập đoàn Aptech tổ chức Khóa đào tạo Công nghệ 4.0 cho các giảng viên đại học.</p>
-                    </div>
-                    <a target="_blank" class="text-bold" href="https://vietnamnet.vn/vn/cong-nghe/tin-cong-nghe/hoi-thao-giai-phap-dao-tao-nhan-luc-cntt-thoi-4-0-546367.html">Xem thêm ></a>
+                <div class="p-3">                    
+                    <small>Nguồn: <span class="text-bold">Vietnamnet.vn</span></small>
+                    <h5 class="py-2 text-justify text-bold">Lễ ký kết hợp tác đào tạo Công nghệ 4.0 cho các Trường đại học.</h5>
+                    <p class="text-justify">Nhằm giúp Việt Nam đào tạo đội ngũ giảng viên CN 4.0, Bộ GD&ĐT phối hợp với Tập đoàn Aptech tổ chức Khóa đào tạo Công nghệ 4.0 cho các giảng viên đại học.</p>
                 </div>
+                <a target="_blank" class="text-bold mt-auto px-3 pb-3" href="https://vietnamnet.vn/vn/cong-nghe/tin-cong-nghe/hoi-thao-giai-phap-dao-tao-nhan-luc-cntt-thoi-4-0-546367.html">Xem thêm ></a>
             </div>
-            <div class="box bg-white m-3">
+            <div class="box bg-white m-3 d-flex flex-column">
                 <iframe width="259" height="183" src="https://www.youtube.com/embed/Z_VRZ8RBpkg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <div class="p-3">
-                    <div>
-                        <small>Nguồn: <b>Truyền hình VTV6</b></small>
-                        <h5 class="py-2 text-justify">Aptech - Lễ ký kết hợp tác đào tạo Công nghệ 4.0 cho giảng viên các Trường đại học.</h5>
-                        <p class="text-justify">Ngày 03/07, Bộ GD & ĐT cùng với Tập đoàn Aptech tổ chức Hội thảo Giải pháp đào tạo nhân lực CNTT cho CMCN 4.0 với sự tham gia của Đại sứ quán Ấn Độ, các tập đoàn công nghệ hàng đầu Thế giới như Microsoft, Oracle và lãnh đạo các trường Đại học.</p>
-                    </div>
-                    <a target="_blank" class="text-bold" href="https://vietnamnet.vn/vn/cong-nghe/tin-cong-nghe/hoi-thao-giai-phap-dao-tao-nhan-luc-cntt-thoi-4-0-546367.html">Xem thêm ></a>
+                <div class="p-3">                    
+                    <small>Nguồn: <span class="text-bold">Truyền hình VTV6</span></small>
+                    <h5 class="py-2 text-justify text-bold">Aptech - Lễ ký kết hợp tác đào tạo Công nghệ 4.0 cho giảng viên các Trường đại học.</h5>
+                    <p class="text-justify">Ngày 03/07, Bộ GD & ĐT cùng với Tập đoàn Aptech tổ chức Hội thảo Giải pháp đào tạo nhân lực CNTT cho CMCN 4.0 với sự tham gia của Đại sứ quán Ấn Độ, các tập đoàn công nghệ hàng đầu Thế giới như Microsoft, Oracle và lãnh đạo các trường Đại học.</p>
                 </div>
+                <a target="_blank" class="text-bold mt-auto px-3 pb-3" href="https://vietnamnet.vn/vn/cong-nghe/tin-cong-nghe/hoi-thao-giai-phap-dao-tao-nhan-luc-cntt-thoi-4-0-546367.html">Xem thêm ></a>
             </div>
-            <div class="box bg-white m-3">
+            <div class="box bg-white m-3 d-flex flex-column">
                 <img height="183" width="259" src="./assets/img/Layer_55-min.png">
-                <div class="p-3">
-                    <div>
-                        <small>Nguồn: <b>Giaoducthoidai.vn</b></small>
-                        <h5 class="py-2 text-justify">Cơ hội việc làm tại ngày hội tuyển dụng Aptech Job Fair 2019.</h5>
-                        <p class="text-justify">Sáng (20/04) tại Hà Nội, Aptech tổ chức Ngày hội tuyển dụng Aptech job fair 2019, đây là dip để các bạn trẻ có cơ hội tìm hiểu về ngành nghề mà mình yêu thích, cũng như đăng ký ứng tuyển trực tiếp với các Doanh nghiệp tuyển dụng.</p>
-                    </div>
-                    <a target="_blank" class="text-bold" href="https://giaoducthoidai.vn/giao-duc/nganh-cong-nghe-thong-tin-chinh-sach-dai-ngo-tot-vi-sao-van-kho-tuyen-nhan-su-3997074-v.html">Xem thêm ></a>
+                <div class="p-3">                    
+                    <small>Nguồn: <span class="text-bold">Giaoducthoidai.vn</span></small>
+                    <h5 class="py-2 text-justify text-bold">Cơ hội việc làm tại ngày hội tuyển dụng Aptech Job Fair 2019.</h5>
+                    <p class="text-justify">Sáng (20/04) tại Hà Nội, Aptech tổ chức Ngày hội tuyển dụng Aptech job fair 2019, đây là dip để các bạn trẻ có cơ hội tìm hiểu về ngành nghề mà mình yêu thích, cũng như đăng ký ứng tuyển trực tiếp với các Doanh nghiệp tuyển dụng.</p>
                 </div>
+                <a target="_blank" class="text-bold mt-auto px-3 pb-3" href="https://giaoducthoidai.vn/giao-duc/nganh-cong-nghe-thong-tin-chinh-sach-dai-ngo-tot-vi-sao-van-kho-tuyen-nhan-su-3997074-v.html">Xem thêm ></a>
             </div>
-            <div class="box bg-white m-3">
+            <div class="box bg-white m-3 d-flex flex-column">
                 <iframe width="259" height="183" src="https://www.youtube.com/embed/sd2KKryb5y4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <div class="p-3">
-                    <div>
-                        <small>Nguồn: <b>Truyền hình VTC1</b></small>
-                        <h5 class="py-2 text-justify">Lễ Khai giảng và Trao bằng tốt nghiệp năm 2019 tại Aptech.</h5>
-                        <p class="text-justify">Vừa qua (28/07), Lễ tốt nghiệp dành cho các bạn học viên vượt qua hơn 40 bài thi và 4 dự án phần mềm và Chào đón Tân học viên đã diễn ra tại Trung tâm Văn hóa Pháp L’Espace. Buổi lễ có sự tham dự của hơn 200 học sinh và phụ huynh cùng các doanh nghiệp công nghệ tuyển dụng.</p>
-                    </div>
-                    <a target="_blank" class="text-bold" href="https://www.facebook.com/aptechvietnam.com.vn/videos/2601192076560243">Xem thêm ></a>
+                <div class="p-3">                    
+                    <small>Nguồn: <span class="text-bold">Truyền hình VTC1</span></small>
+                    <h5 class="py-2 text-justify text-bold">Lễ Khai giảng và Trao bằng tốt nghiệp năm 2019 tại Aptech.</h5>
+                    <p class="text-justify">Vừa qua (28/07), Lễ tốt nghiệp dành cho các bạn học viên vượt qua hơn 40 bài thi và 4 dự án phần mềm và Chào đón Tân học viên đã diễn ra tại Trung tâm Văn hóa Pháp L’Espace. Buổi lễ có sự tham dự của hơn 200 học sinh và phụ huynh cùng các doanh nghiệp công nghệ tuyển dụng.</p>
                 </div>
+                <a target="_blank" class="text-bold mt-auto px-3 pb-3" href="https://www.facebook.com/aptechvietnam.com.vn/videos/2601192076560243">Xem thêm ></a>
             </div>
             <!-- End List -->
         </div>
     </section>
 
-    <section class="section-10 py-5 bg-white">
+    <section class="section-10 pt-5 pb-4 bg-white">
         <h3 class="text-bold text-center text-main px-5">MÔI TRƯỜNG HỌC TẬP CHUYÊN NGHIỆP TẠI APTECH</h3>
         <div class="img-container mt-4 d-flex flex-wrap justify-content-center">
             <?php for($i = 1; $i <= 6; $i++): ?>
@@ -571,10 +568,16 @@
                 </div>
             <?php endfor ?>
         </div>
+        <h4 class="text-center text-main text-bold">Bạn muốn học tại môi trường này không?</h4>
+        <div class="d-flex justify-content-center align-items-center mt-3">
+            <img src="./assets/img/caret1-min.png" alt="">
+            <a href="#regis-form" class="btn btn-warning text-bold px-4 mx-3">Tôi muốn</a>
+            <img src="./assets/img/caret2-min.png" alt="">
+        </div>
     </section>
 
 
-    <section class="section-11 py-5">
+    <section class="section-11 py-5 bg-main">
         <h3 class="text-center text-bold text-white px-5">DOANH NGHIỆP NÓI VỀ APTECH</h3>
         <div class="py-3 d-flex justify-content-center">
             <!-- PC -->
