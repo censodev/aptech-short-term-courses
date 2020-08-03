@@ -795,7 +795,7 @@
                 <img class="mw-100 m-auto" src="./assets/img/promotion-min.png" alt="promotion.png">
             </div>
             <div class="box p-3 flex-basis-40">
-                <h5 class="text-white mb-3 text-bold">Đăng ký tư vấn<br>và nhận bộ tài liệu tự học Java miễn phí</h5>
+                <h5 class="text-white mb-3 text-bold text-center">Đăng ký tư vấn<br>và nhận bộ tài liệu tự học Java miễn phí</h5>
                 <form class="d-flex flex-column" action="../mail/sendmail.php" method="POST">
                     <input class="form-control form-control-lg mb-3 pl-4" type="" name="txtName" placeholder="Họ và tên" required>
                     <input class="form-control form-control-lg mb-3 pl-4" type="email" name="txtEmail" placeholder="Email" required>
