@@ -102,26 +102,26 @@
             <div class="text-center d-flex align-items-end px-3 flex-basis-40">
                 <img class="w-100" src="./assets/img/Layer 67-min.png" alt="">
             </div>
-            <div class="d-flex flex-column justify-content-center px-3 flex-basis-40">
+            <div class="d-flex flex-column justify-content-center px-3 flex-basis-40 pb-4">
                 <div class="box d-flex align-items-center mb-2">
                     <img src="./assets/img/sec2-t1-min.png" alt="">
                     <div class="text-white p-3">
                         <h4>Sinh viên CNTT</h4>
-                        <p>Muốn học bài bản, có khả năng thực chiến tốt với Java.</p>
+                        <p class="mb-0">Muốn học bài bản, có khả năng thực chiến tốt với PHP.</p>
                     </div>
                 </div>
                 <div class="box d-flex align-items-center mb-2">
                     <img src="./assets/img/sec2-t2-min.png" alt="">
                     <div class="text-white p-3">
                         <h4>Lập trình viên</h4>
-                        <p>Đang làm việc tại các Doanh nghiệp, muốn bổ sung kiến thức và kỹ năng lập trình Java để phục vụ cho công việc.</p>
+                        <p class="mb-0">Đang làm việc tại các Doanh nghiệp, muốn bổ sung kiến thức và kỹ năng lập trình PHP để phục vụ cho công việc.</p>
                     </div>
                 </div>
                 <div class="box d-flex align-items-center mb-2">
                     <img src="./assets/img/sec2-t3-min.png" alt="">
                     <div class="text-white p-3">
                         <h4>Học sinh, sinh viên, người đi làm </h4>
-                        <p>Mới bắt đầu tìm hiểu về lập trình. </p>
+                        <p class="mb-0">Mới bắt đầu tìm hiểu về lập trình. </p>
                     </div>
                 </div>
             </div>
@@ -167,7 +167,7 @@
     </section>
 
     <section class="section-5 py-5 bg-main">
-        <h3 class="text-center text-bold text-white px-5">05 LÝ DO CẦN HỌC KHÓA CHUYÊN GIA LẬP TRÌNH WEB TẠI APTECH</h3>
+        <h3 class="text-center text-bold text-white px-5">05 LÝ DO CẦN HỌC KHÓA CHUYÊN GIA LẬP TRÌNH WEB PHP TẠI APTECH</h3>
         <div class="d-flex justify-content-center pt-3 flex-wrap">
             <div class="box">
                 <div class="img-container"><img src="./assets/img/proffessor-min.png"></div>
@@ -206,7 +206,7 @@
                 <p class="pt-3">
                     <span class="text-bold">Chứng chỉ uy tín</span>
                     <br>
-                    <small> Kết thúc khóa học học viên được nhận chứng chỉ <span class="text-bold">“Chuyên viên lập trình Web” (Aptech Certified Web Programmer)</span> do Aptech cấp.</small>
+                    <small> Kết thúc khóa học học viên được nhận chứng chỉ <span class="text-bold">“Chuyên viên lập trình Web PHP”</span></small>
                 </p>
             </div>
         </div>

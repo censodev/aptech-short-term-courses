@@ -105,15 +105,15 @@
             <div class="text-center d-flex align-items-end px-3 flex-basis-40">
                 <img class="w-100" src="./assets/img/Layer 67-min.png" alt="">
             </div>
-            <div class="d-flex flex-column justify-content-center px-3 flex-basis-40">
-                <div class="box d-flex align-items-start flex-column mb-5">
+            <div class="d-flex flex-column justify-content-center px-3 flex-basis-40 pb-4">
+                <div class="box d-flex align-items-start flex-column">
                     <img class="pl-3" src="./assets/img/sec2-t1-min.png" alt="">
                     <div class="text-white p-3">
                         <h4>Sinh viên CNTT</h4>
                         <p>Mong muốn bổ sung kiến thức và kỹ năng về ngôn ngữ lập trình.</p>
                     </div>
                 </div>
-                <div class="box d-flex align-items-start flex-column mb-5">
+                <div class="box d-flex align-items-start flex-column">
                     <img class="pl-3" src="./assets/img/sec2-t2-min.png" alt="">
                     <div class="text-white p-3">
                         <h4>Học sinh, sinh viên, người đi làm </h4>
