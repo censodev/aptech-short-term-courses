@@ -1,7 +1,7 @@
 <?php
 
 include 'cache.php';
-include 'phpmailer/mailconfig.php';
+include 'phpmailer/mailastc.config.php';
 
 if (isset($_GET['cache'])) {
     send_queued_emails($_GET['cache']);

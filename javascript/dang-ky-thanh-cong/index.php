@@ -1,5 +1,5 @@
 <?php
-   include_once '../../config.php';
+   include_once '../../astc.config.php';
 
    $title = 'Đăng ký thành công Khóa học Lập trình Javascript';
    $course = 'Khóa học Lập trình Javascript';
