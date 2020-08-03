@@ -1,35 +1,15 @@
 <?php
-   // $mode = 'DEV';
-   $mode = 'DEV_DEPLOY';
-   // $mode = 'PROD';
-
-   $ext = '';
-   $baseUrl = '';
-
-   switch ($mode) {
-      case 'PROD': 
-          $ext = '.min'; 
-          $baseUrl = 'https://aptechvietnam.com.vn';
-          break;
-      case 'DEV': 
-          $ext = ''; 
-          $baseUrl = $_SERVER['HTTP_HOST'].'/aptech';
-          break;
-      case 'DEV_DEPLOY':
-          $ext = '.min'; 
-          $baseUrl = $_SERVER['HTTP_HOST'].'/aptech';
-          break;
-  }
+   include_once '../../config.php';
 
    $title = 'Đăng ký thành công Khóa học Lập trình Web PHP';
    $course = 'Khóa học Lập trình Web PHP';
-   $link = $baseUrl.'/php';
+   $link = BASE_URL.'/php';
 ?>
 
 <!DOCTYPE html>
 <html class="html">
 <head>
-   <?php if ($mode == 'PROD') :?>
+   <?php if (MODE == 'PROD') :?>
       <!-- Google Tag Manager -->
       <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -44,12 +24,12 @@
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    <title><?php echo $title ?></title>
 
-   <link rel="stylesheet" href="../../assets/css/success-regis<?php echo $ext ?>.css">
+   <link rel="stylesheet" href="../../assets/css/success-regis<?php echo FILE_EXT ?>.css">
 
 </head>
 <body>
  
-   <?php if ($mode == 'PROD') :?>
+   <?php if (MODE == 'PROD') :?>
       <!-- Google Tag Manager (noscript) -->
       <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NV98LLF"
       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

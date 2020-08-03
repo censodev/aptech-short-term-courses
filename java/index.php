@@ -1,25 +1,5 @@
 <?php
-    // $mode = 'DEV';
-    $mode = 'DEV_DEPLOY';
-    // $mode = 'PROD';
-
-    $ext = '';
-    $baseUrl = '';
-
-    switch ($mode) {
-        case 'PROD': 
-            $ext = '.min'; 
-            $baseUrl = 'https://aptechvietnam.com.vn';
-            break;
-        case 'DEV': 
-            $ext = ''; 
-            $baseUrl = $_SERVER['HTTP_HOST'].'/aptech';
-            break;
-        case 'DEV_DEPLOY':
-            $ext = '.min'; 
-            $baseUrl = $_SERVER['HTTP_HOST'].'/aptech';
-            break;
-    }
+    include_once '../config.php';
 
     $titlePage = 'Aptech | Java';
 
@@ -29,16 +9,16 @@
     $feelStd = json_decode(file_get_contents("../assets/data/feel-std.json"));
     $quoteCom = json_decode(file_get_contents("../assets/data/quote-com.json"));
 
-    $formSubmitRedirect = $baseUrl.'/java/dang-ky-thanh-cong';
+    $formSubmitRedirect = BASE_URL.'/java/dang-ky-thanh-cong';
     $formSubmitSubject = 'Đăng ký khóa học lập trình Java';
 
-    $fbComment = $baseUrl.'/java';
+    $fbComment = BASE_URL.'/java';
 ?>
 
 <!Doctype html>
 <html lang="en">
   <head>
-    <?php if ($mode == 'PROD') :?>
+    <?php if (MODE == 'PROD') :?>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-20788510-60"></script>
         <script>
@@ -58,8 +38,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-    <link rel="stylesheet" type="text/css" href="../assets/css/master<?php echo $ext ?>.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style<?php echo $ext ?>.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/master<?php echo FILE_EXT ?>.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style<?php echo FILE_EXT ?>.css">
     <title><?php echo $titlePage ?></title>
 </head>
   <body>
@@ -914,10 +894,10 @@
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
     <!-- Scroll top -->
-    <script async defer src="../assets/js/scroll-top<?php echo $ext ?>.js"></script>
+    <script async defer src="../assets/js/scroll-top<?php echo FILE_EXT ?>.js"></script>
 
     <!-- Countdown -->
-    <script async defer src="../assets/js/countdown<?php echo $ext ?>.js"></script>
+    <script async defer src="../assets/js/countdown<?php echo FILE_EXT ?>.js"></script>
     
     <!-- FB SDK -->
     <!-- <div id="fb-root"></div> -->
