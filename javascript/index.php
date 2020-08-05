@@ -5,7 +5,6 @@
 
     $feelStd = json_decode(file_get_contents("../assets/data/feel-std.json"));
     $quoteCom = json_decode(file_get_contents("../assets/data/quote-com.json"));
-    $companies = json_decode(file_get_contents("./assets/data/companies.json"));
 
     $formSubmitRedirect = BASE_URL.'/javascript/dang-ky-thanh-cong';
     $formSubmitSubject = 'Đăng ký khóa học Javascript';
@@ -80,7 +79,7 @@
     </section>
 
     <section class="section-1 py-5 bg-white">
-        <h3 class="text-center text-bold text-uppercase text-sub">3 lý do phải học HTML & Javascript ngay hôm nay</h3>
+        <h3 class="text-center text-bold text-uppercase text-sub px-3">3 lý do phải học HTML & Javascript ngay hôm nay</h3>
         <div class="d-flex justify-content-center align-items-center">
             <iframe class="flex-basis-40 px-3 pt-3" src="https://www.youtube.com/embed/I-VEiZqVohQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class="d-flex flex-column flex-basis-40 px-3 pt-3">
@@ -100,7 +99,7 @@
         </div>
     </section>
 
-    <section id="section-2" class="section-2 pt-5 px-5">
+    <section id="section-2" class="section-2 pt-5 px-3">
         <h3 class="text-uppercase text-white text-center text-bold pb-3">Khóa học này dành cho ai?</h3>
         <div class="d-flex sec-2">
             <div class="who-banner text-center mr-5 d-flex align-items-end">
@@ -117,7 +116,7 @@
     </section>
 
     <section class="section-3 py-5 bg-white">
-        <h3 class="text-center text-bold text-uppercase text-sub">5 Ưu điểm vượt trội của khóa học lập trình HTML & JavaScript</h3>
+        <h3 class="text-center text-bold text-uppercase text-sub px-3">5 Ưu điểm vượt trội của khóa học lập trình HTML & JavaScript</h3>
         <div class="d-flex justify-content-center pt-3 flex-wrap">
             <div class="box">
                 <div class="img-container"><img src="./assets/img/proffessor-min.png"></div>
@@ -155,7 +154,7 @@
     </section>
 
     <section class="section-4 pt-5 bg-main">
-        <h3 class="text-center text-white text-uppercase text-bold mb-4 px-5">Những sai lầm phổ biến khi học Lập trình HTML & JavaScript</h3>
+        <h3 class="text-center text-white text-uppercase text-bold mb-4 px-3">Những sai lầm phổ biến khi học Lập trình HTML & JavaScript</h3>
         <div class="d-flex justify-content-center wrapper">
             <div class="flex-basis-40 d-flex justify-content-end align-items-end px-3">
                 <img class="mw-100" src="./assets/img/sec-3img-min.png" alt="">
@@ -182,7 +181,7 @@
     </section>
 
     <section class="section-5 pt-5 pb-4 bg-white">
-        <h3 class="text-center text-bold text-sub text-uppercase px-5">03 kinh nghiệm học Lập trình HTML & JavaScript</h3>
+        <h3 class="text-center text-bold text-sub text-uppercase px-3">03 kinh nghiệm học Lập trình HTML & JavaScript</h3>
         <div class="d-flex justify-content-between px-3 flex-wrap">
             <div class="box pt-4 d-flex justify-content-center flex-grow-1">
                 <img src="./assets/img/sec-4-1-min.png" alt="">
@@ -197,7 +196,7 @@
     </section>
 
     <section class="section-6 py-5 bg-white">
-        <h3 class="text-bold text-center text-sub text-uppercase">Khóa học Lập trình HTML & JavaScript sẽ giúp bạn xây dựng 1 Website cơ bản</h3>
+        <h3 class="text-bold text-center text-sub text-uppercase px-3">Khóa học Lập trình HTML & JavaScript sẽ giúp bạn xây dựng 1 Website cơ bản</h3>
         <div class="d-flex justify-content-center pt-5 px-4 flex-wrap">
             <img class="box mb-5 mx-3" src="./assets/img/Group 14-min.png" alt="">
             <img class="box mb-5 mx-3" src="./assets/img/Group 15-min.png" alt="">
@@ -214,7 +213,7 @@
     </section>
 
     <section class="section-8 py-5">
-        <h3 class="text-white text-center text-bold px-5">BÁO CHÍ NÓI VỀ APTECH</h3>
+        <h3 class="text-white text-center text-bold px-3">BÁO CHÍ NÓI VỀ APTECH</h3>
         <div class="d-flex mt-4 justify-content-center flex-wrap">
             <!-- List -->
             <div class="box bg-white m-3 d-flex flex-column">
@@ -254,7 +253,7 @@
     </section>
 
     <section class="section-9 py-5 bg-white">
-        <h3 class="text-bold text-center text-sub">MÔI TRƯỜNG HỌC TẬP CHUYÊN NGHIỆP TẠI APTECH</h3>
+        <h3 class="text-bold text-center text-sub px-3">MÔI TRƯỜNG HỌC TẬP CHUYÊN NGHIỆP TẠI APTECH</h3>
         <div class="img-container mt-4 d-flex flex-wrap justify-content-center">
             <?php for($i = 1; $i <= 6; $i++): ?>
                 <div class="box m-3">
@@ -278,7 +277,7 @@
     </section>
 
     <section class="section-10 py-5">
-        <h3 class="text-center text-bold text-sub">DOANH NGHIỆP NÓI VỀ APTECH</h3>
+        <h3 class="text-center text-bold text-sub px-3">DOANH NGHIỆP NÓI VỀ APTECH</h3>
         <div class="py-3 d-flex justify-content-center">
             <!-- PC -->
             <div id="carouselQuotesCompaniesPC" class="carousel slide">
@@ -387,7 +386,7 @@
     </section>
 
     <section class="section-11 py-5">
-        <h3 class="text-white text-center text-bold">CẢM NHẬN CỦA HỌC VIÊN VỀ APTECH</h3>
+        <h3 class="text-white text-center text-bold px-3">CẢM NHẬN CỦA HỌC VIÊN VỀ APTECH</h3>
         <div class="pt-4 pb-4 d-flex justify-content-center">
             <!-- PC -->
             <div id="carouselFeelStdPC" class="carousel slide pt-5">
@@ -507,7 +506,6 @@
             <!-- END MB -->
         </div>
     </section>
-
 
     <section class="section-12 pt-0 pb-5 bg-main" id="regis-form">
         <div class="pt-4 d-flex justify-content-center flex-wrap">

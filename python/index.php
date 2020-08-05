@@ -5,7 +5,6 @@
 
     $feelStd = json_decode(file_get_contents("../assets/data/feel-std.json"));
     $quoteCom = json_decode(file_get_contents("../assets/data/quote-com.json"));
-    $companies = json_decode(file_get_contents("./assets/data/companies.json"));
 
     $formSubmitRedirect = BASE_URL.'/python/dang-ky-thanh-cong';
     $formSubmitSubject = 'Đăng ký khóa học Python';
@@ -39,10 +38,10 @@
 </head>
 <body>
     <!-- Header -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white pl-4">
         <a class="navbar-brand" href="https://aptechvietnam.com.vn/" target="_blank">
             <img src="../assets/img/logo-min.png" class="mr-2">
-            <img src="../assets/img/logo-second-min.png">
+            <!-- <img src="../assets/img/logo-second-min.png"> -->
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -66,7 +65,7 @@
                         <a class="nav-link p-0 nav-link-social mr-3" target="_blank" href="https://www.youtube.com/user/aprotrainaptechvn">
                             <img src="../assets/img/icon-youtube-min.png">
                         </a>
-                        <a class="btn regis-btn text-dark text-bold text-uppercase px-5 link-scroll font-600" href="#regis-form">Đăng ký</a>
+                        <a class="btn regis-btn bg-main text-dark text-dark text-bold text-uppercase px-5 link-scroll font-600" href="#regis-form">Đăng ký</a>
                     </div>
                 </li>
             </ul>
@@ -80,57 +79,69 @@
     </section>
 
     <section class="section-1 py-5 bg-white">
-        <h5 class="text-center text-bold text-uppercase">PYTHON LÀ GÌ MÀ HOT ĐẾN VẬY? </h5>
-        <div class="d-flex justify-content-center pt-3 align-items-center">
-            <iframe src="https://www.youtube.com/embed/I-VEiZqVohQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <ul>
-                <li class="text-bold">Là ngôn ngữ lập trình làm khuynh đảo giới công nghệ ngày nay.</li>
-                <li class="text-bold">Viết ra dành cho những người có suy nghĩ mới.</li>
-                <li class="text-bold">Được nhiều ông trùm Công nghệ yêu thích như Google, Youtube, Instagram, Netflix,...</li>
-                <li class="text-bold">Chiếc chìa khóa vạn năng dẫn nhập vào Thế giới Công nghệ tương lai màu sắc: AI, Machine Learning, Big Data,...</li>
-            </ul>
+        <h3 class="text-center text-bold text-uppercase text-sub px-3">PYTHON LÀ GÌ MÀ HOT ĐẾN VẬY? </h3>
+        <div class="d-flex justify-content-center align-items-center">
+            <iframe class="flex-basis-40 px-3 pt-3" src="https://www.youtube.com/embed/I-VEiZqVohQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="d-flex flex-column flex-basis-40 px-3 pt-3">
+                <div class="d-flex align-items-center text-bold py-2">
+                    <img src="./assets/img/dot-min.png" alt="">
+                    <span class="pl-3 text-bold">Là ngôn ngữ lập trình làm khuynh đảo giới công nghệ ngày nay!</span>
+                </div>
+                <div class="d-flex align-items-center text-bold py-2">
+                    <img src="./assets/img/dot-min.png" alt="">
+                    <span class="pl-3 text-bold">Cú pháp đơn giản, mạch lạc, phù hợp cho người mới bắt đầu.</span>
+                </div>
+                <div class="d-flex align-items-center text-bold py-2">
+                    <img src="./assets/img/dot-min.png" alt="">
+                    <span class="pl-3 text-bold">Được nhiều ông trùm Công nghệ yêu thích như Google, Youtube, Instagram, Netflix,...</span>
+                </div>
+                <div class="d-flex align-items-center text-bold py-2">
+                    <img src="./assets/img/dot-min.png" alt="">
+                    <span class="pl-3 text-bold">Chiếc chìa khóa vạn năng dẫn nhập vào Thế giới Công nghệ tương lai màu sắc: AI, Machine Learning, Big Data,...</span>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="section-2" class="section-2 pt-5 px-5">
-        <h4 class="text-uppercase text-white text-center text-bold pb-5">Khóa học này dành cho ai?</h4>
-        <div class="d-flex sec-2">
-            <div class="who-banner text-center mr-5 d-flex align-items-end">
+        <h3 class="text-uppercase text-white text-center text-bold pb-4 px-3">Khóa học này dành cho ai?</h3>
+        <div class="d-flex sec-2 justify-content-center">
+            <div class="text-center d-flex align-items-end px-3 flex-basis-40">
                 <img class="w-100" src="./assets/img/Layer 67-min.png" alt="">
             </div>
-            <div class="who-title d-flex flex-column justify-content-center">
-                <div class="d-flex who-title_item align-items-center mb-5">
+            <div class="d-flex flex-column justify-content-center px-3 flex-basis-40 pb-4">
+                <div class="box d-flex align-items-center mb-2">
                     <img src="./assets/img/sec2-t1-min.png" alt="">
-                    <div class="text-white ml-4">
-                        <h5>Sinh viên CNTT</h5>
-                        <small>Muốn học bài bản, có khả năng thực chiến với Javascript.</small>
+                    <div class="text-white p-3">
+                        <h4>Sinh viên CNTT</h4>
+                        <p class="mb-0">Muốn đón đầu để mở toang cánh cửa Công nghệ tương lai.</p>
                     </div>
                 </div>
-                <div class="d-flex who-title_item align-items-center mb-5">
+                <div class="box d-flex align-items-center mb-2">
                     <img src="./assets/img/sec2-t2-min.png" alt="">
-                    <div class="text-white ml-4">
-                        <h5>Lập trình viên </h5>
-                        <small>Đang làm việc tại các Doanh nghiệp muốn bổ sung kiến thức và kỹ năng Javascript để lập trình phục vụ cho công việc.</small>
+                    <div class="text-white p-3">
+                        <h4>Lập trình viên</h4>
+                        <p class="mb-0">Đang làm việc tại các Doanh nghiệp, muốn phát triển xa hơn trên con đường sự nghiệp.</p>
                     </div>
                 </div>
-                <div class="d-flex who-title_item align-items-center mb-5">
+                <div class="box d-flex align-items-center mb-2">
                     <img src="./assets/img/sec2-t3-min.png" alt="">
-                    <div class="text-white ml-4">
-                        <h5>Học sinh, sinh viên, người đi làm</h5>
-                        <small>Mới bắt đầu tìm hiểu về lập trình.</small>
+                    <div class="text-white p-3">
+                        <h4>Học sinh, sinh viên, người đi làm </h4>
+                        <p class="mb-0">Muốn lựa chọn Python để bắt đầu gây dựng sự nghiệp Coder.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section-3 py-5">
-        <h4 class="text-center text-bold text-uppercase">Ưu điểm vượt trội của khóa học lập trình Python</h4>
+    <section class="section-3 py-5 bg-main">
+        <h3 class="text-center text-bold text-uppercase text-sub px-3">4 ưu điểm vượt trội của khóa học lập trình Python</h3>
         <div class="d-flex justify-content-center pt-3 flex-wrap">
             <div class="box">
                 <div class="img-container"><img src="./assets/img/proffessor-min.png"></div>
                 <p class="pt-3">
-                    <span class="text-bold">Giảng viên là các Chuyên gia Công nghệ</span>
+                    <span class="text-bold text-sub">Giảng viên là các Chuyên gia Công nghệ</span>
                     <br>
                     <small>Giúp sinh viên ứng dụng ngay kiến thức mới học vào thực tế</small>
                 </p>
@@ -138,279 +149,133 @@
             <div class="box">
                 <div class="img-container"><img class="ml-2" src="./assets/img/time-min.png"></div>
                 <p class="pt-3">
-                    <span class="text-bold">Tiết kiệm thời gian học</span>
+                    <span class="text-bold text-sub">Tiết kiệm thời gian học</span>
                     <br>
-                    <small>Sinh viên ra trường có thể ứng tuyển ngay vào các Doanh nghiệp tuyển dụng.</small>
+                    <small>Giáo trình và chương trình học được tối ưu.</small>
                 </p>
             </div>
             <div class="box">
                 <div class="img-container"><img src="./assets/img/reactjs-min.png"></div>
                 <p class="pt-3">
-                    <span class="text-bold">Áp dụng công nghệ mới nhất</span>
+                    <span class="text-bold text-sub">Ngôn ngữ của tương lai</span>
                     <br>
-                    <small>Cập nhật chương trình 2020 của Aptech toàn cầu với các công nghệ Web mới nhất.</small>
-                </p>
-            </div>
-            <div class="box">
-                <div class="img-container"><img src="./assets/img/coder-min.png"></div>
-                <p class="pt-3">
-                    <span class="text-bold">Dự án thực tế</span>
-                    <br>
-                    <small>Học viên được tham gia dự án thực tế vào cuối kỳ dưới sự hướng dẫn trực tiếp của các giảng viên.</small>
+                    <small>Cập nhật chương trình 2020 của Aptech toàn cầu với Công nghệ mới nhất.</small>
                 </p>
             </div>
             <div class="box">
                 <div class="img-container"><img src="./assets/img/certificate-min.png"></div>
                 <p class="pt-3">
-                    <span class="text-bold">Chứng chỉ uy tín</span>
+                    <span class="text-bold text-sub">Chứng chỉ uy tín</span>
                     <br>
-                    <small> Kết thúc khóa học học viên được nhận chứng chỉ <span class="text-bold">“Chuyên viên lập trình Web” (Aptech Certified Web Programmer)</span> do Aptech cấp.</small>
+                    <small>Kết thúc khóa học, học viên được nhận chứng chỉ: <span class="text-bold">“Professional Diploma in Python”.</span></small>
                 </p>
             </div>
         </div>
     </section>
 
-    <section class="section-4">
-        <div class="d-flex justify-content-center align-items-center section-container py-3">
-            <h5 class="m-0 text-bold text-white text-center">Hoàn thành khóa học, học viên được giới thiệu làm việc tại các Doanh nghiệp CNTT lớn</h5>
-            <a href="#regis-form">
-                <button class="btn rounded-pill bg-white text-bold px-4 py-0 ml-5" data-toggle="collapse" data-target="#detailCollapse">🡢 Đăng ký nhận tư vấn ngay</button>
-            </a>
-        </div>
-        <!-- <div class="collapse py-4" id="detailCollapse">
-            <div class="d-flex overflow-auto">
-                <table class="table table-bordered m-auto">
-                    <thead></thead>
-                    <tbody>
-                        <tr class="bg-white">
-                            <td class="text-focused">HTML, CSS và Javascript</td>
-                            <td>
-                                <ul>
-                                    <li>Các thẻ HTML cơ bản</li>
-                                    <li>HTML5, CSS, Javascript</li>
-                                    <li>Hệ quản trị cơ sở dữ liệu MySQL</li>
-                                    <li>Hướng dẫn sử dụng CMS</li>
-                                </ul>
-                            </td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td class="text-focused">PHP căn bản</td>
-                            <td class="text-focused">Giới thiệu và làm quen với PHP</td>
-                            <td></td>
-                        </tr>
-                        <tr class="bg-white">
-                            <td></td>
-                            <td>
-                                <ul>
-                                    <li>Toán tử trong PHP</li>
-                                    <li>Biểu thức điều kiện và vòng lặp</li>
-                                    <li>Các phương thức truyền dữ liệu</li>
-                                    <li>Mảng và các hàm hỗ trợ mảng</li>
-                                </ul>
-                            </td>
-                            <td>
-                                <ul>
-                                    <li>Hàm trong PHP</li>
-                                    <li>Thao tác với File</li>
-                                    <li>Session & Cookie</li>
-                                    <li>Tương tác PHP và MySQL</li>
-                                </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td class="text-focused">Convert template Admin website Bán điện thoại di động</td>
-                            <td></td>
-                        </tr>
-                        <tr class="bg-white">
-                            <td></td>
-                            <td>
-                                <ul>
-                                    <li>Xây dựng chức năng Đăng nhập & Đăng xuất</li>
-                                    <li>Xây dựng trang chủ Admin</li>
-                                    <li>Xây dựng chức năng Quản lí sản phẩm</li>
-                                    <li>Xây dựng chức năng Thêm mới sản phẩm</li>
-                                </ul>
-                            </td>
-                            <td>
-                                <ul>
-                                    <li>Xây dựng chức năng Sửa thông tin sản phẩm</li>
-                                    <li>Xây dựng chức năng Xóa sản phẩm</li>
-                                    <li>Xây dựng chức năng Phân trang</li>
-                                    <li>Tích hợp bộ công cụ soạn thảo CKEditor</li>
-                                </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td class="text-focused">Convert template website Bán điện thoại di động</td>
-                            <td></td>
-                        </tr>
-                        <tr class="bg-white">
-                            <td></td>
-                            <td>
-                                <ul>
-                                    <li>Xây dựng chức năng Hiển thị sản phẩm mới, sản phẩm đặc biệt</li>
-                                    <li>Xây dựng chức năng Hiển thị danh mục sản phẩm</li>
-                                    <li>Xây dựng Bộ lọc theo danh mục</li>
-                                </ul>
-                            </td>
-                            <td>
-                                <ul>
-                                    <li>Xây dựng chức năng Phân trang sản phẩm</li>
-                                    <li>Xây dựng chức năng Chi tiết sản phẩm</li>
-                                    <li>Xây dựng chức năng Giỏ hàng</li>
-                                </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="text-focused">PHP nâng cao</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr class="bg-white">
-                            <td></td>
-                            <td>
-                                <ul>
-                                    <li>Lập trình hướng đối tượng trong PHP (PHP OOP 5)</li>
-                                    <li>Lớp, Phương thức, Thuộc tính</li>
-                                    <li>Magic method</li>
-                                    <li>Xây dựng hệ thống theo mô hình MVC</li>
-                                    <li>Tổng quan về Biểu thức chính quy (Regular Expression)</li>
-                                    <li>Cache</li>
-                                    <li>Cơ bản về htaccess</li>
-                                    <li>Friendly URL</li>
-                                </ul>
-                            </td>
-                            <td>
-                                <ul>
-                                    <li>Giới thiệu về Yii (PHP Framework)</li>
-                                    <li>Kiến trúc tổng quan của Yii</li>
-                                    <li>Model trong Yii</li>
-                                    <li>Controller trong Yii</li>
-                                    <li>View trong Yii</li>
-                                    <li>Các thành phần quan trọng khác</li>
-                                    <li>Tập xây dựng trang tin tức, blog bằng Yii</li>
-                                </ul>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+    <section class="section-4 pt-5 bg-white">
+        <h3 class="text-center text-sub text-uppercase text-bold mb-4 px-3">Những sai lầm phổ biến khi học Lập trình Python</h3>
+        <div class="d-flex justify-content-center wrapper">
+            <div class="flex-basis-40 d-flex justify-content-end align-items-end px-3">
+                <img class="mw-100" src="./assets/img/sec-3img-min.png" alt="">
             </div>
-        </div> -->
+            <div class="flex-basis-40 px-3 pb-5 pt-3">
+                <div class="d-flex align-items-center mb-3">
+                    <img src="./assets/img/x-tick-min.png" alt="">
+                    <span class="pl-3 text-bold">Chủ quan không thực hành lại vì nhìn vào cú pháp đơn giản.</span>
+                </div>
+                <div class="d-flex align-items-center mb-3">
+                    <img src="./assets/img/x-tick-min.png" alt="">
+                    <span class="pl-3 text-bold">Viết code sử dụng quá nhiều thư viện cùng 1 lúc mà chưa hiểu bản chất.</span>
+                </div>
+                <div class="d-flex align-items-center mb-3">
+                    <img src="./assets/img/x-tick-min.png" alt="">
+                    <span class="pl-3 text-bold">Không test code đều đặn, cẩn thận.</span>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section class="section-5 py-5 bg-white">
-        <h4 class="text-bold text-center text-uppercase">Bạn sẽ làm...</h4>
-        <h6 class="text-bold text-center">Chiếc chìa khóa vạn năng Python sẽ giúp bạn dẫn nhập vào Thế giới Công nghệ tương lai màu sắc thế nào?</h6>
-        <div class="d-flex justify-content-center pt-5 px-4 flex-wrap">
-            <div class="box mb-5 mx-3">
-                <img class="" src="./assets/img/Group 14-min.png" alt="">
-                <p class="pt-3 text-center text-bold">Web và các ứng dụng web</p>
+    <section class="section-5 py-5 bg-sub">
+        <h3 class="text-center text-bold text-white text-uppercase px-3">03 kinh nghiệm học Python</h3>
+        <div class="d-flex justify-content-between px-3 flex-wrap">
+            <div class="box pt-4 d-flex justify-content-center flex-grow-1">
+                <img src="./assets/img/sec-4-1-min.png" alt="">
             </div>
-            <div class="box mb-5 mx-3">
-                <img class="" src="./assets/img/Group 15-min.png" alt="">
-                <p class="pt-3 text-center text-bold">Web và các ứng dụng web</p>
+            <div class="box pt-4 d-flex justify-content-center flex-grow-1">
+                <img src="./assets/img/sec-4-2-min.png" alt="">
             </div>
-            <div class="box mb-5 mx-3">
-                <img class="" src="./assets/img/Group 16-min.png" alt="">
-                <p class="pt-3 text-center text-bold">Web và các ứng dụng web</p>
-            </div>
-            <div class="box mb-5 mx-3">
-                <img class="" src="./assets/img/Group 17-min.png" alt="">
-                <p class="pt-3 text-center text-bold">Web và các ứng dụng web</p>
+            <div class="box pt-4 d-flex justify-content-center flex-grow-1">
+                <img src="./assets/img/sec-4-3-min.png" alt="">
             </div>
         </div>
-        <h4 class="text-bold text-center">Bạn muốn học tại môi trường này không?</h4>
-        <div class="d-flex align-items-center mt-4 justify-content-center">
+    </section>
+
+    <section class="section-6 py-5 bg-white">
+        <h3 class="text-bold text-center text-uppercase text-sub px-3">Python - chiếc chìa khóa vạn năng</h3>
+        <h6 class="text-center">Dẫn nhập bạn vào thế giới Công nghệ tương lai đầy màu sắc</h6>
+        <div class="d-flex justify-content-center pt-3 px-4 flex-wrap">
+            <div class="box my-3 mx-3">
+                <img class="" src="./assets/img/Group 14-min.png" alt="">
+                <p class="pt-3 text-center text-bold text-sub">Web và các ứng dụng web</p>
+            </div>
+            <div class="box my-3 mx-3">
+                <img class="" src="./assets/img/Group 15-min.png" alt="">
+                <p class="pt-3 text-center text-bold text-sub">Khoa học Dữ liệu (Data Science)</p>
+            </div>
+            <div class="box my-3 mx-3">
+                <img class="" src="./assets/img/Group 16-min.png" alt="">
+                <p class="pt-3 text-center text-bold text-sub">Machine Learning và Trí thông<br>minh nhân tạo (AI)</p>
+            </div>
+            <div class="box my-3 mx-3">
+                <img class="" src="./assets/img/Group 17-min.png" alt="">
+                <p class="pt-3 text-center text-bold text-sub">IoT – Internet Vạn Vật</p>
+            </div>
+        </div>
+        <div class="d-flex align-items-center mt-2 justify-content-center flex-wrap">
+            <h4 class="text-bold text-center px-4 text-sub"> Bạn có muốn học Python đầy thú vị này?</h4>
             <img src="./assets/img/cta-left-min.png" alt="">
             <a href="#regis-form">
-                <button class="btn btn-lg text-bold px-5 text-dark mx-3">Tôi muốn</button>
+                <button class="btn btn-lg bg-main text-bold px-5 text-dark mx-3">Tôi muốn</button>
             </a>
             <img src="./assets/img/cta-right-min.png" alt="">
         </div>
     </section>
 
-    <section class="section-6 pt-5 px-5">
-        <h4 class="text-bold text-center">HỌC XONG BẠN SẼ LÀM VIỆC Ở ĐÂU</h4>
-        <div class="d-flex mt-5 flex-wrap">
-            <div class="left-boxes d-flex flex-wrap justify-content-between">
-                <!-- List -->
-                <?php foreach($companies as $k => $com) :?>
-                    <div class="card mb-5">
-                        <div class="card-header position-relative py-3">
-                            <div class="img-container position-absolute d-flex align-items-center">
-                                <img class="w-100" src="./assets/img/<?php echo $com->image ?>">
-                            </div>
-                            <h6 class="text-white m-0"><?php echo $com->name ?></h6>
-                        </div>
-                        <div class="card-body p-0 position-relative">
-                            <div class="py-4 px-3">
-                                <h6 class="text-bold"><?php echo $com->title ?></h6>
-                                <ul class="p-0 pt-1">
-                                    <?php foreach($com->benefits as $benf) :?>
-                                        <li><?php echo $benf ?></li>
-                                    <?php endforeach ?>
-                                </ul>
-                            </div>
-                            <!-- <div class="detail-layer">
-                                <a href="<?php echo $com->url ?>" class="px-4 btn text-white text-bold border-light rounded-pill" target="_blank">Xem thêm ></a>
-                            </div> -->
-                        </div>
-                    </div>
-                <?php endforeach ?>
-                <!-- End List -->
-            </div>
-        </div>
-    </section>
-
     <section class="section-7 py-5">
-        <h4 class="text-center text-bold text-white">BÁO CHÍ NÓI VỀ APTECH</h4>
+        <h3 class="text-white text-center text-bold px-3">BÁO CHÍ NÓI VỀ APTECH</h3>
         <div class="d-flex mt-4 justify-content-center flex-wrap">
             <!-- List -->
-            <div class="box bg-white m-3">
+            <div class="box bg-white m-3 d-flex flex-column">
                 <img height="183" width="259" src="./assets/img/Layer_54-min.png">
-                <div class="p-3">
-                    <div>
-                        <small>Nguồn: <b>hanoimoi.com.vn</b></small>
-                        <h5 class="py-2 text-justify">Aptech đào tạo nhân lực cán bộ về CNTT cho Chính phủ Campuchia.</h5>
-                        <p class="text-justify">Trong những năm gần đây, từ chỗ không có tên trên bản đồ CNTT thế giới, Việt Nam đã có những bước phát triển mạnh mẽ để vươn lên vị trí thứ 8 về dịch vụ CNTT tại khu vực châu Á - Thái Bình Dương, là 1 trong 3 nước dẫn đầu ASEAN về quy mô nền kinh tế số. Với vị thế đó, Việt Nam cũng tích cực giúp đỡ các nước trong khu vực phát triển CNTT.</p>
-                    </div>
-                    <!-- <a target="_blank" class="text-bold" href="http://www.hanoimoi.com.vn/tin-tuc/Khoa-hoc/967145/viet-nam-co-vai-tro-quan-trong-trong-viec-thuc-day-cong-nghe-thong-tin-trong-khoi-asean">Xem thêm ></a> -->
+                <div class="p-3">                    
+                    <small>Nguồn: <span class="text-bold">Vietnamnet.vn</span></small>
+                    <h5 class="py-2 text-justify text-bold">Lễ ký kết hợp tác đào tạo Công nghệ 4.0 cho các Trường đại học.</h5>
+                    <p class="text-justify">Nhằm giúp Việt Nam đào tạo đội ngũ giảng viên CN 4.0, Bộ GD&ĐT phối hợp với Tập đoàn Aptech tổ chức Khóa đào tạo Công nghệ 4.0 cho các giảng viên đại học.</p>
                 </div>
             </div>
-            <div class="box bg-white m-3">
+            <div class="box bg-white m-3 d-flex flex-column">
                 <iframe width="259" height="183" src="https://www.youtube.com/embed/Z_VRZ8RBpkg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <div class="p-3">
-                    <div>
-                        <small>Nguồn: <b>Truyền hình VTV6</b></small>
-                        <h5 class="py-2 text-justify">Aptech - Lễ ký kết hợp tác đào tạo Công nghệ 4.0 cho giảng viên các Trường đại học.</h5>
-                        <p class="text-justify">Ngày 03/07, Bộ GD & ĐT cùng với Tập đoàn Aptech tổ chức Hội thảo Giải pháp đào tạo nhân lực CNTT cho CMCN 4.0 với sự tham gia của Đại sứ quán Ấn Độ, các tập đoàn công nghệ hàng đầu Thế giới như Microsoft, Oracle và lãnh đạo các trường Đại học.</p>
-                    </div>
-                    <!-- <a target="_blank" class="text-bold" href="https://vietnamnet.vn/vn/cong-nghe/tin-cong-nghe/hoi-thao-giai-phap-dao-tao-nhan-luc-cntt-thoi-4-0-546367.html">Xem thêm ></a> -->
+                <div class="p-3">                    
+                    <small>Nguồn: <span class="text-bold">Truyền hình VTV6</span></small>
+                    <h5 class="py-2 text-justify text-bold">Aptech - Lễ ký kết hợp tác đào tạo Công nghệ 4.0 cho giảng viên các Trường đại học.</h5>
+                    <p class="text-justify">Ngày 03/07, Bộ GD & ĐT cùng với Tập đoàn Aptech tổ chức Hội thảo Giải pháp đào tạo nhân lực CNTT cho CMCN 4.0 với sự tham gia của Đại sứ quán Ấn Độ, các tập đoàn công nghệ hàng đầu Thế giới như Microsoft, Oracle và lãnh đạo các trường Đại học.</p>
                 </div>
             </div>
-            <div class="box bg-white m-3">
-                <iframe width="259" height="183" src="https://www.youtube.com/embed/c6kE2nS1yAM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <div class="p-3">
-                    <div>
-                        <small>Nguồn: <b>Giaoducthoidai.vn</b></small>
-                        <h5 class="py-2 text-justify">Cơ hội việc làm tại ngày hội tuyển dụng Aptech Job Fair 2019.</h5>
-                        <p class="text-justify">Sáng (20/04) tại Hà Nội, Aptech tổ chức Ngày hội tuyển dụng Aptech job fair 2019, đây là dip để các bạn trẻ có cơ hội tìm hiểu về ngành nghề mà mình yêu thích, cũng như đăng ký ứng tuyển trực tiếp với các Doanh nghiệp tuyển dụng.</p>
-                    </div>
-                    <!-- <a target="_blank" class="text-bold" href="https://giaoducthoidai.vn/giao-duc/nganh-cong-nghe-thong-tin-chinh-sach-dai-ngo-tot-vi-sao-van-kho-tuyen-nhan-su-3997074-v.html">Xem thêm ></a> -->
+            <div class="box bg-white m-3 d-flex flex-column">
+            <iframe width="259" height="183" src="https://www.youtube.com/embed/c6kE2nS1yAM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="p-3">                    
+                    <small>Nguồn: <span class="text-bold">Giaoducthoidai.vn</span></small>
+                    <h5 class="py-2 text-justify text-bold">Cơ hội việc làm tại ngày hội tuyển dụng Aptech Job Fair 2019.</h5>
+                    <p class="text-justify">Sáng (20/04) tại Hà Nội, Aptech tổ chức Ngày hội tuyển dụng Aptech job fair 2019, đây là dip để các bạn trẻ có cơ hội tìm hiểu về ngành nghề mà mình yêu thích, cũng như đăng ký ứng tuyển trực tiếp với các Doanh nghiệp tuyển dụng.</p>
                 </div>
             </div>
-            <div class="box bg-white m-3">
+            <div class="box bg-white m-3 d-flex flex-column">
                 <iframe width="259" height="183" src="https://www.youtube.com/embed/sd2KKryb5y4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <div class="p-3">
-                    <div>
-                        <small>Nguồn: <b>Truyền hình VTC1</b></small>
-                        <h5 class="py-2 text-justify">Lễ Khai giảng và Trao bằng tốt nghiệp năm 2019 tại Aptech.</h5>
-                        <p class="text-justify">Vừa qua (28/07), Lễ tốt nghiệp dành cho các bạn học viên vượt qua hơn 40 bài thi và 4 dự án phần mềm và Chào đón Tân học viên đã diễn ra tại Trung tâm Văn hóa Pháp L’Espace. Buổi lễ có sự tham dự của hơn 200 học sinh và phụ huynh cùng các doanh nghiệp công nghệ tuyển dụng.</p>
-                    </div>
-                    <!-- <a target="_blank" class="text-bold" href="https://www.facebook.com/aptechvietnam.com.vn/videos/2601192076560243">Xem thêm ></a> -->
+                <div class="p-3">                    
+                    <small>Nguồn: <span class="text-bold">Truyền hình VTC1</span></small>
+                    <h5 class="py-2 text-justify text-bold">Lễ Khai giảng và Trao bằng tốt nghiệp năm 2019 tại Aptech.</h5>
+                    <p class="text-justify">Vừa qua (28/07), Lễ tốt nghiệp dành cho các bạn học viên vượt qua hơn 40 bài thi và 4 dự án phần mềm và Chào đón Tân học viên đã diễn ra tại Trung tâm Văn hóa Pháp L’Espace. Buổi lễ có sự tham dự của hơn 200 học sinh và phụ huynh cùng các doanh nghiệp công nghệ tuyển dụng.</p>
                 </div>
             </div>
             <!-- End List -->
@@ -418,7 +283,7 @@
     </section>
 
     <section class="section-8 py-5 bg-white">
-        <h4 class="text-bold text-center">MÔI TRƯỜNG HỌC TẬP CHUYÊN NGHIỆP TẠI APTECH</h4>
+        <h3 class="text-bold text-center text-sub px-3">MÔI TRƯỜNG HỌC TẬP CHUYÊN NGHIỆP TẠI APTECH</h3>
         <div class="img-container mt-4 d-flex flex-wrap justify-content-center">
             <?php for($i = 1; $i <= 6; $i++): ?>
                 <div class="box m-3">
@@ -430,11 +295,11 @@
         </div>
         <br>
         <div class="text-center">
-            <h4 class="text-bold">Bạn muốn học tại môi trường này không?</h4>
+            <h4 class="text-bold text-sub">Bạn muốn học tại môi trường này không?</h4>
             <div class="d-flex align-items-center mt-4 justify-content-center">
                 <img src="./assets/img/cta-left-min.png" alt="">
                 <a href="#regis-form">
-                    <button class="btn btn-lg text-bold px-5 text-dark mx-3">Tôi muốn</button>
+                    <button class="btn btn-lg bg-main text-bold px-5 text-dark mx-3">Tôi muốn</button>
                 </a>
                 <img src="./assets/img/cta-right-min.png" alt="">
             </div>
@@ -442,7 +307,7 @@
     </section>
 
     <section class="section-9 py-5">
-        <h4 class="text-center text-bold">DOANH NGHIỆP NÓI VỀ APTECH</h4>
+        <h3 class="text-center text-bold text-sub px-3">DOANH NGHIỆP NÓI VỀ APTECH</h3>
         <div class="py-3 d-flex justify-content-center">
             <!-- PC -->
             <div id="carouselQuotesCompaniesPC" class="carousel slide">
@@ -551,7 +416,7 @@
     </section>
 
     <section class="section-10 py-5">
-        <h4 class="text-white text-center text-bold">CẢM NHẬN CỦA HỌC VIÊN VỀ APTECH</h4>
+        <h3 class="text-white text-center text-bold px-3">CẢM NHẬN CỦA HỌC VIÊN VỀ APTECH</h3>
         <div class="pt-4 pb-4 d-flex justify-content-center">
             <!-- PC -->
             <div id="carouselFeelStdPC" class="carousel slide pt-5">
@@ -573,7 +438,7 @@
                                                 <h5 class="text-bold mb-1"><?php echo $feelStd[$i]->name; ?></h5>
                                                 <small class="text-italic"><?php echo $feelStd[$i]->title; ?></small>
                                             </div>    
-                                            <p><?php echo $feelStd[$i]->quote ?></p>
+                                            <p class="text-bold"><?php echo $feelStd[$i]->quote ?></p>
                                         </div>
                                         <a class="align-self-end text-bold" href="<?php echo $feelStd[$i]->link; ?>" target="_blank">Xem thêm ></a>
                                     </div>
@@ -592,7 +457,7 @@
                                                 <h5 class="text-bold mb-1"><?php echo $feelStd[$i+1]->name; ?></h5>
                                                 <small class="text-italic"><?php echo $feelStd[$i+1]->title; ?></small>
                                             </div>    
-                                            <p><?php echo $feelStd[$i+1]->quote; ?></p>
+                                            <p class="text-bold"><?php echo $feelStd[$i+1]->quote; ?></p>
                                         </div>
                                         <a class="align-self-end text-bold" href="<?php echo $feelStd[$i+1]->link; ?>" target="_blank">Xem thêm ></a>
                                     </div>
@@ -641,7 +506,7 @@
                                                 <h5 class="text-bold mb-1"><?php echo $std->name; ?></h5>
                                                 <small class="text-italic"><?php echo $std->title; ?></small>
                                             </div>    
-                                            <p><?php echo $std->quote ?></p>
+                                            <p class="text-bold"><?php echo $std->quote ?></p>
                                         </div>
                                         <a class="align-self-end text-bold" href="<?php echo $std->link; ?>" target="_blank">Xem thêm ></a>
                                     </div>
@@ -673,20 +538,13 @@
     </section>
 
 
-    <section class="section-11 py-5" id="regis-form">
-        <h5 class="text-dark text-center text-bold mb-4">Đăng ký nhận tài liệu tham khảo và tư vấn miễn phí</h5>
-        <div class="d-flex justify-content-center align-items-center flex-wrap">
-            <div class="box p-3 pt-0 text-center">
-                <img src="./assets/img/course-banner-min.png">
-                <!-- <h5 class="text-white mt-5 text-uppercase">Khóa học trực tuyến của Aptech với 5 ưu điểm vượt trội:</h5>
-                <ul>
-                    <li><span class="text-bold">Tiếp thu kiến thức hiệu quả:</span> Ứng dụng phương pháp học Learn By Examples trực quan cùng các phần mềm hỗ trợ minh họa sinh động.</li>
-                    <li><span class="text-bold">Lớp học tương tác sôi nổi:</span> Áp dụng phương pháp đào tạo trực tuyến được Aptech triển khai thành công 20 năm nay trên Thế giới và Việt Nam. </li>
-                    <li><span class="text-bold">Nhận tài trợ 3.000.000 VNĐ/tháng từ Google:</span> Sử dụng không giới hạn dung lượng: Gmail, Google Drive, Google Meet, Google Photos, Google Classroom. </li>
-                    <li><span class="text-bold">Tính ứng dụng cao:</span> Nội dung học giúp giải quyết hiệu quả các vấn đề trong học tập, công việc và cuộc sống.</li>
-                </ul> -->
+    <section class="section-11 pt-0 pb-5 bg-main" id="regis-form">
+        <div class="pt-4 d-flex justify-content-center flex-wrap">
+            <div class="box p-3 pt-0 d-flex text-center flex-basis-40">
+                <img class="mw-100 m-auto" src="./assets/img/promotion-min.png" alt="promotion-min.png">
             </div>
-            <div class="box p-3">
+            <div class="box p-3 flex-basis-40">
+                <h5 class="text-dark mb-3 text-bold text-center">Đăng ký tư vấn<br>và nhận bộ tài liệu tự học HTML & JavaScript miễn phí</h5>
                 <form class="d-flex flex-column" action="../mail/sendmail.php" method="POST">
                     <input class="form-control form-control-lg mb-3 pl-4" type="" name="txtName" placeholder="Họ và tên" required>
                     <input class="form-control form-control-lg mb-3 pl-4" type="email" name="txtEmail" placeholder="Email" required>
@@ -699,24 +557,23 @@
                     </select>
                     <input class="d-none" type="" name="subject" value="<?php echo $formSubmitSubject ?>">
                     <input class="d-none" type="" name="redirectUrl" value="<?php echo $formSubmitRedirect ?>">
-                    <button type="submit" class="btn text-white btn-lg px-5 text-bold align-self-end">NHẬN TƯ VẤN</button>
+                    <button type="submit" class="btn btn-round bg-sub text-white btn-lg text-bold px-5 align-self-end">NHẬN TƯ VẤN</button>
                 </form>
-                <p class="text-dark text-bold title-sm pt-4 mb-0">Thời gian ưu đãi còn:</p>
+                <p class="text-dark text-italic pt-4 mb-0">Thời gian ưu đãi còn:</p>
                 <div class="d-flex justify-content-between align-items-center flex-wrap">
-                    <!-- <p class="text-white text-italic title-lg">Thời gian ưu đãi còn:</p> -->
-                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3 mt-4">
+                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-3 px-3 mt-4">
                         <h1 class="countdown-box-days text-bold m-0"></h1>
                         <p class="m-0">Ngày</p>
                     </div>
-                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3 mt-4">
+                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-3 px-3 mt-4">
                         <h1 class="countdown-box-hours text-bold m-0"></h1>
                         <p class="m-0">Giờ</p>
                     </div>
-                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3 mt-4">
+                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-3 px-3 mt-4">
                         <h1 class="countdown-box-minutes text-bold m-0"></h1>
                         <p class="m-0">Phút</p>
                     </div>
-                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-2 px-3 mt-4">
+                    <div class="countdown-box d-flex flex-column align-items-center text-white text-center py-3 px-3 mt-4">
                         <h1 class="countdown-box-seconds text-bold m-0"></h1>
                         <p class="m-0">Giây</p>
                     </div>
@@ -726,7 +583,7 @@
     </section>
 
     <section class="section-12 py-5 bg-white">
-        <h4 class="text-center text-bold">MỌI NGƯỜI NÓI GÌ VỀ APTECH?</h4>
+        <h3 class="text-center text-bold text-sub">MỌI NGƯỜI NÓI GÌ VỀ APTECH?</h3>
         <div class="fb-comments" data-href="<?php echo $fbComment ?>" width="100%" data-numposts="5"></div>
     </section>
     <!-- End Sections -->
