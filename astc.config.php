@@ -1,7 +1,7 @@
 <?php
 
-// define('MODE', 'DEV');
-define('MODE', 'DEV_DEPLOY');
+define('MODE', 'DEV');
+// define('MODE', 'DEV_DEPLOY');
 // define('MODE', 'PROD');
 
 switch (MODE) {
