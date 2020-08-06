@@ -552,7 +552,7 @@
     </section>
 
     <section class="section-13 py-5 bg-white">
-        <h3 class="text-center text-bold text-main">MỌI NGƯỜI NÓI GÌ VỀ APTECH?</h3>
+        <h3 class="text-center text-bold text-main">BẠN NGHĨ SAO VỀ KHÓA HỌC JAVASCRIPT?</h3>
         <div class="fb-comments" data-href="<?php echo $fbComment ?>" width="100%" data-numposts="5"></div>
     </section>
     <!-- End Sections -->
