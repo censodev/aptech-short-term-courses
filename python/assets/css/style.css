@@ -337,12 +337,6 @@
 	}
 }
 
-
-.section-11 {
-	background-image: url(../img/bgg-min.png);
-	background-color: var(--color-sub);
-}
-
 .section-11 .box:first-child {
 	flex-basis: 50%;
 }

@@ -623,7 +623,7 @@
     <!-- End FB SDK -->
 
     <!-- Subiz -->
-    <script>
+    <script async defer>
         (function(s, u, b, i, z){
             u[i]=u[i]||function(){
                 u[i].t=+new Date();
@@ -640,7 +640,7 @@
 
     <!-- Load Facebook SDK for JavaScript -->
     <div id="fb-root"></div>
-    <script>
+    <script async defer>
         window.fbAsyncInit = function() {
             FB.init({
                 xfbml   : true,
