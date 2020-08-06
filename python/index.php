@@ -233,7 +233,7 @@
             </div>
         </div>
         <div class="d-flex align-items-center mt-2 justify-content-center flex-wrap">
-            <h4 class="text-bold text-center px-4 text-sub"> Bạn có muốn học Python đầy thú vị này?</h4>
+            <h4 class="text-bold text-center px-4 text-sub">Bạn có muốn học khóa học đầy thú vị này?</h4>
             <img src="./assets/img/cta-left-min.png" alt="">
             <a href="#regis-form">
                 <button class="btn btn-lg bg-main text-bold px-5 text-dark mx-3">Tôi muốn</button>

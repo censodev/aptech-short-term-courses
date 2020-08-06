@@ -203,7 +203,7 @@
             <img class="box mb-5 mx-3" src="./assets/img/Group 16-min.png" alt="">
         </div>
         <div class="d-flex align-items-center mt-4 justify-content-center flex-wrap">
-            <h4 class="text-bold text-center text-sub px-4">Bạn muốn học tại môi trường này không?</h4>
+            <h4 class="text-bold text-center text-sub px-4">Bạn có muốn học khóa học đầy thú vị này?</h4>
             <img src="./assets/img/cta-left-min.png" alt="">
             <a href="#regis-form">
                 <button class="btn btn-lg text-bold px-5 text-white mx-3 bg-main">Tôi muốn</button>
