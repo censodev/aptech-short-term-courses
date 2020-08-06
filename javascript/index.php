@@ -184,13 +184,13 @@
         <h3 class="text-center text-bold text-sub text-uppercase px-3">03 kinh nghiệm học Lập trình HTML & JavaScript</h3>
         <div class="d-flex justify-content-between px-3 flex-wrap">
             <div class="box pt-4 d-flex justify-content-center flex-grow-1">
-                <img src="./assets/img/sec-4-1-min.png" alt="">
+                <img src="./assets/img/sec-4-1-min.png" alt="Học chắc từ những thứ cơ bản">
             </div>
             <div class="box pt-4 d-flex justify-content-center flex-grow-1">
-                <img src="./assets/img/sec-4-2-min.png" alt="">
+                <img src="./assets/img/sec-4-2-min.png" alt="Thực hành thật nhiều, áp dụng vào các sản phẩm thực tế">
             </div>
             <div class="box pt-4 d-flex justify-content-center flex-grow-1">
-                <img src="./assets/img/sec-4-3-min.png" alt="">
+                <img src="./assets/img/sec-4-3-min.png" alt="Viết những code phức tạp bằng ngôn ngữ dễ hiểu">
             </div>
         </div>
     </section>
@@ -265,7 +265,7 @@
         </div>
         <br>
         <div class="text-center">
-            <h4 class="text-bold text-sub">Bạn muốn học tại môi trường này không?</h4>
+            <h4 class="text-bold text-sub">Bạn muốn học tại môi trường hiện đại này?</h4>
             <div class="d-flex align-items-center mt-4 justify-content-center">
                 <img src="./assets/img/cta-left-min.png" alt="">
                 <a href="#regis-form">
@@ -568,13 +568,13 @@
                             <tr>
                                 <td class="text-bold pr-3">Hà Nội:</td>
                                 <td><span class="text-bold">285 Đội Cấn</span>, Q. Ba Đình</td>
-                                <td class="text-bold px-3">Tel: <a href="tel:0899 179 029" class="text-white">0899 179 029</a></td>
+                                <td class="text-bold px-3">Tel: <a href="tel:1800 1141" class="text-white">1800 1141</a></td>
                                 <td>Email: <a href="mailto:aptech1@aprotrain.com" target="_blank" class="text-white">aptech1@aprotrain.com</a></td>
                             </tr>
                             <tr>
                                 <td></td>
                                 <td><span class="text-bold">54 Lê Thanh Nghị</span>, Q. Hai Bà Trưng</td>
-                                <td class="text-bold px-3">Tel: <a href="tel:0899 179 029" class="text-white">0899 179 029</a></td>
+                                <td class="text-bold px-3">Tel: <a href="tel:1800 1147" class="text-white">1800 1147</a></td>
                                 <td>Email: <a href="mailto:aptech3@aprotrain.com" target="_blank" class="text-white">aptech3@aprotrain.com</a></td>
                             </tr>
                             <tr>

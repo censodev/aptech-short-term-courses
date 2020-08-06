@@ -200,13 +200,13 @@
         <h3 class="text-center text-bold text-white text-uppercase px-3">03 kinh nghiệm học Python</h3>
         <div class="d-flex justify-content-between px-3 flex-wrap">
             <div class="box pt-4 d-flex justify-content-center flex-grow-1">
-                <img src="./assets/img/sec-4-1-min.png" alt="">
+                <img src="./assets/img/sec-4-1-min.png" alt="Học chắc từ những thứ cơ bản như: Các cú pháp cơ bản. tư duy hướng đối tượng,...">
             </div>
             <div class="box pt-4 d-flex justify-content-center flex-grow-1">
-                <img src="./assets/img/sec-4-2-min.png" alt="">
+                <img src="./assets/img/sec-4-2-min.png" alt="Thực hành thật nhiều, tham gia vào các dự án thực tế">
             </div>
             <div class="box pt-4 d-flex justify-content-center flex-grow-1">
-                <img src="./assets/img/sec-4-3-min.png" alt="">
+                <img src="./assets/img/sec-4-3-min.png" alt="Code trực tiếp trên các cửa sổ dòng lệnh của Python hoặc trên Web">
             </div>
         </div>
     </section>
@@ -295,7 +295,7 @@
         </div>
         <br>
         <div class="text-center">
-            <h4 class="text-bold text-sub">Bạn muốn học tại môi trường này không?</h4>
+            <h4 class="text-bold text-sub">Bạn muốn học tại mô trường hiện đại này?</h4>
             <div class="d-flex align-items-center mt-4 justify-content-center">
                 <img src="./assets/img/cta-left-min.png" alt="">
                 <a href="#regis-form">
@@ -544,7 +544,7 @@
                 <img class="mw-100 m-auto" src="./assets/img/promotion-min.png" alt="promotion-min.png">
             </div>
             <div class="box p-3 flex-basis-40">
-                <h5 class="text-dark mb-3 text-bold text-center">Đăng ký tư vấn<br>và nhận bộ tài liệu tự học HTML & JavaScript miễn phí</h5>
+                <h5 class="text-dark mb-3 text-bold text-center">Đăng ký tư vấn<br>và nhận bộ tài liệu tự học Python miễn phí</h5>
                 <form class="d-flex flex-column" action="../mail/sendmail.php" method="POST">
                     <input class="form-control form-control-lg mb-3 pl-4" type="" name="txtName" placeholder="Họ và tên" required>
                     <input class="form-control form-control-lg mb-3 pl-4" type="email" name="txtEmail" placeholder="Email" required>
@@ -599,13 +599,13 @@
                             <tr>
                                 <td class="text-bold pr-3">Hà Nội:</td>
                                 <td><span class="text-bold">285 Đội Cấn</span>, Q. Ba Đình</td>
-                                <td class="text-bold px-3">Tel: <a href="tel:0899 179 029" class="text-white">0899 179 029</a></td>
+                                <td class="text-bold px-3">Tel: <a href="tel:1800 1141" class="text-white">1800 1141</a></td>
                                 <td>Email: <a href="mailto:aptech1@aprotrain.com" target="_blank" class="text-white">aptech1@aprotrain.com</a></td>
                             </tr>
                             <tr>
                                 <td></td>
                                 <td><span class="text-bold">54 Lê Thanh Nghị</span>, Q. Hai Bà Trưng</td>
-                                <td class="text-bold px-3">Tel: <a href="tel:0899 179 029" class="text-white">0899 179 029</a></td>
+                                <td class="text-bold px-3">Tel: <a href="tel:1800 1147" class="text-white">1800 1147</a></td>
                                 <td>Email: <a href="mailto:aptech3@aprotrain.com" target="_blank" class="text-white">aptech3@aprotrain.com</a></td>
                             </tr>
                             <tr>
