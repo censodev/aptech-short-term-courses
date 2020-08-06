@@ -295,7 +295,7 @@
         </div>
         <br>
         <div class="text-center">
-            <h4 class="text-bold text-sub">Bạn muốn học tại mô trường hiện đại này?</h4>
+            <h4 class="text-bold text-sub">Bạn muốn học tại môi trường hiện đại này?</h4>
             <div class="d-flex align-items-center mt-4 justify-content-center">
                 <img src="./assets/img/cta-left-min.png" alt="">
                 <a href="#regis-form">
