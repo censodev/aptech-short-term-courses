@@ -557,7 +557,7 @@
                     </select>
                     <input class="d-none" type="" name="subject" value="<?php echo $formSubmitSubject ?>">
                     <input class="d-none" type="" name="redirectUrl" value="<?php echo $formSubmitRedirect ?>">
-                    <button type="submit" class="btn btn-round bg-sub text-white btn-lg text-bold px-5 align-self-end">NHẬN TƯ VẤN</button>
+                    <button type="submit" class="btn btn-round bg-sub text-white btn-lg text-bold px-5 align-self-end">NHẬN THÔNG TIN</button>
                 </form>
                 <p class="text-dark text-italic pt-4 mb-0">Thời gian ưu đãi còn:</p>
                 <div class="d-flex justify-content-between align-items-center flex-wrap">
