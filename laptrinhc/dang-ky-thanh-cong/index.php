@@ -1,9 +1,9 @@
 <?php
    include_once '../../astc.config.php';
 
-   $title = 'Đăng ký thành công Khóa học Lập trình Java';
-   $course = 'Khóa học Lập trình Java';
-   $link = BASE_URL.'/java';
+   $title = 'Đăng ký thành công Khóa học Lập trình C/C++';
+   $course = 'Khóa học Lập trình C/C++';
+   $link = BASE_URL.'/laptrinhc';
 ?>
 
 <!DOCTYPE html>
@@ -28,14 +28,12 @@
 
 </head>
 <body>
- 
    <?php if (MODE == 'PROD') :?>
       <!-- Google Tag Manager (noscript) -->
       <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NV98LLF"
       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- End Google Tag Manager (noscript) -->
    <?php endif ?>
-
    <div class="wrapper">
       <div class="text-white text-center">
          <img src="../../assets/img/success-regis/logo-white.png" alt="" width="209" height="96"/></a>

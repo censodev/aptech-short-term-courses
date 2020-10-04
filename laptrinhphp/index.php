@@ -1,23 +1,23 @@
 <?php
     include_once '../astc.config.php';
 
-    $titlePage = 'Aptech | C/C++';
+    $titlePage = 'Aptech | PHP';
 
-    $metaDescription = '4 sai lầm phổ biến khi học lập trình C, học lập trình C++. 3 kinh nghiệm học lập trình C++ từ cơ bản đến nâng cao. Học lập trình C cơ bản cùng phương pháp Đào tạo Human Compiler với Chuyên gia công nghệ. Nhận bộ tài liệu C++ cơ bản dành cho người mới học lập trình miễn phí và Ưu đãi Hè bứt phá 2020.';
-    $metaKeywords = 'học lập trình c, hoc lap trinh c, lập trình c, lap trinh c, học lập trình c++, hoc lap trinh c++, ngôn ngữ lập trình c, ngon ngu lap trinh c, học lập trình c cơ bản, hoc lap trinh c co ban, lập trình c nâng cao, lap trinh c nang cao, học c aptech, học c++ aptech';
+    $metaDescription = '3 sai lầm phổ biến khi học lập trình Web bằng PHP. 3 kinh nghiệm để học lập trình PHP, lập trình Web hiệu quả cho người mới bắt đầu. Học PHP cùng Chuyên gia Công nghệ, nhận bộ tài liệu tự học thiết kế Web PHP miễn phí. Học thiết kế Website doanh nghiệp, bán hàng, tuyển dụng bằng lập trình PHP.';
+    $metaKeywords = 'học php, hoc php, lập trình php, lap trinh php, học lập trình php, khóa học php, khoa hoc php, php aptech, aptech, học php cơ bản, học thiết kế website, khóa học thiết kế web, thiết kế web bằng php, thiết kế web php, lập trình web, lập trình web php';
 
     $feelStd = json_decode(file_get_contents("../assets/data/feel-std.json"));
     $quoteCom = json_decode(file_get_contents("../assets/data/quote-com.json"));
+    
+    $formSubmitRedirect = BASE_URL.'/laptrinhphp/dang-ky-thanh-cong';
+    $formSubmitSubject = 'Đăng ký khóa học lập trình Web PHP';
 
-    $formSubmitRedirect = BASE_URL.'/c/dang-ky-thanh-cong';
-    $formSubmitSubject = 'Đăng ký khóa học lập trình C/C++';
-
-    $fbComment = BASE_URL.'/c';
+    $fbComment = BASE_URL.'/laptrinhphp';
 ?>
 
 <!DOCTYPE html>
 <html>
-<head>
+<head>   
     <?php if (MODE == 'PROD') :?>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-20788510-60"></script>
@@ -29,19 +29,19 @@
         </script>
     <?php endif ?>
     
-    
 	<meta charset="utf-8">
     <meta name="description" content="<?php echo $metaDescription ?>">
     <meta name="keywords" content="<?php echo $metaKeywords ?>">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title><?php echo $titlePage ?></title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-	<link rel="stylesheet" type="text/css" href="../assets/css/master<?php echo FILE_EXT ?>.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/master<?php echo FILE_EXT ?>.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style<?php echo FILE_EXT ?>.css">
+
 </head>
-<body>    
+<body>
     <!-- Header -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white pl-4">
         <a class="navbar-brand" href="https://aptechvietnam.com.vn/" target="_blank">
@@ -70,7 +70,7 @@
                         <a class="nav-link p-0 nav-link-social mr-3" target="_blank" href="https://www.youtube.com/user/aprotrainaptechvn">
                             <img src="../assets/img/icon-youtube-min.png">
                         </a>
-                        <a class="btn regis-btn text-bold text-uppercase px-5 link-scroll font-600 btn-warning" href="#regis-form">Đăng ký</a>
+                        <a class="btn regis-btn text-uppercase px-5 link-scroll font-600" href="#regis-form">Đăng ký</a>
                     </div>
                 </li>
             </ul>
@@ -80,22 +80,19 @@
 
     <!-- Sections -->
     <section class="section-banner"> 
-    	<img src="./assets/img/banner-PC_C-min.jpg" alt="" class="w-100">
+    	<img src="./assets/img/banner-PC_php-min.jpg" alt="" class="w-100">
     </section>
 
     <section class="section-1 py-5 bg-white">
-        <h3 class="text-center text-bold text-uppercase px-5 text-main">Lý do nào khiến C/C++ là ngôn ngữ đầu tiên bạn nên chọn học?</h3>
+        <h3 class="text-center text-bold text-main pb-4 px-5">NHỮNG LÍ DO BẠN PHẢI HỌC NGÔN NGỮ LẬP TRÌNH PHP NGAY HÔM NAY</h3>
         <div class="d-flex justify-content-center pt-3 align-items-center">
-            <div class="left-side mr-4 pt-4 px-3">
-                <p class="px-3 text-bold">Nếu bạn là dân ngoại đạo đang muốn tìm hiểu học IT</p>
-                <p class="px-3 text-bold">Hoặc là sinh viên CNTT nhưng lại chưa được học chuyên ngành</p>
-                <ul>
-                    <li class="text-bold">Từ ngôn ngữ C/C++ bạn có thể học sang bất kì ngôn ngữ lập trình nào một cách dễ dàng</li>
-                    <li class="text-bold">Cơ hội tuyệt vời để làm việc với các dự án mã nguồn mở</li>
-                    <li class="text-bold">Giỏi C/C++ số tiền bạn có thể kiếm được từ nó là môt con số khủng</li>
-                </ul>
-            </div>
             <iframe src="https://www.youtube.com/embed/I-VEiZqVohQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <ul>
+                <li class="text-bold mb-3">PHP là ngôn ngữ lập trình Web phổ biển nhất thế giới, thân thiện với người mới bắt đầu.</li>
+                <li class="text-bold mb-3">Trên thế giới, cứ 10 website ra đời thì có 8 website chạy bằng PHP.</li>
+                <li class="text-bold mb-3">Cơ hội việc làm rộng mở cả ở trong và ngoài nước.</li>
+                <li class="text-bold mb-3">Mức lương của Lập trình viên PHP từ 800 - 1500$/tháng.</li>
+            </ul>
         </div>
     </section>
 
@@ -106,18 +103,25 @@
                 <img class="w-100" src="./assets/img/Layer 67-min.png" alt="">
             </div>
             <div class="d-flex flex-column justify-content-center px-3 flex-basis-40 pb-4">
-                <div class="box d-flex align-items-start flex-column">
-                    <img class="pl-3" src="./assets/img/sec2-t1-min.png" alt="">
+                <div class="box d-flex align-items-center mb-2">
+                    <img src="./assets/img/sec2-t1-min.png" alt="">
                     <div class="text-white p-3">
                         <h4>Sinh viên CNTT</h4>
-                        <p>Mong muốn bổ sung kiến thức và kỹ năng về ngôn ngữ lập trình.</p>
+                        <p class="mb-0">Muốn học bài bản, có khả năng thực chiến tốt với PHP.</p>
                     </div>
                 </div>
-                <div class="box d-flex align-items-start flex-column">
-                    <img class="pl-3" src="./assets/img/sec2-t2-min.png" alt="">
+                <div class="box d-flex align-items-center mb-2">
+                    <img src="./assets/img/sec2-t2-min.png" alt="">
+                    <div class="text-white p-3">
+                        <h4>Lập trình viên</h4>
+                        <p class="mb-0">Đang làm việc tại các Doanh nghiệp, muốn bổ sung kiến thức và kỹ năng lập trình PHP để phục vụ cho công việc.</p>
+                    </div>
+                </div>
+                <div class="box d-flex align-items-center mb-2">
+                    <img src="./assets/img/sec2-t3-min.png" alt="">
                     <div class="text-white p-3">
                         <h4>Học sinh, sinh viên, người đi làm </h4>
-                        <p>Người mới bắt đầu học Lập trình căn bản với mục đích tìm hiểu về nghề Lập trình hoặc lấy C/ C++ làm nền tảng học tiếp Lập trình chuyên nghiệp.</p>
+                        <p class="mb-0">Mới bắt đầu tìm hiểu về lập trình. </p>
                     </div>
                 </div>
             </div>
@@ -125,7 +129,7 @@
     </section>
 
     <section class="section-3 pt-5 bg-white">
-        <h3 class="text-center text-main text-uppercase text-bold mb-4 px-5">Những quan niệm sai lầm phổ biến khi học Lập trình C/ C++</h3>
+        <h3 class="text-center text-main text-uppercase text-bold mb-4 px-5">Những sai lầm phổ biến khi học Lập trình Web PHP</h3>
         <div class="d-flex justify-content-center wrapper">
             <div class="flex-basis-40 d-flex justify-content-end align-items-end px-3">
                 <img class="mw-100" src="./assets/img/sec-3img-min.png" alt="">
@@ -133,26 +137,22 @@
             <div class="flex-basis-40 px-3 pb-5">
                 <div class="d-flex align-items-center mb-3">
                     <img src="./assets/img/x-tick-min.png" alt="">
-                    <span class="pl-3 text-bold">Xác định mục tiêu học tập không phù hợp.</span>
+                    <span class="pl-3 text-bold">Không cẩn thận với cú pháp</span>
                 </div>
                 <div class="d-flex align-items-center mb-3">
                     <img src="./assets/img/x-tick-min.png" alt="">
-                    <span class="pl-3 text-bold">Chạy theo các Công nghệ lập trình mới mà bỏ qua C/ C++.</span>
+                    <span class="pl-3 text-bold">Viết code khó đọc, không rành mạch, bỏ qua các tiêu chuẩn viết code.</span>
                 </div>
                 <div class="d-flex align-items-center mb-3">
                     <img src="./assets/img/x-tick-min.png" alt="">
-                    <span class="pl-3 text-bold">Nghĩ việc học Pascal tốt hơn là học C/ C++.</span>
-                </div>
-                <div class="d-flex align-items-center mb-3">
-                    <img src="./assets/img/x-tick-min.png" alt="">
-                    <span class="pl-3 text-bold">Coi việc thực hành C/ C++ quan trọng hơn Lý thuyết C/ C++.</span>
+                    <span class="pl-3 text-bold">Sử dụng bộ nhớ không hiệu quả</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section-4 bg-main py-5">
-        <h3 class="text-center text-bold text-white text-uppercase px-5">03 kinh nghiệm học Lập trình C/ C++</h3>
+    <section class="section-4 bg-sub py-5">
+        <h3 class="text-center text-bold text-white text-uppercase px-5">03 kinh nghiệm học Lập trình web php</h3>
         <div class="d-flex justify-content-between px-3 flex-wrap">
             <div class="box pt-4 d-flex justify-content-center flex-grow-1">
                 <img src="./assets/img/sec-4-1-min.png" alt="">
@@ -166,121 +166,175 @@
         </div>
     </section>
 
-    <section class="section-5 py-5 bg-white">
-        <h3 class="text-center text-bold text-main text-uppercase px-5">Ưu điểm vượt trội của Khóa học Lập trình C/C++ cho người mới bắt đầu</h3>
+    <section class="section-5 py-5 bg-main">
+        <h3 class="text-center text-bold text-white px-5">05 LÝ DO CẦN HỌC KHÓA CHUYÊN GIA LẬP TRÌNH WEB PHP TẠI APTECH</h3>
         <div class="d-flex justify-content-center pt-3 flex-wrap">
             <div class="box">
-                <div class="img-container">
-                    <img src="./assets/img/Layer_15-min.png">
-                </div>
-                <div class="pt-3">
-                    <h6 class="text-bold text-center">Giáo trình C/C++ Quốc tế</h6>
-                    <p class="text-justify">Được thiết kế bởi các Chuyên gia Ấn Độ và được hơn 40 quốc gia sử dụng. Nội dung chương trình được tối ưu, lược bỏ những kiến thức không cần thiết, chỉ tập trung những kiến thức quan trọng để giúp người mới học Lập trình nắm bắt nhanh chóng nền tảng Lập trình.</p>
-                </div>
+                <div class="img-container"><img src="./assets/img/proffessor-min.png"></div>
+                <p class="pt-3">
+                    <span class="text-bold">Giảng viên là các Chuyên gia Công nghệ</span>
+                    <br>
+                    <small>Giúp sinh viên ứng dụng ngay kiến thức mới học vào thực tế</small>
+                </p>
             </div>
             <div class="box">
-                <div class="img-container">
-                    <img src="./assets/img/curriculum_1336300-min.png">
-                </div>
-                <div class="pt-3">
-                    <h6 class="text-bold text-center">Giảng viên là Chuyên gia Công nghệ</h6>
-                    <p class="text-justify">Nhiều kinh nghiệm được chọn lọc qua quy trình tuyển dụng khắt khe của Tập đoàn APTECH Ấn Độ giúp sinh viên ứng dụng ngay kiến thức mới học vào thực tế.</p>
-                </div>
+                <div class="img-container"><img class="ml-2" src="./assets/img/time-min.png"></div>
+                <p class="pt-3">
+                    <span class="text-bold">Tiết kiệm thời gian học</span>
+                    <br>
+                    <small>Sinh viên ra trường có thể ứng tuyển ngay vào các Doanh nghiệp tuyển dụng.</small>
+                </p>
             </div>
             <div class="box">
-                <div class="img-container">
-                    <img src="./assets/img/technique-think-procedure-system-way-method-idea-512-min.png">
-                </div>
-                <div class="pt-3">
-                    <h6 class="text-bold text-center">Phương pháp Đào tạo Human Compiler</h6>
-                    <p class="text-justify">Tập trung vào bản chất kiến thức, giúp học viên hiểu sâu về lập trình máy tính, làm nền tảng để dễ dàng học các ngôn ngữ lập trình khác.</p>
-                </div>
+                <div class="img-container"><img src="./assets/img/reactjs-min.png"></div>
+                <p class="pt-3">
+                    <span class="text-bold">Áp dụng công nghệ mới nhất</span>
+                    <br>
+                    <small>Cập nhật chương trình 2020 của Aptech toàn cầu với các công nghệ Web mới nhất.</small>
+                </p>
+            </div>
+            <div class="box">
+                <div class="img-container"><img src="./assets/img/coder-min.png"></div>
+                <p class="pt-3">
+                    <span class="text-bold">Dự án thực tế</span>
+                    <br>
+                    <small>Học viên được tham gia dự án thực tế vào cuối kỳ dưới sự hướng dẫn trực tiếp của các giảng viên.</small>
+                </p>
+            </div>
+            <div class="box">
+                <div class="img-container"><img src="./assets/img/certificate-min.png"></div>
+                <p class="pt-3">
+                    <span class="text-bold">Chứng chỉ uy tín</span>
+                    <br>
+                    <small> Kết thúc khóa học học viên được nhận chứng chỉ <span class="text-bold">“Chuyên viên lập trình Web PHP”</span></small>
+                </p>
             </div>
         </div>
     </section>
 
     <section class="section-6">
         <div class="d-flex justify-content-center align-items-center section-container py-3">
-            <h5 class="m-0 text-bold text-white px-5">Kết thúc khóa học, Học viên được làm project dưới sự hướng dẫn của giảng viên và nhận chứng chỉ hoàn thành khóa học</h5>
-            <button class="btn text-bold px-4 py-0 ml-5" data-toggle="collapse" data-target="#detailCollapse">🡢 Xem chi tiết khóa học</button>
+            <h5 class="m-0 text-bold text-white text-center">Hoàn thành khóa học, học viên được giới thiệu làm việc tại các Doanh nghiệp CNTT lớn</h5>
+            <button class="btn rounded-pill bg-white text-bold px-4 py-0 ml-5" data-toggle="collapse" data-target="#detailCollapse">🡢 Xem chi tiết khóa học</button>
         </div>
         <div class="collapse py-4" id="detailCollapse">
-            <div class="d-flex justify-content-center">
-                <table class="table">
-                    <thead>
-                        <tr class="title-tr table-bordered">
-                            <td class="text-bold">Nội dung</td>
-                            <td class="text-center text-bold">Lý thuyết</td>
-                            <td class="text-center text-bold">Thực hành</td>
-                        </tr>
-                    </thead>
+            <div class="d-flex overflow-auto">
+                <!-- <img src="./assets/img/course-detail.jpg"> -->
+                <table class="table table-bordered m-auto">
+                    <thead></thead>
                     <tbody>
-                        <tr>
-                            <td class="text-bold">Startup</td>
-                            <td class="text-center focused text-bold">2</td>
-                            <td class="text-center text-bold">2</td>
-                        </tr>
-                        <tr>
-                            <td class="text-bold">Những khái niệm cơ bản của C</td>
-                            <td class="text-center focused text-bold">10</td>
-                            <td class="text-center text-bold">10</td>
-                        </tr>
-                        <tr>
+                        <tr class="bg-white">
+                            <td class="text-focused">HTML, CSS và Javascript</td>
                             <td>
                                 <ul>
-                                    <li>Tên biến, kiểu dữ liệu, kích thước, chuyển đổi, ép kiểu</li>
-                                    <li>Các phép toán số học, logic</li>
-                                    <li>Các câu lệnh và thứ tự thực hiện câu lệnh</li>
-                                    <li>Khối lệnh điều khiển và vòng lặp</li>
-                                    <li>Hàm, biến trong hàm/ngoài hàm, biến tĩnh</li>
-                                    <li>Cấu trúc chương trình</li>
+                                    <li>Các thẻ HTML cơ bản</li>
+                                    <li>HTML5, CSS, Javascript</li>
+                                    <li>Hệ quản trị cơ sở dữ liệu MySQL</li>
+                                    <li>Hướng dẫn sử dụng CMS</li>
                                 </ul>
                             </td>
-                            <td class="focused"></td>
                             <td></td>
                         </tr>
                         <tr>
-                            <td class="text-bold">Những khái niệm nâng cao của C</td>
-                            <td class="text-center focused text-bold">12</td>
-                            <td class="text-center text-bold">12</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <ul>
-                                    <li>Con trỏ, tham chiếu, tham trị</li>
-                                    <li>Mảng một chiều, mảng nhiều chiều</li>
-                                    <li>Dữ liệu có cấu trúc</li>
-                                    <li>Truy xuất dữ liệu qua File</li>
-                                </ul>
-                            </td>
-                            <td class="focused"></td>
+                            <td class="text-focused">PHP căn bản</td>
+                            <td class="text-focused">Giới thiệu và làm quen với PHP</td>
                             <td></td>
                         </tr>
-                        <tr>
-                            <td class="text-bold">Những khái niệm cơ bản của C++</td>
-                            <td class="text-center focused text-bold">4</td>
-                            <td class="text-center text-bold text-bold">4</td>
-                        </tr>
-                        <tr>
+                        <tr class="bg-white">
+                            <td></td>
                             <td>
                                 <ul>
-                                    <li>Lớp, thuộc tính, phương thức</li>
-                                    <li>Đối tượng, truy cập thuộc tính và phương thức của đối tượng</li>
-                                    <li>Thừa kế và đa hình</li>
+                                    <li>Toán tử trong PHP</li>
+                                    <li>Biểu thức điều kiện và vòng lặp</li>
+                                    <li>Các phương thức truyền dữ liệu</li>
+                                    <li>Mảng và các hàm hỗ trợ mảng</li>
                                 </ul>
                             </td>
-                            <td class="focused"></td>
+                            <td>
+                                <ul>
+                                    <li>Hàm trong PHP</li>
+                                    <li>Thao tác với File</li>
+                                    <li>Session & Cookie</li>
+                                    <li>Tương tác PHP và MySQL</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td class="text-focused">Convert template Admin website Bán điện thoại di động</td>
                             <td></td>
                         </tr>
-                        <tr>
-                            <td class="text-bold">Exam</td>
-                            <td class="text-center focused text-bold">2</td>
-                            <td class="text-center text-bold">2</td>
+                        <tr class="bg-white">
+                            <td></td>
+                            <td>
+                                <ul>
+                                    <li>Xây dựng chức năng Đăng nhập & Đăng xuất</li>
+                                    <li>Xây dựng trang chủ Admin</li>
+                                    <li>Xây dựng chức năng Quản lí sản phẩm</li>
+                                    <li>Xây dựng chức năng Thêm mới sản phẩm</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Xây dựng chức năng Sửa thông tin sản phẩm</li>
+                                    <li>Xây dựng chức năng Xóa sản phẩm</li>
+                                    <li>Xây dựng chức năng Phân trang</li>
+                                    <li>Tích hợp bộ công cụ soạn thảo CKEditor</li>
+                                </ul>
+                            </td>
                         </tr>
                         <tr>
-                            <td class="text-bold">TOTAL</td>
-                            <td class="text-center focused text-bold">30</td>
-                            <td class="text-center text-bold">30</td>
+                            <td></td>
+                            <td class="text-focused">Convert template website Bán điện thoại di động</td>
+                            <td></td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td></td>
+                            <td>
+                                <ul>
+                                    <li>Xây dựng chức năng Hiển thị sản phẩm mới, sản phẩm đặc biệt</li>
+                                    <li>Xây dựng chức năng Hiển thị danh mục sản phẩm</li>
+                                    <li>Xây dựng Bộ lọc theo danh mục</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Xây dựng chức năng Phân trang sản phẩm</li>
+                                    <li>Xây dựng chức năng Chi tiết sản phẩm</li>
+                                    <li>Xây dựng chức năng Giỏ hàng</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-focused">PHP nâng cao</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td></td>
+                            <td>
+                                <ul>
+                                    <li>Lập trình hướng đối tượng trong PHP (PHP OOP 5)</li>
+                                    <li>Lớp, Phương thức, Thuộc tính</li>
+                                    <li>Magic method</li>
+                                    <li>Xây dựng hệ thống theo mô hình MVC</li>
+                                    <li>Tổng quan về Biểu thức chính quy (Regular Expression)</li>
+                                    <li>Cache</li>
+                                    <li>Cơ bản về htaccess</li>
+                                    <li>Friendly URL</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Giới thiệu về Yii (PHP Framework)</li>
+                                    <li>Kiến trúc tổng quan của Yii</li>
+                                    <li>Model trong Yii</li>
+                                    <li>Controller trong Yii</li>
+                                    <li>View trong Yii</li>
+                                    <li>Các thành phần quan trọng khác</li>
+                                    <li>Tập xây dựng trang tin tức, blog bằng Yii</li>
+                                </ul>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
@@ -288,30 +342,179 @@
         </div>
     </section>
 
-    <section class="section-7 py-5">
-        <h3 class="text-center text-bold text-main text-uppercase px-5">Kết quả đạt được sau khóa học</h3>
-        <div class="d-flex justify-content-center py-4 px-5 flex-wrap">
-            <div class="box mx-3 my-3">
-                <h5 class="text-white text-bold">Cung cấp cho học viên kỹ năng lập trình ngôn ngữ C/ C++</h5>
-                <ul class="pl-4 m-0">
-                    <li class="py-1">Những khái niệm căn bản của một chương trình bao gồm biến, kiểu dữ liệu, câu lệnh.</li>
-                    <li class="py-1">Các cấu trúc điều khiển căn bản.</li>
-                    <li class="py-1">Các kiểu dữ liệu căn bản và lập trình cấu trúc.</li>
-                    <li class="py-1">Các khái niệm như mảng, con trỏ, dữ liệu có cấu trúc.</li>
+    <section class="section-7 py-5 bg-white">
+        <h3 class="text-bold text-center text-main px-5">BẠN SẼ LÀM ĐƯỢC GÌ SAU KHÓA HỌC "CHUYÊN GIA LẬP TRÌNH WEB PHP"</h3>
+        <h6 class="text-center px-5">Hoàn thành khóa học Học viên có khả năng xây dựng các website Thương mại điện tử, website tin tức, tuyển dụng, website doanh nghiệp… tự tin ứng tuyển vào các Doanh nghiệp CNTT.</h6>
 
-                </ul>
+        <div class="d-flex justify-content-center pt-3 flex-wrap">
+            <!-- List -->
+            <div class="box m-2 d-flex flex-column">
+                <div class="position-relative">
+                    <img class="w-100" src="./assets/img/c1808g1-min.png">
+                    <div class="detail-layer">
+                        <a href="https://aptechvietnam.com.vn/thiet-ke-website-ban-hang-bagbag" class="px-4 btn text-white text-bold border-light rounded-pill" target="_blank">Xem thêm ></a>
+                    </div>
+                </div>
+                <div class="p-3 text-center">
+                    <h6 class="text-bold p-0 text-main">Đề tài: Thiết kế Website bán hàng BAGBAG</h6>
+                    <p class="m-0">
+                        <small>Thiết kế website bán hàng Bagbag</small>
+                        <br>
+                        <span class="text-bold">Lớp: C1808G1</span>
+                    </p>
+                </div>
             </div>
-            <div class="box mx-3 my-3">
-                <h5 class="text-white text-bold">Kiến thức về Lập trình Hướng đối tượng</h5>
-                <ul class="pl-4 m-0">
-                    <li class="py-1">Trang bị tư duy thuật toán lập trình.</li>
-                    <li class="py-1">Nền tảng Lập trình căn bản vững chắc để học tiếp các ngôn ngữ Lập trình chuyên nghiệp khác.</li>
-                </ul>
+            <div class="box m-2 d-flex flex-column">
+                <div class="position-relative">
+                    <img class="w-100" src="./assets/img/Layer_42-min.png">
+                    <div class="detail-layer">
+                        <a href="https://aptechvietnam.com.vn/thiet-ke-website-ban-hang-eyeonic?width=800&height=600" class="px-4 btn text-white text-bold border-light rounded-pill" target="_blank">Xem thêm ></a>
+                    </div>
+                </div>
+                <div class="p-3 text-center">
+                    <h6 class="text-bold p-0 text-main">Đề tài: Thiết kế website bán hàng Eyeonic</h6>
+                    <p class="m-0">
+                        <small>Thiết kế website bán hàng Eyeonic</small>
+                        <br>
+                        <span class="text-bold">Lớp: C1808G2</span>
+                    </p>
+                </div>
             </div>
+            <div class="box m-2 d-flex flex-column">
+                <div class="position-relative">
+                    <img class="w-100" src="./assets/img/c1610i-min.png">
+                    <div class="detail-layer">
+                        <a href="https://aptechvietnam.com.vn/project-hoc-ky-1-2" class="px-4 btn text-white text-bold border-light rounded-pill" target="_blank">Xem thêm ></a>
+                    </div>
+                </div>
+                <div class="p-3 text-center">
+                    <h6 class="text-bold p-0 text-main">Đề tài: Hẹn hò phố</h6>
+                    <p class="m-0">
+                        <small>Project học kỳ 1</small>
+                        <br>
+                        <span class="text-bold">Lớp: C1610I</span>
+                    </p>
+                </div>
+            </div>
+            <div class="box m-2 d-flex flex-column">
+                <div class="position-relative">
+                    <img class="w-100" src="./assets/img/c1508i-min.png">
+                    <div class="detail-layer">
+                        <a href="https://aptechvietnam.com.vn/project-hoc-ky-1" class="px-4 btn text-white text-bold border-light rounded-pill" target="_blank">Xem thêm ></a>
+                    </div>
+                </div>
+                <div class="p-3 text-center">
+                    <h6 class="text-bold p-0 text-main">Đề tài: Website tin tức Báo Việt</h6>
+                    <p class="m-0">
+                        <small>Project học kỳ 1</small>
+                        <br>
+                        <span class="text-bold">Lớp: C1508I</span>
+                    </p>
+                </div>
+            </div>
+            <!-- End List -->
         </div>
     </section>
 
     <section class="section-8 py-5">
+        <h3 class="text-bold text-center text-main px-5">HỌC XONG BẠN SẼ LÀM VIỆC Ở ĐÂU</h3>
+        <div class="d-flex justify-content-center mt-5 flex-wrap">
+            <div class="left-boxes d-flex flex-wrap justify-content-end">
+                <!-- List -->
+                <div class="card m-3">
+                    <div class="card-header position-relative py-3 bg-main">
+                        <div class="img-container position-absolute d-flex align-items-center">
+                            <img src="./assets/img/IFI_Logo-min.png">
+                        </div>
+                        <h6 class="text-white m-0">IFI Solution</h6>
+                    </div>
+                    <div class="card-body p-0 position-relative">
+                        <div class="py-4 px-3">
+                            <h6 class="text-bold">Lập trình Web Developer</h6>
+                            <ul class="p-0 pt-1">
+                                <li>Mức lương: 15tr - 32tr</li>
+                                <li>Làm việc: Thứ 2 - Thứ 6</li>
+                                <li>Chế độ: BHXH, BH sức khỏe nâng cao, thưởng tuyển dụng ...</li>
+                            </ul>
+                        </div>
+                        <div class="detail-layer">
+                            <a href="https://www.facebook.com/groups/JobAptech/permalink/2379837108958184" class="px-4 btn text-white text-bold border-light rounded-pill" target="_blank">Xem thêm ></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card m-3">
+                    <div class="card-header position-relative py-3 bg-main">
+                        <div class="img-container position-absolute d-flex align-items-center">
+                            <img class="h-100" src="./assets/img/T_Solution-min.png">
+                        </div>
+                        <h6 class="text-white m-0">Citigo</h6>
+                    </div>
+                    <div class="card-body p-0 position-relative">
+                        <div class="py-4 px-3">
+                            <h6 class="text-bold">Tuyển TTS phát triển Kiot Viet</h6>
+                            <ul class="p-0 pt-1">
+                                <li>Được hỗ trợ 3M-10M</li>
+                                <li>Được tham gia nghiên cứu dự án thực tế, hệ thống lớn.</li>
+                                <li>Thưởng nóng với những phát kiến sáng tạo...</li>
+                            </ul>
+                        </div>
+                        <div class="detail-layer">
+                            <a href="https://www.facebook.com/groups/JobAptech/permalink/2377734202501808" class="px-4 btn text-white text-bold border-light rounded-pill" target="_blank">Xem thêm ></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card m-3">
+                    <div class="card-header position-relative py-3 bg-main">
+                        <div class="img-container position-absolute d-flex align-items-center">
+                            <img class="w-100" src="./assets/img/Smartosc_Logo-min.png">
+                        </div>
+                        <h6 class="text-white m-0">SmartOSC</h6>
+                    </div>
+                    <div class="card-body p-0 position-relative">
+                        <div class="py-4 px-3">
+                            <h6 class="text-bold">Tuyển dụng PHP Fresher</h6>
+                            <ul class="p-0 pt-1">
+                                <li>Cơ hội trở thành nhân viên chính thức với mức lương siêu cạnh tranh.</li>
+                                <li>Nhận trợ cấp bằng tiền mặt hàng tháng.</li>
+                                <li>Có cơ hội đi onsite tại Châu Âu, Úc, Singapore...</li>
+                            </ul>
+                        </div>
+                        <div class="detail-layer">
+                            <a href="https://www.facebook.com/groups/JobAptech/permalink/2357150934560135" class="px-4 btn text-white text-bold border-light rounded-pill" target="_blank">Xem thêm ></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card m-3">
+                    <div class="card-header position-relative py-3 bg-main">
+                        <div class="img-container position-absolute d-flex align-items-center">
+                            <img class="w-100" src="./assets/img/Megaads_Logo-min.png">
+                        </div>
+                        <h6 class="text-white m-0">MegaAds</h6>
+                    </div>
+                    <div class="card-body p-0 position-relative">
+                        <div class="py-4 px-3">
+                            <h6 class="text-bold">Tuyển dụng PHP Junior</h6>
+                            <ul class="p-0 pt-1">
+                                <li>Lương từ 10-20tr+ phụ cấp ăn trưa+ thưởng hàng tháng.</li>
+                                <li>Cơ hội thăng tiến cao khi có thể lead các dự án.</li>
+                                <li>Cơ hội nhận tới 9 tháng lương thưởng tết.</li>
+                            </ul>
+                        </div>
+                        <div class="detail-layer">
+                            <a href="https://www.facebook.com/groups/JobAptech/permalink/2345211162420779" class="px-4 btn text-white text-bold border-light rounded-pill" target="_blank">Xem thêm ></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End List -->
+            </div>
+            <div class="sidebar m-3">
+                <div class="title py-2 px-3 text-white text-bold">🡢 Xem thêm tại:</div>
+                <div class="fb-group w-100" data-href="https://www.facebook.com/groups/JobAptech/"  data-show-social-context="true" data-show-metadata="true"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-9 py-5">
         <h3 class="text-white text-center text-bold px-5">BÁO CHÍ NÓI VỀ APTECH</h3>
         <div class="d-flex mt-4 justify-content-center flex-wrap">
             <!-- List -->
@@ -355,7 +558,7 @@
         </div>
     </section>
 
-    <section class="section-9 pt-5 pb-4 bg-white">
+    <section class="section-10 pt-5 pb-4 bg-white">
         <h3 class="text-bold text-center text-main px-5">MÔI TRƯỜNG HỌC TẬP CHUYÊN NGHIỆP TẠI APTECH</h3>
         <div class="img-container mt-4 d-flex flex-wrap justify-content-center">
             <?php for($i = 1; $i <= 6; $i++): ?>
@@ -369,13 +572,13 @@
         <h4 class="text-center text-main text-bold">Bạn muốn học tại môi trường này không?</h4>
         <div class="d-flex justify-content-center align-items-center mt-3">
             <img src="./assets/img/caret1-min.png" alt="">
-            <a href="#regis-form" class="btn btn-warning text-bold px-4 mx-3">Tôi muốn</a>
+            <a href="#regis-form" class="btn bg-sub text-white text-bold px-4 mx-3">Tôi muốn</a>
             <img src="./assets/img/caret2-min.png" alt="">
         </div>
     </section>
 
-    <section class="section-10 py-5">
-        <h3 class="text-center text-bold text-white px-5">DOANH NGHIỆP NÓI VỀ APTECH</h3>
+    <section class="section-11 py-5">
+        <h3 class="text-center text-bold text-main px-5">DOANH NGHIỆP NÓI VỀ APTECH</h3>
         <div class="py-3 d-flex justify-content-center">
             <!-- PC -->
             <div id="carouselQuotesCompaniesPC" class="carousel slide">
@@ -392,7 +595,7 @@
                                         <div class="d-flex align-items-center pt-2">
                                             <img class="avt" src="../assets/img/quote-com/<?php echo $quoteCom[$i]->image ?>">
                                             <div class="pl-3">
-                                                <label class="mb-1 text-bold"><?php echo $quoteCom[$i]->name ?></label>
+                                                <label class="mb-1 text-bold text-main"><?php echo $quoteCom[$i]->name ?></label>
                                                 <p class="m-0"><?php echo $quoteCom[$i]->role ?></p>
                                             </div>
                                         </div>
@@ -407,7 +610,7 @@
                                         <div class="d-flex align-items-center pt-2">
                                             <img class="avt" src="../assets/img/quote-com/<?php echo $quoteCom[$i+1]->image ?>">
                                             <div class="pl-3">
-                                                <label class="mb-1 text-bold"><?php echo $quoteCom[$i+1]->name ?></label>
+                                                <label class="mb-1 text-bold text-main"><?php echo $quoteCom[$i+1]->name ?></label>
                                                 <p class="m-0"><?php echo $quoteCom[$i+1]->role ?></p>
                                             </div>
                                         </div>
@@ -451,7 +654,7 @@
                                         <div class="d-flex align-items-center pt-2">
                                             <img class="avt" src="../assets/img/quote-com/<?php echo $com->image ?>">
                                             <div class="pl-3">
-                                                <label class="mb-1 text-bold"><?php echo $com->name ?></label>
+                                                <label class="mb-1 text-bold text-main"><?php echo $com->name ?></label>
                                                 <p class="m-0"><?php echo $com->role ?></p>
                                             </div>
                                         </div>
@@ -483,8 +686,8 @@
         </div>
     </section>
 
-    <section class="section-11 py-5">
-        <h3 class="text-main text-center text-bold px-5">CẢM NHẬN CỦA HỌC VIÊN VỀ APTECH</h3>
+    <section class="section-12 py-5">
+        <h3 class="text-white text-center text-bold px-5">CẢM NHẬN CỦA HỌC VIÊN VỀ APTECH</h3>
         <div class="pt-4 pb-4 d-flex justify-content-center">
             <!-- PC -->
             <div id="carouselFeelStdPC" class="carousel slide pt-5">
@@ -508,7 +711,7 @@
                                             </div>    
                                             <p><?php echo $feelStd[$i]->quote ?></p>
                                         </div>
-                                        <a class="align-self-end text-bold" href="<?php echo $feelStd[$i]->link; ?>" target="_blank">Xem thêm ></a>
+                                        <a class="align-self-end text-bold text-main" href="<?php echo $feelStd[$i]->link; ?>" target="_blank">Xem thêm ></a>
                                     </div>
                                 </div>
                                 <div class="card m-3">
@@ -527,7 +730,7 @@
                                             </div>    
                                             <p><?php echo $feelStd[$i+1]->quote; ?></p>
                                         </div>
-                                        <a class="align-self-end text-bold" href="<?php echo $feelStd[$i+1]->link; ?>" target="_blank">Xem thêm ></a>
+                                        <a class="align-self-end text-bold text-main" href="<?php echo $feelStd[$i+1]->link; ?>" target="_blank">Xem thêm ></a>
                                     </div>
                                 </div>
                             </div>
@@ -576,7 +779,7 @@
                                             </div>    
                                             <p><?php echo $std->quote ?></p>
                                         </div>
-                                        <a class="align-self-end text-bold" href="<?php echo $std->link; ?>" target="_blank">Xem thêm ></a>
+                                        <a class="align-self-end text-bold text-main" href="<?php echo $std->link; ?>" target="_blank">Xem thêm ></a>
                                     </div>
                                 </div>
                             </div>
@@ -605,13 +808,14 @@
         </div>
     </section>
 
-    <section class="section-12 pt-0 pb-5" id="regis-form">
+
+    <section class="section-13 pt-0 pb-5" id="regis-form">
         <div class="pt-4 d-flex justify-content-center flex-wrap">
             <div class="box p-3 pt-0 d-flex text-center flex-basis-40">
                 <img class="mw-100 m-auto" src="./assets/img/promotion-min.png" alt="promotion.png">
             </div>
             <div class="box p-3 flex-basis-40">
-                <h5 class="text-white mb-3 text-bold text-center">Đăng ký tư vấn<br>và nhận bộ tài liệu tự học C/ C++ miễn phí</h5>
+                <h5 class="text-white mb-3 text-bold text-center">Đăng ký tư vấn<br>và nhận bộ tài liệu tự học PHP miễn phí</h5>
                 <form class="d-flex flex-column" action="../mail/sendmail.php" method="POST">
                     <input class="form-control form-control-lg mb-3 pl-4" type="" name="txtName" placeholder="Họ và tên" required>
                     <input class="form-control form-control-lg mb-3 pl-4" type="email" name="txtEmail" placeholder="Email" required>
@@ -624,7 +828,7 @@
                     </select>
                     <input class="d-none" type="" name="subject" value="<?php echo $formSubmitSubject ?>">
                     <input class="d-none" type="" name="redirectUrl" value="<?php echo $formSubmitRedirect ?>">
-                    <button type="submit" class="btn btn-round btn-warning btn-lg text-bold px-5 align-self-end">NHẬN TƯ VẤN</button>
+                    <button type="submit" class="btn btn-round bg-white text-main btn-lg text-bold px-5 align-self-end">NHẬN TƯ VẤN</button>
                 </form>
                 <p class="text-white text-italic pt-4 mb-0">Thời gian ưu đãi còn:</p>
                 <div class="d-flex justify-content-between align-items-center flex-wrap">
@@ -649,7 +853,7 @@
         </div>
     </section>
 
-    <section class="section-13 py-5 bg-white">
+    <section class="section-14 py-5 bg-white">
         <h3 class="text-center text-bold text-main px-5">MỌI NGƯỜI NÓI GÌ VỀ APTECH?</h3>
         <div class="fb-comments" data-href="<?php echo $fbComment ?>" width="100%" data-numposts="5"></div>
     </section>

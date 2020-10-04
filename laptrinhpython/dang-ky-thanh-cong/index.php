@@ -1,9 +1,9 @@
 <?php
    include_once '../../astc.config.php';
 
-   $title = 'Đăng ký thành công Khóa học Lập trình Javascript';
-   $course = 'Khóa học Lập trình Javascript';
-   $link = BASE_URL.'/javascript';
+   $title = 'Đăng ký thành công Khóa học Lập trình Python';
+   $course = 'Khóa học Lập trình Python';
+   $link = BASE_URL.'/laptrinhpython';
 ?>
 
 <!DOCTYPE html>
