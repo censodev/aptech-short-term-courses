@@ -590,39 +590,28 @@
 
     <!-- Footer -->
     <footer class="text-white text-md-left text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-9 col-md-8 order-12 order-lg-1">
-                    <h4 class="text-uppercase text-bold mb-3 footer-heading">Hệ thống đào tạo lập trình viên quốc tế Aptech</h4>
-                    <table border="0" class="w-100">
-                        <tbody>
-                            <tr>
-                                <td class="text-bold pr-3">Hà Nội:</td>
-                                <td><span class="text-bold">285 Đội Cấn</span>, Q. Ba Đình</td>
-                                <td class="text-bold px-3">Tel: <a href="tel:1800 1141" class="text-white">1800 1141</a></td>
-                                <td>Email: <a href="mailto:aptech1@aprotrain.com" target="_blank" class="text-white">aptech1@aprotrain.com</a></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td><span class="text-bold">54 Lê Thanh Nghị</span>, Q. Hai Bà Trưng</td>
-                                <td class="text-bold px-3">Tel: <a href="tel:1800 1147" class="text-white">1800 1147</a></td>
-                                <td>Email: <a href="mailto:aptech3@aprotrain.com" target="_blank" class="text-white">aptech3@aprotrain.com</a></td>
-                            </tr>
-                            <tr>
-                                <td class="text-bold pr-3 pt-3" rowspan="2">TP.HCM:</td>
-                                <td class="pt-0 pt-md-3"><span class="text-bold">212 - 214 Nguyễn Đình Chiểu</span>, P.6, Q.3</td>
-                                <td class="text-bold px-3 pt-0 pt-md-3">Tel: <a href="tel:1800 1779" class="text-white">1800 1779</a></td>
-                                <td class="pt-0 pt-md-3">Email: <a href="mailto:aptech2@aprotrain.com" target="_blank" class="text-white">aptech2@aprotrain.com</a></td>
-                            </tr>
-                        </tbody>
-                    </table>
+        <div class="container py-5 text-center">
+            <h4 class="text-uppercase text-white text-center text-bold">Hệ thống đào tạo lập trình viên quốc tế Aptech</h4>
+            <div class="d-flex justify-content-center align-items-center pt-3">
+                <div class="px-3">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo-alt-fill text-warning" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                    </svg> Hà Nội:
                 </div>
-                <div class="col-lg-3 col-md-4 mb-4 mb-md-0 order-1 order-lg-12">
-                    <a href="https://aptechvietnam.com.vn/" target="_blank" class="logo-footer text-center text-md-left">
-                        <img src="../assets/img/logo-white-min.png" class="mw-100">
-                    </a>
+                <div class="px-3"><span class="text-bold">54 Lê Thanh Nghị</span>, Q. Hai Bà Trưng</div>
+                <div class="px-3"><span class="text-bold">285 Đội Cấn</span>, Q. Ba Đình</div>
+                <div class="px-3">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo-alt-fill text-warning" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                    </svg> TP.HCM:
                 </div>
+                <div class="px-3"><span class="text-bold">212 - 214 Nguyễn Đình Chiểu</span>, Q.3</div>
             </div>
+            <a href="mailto:aptech3@aprotrain.com" class="btn btn-lg btn-warning mt-3 px-4" style="line-height:1;border-radius:28px;">
+                <span class="text-bold">Hotline: 1800 1147</span>
+                <br>
+                <small style="font-size:70%">Email: aptech3@aprotrain.com</small>
+            </a>
         </div>
     </footer>
     <!-- End Footer -->
