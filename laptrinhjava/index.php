@@ -803,7 +803,7 @@
                     <input class="form-control form-control-lg mb-3 pl-4" type="" name="dateBirth" placeholder="Năm sinh">
                     <select class="form-control form-control-lg mb-3 pl-4" name="slCenter" required>
                         <option value>Chọn địa điểm học</option>
-                        <option value="aptech1@aprotrain.com">Tòa nhà Aptech, 285 Đôi Cấn, Ba Đình, Hà Nội</option>
+                        <option value="aptech3@aprotrain.com">Tòa nhà Aptech, 285 Đôi Cấn, Ba Đình, Hà Nội</option>
                         <option value="aptech3@aprotrain.com">Tòa nhà Aptech, 54 Lê Thanh Nghị, Hai Bà Trưng, Hà Nội</option>
                     </select>
                     <input class="d-none" type="" name="subject" value="<?php echo $formSubmitSubject ?>">
