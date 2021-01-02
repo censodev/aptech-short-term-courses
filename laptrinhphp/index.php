@@ -153,7 +153,7 @@
 
     <section class="section-4 bg-sub py-5">
         <h3 class="text-center text-bold text-white text-uppercase px-5">03 kinh nghiệm học Lập trình web php</h3>
-        <div class="d-flex justify-content-between px-3 flex-wrap">
+        <div class="d-flex justify-content-between px-3 flex-wrap container">
             <div class="box pt-4 d-flex justify-content-center flex-grow-1">
                 <img src="./assets/img/sec-4-1-min.png" alt="">
             </div>
