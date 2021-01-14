@@ -34,7 +34,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" /> -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/master<?php echo FILE_EXT ?>.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style<?php echo FILE_EXT ?>.css">
     <title><?php echo $titlePage ?></title>
@@ -81,9 +82,9 @@
     </nav>
     <!-- End Header -->
 
-  	<div class="banner section-banner">
+  	<a href="#regis-form" class="banner section-banner">
         <img class="w-100" src="./assets/img/banner-PC_java-min.jpg"> 
-    </div>
+    </a>
     <div class="bg-white">
     	<div class="container py-5">
     		<h3 class="text-center text-bold text-uppercase title mb-5 text-main px-5">03 lý do bạn cần phải học khoá java ngay hôm nay</h3>
@@ -233,13 +234,13 @@
   		</div>
   		<div class="bn-2 float-right">
   			<div class="detail">
-  				<button class="btn rounded-pill bg-white text-bold px-4 py-2 ml-5" data-toggle="collapse" data-target="#detailCollapse">🡢 Xem chi tiết khóa học</button>
+  				<button class="btn rounded-pill bg-white text-bold px-4 py-2 ml-5" data-toggle="collapse" data-target="#detailCollapse">&#10132; Xem chi tiết khóa học</button>
   			</div>
   		</div>
     </div>
     <div class="section-6-mb flex-column align-items-center py-3">
         <div class="text d-flex justify-content-center text-center p-2 text-bold">Hoàn thành khoá học, học viên được giới thiệu làm việc tại các Doanh nghiệp CNTT lớn.</div>
-        <button class="text-white btn rounded-pill text-bold px-5 mb-3" data-toggle="collapse" data-target="#detailCollapse">🡢 Xem chi tiết khóa học</button>
+        <button class="text-white btn rounded-pill text-bold px-5 mb-3" data-toggle="collapse" data-target="#detailCollapse">&#10132; Xem chi tiết khóa học</button>
     </div>
     <div class="collapse section-6-collapse py-4" id="detailCollapse">
         <div class="d-flex flex-column align-items-center">
@@ -419,9 +420,9 @@
 		  					<div class="body">
 		  						<p class="body_title">Tuyển dụng FRESHER JAVA</p>
 		  						<div class="content">
-		  							<p>&#11166; Làm việc trong môi trường CNTT chuyên nghiệp. Cơ hội trở thành nhân viên chính thức</p>
+		  							<p>&#10148; Làm việc trong môi trường CNTT chuyên nghiệp. Cơ hội trở thành nhân viên chính thức</p>
 
-		  							<p>&#11166; Tiếp xúc với các dự án lớn như IoT, Big Data, ITS …</p>
+		  							<p>&#10148; Tiếp xúc với các dự án lớn như IoT, Big Data, ITS …</p>
 
 		  							<a href="https://www.facebook.com/groups/JobAptech/permalink/2373412106267351" class="final" style="margin-top: 37px;" target="_blank">&#129130; Xem chi tiết </a>
 		  						</div>
@@ -438,10 +439,10 @@
 		  					<div class="body">
 		  						<p class="body_title">Tuyển JAVA developer</p>
 		  						<div class="content">
-		  							<p>&#11166; Mức lương: 500$ - 1500$</p>
+		  							<p>&#10148; Mức lương: 500$ - 1500$</p>
 
-		  							<p>&#11166; Xét tăng lương 2 lần/năm + bonus + lương tháng 13.</p>
-		  							<p>&#11166; Tham gia vào các dự án lập trình phát triển phần mềm product, outsource trong và ...</p>
+		  							<p>&#10148; Xét tăng lương 2 lần/năm + bonus + lương tháng 13.</p>
+		  							<p>&#10148; Tham gia vào các dự án lập trình phát triển phần mềm product, outsource trong và ...</p>
 		  							<a href="https://www.facebook.com/groups/JobAptech/permalink/2367285340213361" class="final" target="_blank">&#129130; Xem chi tiết </a>
 		  						</div>
 		  					</div>
@@ -457,10 +458,10 @@
 		  					<div class="body">
 		  						<p class="body_title">Tuyển dụng JAVA developer</p>
 		  						<div class="content">
-		  							<p>&#11166; Mức lương: 10-20 triệu.</p>
+		  							<p>&#10148; Mức lương: 10-20 triệu.</p>
 
-		  							<p>&#11166; Được tham gia vào các dự án với các đối tác lớn ở nước ngoài.</p>
-		  							<p>&#11166; Thưởng cuối năm, du lịch 2 lần/năm và xét tăng lương 01 lần/năm...</p>
+		  							<p>&#10148; Được tham gia vào các dự án với các đối tác lớn ở nước ngoài.</p>
+		  							<p>&#10148; Thưởng cuối năm, du lịch 2 lần/năm và xét tăng lương 01 lần/năm...</p>
 		  							<a href="https://www.facebook.com/groups/JobAptech/permalink/2327418970866665" class="final" target="_blank">&#129130; Xem chi tiết </a>
 		  						</div>
 		  					</div>
@@ -476,9 +477,9 @@
 		  					<div class="body">
 		  						<p class="body_title">Tuyển dụng JAVA developer</p>
 		  						<div class="content">
-		  							<p>&#11166; Lương từ $600 - $1200.</p>
-		  							<p>&#11166; Lương tháng 13, 14 ; Xét tăng lương 2 lần/ năm.</p>
-		  							<p>&#11166; Tham gia các loại bảo hiểm full lương theo quy định của Pháp luật.</p>
+		  							<p>&#10148; Lương từ $600 - $1200.</p>
+		  							<p>&#10148; Lương tháng 13, 14 ; Xét tăng lương 2 lần/ năm.</p>
+		  							<p>&#10148; Tham gia các loại bảo hiểm full lương theo quy định của Pháp luật.</p>
 		  							<a href="https://www.facebook.com/groups/JobAptech/permalink/2307815716160324" class="final" target="_blank">&#129130; Xem chi tiết </a>
 		  						</div>
 		  					</div>
@@ -504,7 +505,7 @@
                 <div class="p-3">                    
                     <small>Nguồn: <span class="text-bold">Vietnamnet.vn</span></small>
                     <h5 class="py-2 text-justify text-bold">Lễ ký kết hợp tác đào tạo Công nghệ 4.0 cho các Trường đại học.</h5>
-                    <p class="text-justify">Nhằm giúp Việt Nam đào tạo đội ngũ giảng viên CN 4.0, Bộ GD&ĐT phối hợp với Tập đoàn Aptech tổ chức Khóa đào tạo Công nghệ 4.0 cho các giảng viên đại học.</p>
+                    <!-- <p class="text-justify">Nhằm giúp Việt Nam đào tạo đội ngũ giảng viên CN 4.0, Bộ GD&ĐT phối hợp với Tập đoàn Aptech tổ chức Khóa đào tạo Công nghệ 4.0 cho các giảng viên đại học.</p> -->
                 </div>
                 <a target="_blank" class="text-bold mt-auto px-3 pb-3" href="https://vietnamnet.vn/vn/cong-nghe/tin-cong-nghe/hoi-thao-giai-phap-dao-tao-nhan-luc-cntt-thoi-4-0-546367.html">Xem thêm ></a>
             </div>
@@ -513,7 +514,7 @@
                 <div class="p-3">                    
                     <small>Nguồn: <span class="text-bold">Truyền hình VTV6</span></small>
                     <h5 class="py-2 text-justify text-bold">Aptech - Lễ ký kết hợp tác đào tạo Công nghệ 4.0 cho giảng viên các Trường đại học.</h5>
-                    <p class="text-justify">Ngày 03/07, Bộ GD & ĐT cùng với Tập đoàn Aptech tổ chức Hội thảo Giải pháp đào tạo nhân lực CNTT cho CMCN 4.0 với sự tham gia của Đại sứ quán Ấn Độ, các tập đoàn công nghệ hàng đầu Thế giới như Microsoft, Oracle và lãnh đạo các trường Đại học.</p>
+                    <!-- <p class="text-justify">Ngày 03/07, Bộ GD & ĐT cùng với Tập đoàn Aptech tổ chức Hội thảo Giải pháp đào tạo nhân lực CNTT cho CMCN 4.0 với sự tham gia của Đại sứ quán Ấn Độ, các tập đoàn công nghệ hàng đầu Thế giới như Microsoft, Oracle và lãnh đạo các trường Đại học.</p> -->
                 </div>
                 <a target="_blank" class="text-bold mt-auto px-3 pb-3" href="https://vietnamnet.vn/vn/cong-nghe/tin-cong-nghe/hoi-thao-giai-phap-dao-tao-nhan-luc-cntt-thoi-4-0-546367.html">Xem thêm ></a>
             </div>
@@ -522,7 +523,7 @@
                 <div class="p-3">                    
                     <small>Nguồn: <span class="text-bold">Giaoducthoidai.vn</span></small>
                     <h5 class="py-2 text-justify text-bold">Cơ hội việc làm tại ngày hội tuyển dụng Aptech Job Fair 2019.</h5>
-                    <p class="text-justify">Sáng (20/04) tại Hà Nội, Aptech tổ chức Ngày hội tuyển dụng Aptech job fair 2019, đây là dip để các bạn trẻ có cơ hội tìm hiểu về ngành nghề mà mình yêu thích, cũng như đăng ký ứng tuyển trực tiếp với các Doanh nghiệp tuyển dụng.</p>
+                    <!-- <p class="text-justify">Sáng (20/04) tại Hà Nội, Aptech tổ chức Ngày hội tuyển dụng Aptech job fair 2019, đây là dip để các bạn trẻ có cơ hội tìm hiểu về ngành nghề mà mình yêu thích, cũng như đăng ký ứng tuyển trực tiếp với các Doanh nghiệp tuyển dụng.</p> -->
                 </div>
                 <a target="_blank" class="text-bold mt-auto px-3 pb-3" href="https://giaoducthoidai.vn/giao-duc/nganh-cong-nghe-thong-tin-chinh-sach-dai-ngo-tot-vi-sao-van-kho-tuyen-nhan-su-3997074-v.html">Xem thêm ></a>
             </div>
@@ -531,7 +532,7 @@
                 <div class="p-3">                    
                     <small>Nguồn: <span class="text-bold">Truyền hình VTC1</span></small>
                     <h5 class="py-2 text-justify text-bold">Lễ Khai giảng và Trao bằng tốt nghiệp năm 2019 tại Aptech.</h5>
-                    <p class="text-justify">Vừa qua (28/07), Lễ tốt nghiệp dành cho các bạn học viên vượt qua hơn 40 bài thi và 4 dự án phần mềm và Chào đón Tân học viên đã diễn ra tại Trung tâm Văn hóa Pháp L’Espace. Buổi lễ có sự tham dự của hơn 200 học sinh và phụ huynh cùng các doanh nghiệp công nghệ tuyển dụng.</p>
+                    <!-- <p class="text-justify">Vừa qua (28/07), Lễ tốt nghiệp dành cho các bạn học viên vượt qua hơn 40 bài thi và 4 dự án phần mềm và Chào đón Tân học viên đã diễn ra tại Trung tâm Văn hóa Pháp L’Espace. Buổi lễ có sự tham dự của hơn 200 học sinh và phụ huynh cùng các doanh nghiệp công nghệ tuyển dụng.</p> -->
                 </div>
                 <a target="_blank" class="text-bold mt-auto px-3 pb-3" href="https://www.facebook.com/aptechvietnam.com.vn/videos/2601192076560243">Xem thêm ></a>
             </div>
@@ -539,7 +540,7 @@
         </div>
     </section>
 
-    <section class="section-10 pt-5 pb-4 bg-white">
+    <!-- <section class="section-10 pt-5 pb-4 bg-white">
         <h3 class="text-bold text-center text-main px-5">MÔI TRƯỜNG HỌC TẬP CHUYÊN NGHIỆP TẠI APTECH</h3>
         <div class="img-container mt-4 d-flex flex-wrap justify-content-center">
             <?php for($i = 1; $i <= 6; $i++): ?>
@@ -556,239 +557,10 @@
             <a href="#regis-form" class="btn btn-warning text-bold px-4 mx-3">Tôi muốn</a>
             <img src="./assets/img/caret2-min.png" alt="">
         </div>
-    </section>
+    </section> -->
 
 
-    <section class="section-11 py-5 bg-main">
-        <h3 class="text-center text-bold text-white px-5">DOANH NGHIỆP NÓI VỀ APTECH</h3>
-        <div class="py-3 d-flex justify-content-center">
-            <!-- PC -->
-            <div id="carouselQuotesCompaniesPC" class="carousel slide">
-                <div class="carousel-inner">
-                    <?php for($i = 0; $i < sizeof($quoteCom); $i+=2): ?>
-                        <div class="carousel-item <?php echo $i == 0 ? 'active' : '' ?>">
-                            <div class="d-flex justify-content-center flex-wrap">
-                                <div class="card m-3">
-                                    <div class="card-body px-5 d-flex flex-column justify-content-between">
-                                        <div>
-                                            <img src="./assets/img/quote-min.png">
-                                        </div>
-                                        <p class="text-bold pt-3"><?php echo $quoteCom[$i]->quote ?></p>
-                                        <div class="d-flex align-items-center pt-2">
-                                            <img class="avt" src="../assets/img/quote-com/<?php echo $quoteCom[$i]->image ?>">
-                                            <div class="pl-3">
-                                                <label class="mb-1 text-bold text-main"><?php echo $quoteCom[$i]->name ?></label>
-                                                <p class="m-0"><?php echo $quoteCom[$i]->role ?></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card m-3">
-                                    <div class="card-body px-5 d-flex flex-column justify-content-between">
-                                        <div>
-                                            <img src="./assets/img/quote-min.png">
-                                        </div>
-                                        <p class="text-bold pt-3"><?php echo $quoteCom[$i+1]->quote ?></p>
-                                        <div class="d-flex align-items-center pt-2">
-                                            <img class="avt" src="../assets/img/quote-com/<?php echo $quoteCom[$i+1]->image ?>">
-                                            <div class="pl-3">
-                                                <label class="mb-1 text-bold text-main"><?php echo $quoteCom[$i+1]->name ?></label>
-                                                <p class="m-0"><?php echo $quoteCom[$i+1]->role ?></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    <?php endfor ?>
-                </div>
-                <a class="carousel-control-prev" href="#carouselQuotesCompaniesPC" role="button" data-slide="prev">
-                    <div class="carousel-control-icon">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    </div>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselQuotesCompaniesPC" role="button" data-slide="next">
-                    <div class="carousel-control-icon">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    </div>
-                    <span class="sr-only">Next</span>
-                </a>
-                <ol class="carousel-indicators">
-                    <?php for($i = 0; $i < sizeof($quoteCom); $i+=2): ?>
-                        <li data-target="#carouselQuotesCompaniesPC" class="<?php echo $i == 0 ? 'active' : ''; ?>" data-slide-to="<?php echo $i-1; ?>"></li>
-                    <?php endfor ?>
-                </ol>
-            </div>
-            <!-- END PC -->
-            <!-- MB -->
-            <div id="carouselQuotesCompaniesMB" class="carousel slide d-none">
-                <div class="carousel-inner">
-                    <?php foreach($quoteCom as $i => $com): ?>
-                        <div class="carousel-item <?php echo $i == 0 ? 'active': '' ?>">
-                            <div class="d-flex justify-content-center flex-wrap">
-                                <div class="card m-3">
-                                    <div class="card-body px-5 d-flex flex-column justify-content-between">
-                                        <div>
-                                            <img src="./assets/img/quote-min.png">
-                                        </div>
-                                        <p class="text-bold pt-3"><?php echo $com->quote ?></p>
-                                        <div class="d-flex align-items-center pt-2">
-                                            <img class="avt" src="../assets/img/quote-com/<?php echo $com->image ?>">
-                                            <div class="pl-3">
-                                                <label class="mb-1 text-bold"><?php echo $com->name ?></label>
-                                                <p class="m-0"><?php echo $com->role ?></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    <?php endforeach ?>
-                </div>
-                <a class="carousel-control-prev" href="#carouselQuotesCompaniesMB" role="button" data-slide="prev">
-                    <div class="carousel-control-icon">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    </div>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselQuotesCompaniesMB" role="button" data-slide="next">
-                    <div class="carousel-control-icon">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    </div>
-                    <span class="sr-only">Next</span>
-                </a>
-                <ol class="carousel-indicators">
-                    <?php for($i = 0; $i < sizeof($quoteCom); $i++): ?>
-                        <li data-target="#carouselQuotesCompaniesMB" class="<?php echo $i == 0 ? 'active' : ''; ?>" data-slide-to="<?php echo $i; ?>"></li>
-                    <?php endfor ?>
-                </ol>
-            </div>
-            <!-- END MB -->
-        </div>
-    </section>
-
-    <section class="section-12 py-5 bg-white">
-        <h3 class="text-center text-bold text-main px-5">CẢM NHẬN CỦA HỌC VIÊN VỀ APTECH</h3>
-        <div class="pt-4 pb-4 d-flex justify-content-center">
-            <!-- PC -->
-            <div id="carouselFeelStdPC" class="carousel slide pt-5">
-                <div class="carousel-inner">
-                    <?php for($i = 0; $i < sizeof($feelStd); $i+=2): ?>
-                        <div class="carousel-item <?php echo $i == 0 ? 'active' : '' ?>">
-                            <div class="d-flex justify-content-center flex-wrap">
-                                <div class="card m-3">
-                                    <div class="card-body position-relative d-flex flex-column px-4">
-                                        <div class="img-container position-absolute">
-                                            <img src="../assets/img/quote-std/<?php echo $feelStd[$i]->image; ?>">
-                                        </div>
-                                        <div class="title">
-                                            <h5 class="text-bold mb-1"><?php echo $feelStd[$i]->name; ?></h5>
-                                            <small class="text-italic"><?php echo $feelStd[$i]->title; ?></small>
-                                        </div>
-                                        <div class="text-bold font-italic pt-5 text-justify">
-                                            <div class="hidden-title d-none pt-4 text-right">
-                                                <h5 class="text-bold mb-1"><?php echo $feelStd[$i]->name; ?></h5>
-                                                <small class="text-italic"><?php echo $feelStd[$i]->title; ?></small>
-                                            </div>    
-                                            <p><?php echo $feelStd[$i]->quote ?></p>
-                                        </div>
-                                        <a class="align-self-end text-bold" href="<?php echo $feelStd[$i]->link; ?>" target="_blank">Xem thêm ></a>
-                                    </div>
-                                </div>
-                                <div class="card m-3">
-                                    <div class="card-body position-relative d-flex flex-column px-4">
-                                        <div class="img-container position-absolute">
-                                            <img src="../assets/img/quote-std/<?php echo $feelStd[$i+1]->image; ?>">
-                                        </div>
-                                        <div class="title">
-                                            <h5 class="text-bold mb-1"><?php echo $feelStd[$i+1]->name; ?></h5>
-                                            <small class="text-italic"><?php echo $feelStd[$i+1]->title; ?></small>
-                                        </div>
-                                        <div class="text-bold font-italic pt-5 text-justify">
-                                            <div class="hidden-title d-none pt-4 text-right">
-                                                <h5 class="text-bold mb-1"><?php echo $feelStd[$i+1]->name; ?></h5>
-                                                <small class="text-italic"><?php echo $feelStd[$i+1]->title; ?></small>
-                                            </div>    
-                                            <p><?php echo $feelStd[$i+1]->quote; ?></p>
-                                        </div>
-                                        <a class="align-self-end text-bold" href="<?php echo $feelStd[$i+1]->link; ?>" target="_blank">Xem thêm ></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    <?php endfor; ?>
-                </div>
-
-                <a class="carousel-control-prev" href="#carouselFeelStdPC" role="button" data-slide="prev">
-                    <div class="carousel-control-icon">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    </div>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselFeelStdPC" role="button" data-slide="next">
-                    <div class="carousel-control-icon">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    </div>
-                    <span class="sr-only">Next</span>
-                </a>
-                <ol class="carousel-indicators">
-                    <?php for($i = 0; $i < sizeof($feelStd); $i+=2): ?>
-                        <li data-target="#carouselFeelStdPC" class="<?php echo $i == 0 ? 'active' : ''; ?>" data-slide-to="<?php echo $i-1; ?>"></li>
-                    <?php endfor ?>
-                </ol>
-            </div>
-            <!-- END PC -->
-            <!-- MB -->
-            <div id="carouselFeelStdMB" class="carousel slide pt-5 d-none">
-                <div class="carousel-inner">
-                    <?php foreach($feelStd as $i => $std): ?>
-                        <div class="carousel-item <?php echo $i == 0 ? 'active' : '' ?>">
-                            <div class="d-flex justify-content-center flex-wrap">
-                                <div class="card m-3">
-                                    <div class="card-body position-relative d-flex flex-column px-4">
-                                        <div class="img-container position-absolute">
-                                            <img src="../assets/img/quote-std/<?php echo $std->image; ?>">
-                                        </div>
-                                        <div class="title">
-                                            <h5 class="text-bold mb-1"><?php echo $std->name; ?></h5>
-                                            <small class="text-italic"><?php echo $std->title; ?></small>
-                                        </div>
-                                        <div class="text-bold font-italic pt-5 text-justify">
-                                            <div class="hidden-title d-none pt-4 text-right">
-                                                <h5 class="text-bold mb-1"><?php echo $std->name; ?></h5>
-                                                <small class="text-italic"><?php echo $std->title; ?></small>
-                                            </div>    
-                                            <p><?php echo $std->quote ?></p>
-                                        </div>
-                                        <a class="align-self-end text-bold" href="<?php echo $std->link; ?>" target="_blank">Xem thêm ></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    <?php endforeach; ?>
-                </div>
-                <a class="carousel-control-prev" href="#carouselFeelStdMB" role="button" data-slide="prev">
-                    <div class="carousel-control-icon">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    </div>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselFeelStdMB" role="button" data-slide="next">
-                    <div class="carousel-control-icon">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    </div>
-                    <span class="sr-only">Next</span>
-                </a>
-                <ol class="carousel-indicators">
-                    <?php for($i = 0; $i < sizeof($feelStd); $i++): ?>
-                        <li data-target="#carouselFeelStdMB" class="<?php echo $i == 0 ? 'active' : ''; ?>" data-slide-to="<?php echo $i; ?>"></li>
-                    <?php endfor ?>
-                </ol>
-            </div>
-            <!-- END MB -->
-        </div>
-    </section>
+    <?php include_once('./section-11.php') ?>
 
 
     <section class="section-13 pt-0 pb-5" id="regis-form">
@@ -851,8 +623,8 @@
                         <path fill-rule="evenodd" d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
                     </svg> Hà Nội:
                 </div>
-                <div class="px-3"><span class="text-bold">54 Lê Thanh Nghị</span>, Q. Hai Bà Trưng</div>
                 <div class="px-3"><span class="text-bold">285 Đội Cấn</span>, Q. Ba Đình</div>
+                <div class="px-3"><span class="text-bold">54 Lê Thanh Nghị</span>, Q. Hai Bà Trưng</div>
                 <div class="px-3">
                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo-alt-fill text-warning" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
@@ -936,5 +708,29 @@
         logged_in_greeting="Xin chào! Aptech có thể giúp gì cho bạn!"
         logged_out_greeting="Xin chào! Aptech có thể giúp gì cho bạn!">
     </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            // Optional parameters
+            // direction: 'vertical',
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        })
+    </script>
 </body>
 </html>

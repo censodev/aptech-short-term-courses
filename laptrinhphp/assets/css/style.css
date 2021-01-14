@@ -366,70 +366,7 @@
 	border-radius: 40px !important;
 }
 
-.section-11 {
-	background-image: url('../img/bg_2-min.png');
-}
-
-.section-11 .card {
-	flex-basis: 38%;
-	min-height: 285px;
-}
-
-.section-11 .card .avt {
-	width: 100%;
-	object-fit: cover;
-	border-radius: 50%;
-	width: 73px;
-	height: 73px;
-}
-
-@media (max-width: 413px) {
-	.section-11 .card .avt {
-		display: none;
-	}
-}
-
-@media (max-width: 1150px) {
-	.section-11 .card {
-		flex-basis: 70%;
-		min-height: 0px;	
-	}
-
-	.section-11 #carouselQuotesCompaniesPC {
-		display: none !important;
-	}
-
-	.section-11 #carouselQuotesCompaniesMB {
-		display: block !important;
-	}
-}
-
-.carousel-indicators {
-	bottom: -60px;
-}
-
-.carousel-indicators li {
-	width: 15px !important;
-	height: 15px !important;
-	border-radius: 50%;
-	background-color: var(--color-main);
-}
-
-.carousel-control-icon {
-	background-color: var(--color-main);
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding: 7px;
-	border-radius: 50%;
-}
-
-.section-12 {
-	background: url('../img/bg_68-min.png') no-repeat center center fixed;
-	background-size: cover;
-}
-
-.section-12 .img-container {
+.section-11 .img-container {
 	top: -75px;
 	height: 170px;
 	width: 170px;
@@ -438,51 +375,92 @@
 	background-color: #FFF;
 }
 
-.section-12 .img-container img {
+.section-11 .img-container img {
 	border-radius: 50%;
 	width: 100%;
 	object-fit: cover;
 }
 
-.section-12 .carousel-inner{
+.section-11 .carousel-inner{
 	overflow: visible !important;
 }
 
-.section-12 .card .title {
+.section-11 .card .title {
 	padding-left: 200px;
 }
 
-.section-12 .card {
+.section-11 .card {
 	flex-basis: 37%;
 }
 
-.section-12 .hidden-title {
+.section-11 .card a {
+	color: var(--color-main);
+}
+
+.section-11 .card-body {
+	background-color: #f0f0f0;
+}
+
+.section-11 .hidden-title {
 	display: none;
 }
 
 @media (max-width: 1150px) {
-	.section-12 .card {
+	.section-11 .card {
 		flex-basis: 70%;
 		min-height: 0px;	
 	}
 
-	.section-12 #carouselFeelStdPC {
+	.section-11 #carouselFeelStdPC {
 		display: none !important;
 	}
 
-	.section-12 #carouselFeelStdMB {
+	.section-11 #carouselFeelStdMB {
 		display: block !important;
 	}
 }
 
-@media (max-width: 767px) {
-	.section-12 .card .title {
+@media (max-width: 768px) {
+	.section-11 .card .title {
 		display: none;	
 	}
 
-	.section-12 .card .hidden-title {
+	.section-11 .card .hidden-title {
+        padding-top: 3rem !important;
 		display: block !important;	
 	}
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    width: 30px !important;
+    height: 30px !important;
+    background-color: rgba(41,41,41,0.7) !important;
+    border-radius: 50% !important;
+    outline: none !important;
+    font-size: initial;
+    text-align: center;
+    padding: 7px;
+    color: white;
+}
+
+.section-11 .swiper-button-prev,
+.section-11 .swiper-button-next {
+    width: 30px;
+    height: 30px;
+    top: initial;
+    left: initial;
+    bottom: 1.5rem;
+    right: 0;
+}
+
+.section-11 .swiper-button-prev {
+    right: 2.5rem;
+}
+
+.section-11 .px-2 {
+	padding-left: 1rem !important;
+	padding-right: 1rem !important;
 }
 
 .section-13 {
