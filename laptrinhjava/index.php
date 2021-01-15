@@ -234,13 +234,13 @@
   		</div>
   		<div class="bn-2 float-right">
   			<div class="detail">
-  				<button class="btn rounded-pill bg-white text-bold px-4 py-2 ml-5" data-toggle="collapse" data-target="#detailCollapse">&#10132; Xem chi tiết khóa học</button>
+  				<button class="btn rounded-pill bg-white text-bold px-4 py-2 ml-5" data-toggle="collapse" data-target="#detailCollapse">→ Xem chi tiết khóa học</button>
   			</div>
   		</div>
     </div>
     <div class="section-6-mb flex-column align-items-center py-3">
         <div class="text d-flex justify-content-center text-center p-2 text-bold">Hoàn thành khoá học, học viên được giới thiệu làm việc tại các Doanh nghiệp CNTT lớn.</div>
-        <button class="text-white btn rounded-pill text-bold px-5 mb-3" data-toggle="collapse" data-target="#detailCollapse">&#10132; Xem chi tiết khóa học</button>
+        <button class="text-white btn rounded-pill text-bold px-5 mb-3" data-toggle="collapse" data-target="#detailCollapse">→ Xem chi tiết khóa học</button>
     </div>
     <div class="collapse section-6-collapse py-4" id="detailCollapse">
         <div class="d-flex flex-column align-items-center">
@@ -420,11 +420,11 @@
 		  					<div class="body">
 		  						<p class="body_title">Tuyển dụng FRESHER JAVA</p>
 		  						<div class="content">
-		  							<p>&#10148; Làm việc trong môi trường CNTT chuyên nghiệp. Cơ hội trở thành nhân viên chính thức</p>
+		  							<p>→ Làm việc trong môi trường CNTT chuyên nghiệp. Cơ hội trở thành nhân viên chính thức</p>
 
-		  							<p>&#10148; Tiếp xúc với các dự án lớn như IoT, Big Data, ITS …</p>
+		  							<p>→ Tiếp xúc với các dự án lớn như IoT, Big Data, ITS …</p>
 
-		  							<a href="https://www.facebook.com/groups/JobAptech/permalink/2373412106267351" class="final" style="margin-top: 37px;" target="_blank">&#129130; Xem chi tiết </a>
+		  							<a href="https://www.facebook.com/groups/JobAptech/permalink/2373412106267351" class="final" style="margin-top: 37px;" target="_blank">→ Xem chi tiết </a>
 		  						</div>
 		  					</div>
 	  					</div>
@@ -439,11 +439,11 @@
 		  					<div class="body">
 		  						<p class="body_title">Tuyển JAVA developer</p>
 		  						<div class="content">
-		  							<p>&#10148; Mức lương: 500$ - 1500$</p>
+		  							<p>→ Mức lương: 500$ - 1500$</p>
 
-		  							<p>&#10148; Xét tăng lương 2 lần/năm + bonus + lương tháng 13.</p>
-		  							<p>&#10148; Tham gia vào các dự án lập trình phát triển phần mềm product, outsource trong và ...</p>
-		  							<a href="https://www.facebook.com/groups/JobAptech/permalink/2367285340213361" class="final" target="_blank">&#129130; Xem chi tiết </a>
+		  							<p>→ Xét tăng lương 2 lần/năm + bonus + lương tháng 13.</p>
+		  							<p>→ Tham gia vào các dự án lập trình phát triển phần mềm product, outsource trong và ...</p>
+		  							<a href="https://www.facebook.com/groups/JobAptech/permalink/2367285340213361" class="final" target="_blank">→ Xem chi tiết </a>
 		  						</div>
 		  					</div>
 		  				</div>
@@ -458,11 +458,11 @@
 		  					<div class="body">
 		  						<p class="body_title">Tuyển dụng JAVA developer</p>
 		  						<div class="content">
-		  							<p>&#10148; Mức lương: 10-20 triệu.</p>
+		  							<p>→ Mức lương: 10-20 triệu.</p>
 
-		  							<p>&#10148; Được tham gia vào các dự án với các đối tác lớn ở nước ngoài.</p>
-		  							<p>&#10148; Thưởng cuối năm, du lịch 2 lần/năm và xét tăng lương 01 lần/năm...</p>
-		  							<a href="https://www.facebook.com/groups/JobAptech/permalink/2327418970866665" class="final" target="_blank">&#129130; Xem chi tiết </a>
+		  							<p>→ Được tham gia vào các dự án với các đối tác lớn ở nước ngoài.</p>
+		  							<p>→ Thưởng cuối năm, du lịch 2 lần/năm và xét tăng lương 01 lần/năm...</p>
+		  							<a href="https://www.facebook.com/groups/JobAptech/permalink/2327418970866665" class="final" target="_blank">→ Xem chi tiết </a>
 		  						</div>
 		  					</div>
 		  				</div>
@@ -477,10 +477,10 @@
 		  					<div class="body">
 		  						<p class="body_title">Tuyển dụng JAVA developer</p>
 		  						<div class="content">
-		  							<p>&#10148; Lương từ $600 - $1200.</p>
-		  							<p>&#10148; Lương tháng 13, 14 ; Xét tăng lương 2 lần/ năm.</p>
-		  							<p>&#10148; Tham gia các loại bảo hiểm full lương theo quy định của Pháp luật.</p>
-		  							<a href="https://www.facebook.com/groups/JobAptech/permalink/2307815716160324" class="final" target="_blank">&#129130; Xem chi tiết </a>
+		  							<p>→ Lương từ $600 - $1200.</p>
+		  							<p>→ Lương tháng 13, 14 ; Xét tăng lương 2 lần/ năm.</p>
+		  							<p>→ Tham gia các loại bảo hiểm full lương theo quy định của Pháp luật.</p>
+		  							<a href="https://www.facebook.com/groups/JobAptech/permalink/2307815716160324" class="final" target="_blank">→ Xem chi tiết </a>
 		  						</div>
 		  					</div>
 		  				</div>
@@ -488,7 +488,7 @@
   				</div>
   				<div class="col-md-4 block-fb col-12">
   					<div class="head">
-  						<p>&#129130; Xem thêm tại </p>
+  						<p>→ Xem thêm tại </p>
   					</div>
   					<div class="fb-group w-100" data-href="https://www.facebook.com/groups/JobAptech/"  data-show-social-context="true" data-show-metadata="true"></div>
   				</div>	
