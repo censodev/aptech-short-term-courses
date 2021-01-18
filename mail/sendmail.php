@@ -1,8 +1,9 @@
 <?php
 ob_start();
 
-$rootPath = $_SERVER['DOCUMENT_ROOT'];
-include $rootPath . '/tm/queue_email.php';
+//$rootPath = $_SERVER['DOCUMENT_ROOT'];
+//include $rootPath . '/tm/queue_email.php';
+include '../tm/queue_email.php';
 
 $name = trim($_POST['txtName']);
 $phone = trim($_POST['txtPhone']);

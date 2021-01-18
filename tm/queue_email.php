@@ -1,6 +1,6 @@
 <?php
 include 'cache.php';
-include 'phpmailer/mailastc.config.php';
+include 'phpmailer/mailconfig.php';
 
 class QueueMail {
     private $_emails = array();
